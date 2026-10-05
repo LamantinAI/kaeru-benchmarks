@@ -7,6 +7,8 @@ version in force.
 
 - **[DESIGN.md](DESIGN.md)** — method, why expectations are states rather than
   verb sequences, scoring, and how this differs from the golden dataset (#80).
+- **[RUNNER_CONTRACT.md](RUNNER_CONTRACT.md)** — environment, fixture fidelity,
+  blinding, real compaction and disposable team-cloud requirements.
 - **[CATALOG.md](CATALOG.md)** — 27 situations, grouped by failure mechanism,
   each with the field evidence behind it.
 - **[cases/](cases/)** — worked cases: a fixture, a prompt, and expectations.
@@ -24,21 +26,26 @@ yet — see DESIGN.md for what a runner must compute.
 | **D · capture dispatch** | D1 D2 D3 D4 D5 | the verb matched to epistemic status, so the next session can tell settled from open |
 | **E · debts and lifecycle** | E1 E2 E3 E4 E5 | overdue work, unclosed tasks, unmarked contradictions, cold knowledge, the team tier |
 
-**Modes.** 13 single-turn `silent`, 6 `explicit`, 8 multi-turn (a rule is stated
+**Modes.** 12 single-turn `silent`, 6 `explicit`, 9 multi-turn (a rule is stated
 in one session and must survive into the next). Every case carries a `baseline`
 recording what actually happened in the field, and every fixture pulls a noise
 bank so the target does not sit on the surface.
 
 **Regression guards.** Individual cases are pinned to known defects and fixes, so
-a change that breaks one names itself: A2 → #81 (fails while open, by design),
+a change that breaks one names itself: A2 revision 3 → #81 (scoped core capture
+and fresh-session recovery),
 D2 → the `inconclusive` verdict added in v0.7.0, D5 → #71 chain membership across
 promotion, C1 and E1 → the awake read-back sections, A5 → structural vs prose
 supersession (paired with variant A5b to measure what the edges buy).
 
-**Piloted so far:** A1 and A2 only, on 2026-09-01. The remaining 25 are written to
-the post-pilot template but have not been run. Expect some to need the same
-treatment A2 did — the pilot's first lesson was that a case can pass without
-touching its mechanism, and only a run reveals it.
+**Validation update, 2026-10-05:** A1's original bank still ranked its target
+first on kaeru 0.7.5. Four additional capture-bookkeeping notes now make the
+48-node fixture rank the target fifth; the pre-run minimum remains fourth.
+A2 revision 3 tests scoped core capture and recovery in a fresh session; the
+former orphan-core fixture is preserved in `legacy/` for explicitly labelled
+legacy diagnostics. A preliminary 2026-10-04 run exposed shell sandbox and
+seed-escaping errors, so its results are not a validated baseline. Follow the
+runner contract and revalidate every materialized fixture before a new run.
 
 ## Where the cases come from
 
@@ -54,6 +61,6 @@ superseded method. Any metric built on call counts would have scored that
 session as exemplary. So the cases measure what was left in memory and whether
 the answer used was current, never which verbs were called.
 
-Eighteen of the twenty-seven situations are `silent`: the prompt is an ordinary
-work request that never mentions memory, because that is how the real failures
-arrived.
+Silent work requests remain central: twelve single-turn cases and later
+turns in multi-session cases do not mention memory. A2 now explicitly requests
+core capture in its first turn and tests unprompted recovery in its second.

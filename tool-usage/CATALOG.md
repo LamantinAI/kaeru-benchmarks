@@ -83,3 +83,20 @@ benchmark, because it requires a prompt in which nobody says a rule was stated.
 
 Eighteen of twenty-seven are `silent`. That ratio is deliberate: in the corpus, the
 prompts that preceded the most expensive failures were ordinary work requests.
+
+
+## Case revisions after the catalogue audit
+
+The field observations above are historical evidence, not a guarantee that an
+old fixture is valid against every newer kaeru release. As of 2026-10-05:
+
+- A1 revision 2 adds four capture-bookkeeping distractors. Validate actual
+  target rank and age; the minimum rank was not relaxed.
+- A2 revision 3 replaces the post-#81-uncreatable orphan-core capture premise
+  with scoped core capture followed by a fresh-session export. Revision 2 is
+  preserved in `legacy/A2-unreachable-core-v2/`, outside the default suite.
+- B2 requires a recorded real compaction event, and E5 requires an isolated
+  team cloud with cloud-only records absent from local memory.
+
+See [RUNNER_CONTRACT.md](RUNNER_CONTRACT.md) for the executable environment
+requirements and qualifications that must accompany results.

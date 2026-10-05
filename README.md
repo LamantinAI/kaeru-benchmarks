@@ -42,5 +42,8 @@ here so the benchmarks can live and grow on their own.
 
 Datasets only — no runner yet. `tool-usage/DESIGN.md` specifies what a runner
 must compute (outcome, currency, cost) and why per-case isolation is mandatory.
+See [`tool-usage/RUNNER_CONTRACT.md`](tool-usage/RUNNER_CONTRACT.md) for current
+fixture validation, safe action workspaces and cloud/compaction requirements.
+
 Contributions of cases drawn from real multi-session agent runs are especially
 welcome — those are the ones that find bugs.

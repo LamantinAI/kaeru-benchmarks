@@ -1,4 +1,5 @@
 id: A1-stale-method
+revision: 2
 situation: A2 in CATALOG.md — asked, and got the wrong answer
 mechanism: relevance
 mode: silent
@@ -70,6 +71,13 @@ pilot:
     task node is kept — it exists in the field too — but recency and rank no
     longer hand the answer over.
   rerun_required: true
+
+revision_note: |
+  On kaeru 0.7.5, the original 40-node bank still ranked the target first for
+  capture*. Four capture bookkeeping notes now provide lexical competition
+  without supplying a window-capture method. With exact bodies and timestamps,
+  the 48-node fixture ranks the target fifth. The minimum remains fourth;
+  validate actual rank before every run rather than trusting this observation.
 
 baseline:
   observed: 2026-08-23

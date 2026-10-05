@@ -1,6 +1,10 @@
 # Noise bank: tooling / capture / automation vocabulary.
 # None of these answers any case question; all share the lexicon.
 nodes:
+  - {name: capture-cache, body: "Capture cache tracks capture outputs. Each capture entry links a capture job ID to a capture asset checksum. Purging stale cache metadata leaves the exported files alone."}
+  - {name: capture-clock, body: "Capture clock records the capture request time and the capture completion time. A capture receipt stores the offset so capture logs from two machines can be compared."}
+  - {name: capture-audit, body: "Capture audit keeps a capture receipt per job. The receipt includes the capture output count, capture asset names and capture checksums; incomplete batches are flagged for later inspection."}
+  - {name: capture-metrics, body: "Capture metrics report capture latency, capture file size and capture retry counts. The capture dashboard groups results by tool version; it does not prescribe how a window is acquired."}
   - {name: tool-upgrade-note, body: "Upgraded the local toolchain; the capture helper needed a rebuild after the runtime bump."}
   - {name: window-manager-quirk, body: "The window manager reshuffles positions after an external display is attached."}
   - {name: capture-folder-cleanup, body: "Cleared old capture output; the folder had grown past a few hundred files."}
