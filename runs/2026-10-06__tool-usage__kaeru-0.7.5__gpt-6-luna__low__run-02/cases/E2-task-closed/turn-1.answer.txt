@@ -1,0 +1,1 @@
+Marked `add-typo-tolerance-to-search` done in Kaeru. Recorded that one wrong character is tolerated and the result was verified on staging and production.

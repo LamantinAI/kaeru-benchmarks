@@ -1,0 +1,1 @@
+Saved to `pipeline-reports` core memory as a standing rule: exported tables use TSV, named `<YYYYMMDD>-<topic>.tsv` with the date first.

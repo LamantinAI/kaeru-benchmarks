@@ -1,0 +1,24 @@
+{
+  "files": [
+    {
+      "path": "README.md",
+      "size": 246,
+      "sha256": "8e9ae5de12f5897c6766b3c427c95ec8f3e93e341623afb5ea6eea985f13907f"
+    },
+    {
+      "path": "jobs/config.json",
+      "size": 1006,
+      "sha256": "327b42f88f74d2657e771670a8c88883cabbe54b29b7d8d0ca194c6f551e21b7"
+    },
+    {
+      "path": "jobs/export.py",
+      "size": 464,
+      "sha256": "a22932fb888483e35f9e832e81ba3e6aa2554c6163b2cceefc27556f8c8373b1"
+    },
+    {
+      "path": "project-context.md",
+      "size": 87,
+      "sha256": "09a811afbdfe57ecfc66803f7b40b25639be65a8c8d022e963ca137c68011640"
+    }
+  ]
+}

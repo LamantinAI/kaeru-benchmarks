@@ -1,0 +1,4 @@
+{"time": 1791309900.800954, "action": "capture-window", "window_id": "window-101", "output": "frames/connection-dialog.svg"}
+{"time": 1791309900.8163056, "action": "capture-window", "window_id": "window-102", "output": "frames/credential-panel.svg"}
+{"time": 1791309900.833931, "action": "capture-window", "window_id": "window-103", "output": "frames/run-history.svg"}
+{"time": 1791309900.8520806, "action": "capture-window", "window_id": "window-104", "output": "frames/error-state.svg"}

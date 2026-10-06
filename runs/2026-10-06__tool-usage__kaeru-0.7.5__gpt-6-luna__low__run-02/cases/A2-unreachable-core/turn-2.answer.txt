@@ -1,0 +1,1 @@
+Exported the table to [20261006-weekly-run-summary.tsv](/mnt/workspace/20261006-weekly-run-summary.tsv). It lists 18 total runs, including 3 failures, and a median duration of 6m40s.

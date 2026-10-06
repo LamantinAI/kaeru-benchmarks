@@ -1,0 +1,3 @@
+Rollback completed following the runbook: the router was pointed to blue, connections drained, then green was stopped.
+
+The final status is `active: blue` with `green` stopped. The action sequence is recorded in [action-log.jsonl](/mnt/workspace/action-log.jsonl).

@@ -1,0 +1,112 @@
+{
+  "case_id": "D1-retrospective-verdict",
+  "status": "PASS",
+  "phases": [
+    {
+      "turn_id": "turn-1",
+      "status": "PASS",
+      "reason": "Finds exact original suspicion, stores settled archival reference with three-request/model-page evidence and client-config root cause, and attaches strong0.98 falsifies edge. Structural refutation is readable from graph, evidence is recoverable and original is not orphaned; accepted equivalent resolution representation."
+    }
+  ],
+  "task_success": true,
+  "memory_invariant_success": true,
+  "limitations": [
+    "Original episode body/tier unchanged. Closure is incoming typed falsifies edge from archival finding, not a formal hypothesis verdict/tag. No settle call: historical#111 edge-loss operation sequence is untested and unfixed in this run."
+  ],
+  "evidence": [
+    "memory-after.json",
+    "memory-before.json",
+    "turn-1.answer.txt",
+    "turn-1.mcp.jsonl",
+    "turn-1.run.json",
+    "turn-1.workspace-before.json"
+  ],
+  "graded_utc": "2026-10-06T18:39:30.674707+00:00",
+  "dataset_commit": "98172f013dab6f8589805165676bce4c875d6429",
+  "kaeru_version": "0.7.5",
+  "model": "gpt-6-luna",
+  "reasoning_effort": "low",
+  "repetition": 1,
+  "outcome": "PASS",
+  "phase_results": "turn-1 PASS: Finds exact original suspicion, stores settled archival reference with three-request/model-page evidence and client-config root cause, and attaches strong0.98 falsifies edge. Structural refutation is readable from graph, evidence is recoverable and original is not orphaned; accepted equivalent resolution representation.",
+  "grading_rationale": "Finds exact original suspicion, stores settled archival reference with three-request/model-page evidence and client-config root cause, and attaches strong0.98 falsifies edge. Structural refutation is readable from graph, evidence is recoverable and original is not orphaned; accepted equivalent resolution representation.",
+  "metrics": {
+    "kaeru_tool_calls": 5,
+    "native_turns": 1,
+    "input_tokens": 228079,
+    "cached_input_tokens": 205568,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 676,
+    "reasoning_output_tokens": 0
+  },
+  "phase_metrics": [
+    {
+      "turn_id": "turn-1",
+      "kaeru_tool_calls": 5,
+      "kaeru_adopted": true,
+      "usage": {
+        "input_tokens": 228079,
+        "cached_input_tokens": 205568,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 676,
+        "reasoning_output_tokens": 0
+      },
+      "elapsed_seconds": 18.799,
+      "thread_id": "01a11279-9f97-7bf3-be0b-fa0704a43c73",
+      "native_reported_usage": {
+        "input_tokens": 228079,
+        "cached_input_tokens": 205568,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 676,
+        "reasoning_output_tokens": 0
+      },
+      "usage_source": "deduplicated owned rollout response records",
+      "owned_rollout_turn_id": "01a11279-a3bb-71f1-b21d-6b0b01b40770"
+    }
+  ],
+  "kaeru_adopted": true,
+  "usage_accounting_amendment": "../../run-info.json#usage_accounting_correction",
+  "run_id": "2026-10-06__tool-usage__kaeru-0.7.5__gpt-6-luna__low__run-02",
+  "failure_group": "",
+  "source_fixture_validation": {
+    "case_id": "D1-retrospective-verdict",
+    "status": "PASS",
+    "audited_source_slots": [
+      "initiative",
+      "nodes",
+      "noise"
+    ],
+    "nodes": 31,
+    "source_status_checked": true,
+    "scopes_types_tiers_layers_tags_timestamps_edges_checked": true,
+    "noise_library_count_checked": true,
+    "declared_artifacts_checked_at_model_start": true,
+    "cloud_separation_policy_checked": true,
+    "cloud_full_body_evidence": "N/A"
+  },
+  "execution_validation": {
+    "case_id": "D1-retrospective-verdict",
+    "prompt_hashes_match_pinned_yaml": true,
+    "native_turns_completed": 1,
+    "actual_calls_match_metrics": true,
+    "policy_visible_in_each_owned_session": true,
+    "model_and_low_effort_verified": true,
+    "session_boundary_verified": true,
+    "phase_graph_export_preserved": true,
+    "fixture_source_and_roundtrip_verified": true
+  },
+  "snapshot_files": {
+    "memory-before.json": "memory-before.json",
+    "memory-after.json": "memory-after.json",
+    "turn-1.memory-after.json": "memory-after.json",
+    "turn-1.workspace-before.json": "turn-1.workspace-before.json",
+    "turn-1.workspace-after.json": "turn-1.workspace-before.json"
+  },
+  "evidence_stream_scope": "Completed Kaeru MCP events and final answers; shell/discovery transcripts are not included.",
+  "memory_after_identical_to_before": false,
+  "phase_graphs": {
+    "turn-1": "memory-after.json"
+  },
+  "before": "memory-before.json",
+  "after": "memory-after.json"
+}

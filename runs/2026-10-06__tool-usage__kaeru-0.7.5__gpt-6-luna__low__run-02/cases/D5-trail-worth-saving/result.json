@@ -1,0 +1,148 @@
+{
+  "case_id": "D5-trail-worth-saving",
+  "status": "FAIL",
+  "phases": [
+    {
+      "turn_id": "turn-1",
+      "status": "PASS",
+      "reason": "Saves a readable four-node reasoning trail with summary: observed backlog → failed consumer scaling/contention → hot partition cause → archival repartition decision. Decision explicitly marks queue investigation complete; all members/provenance survive."
+    },
+    {
+      "turn_id": "turn-2",
+      "status": "FAIL",
+      "reason": "Fresh answer correctly includes that scaling was tried, briefly helped and then worsened contention. However it reopens every one of the four steps individually despite saved trail summary and repeated trail hints, rather than reusing saved reasoning aggregate; explicit fail_if all-node reconstruction is triggered."
+    }
+  ],
+  "task_success": true,
+  "memory_invariant_success": false,
+  "limitations": [
+    "Phase2 factual answer succeeds; failure concerns retrieval/trail-reuse invariant. No required chain/why verb is used as the sole grading criterion."
+  ],
+  "evidence": [
+    "memory-after.json",
+    "memory-before.json",
+    "turn-1.answer.txt",
+    "turn-1.mcp.jsonl",
+    "turn-1.run.json",
+    "turn-1.workspace-before.json",
+    "turn-2.answer.txt",
+    "turn-2.mcp.jsonl",
+    "turn-2.run.json"
+  ],
+  "graded_utc": "2026-10-06T18:35:51.826347+00:00",
+  "dataset_commit": "98172f013dab6f8589805165676bce4c875d6429",
+  "kaeru_version": "0.7.5",
+  "model": "gpt-6-luna",
+  "reasoning_effort": "low",
+  "repetition": 1,
+  "outcome": "FAIL",
+  "phase_results": "turn-1 PASS: Saves a readable four-node reasoning trail with summary: observed backlog → failed consumer scaling/contention → hot partition cause → archival repartition decision. Decision explicitly marks queue investigation complete; all members/provenance survive.; turn-2 FAIL: Fresh answer correctly includes that scaling was tried, briefly helped and then worsened contention. However it reopens every one of the four steps individually despite saved trail summary and repeated trail hints, rather than reusing saved reasoning aggregate; explicit fail_if all-node reconstruction is triggered.",
+  "grading_rationale": "Saves a readable four-node reasoning trail with summary: observed backlog → failed consumer scaling/contention → hot partition cause → archival repartition decision. Decision explicitly marks queue investigation complete; all members/provenance survive. Fresh answer correctly includes that scaling was tried, briefly helped and then worsened contention. However it reopens every one of the four steps individually despite saved trail summary and repeated trail hints, rather than reusing saved reasoning aggregate; explicit fail_if all-node reconstruction is triggered.",
+  "metrics": {
+    "kaeru_tool_calls": 21,
+    "native_turns": 2,
+    "input_tokens": 675830,
+    "cached_input_tokens": 618240,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 1817,
+    "reasoning_output_tokens": 162
+  },
+  "phase_metrics": [
+    {
+      "turn_id": "turn-1",
+      "kaeru_tool_calls": 15,
+      "kaeru_adopted": true,
+      "usage": {
+        "input_tokens": 539128,
+        "cached_input_tokens": 499968,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1430,
+        "reasoning_output_tokens": 162
+      },
+      "elapsed_seconds": 28.522,
+      "thread_id": "01a1127d-201b-7c63-aeec-1e4b34eb458f",
+      "native_reported_usage": {
+        "input_tokens": 539128,
+        "cached_input_tokens": 499968,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1430,
+        "reasoning_output_tokens": 162
+      },
+      "usage_source": "deduplicated owned rollout response records",
+      "owned_rollout_turn_id": "01a1127d-25be-7f52-9aee-52008f4da8e9"
+    },
+    {
+      "turn_id": "turn-2",
+      "kaeru_tool_calls": 6,
+      "kaeru_adopted": true,
+      "usage": {
+        "input_tokens": 136702,
+        "cached_input_tokens": 118272,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 387,
+        "reasoning_output_tokens": 0
+      },
+      "elapsed_seconds": 21.308,
+      "thread_id": "01a1127d-90f7-7cc2-bada-dfb6f097b354",
+      "native_reported_usage": {
+        "input_tokens": 136702,
+        "cached_input_tokens": 118272,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 387,
+        "reasoning_output_tokens": 0
+      },
+      "usage_source": "deduplicated owned rollout response records",
+      "owned_rollout_turn_id": "01a1127d-911a-7ff3-842a-e17ed804de6e"
+    }
+  ],
+  "kaeru_adopted": true,
+  "usage_accounting_amendment": "../../run-info.json#usage_accounting_correction",
+  "run_id": "2026-10-06__tool-usage__kaeru-0.7.5__gpt-6-luna__low__run-02",
+  "failure_group": "SAVED_TRAIL_NOT_REUSED",
+  "source_fixture_validation": {
+    "case_id": "D5-trail-worth-saving",
+    "status": "PASS",
+    "audited_source_slots": [
+      "edges",
+      "initiative",
+      "nodes",
+      "noise"
+    ],
+    "nodes": 34,
+    "source_status_checked": true,
+    "scopes_types_tiers_layers_tags_timestamps_edges_checked": true,
+    "noise_library_count_checked": true,
+    "declared_artifacts_checked_at_model_start": true,
+    "cloud_separation_policy_checked": true,
+    "cloud_full_body_evidence": "N/A"
+  },
+  "execution_validation": {
+    "case_id": "D5-trail-worth-saving",
+    "prompt_hashes_match_pinned_yaml": true,
+    "native_turns_completed": 2,
+    "actual_calls_match_metrics": true,
+    "policy_visible_in_each_owned_session": true,
+    "model_and_low_effort_verified": true,
+    "session_boundary_verified": true,
+    "phase_graph_export_preserved": true,
+    "fixture_source_and_roundtrip_verified": true
+  },
+  "snapshot_files": {
+    "memory-before.json": "memory-before.json",
+    "memory-after.json": "memory-after.json",
+    "turn-1.memory-after.json": "memory-after.json",
+    "turn-2.memory-after.json": "memory-after.json",
+    "turn-1.workspace-before.json": "turn-1.workspace-before.json",
+    "turn-1.workspace-after.json": "turn-1.workspace-before.json",
+    "turn-2.workspace-before.json": "turn-1.workspace-before.json",
+    "turn-2.workspace-after.json": "turn-1.workspace-before.json"
+  },
+  "evidence_stream_scope": "Completed Kaeru MCP events and final answers; shell/discovery transcripts are not included.",
+  "memory_after_identical_to_before": false,
+  "phase_graphs": {
+    "turn-1": "memory-after.json",
+    "turn-2": "memory-after.json"
+  },
+  "before": "memory-before.json",
+  "after": "memory-after.json"
+}

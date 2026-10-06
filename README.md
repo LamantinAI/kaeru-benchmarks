@@ -41,7 +41,9 @@ here so the benchmarks can live and grow on their own.
 ## Status
 
 Datasets and [recorded runs](runs/README.md). The first record documents an
-unsuccessful Kaeru 0.7.5 / GPT-6-Luna tool-usage experiment. Executable runners
+unsuccessful Kaeru 0.7.5 / GPT-6-Luna tool-usage experiment. A second full
+record adds an early memory policy, phase-aware results and prospective
+[RFC analysis](runs/2026-10-06__tool-usage__kaeru-0.7.5__gpt-6-luna__low__run-02/analysis.md). Executable runners
 are not included here. `tool-usage/DESIGN.md` specifies what a runner must compute
 (outcome, currency, cost) and why per-case isolation is mandatory.
 See [`tool-usage/RUNNER_CONTRACT.md`](tool-usage/RUNNER_CONTRACT.md) for current

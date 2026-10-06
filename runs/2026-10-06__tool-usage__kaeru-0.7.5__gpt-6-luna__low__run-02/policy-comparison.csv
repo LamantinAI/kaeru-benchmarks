@@ -1,0 +1,10 @@
+pair_id,case_id,repetition,baseline_activation,policy_activation,baseline_success,policy_success,success_delta
+pair-01,A2-unreachable-core,1,False,True,False,True,1
+pair-02,C1-reentry-cold,1,False,True,False,True,1
+pair-03,A2-unreachable-core,2,False,True,False,True,1
+pair-04,E2-task-closed,3,False,False,False,False,0
+pair-05,E2-task-closed,1,False,True,False,True,1
+pair-06,C1-reentry-cold,3,False,True,False,True,1
+pair-07,A2-unreachable-core,3,False,True,False,True,1
+pair-08,C1-reentry-cold,2,False,True,False,True,1
+pair-09,E2-task-closed,2,False,False,False,False,0

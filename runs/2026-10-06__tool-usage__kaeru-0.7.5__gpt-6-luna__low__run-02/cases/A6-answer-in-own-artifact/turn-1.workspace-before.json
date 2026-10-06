@@ -1,0 +1,14 @@
+{
+  "files": [
+    {
+      "path": "onboarding-guide.md",
+      "size": 509,
+      "sha256": "9f2530591faf55ece6b7d68373d6d25241c9aee969cea8935196fd90429a82c2"
+    },
+    {
+      "path": "project-context.md",
+      "size": 92,
+      "sha256": "70fab548d3ad0488fed2a7c7ca829b0f328168139ec0d28c6238ac1be5696f17"
+    }
+  ]
+}

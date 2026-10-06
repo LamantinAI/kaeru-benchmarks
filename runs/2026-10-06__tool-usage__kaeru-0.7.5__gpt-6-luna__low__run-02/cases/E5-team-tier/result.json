@@ -1,0 +1,122 @@
+{
+  "case_id": "E5-team-tier",
+  "status": "FAIL",
+  "phases": [
+    {
+      "turn_id": "turn-1",
+      "status": "FAIL",
+      "reason": "Native awake advertises shared initiative and available benchmark cloud, but model reads only local retry note and never consults cloud or acknowledges incomplete team context. Hardens retry/replay logic while keeping a single WEBHOOK_SIGNING_KEY; quarterly rotation/two-week overlap are absent from code, documentation and answer."
+    }
+  ],
+  "task_success": false,
+  "memory_invariant_success": false,
+  "limitations": [
+    "Independent fresh cloud had exact shared rotation note, authenticated access and401without auth; scored local graph exactly31nodes with no cloud-only record; native cloud registry asserted benchmark-only before model start. Runtime availability is verified, so this is a tier-selection/incomplete hardening failure."
+  ],
+  "evidence": [
+    "artifacts/README.md",
+    "artifacts/webhook/receiver.py",
+    "cloud-after.json",
+    "cloud-before.json",
+    "cloud-preflight.json",
+    "memory-after.json",
+    "memory-before.json",
+    "scored-lifecycle-check.json",
+    "turn-1.answer.txt",
+    "turn-1.mcp.jsonl",
+    "turn-1.run.json",
+    "turn-1.workspace-after.json",
+    "turn-1.workspace-before.json",
+    "cloud-preflight.mcp.jsonl"
+  ],
+  "graded_utc": "2026-10-06T18:40:11.132450+00:00",
+  "dataset_commit": "98172f013dab6f8589805165676bce4c875d6429",
+  "kaeru_version": "0.7.5",
+  "model": "gpt-6-luna",
+  "reasoning_effort": "low",
+  "repetition": 1,
+  "outcome": "FAIL",
+  "phase_results": "turn-1 FAIL: Native awake advertises shared initiative and available benchmark cloud, but model reads only local retry note and never consults cloud or acknowledges incomplete team context. Hardens retry/replay logic while keeping a single WEBHOOK_SIGNING_KEY; quarterly rotation/two-week overlap are absent from code, documentation and answer.",
+  "grading_rationale": "Native awake advertises shared initiative and available benchmark cloud, but model reads only local retry note and never consults cloud or acknowledges incomplete team context. Hardens retry/replay logic while keeping a single WEBHOOK_SIGNING_KEY; quarterly rotation/two-week overlap are absent from code, documentation and answer.",
+  "metrics": {
+    "kaeru_tool_calls": 4,
+    "native_turns": 1,
+    "input_tokens": 521377,
+    "cached_input_tokens": 486912,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 5214,
+    "reasoning_output_tokens": 1735
+  },
+  "phase_metrics": [
+    {
+      "turn_id": "turn-1",
+      "kaeru_tool_calls": 4,
+      "kaeru_adopted": true,
+      "usage": {
+        "input_tokens": 521377,
+        "cached_input_tokens": 486912,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 5214,
+        "reasoning_output_tokens": 1735
+      },
+      "elapsed_seconds": 124.775,
+      "thread_id": "01a11280-42f9-7911-a038-366a216dcd50",
+      "native_reported_usage": {
+        "input_tokens": 521377,
+        "cached_input_tokens": 486912,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 5214,
+        "reasoning_output_tokens": 1735
+      },
+      "usage_source": "deduplicated owned rollout response records",
+      "owned_rollout_turn_id": "01a11280-488f-7591-9bb6-35d2e240ce72"
+    }
+  ],
+  "kaeru_adopted": true,
+  "usage_accounting_amendment": "../../run-info.json#usage_accounting_correction",
+  "run_id": "2026-10-06__tool-usage__kaeru-0.7.5__gpt-6-luna__low__run-02",
+  "failure_group": "UNREAD_TEAM_CONTEXT",
+  "source_fixture_validation": {
+    "case_id": "E5-team-tier",
+    "status": "PASS",
+    "audited_source_slots": [
+      "cloud_nodes",
+      "initiative",
+      "nodes",
+      "noise",
+      "policy"
+    ],
+    "nodes": 31,
+    "source_status_checked": true,
+    "scopes_types_tiers_layers_tags_timestamps_edges_checked": true,
+    "noise_library_count_checked": true,
+    "declared_artifacts_checked_at_model_start": true,
+    "cloud_separation_policy_checked": true,
+    "cloud_full_body_evidence": "cloud-preflight.mcp.jsonl (separate unscored vault; excluded from scored calls and usage)"
+  },
+  "execution_validation": {
+    "case_id": "E5-team-tier",
+    "prompt_hashes_match_pinned_yaml": true,
+    "native_turns_completed": 1,
+    "actual_calls_match_metrics": true,
+    "policy_visible_in_each_owned_session": true,
+    "model_and_low_effort_verified": true,
+    "session_boundary_verified": true,
+    "phase_graph_export_preserved": true,
+    "fixture_source_and_roundtrip_verified": true
+  },
+  "snapshot_files": {
+    "memory-before.json": "memory-before.json",
+    "memory-after.json": "memory-after.json",
+    "turn-1.memory-after.json": "memory-after.json",
+    "turn-1.workspace-before.json": "turn-1.workspace-before.json",
+    "turn-1.workspace-after.json": "turn-1.workspace-after.json"
+  },
+  "evidence_stream_scope": "Completed Kaeru MCP events and final answers; shell/discovery transcripts are not included.",
+  "memory_after_identical_to_before": false,
+  "phase_graphs": {
+    "turn-1": "memory-after.json"
+  },
+  "before": "memory-before.json",
+  "after": "memory-after.json"
+}

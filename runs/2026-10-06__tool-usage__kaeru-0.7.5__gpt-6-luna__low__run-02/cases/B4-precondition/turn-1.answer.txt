@@ -1,0 +1,3 @@
+Opened local PR receipts for all four coordinated changes: API, client, shared-schema, and worker. The workspace helper confirmed these are local receipts and contacted no external PR service.
+
+Before recording them, I fetched and fast-forwarded each repo’s current feature branch. All four branches are clean and match their refreshed upstream tips. The schema v2 changes are in API, shared-schema, and worker; the client branch carries the API version 2 update. I saved the user’s pull-before-PR instruction and this work in Kaeru.

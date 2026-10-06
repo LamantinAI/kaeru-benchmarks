@@ -1,0 +1,1 @@
+Saved the settled naming conventions to Kaeru as [service-and-messaging-naming-conventions](kaeru://service-and-messaging-naming-conventions) in `platform-conventions`, linked to the discussion as its source.

@@ -1,0 +1,177 @@
+{
+  "run_id": "2026-10-06__tool-usage__kaeru-0.7.5__gpt-6-luna__low__run-02",
+  "suite": "tool-usage",
+  "kaeru_version": "0.7.5",
+  "kaeru_commit": "db90f604dcce349304b30a0c64559e46ba4ccbcd",
+  "release_binary_sha256": "36b4b50118916fdf7c567e7e876e79f0076da0bc6b8dd2a079a1bc778b6de639",
+  "dataset_commit": "98172f013dab6f8589805165676bce4c875d6429",
+  "model": "gpt-6-luna",
+  "reasoning_effort": "low",
+  "repetitions": 1,
+  "condition": "early-project-memory-policy",
+  "protocol_frozen_utc": "2026-10-06T17:58:35.600682+00:00",
+  "completed_utc": "2026-10-06T18:49:24.316887+00:00",
+  "policy": "Project memory is in Kaeru. Before planning project work or relying on prior decisions or constraints, consult it. Persist lasting user constraints, decisions and completed work; a chat acknowledgement is not a memory write. Discover Kaeru tools when needed.",
+  "common_instruction": "Only project files under /mnt/workspace and configured tools are relevant. Do not inspect credentials or unrelated host state.",
+  "policy_delivery": "developer_instructions every fresh thread before tool discovery; unchanged policy",
+  "isolation": "Existing Docker Compose with isolated project, overridden global volumes, both runtime vaults tmpfs only. Outer bubblewrap clean home/workspace, independent auth copy, host config/rules/skills/memories disabled. Only evidence exports on host.",
+  "workspace_repairs": [
+    "A1 neutral capture simulator only",
+    "B2 nine jobs: three reporting, six ad hoc including two finance; real compaction with verified completion",
+    "B4 actual schema/client feature commits and remote drift; local PR recorder only",
+    "E5 executable receiver with single key HMAC and retry; cloud-only decisive note"
+  ],
+  "grading": "Original expectations, graph/action/files/native calls by phase; states not required verbs. Environment failures retained independently; completed outcomes never overwritten.",
+  "interpretation": "Full-suite policy coverage; historical differently hosted baseline is not causal control.",
+  "cases": 27,
+  "native_turns": 36,
+  "status_counts": {
+    "PASS": 13,
+    "FAIL": 13,
+    "PARTIAL_ENVIRONMENT_CONFOUNDED": 1
+  },
+  "kaeru_tool_calls": 211,
+  "kaeru_adopted_cases": 27,
+  "kaeru_adopted_turns": 35,
+  "tools_used": {
+    "initiatives": 34,
+    "awake": 36,
+    "at": 80,
+    "jot": 3,
+    "overview": 17,
+    "episode": 6,
+    "link": 2,
+    "search": 13,
+    "board": 2,
+    "cite": 3,
+    "confirm": 1,
+    "revise": 4,
+    "settle": 2,
+    "chain": 2,
+    "between": 4,
+    "done": 2
+  },
+  "model_usage": {
+    "input_tokens": 10071629,
+    "cached_input_tokens": 9076224,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 39187,
+    "reasoning_output_tokens": 3867
+  },
+  "compaction_usage": {
+    "input_tokens": 28388,
+    "cached_input_tokens": 27392,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 613,
+    "reasoning_output_tokens": 0
+  },
+  "invalid_attempts": [
+    {
+      "case_id": "D2-partial-verdict",
+      "reason": "source.status dropped by generic fixture materializer",
+      "path": "invalid_attempts/D2-source-status-loss",
+      "native_turns": 1,
+      "kaeru_tool_calls": 5,
+      "usage": {
+        "input_tokens": 224768,
+        "cached_input_tokens": 198656,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 619,
+        "reasoning_output_tokens": 0
+      },
+      "excluded_from_final_counts_and_valid_usage": true
+    }
+  ],
+  "subscription_percent": "not available",
+  "source_fixture_audit": "PASS for all final valid inputs; original D2 retained as invalid",
+  "execution_audit": "PASS; policy/model/session/actual-call checks retained per case",
+  "usage_accounting": "Unique owned-rollout response_id usage grouped by actor turn_id; compaction separated; CLI resume cumulative usage retained only as native_reported_usage.",
+  "evidence_selection": "Completed Kaeru MCP events, final answers, deduplicated graph/workspace snapshots, selected task artifacts and lifecycle markers. Not full transcripts or an executable harness.",
+  "excluded_artifacts": "Dataset copies, runtime vaults, host configuration, credentials, shell/discovery/session transcripts, runner build directories, provisional grades and duplicate aggregate JSON.",
+  "normalization": "Host prefixes replaced with /benchmark-run, /kaeru-source and /benchmark-host. Runtime test secrets redacted if present. Snapshot aliases explicitly identify byte-equivalent selected files.",
+  "rfc_reference": {
+    "url": "https://github.com/LamantinAI/kaeru/issues/79",
+    "title": "RFC: a verb must have a moment — re-tier the 69-tool surface into automation, enrichment, and ~40 verbs",
+    "body_sha256": "1dcaaf2f3cb373796faa9982b1f6e8b7093cdc2cf353a6378f25dce61b39376a",
+    "assessment_date": "2026-10-06",
+    "assessment_status": "Prospective hypotheses, not measured RFC effects; no RFC implementation in this run."
+  },
+  "codex_cli": {
+    "version": "0.160.0",
+    "observed_during_preflight": true
+  },
+  "configuration": {
+    "native_memories": false,
+    "host_skill_discovery": false,
+    "apps": false,
+    "remote_plugins": false,
+    "skill_search": false,
+    "user_configuration_ignored": true,
+    "user_execution_rules_ignored": true,
+    "shell_environment_inherit": "none",
+    "shell_path": "/mnt/workspace/bin:/usr/local/bin:/usr/bin:/bin",
+    "cli_sandbox": "danger-full-access inside outer bubblewrap filesystem isolation",
+    "approvals": "never"
+  },
+  "grading_review": "Agent-assisted evidence grading by coordinator and primary assistant, unblinded to condition; no human adjudication claimed and no separate evaluation-model run.",
+  "prospective_rfc_evaluation": {
+    "plan": "rfc-effect-plan.csv",
+    "frozen_at_publication_utc": "2026-10-06T19:53:45.989009+00:00",
+    "rfc_implemented": false,
+    "future_assessment": "Append a new run/assessment; do not rewrite the predictions.",
+    "requires_matched_conditions": true,
+    "independent_fixes_are_separate_interventions": true
+  },
+  "supplementary_policy_comparison": {
+    "table": "policy-comparison.csv",
+    "cases": [
+      "C1-reentry-cold",
+      "A2-unreachable-core",
+      "E2-task-closed"
+    ],
+    "conditions": [
+      "baseline",
+      "policy"
+    ],
+    "repetitions_per_condition_per_case": 3,
+    "paired_blocks": 9,
+    "baseline_success": 0,
+    "policy_success": 7,
+    "not_full_suite_control": true,
+    "evidence_scope": "Paired judgments; full local raw record retained."
+  },
+  "usage_accounting_correction": {
+    "recorded_utc": "2026-10-06T18:56:43.284386+00:00",
+    "cause": "Root audit found CLI resume turn.completed usage cumulative across B2 actor turns. Previous canonical derivation double-counted B2 first actor turn.",
+    "previous_actor_usage": {
+      "input_tokens": 10400392,
+      "cached_input_tokens": 9370880,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 40662,
+      "reasoning_output_tokens": 3867
+    },
+    "corrected_actor_usage": {
+      "input_tokens": 10071629,
+      "cached_input_tokens": 9076224,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 39187,
+      "reasoning_output_tokens": 3867
+    },
+    "compaction_usage_excluded": {
+      "input_tokens": 28388,
+      "cached_input_tokens": 27392,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 613,
+      "reasoning_output_tokens": 0
+    },
+    "correction_delta": {
+      "input_tokens": -328763,
+      "cached_input_tokens": -294656,
+      "cache_write_input_tokens": 0,
+      "output_tokens": -1475,
+      "reasoning_output_tokens": 0
+    },
+    "model_turns_added": 0,
+    "case_grades_changed": false
+  }
+}

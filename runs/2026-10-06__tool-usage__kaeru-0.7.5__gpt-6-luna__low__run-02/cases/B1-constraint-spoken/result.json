@@ -1,0 +1,149 @@
+{
+  "case_id": "B1-constraint-spoken",
+  "status": "PASS",
+  "phases": [
+    {
+      "turn_id": "turn-1",
+      "status": "PASS",
+      "reason": "Scoped hot standing rule explicitly says always effort=low and never medium; both local jobs configured low."
+    },
+    {
+      "turn_id": "turn-2",
+      "status": "PASS",
+      "reason": "Fresh thread reads exact scoped always-low rule before inspecting/choosing job configuration; both actual batch jobs remain low. It asks only for missing second-dataset path, not for the standing constraint. No different effort setting is chosen."
+    }
+  ],
+  "task_success": true,
+  "memory_invariant_success": true,
+  "limitations": [
+    "Second dataset-specific invocation was not exercised because no dataset path was supplied. The rubric requires low configuration and memory recovery, not executing a batch runner."
+  ],
+  "evidence": [
+    "memory-after.json",
+    "memory-before.json",
+    "turn-1.answer.txt",
+    "turn-1.mcp.jsonl",
+    "turn-1.run.json",
+    "turn-1.workspace-after.json",
+    "turn-1.workspace-before.json",
+    "turn-2.answer.txt",
+    "turn-2.mcp.jsonl",
+    "turn-2.run.json"
+  ],
+  "graded_utc": "2026-10-06T18:14:09.232138+00:00",
+  "dataset_commit": "98172f013dab6f8589805165676bce4c875d6429",
+  "kaeru_version": "0.7.5",
+  "model": "gpt-6-luna",
+  "reasoning_effort": "low",
+  "repetition": 1,
+  "outcome": "PASS",
+  "phase_results": "turn-1 PASS: Scoped hot standing rule explicitly says always effort=low and never medium; both local jobs configured low.; turn-2 PASS: Fresh thread reads exact scoped always-low rule before inspecting/choosing job configuration; both actual batch jobs remain low. It asks only for missing second-dataset path, not for the standing constraint. No different effort setting is chosen.",
+  "grading_rationale": "Scoped hot standing rule explicitly says always effort=low and never medium; both local jobs configured low. Fresh thread reads exact scoped always-low rule before inspecting/choosing job configuration; both actual batch jobs remain low. It asks only for missing second-dataset path, not for the standing constraint. No different effort setting is chosen.",
+  "metrics": {
+    "kaeru_tool_calls": 10,
+    "native_turns": 2,
+    "input_tokens": 602619,
+    "cached_input_tokens": 553216,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 2039,
+    "reasoning_output_tokens": 232
+  },
+  "phase_metrics": [
+    {
+      "turn_id": "turn-1",
+      "kaeru_tool_calls": 6,
+      "kaeru_adopted": true,
+      "usage": {
+        "input_tokens": 354676,
+        "cached_input_tokens": 327424,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1258,
+        "reasoning_output_tokens": 141
+      },
+      "elapsed_seconds": 25.761,
+      "thread_id": "01a11268-fa10-7d52-9c93-2f0c4280a023",
+      "native_reported_usage": {
+        "input_tokens": 354676,
+        "cached_input_tokens": 327424,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1258,
+        "reasoning_output_tokens": 141
+      },
+      "usage_source": "deduplicated owned rollout response records",
+      "owned_rollout_turn_id": "01a11268-fe6b-7c70-9ef7-5a314e750b62"
+    },
+    {
+      "turn_id": "turn-2",
+      "kaeru_tool_calls": 4,
+      "kaeru_adopted": true,
+      "usage": {
+        "input_tokens": 247943,
+        "cached_input_tokens": 225792,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 781,
+        "reasoning_output_tokens": 91
+      },
+      "elapsed_seconds": 119.892,
+      "thread_id": "01a11269-600f-72c0-bc6f-e5a1f985e22d",
+      "native_reported_usage": {
+        "input_tokens": 247943,
+        "cached_input_tokens": 225792,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 781,
+        "reasoning_output_tokens": 91
+      },
+      "usage_source": "deduplicated owned rollout response records",
+      "owned_rollout_turn_id": "01a11269-6033-7f01-9005-b4a3bc481475"
+    }
+  ],
+  "kaeru_adopted": true,
+  "usage_accounting_amendment": "../../run-info.json#usage_accounting_correction",
+  "run_id": "2026-10-06__tool-usage__kaeru-0.7.5__gpt-6-luna__low__run-02",
+  "failure_group": "",
+  "source_fixture_validation": {
+    "case_id": "B1-constraint-spoken",
+    "status": "PASS",
+    "audited_source_slots": [
+      "edges",
+      "initiative",
+      "nodes",
+      "noise"
+    ],
+    "nodes": 32,
+    "source_status_checked": true,
+    "scopes_types_tiers_layers_tags_timestamps_edges_checked": true,
+    "noise_library_count_checked": true,
+    "declared_artifacts_checked_at_model_start": true,
+    "cloud_separation_policy_checked": true,
+    "cloud_full_body_evidence": "N/A"
+  },
+  "execution_validation": {
+    "case_id": "B1-constraint-spoken",
+    "prompt_hashes_match_pinned_yaml": true,
+    "native_turns_completed": 2,
+    "actual_calls_match_metrics": true,
+    "policy_visible_in_each_owned_session": true,
+    "model_and_low_effort_verified": true,
+    "session_boundary_verified": true,
+    "phase_graph_export_preserved": true,
+    "fixture_source_and_roundtrip_verified": true
+  },
+  "snapshot_files": {
+    "memory-before.json": "memory-before.json",
+    "memory-after.json": "memory-after.json",
+    "turn-1.memory-after.json": "memory-after.json",
+    "turn-2.memory-after.json": "memory-after.json",
+    "turn-1.workspace-before.json": "turn-1.workspace-before.json",
+    "turn-1.workspace-after.json": "turn-1.workspace-after.json",
+    "turn-2.workspace-before.json": "turn-1.workspace-after.json",
+    "turn-2.workspace-after.json": "turn-1.workspace-after.json"
+  },
+  "evidence_stream_scope": "Completed Kaeru MCP events and final answers; shell/discovery transcripts are not included.",
+  "memory_after_identical_to_before": false,
+  "phase_graphs": {
+    "turn-1": "memory-after.json",
+    "turn-2": "memory-after.json"
+  },
+  "before": "memory-before.json",
+  "after": "memory-after.json"
+}

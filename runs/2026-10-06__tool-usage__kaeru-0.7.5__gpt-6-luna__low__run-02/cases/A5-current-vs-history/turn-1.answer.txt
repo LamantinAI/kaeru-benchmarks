@@ -1,0 +1,3 @@
+Configured the upload check to match the confirmed 5 MB ceiling and changed the oversized-file error to say “The maximum upload size is 5 MB” in [upload.py](/mnt/workspace/client/upload.py:1).
+
+This workspace contains no browser upload code, so I updated its existing client validator. I didn’t run tests.

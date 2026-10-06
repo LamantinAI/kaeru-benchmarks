@@ -1,0 +1,7 @@
+You’re at **cutover planning**. The migration runs in two phases: move read traffic first, then writes a week later, with a rollback point between them.
+
+The immediate priority is to **confirm the rollback window with Ops before the write cutover**. That task is overdue, and the plan has an unresolved concern: the rollback point may not be viable once writes are dual-running. The next step is to get Ops’ staffing and rollback limits, then update the plan accordingly.
+
+Also still open: investigate whether phase-one read lag is caused by the index; if it is, adding replicas won’t help. Translations are about one release behind the source.
+
+I checked the saved migration notes; I haven’t verified these details against the project files.

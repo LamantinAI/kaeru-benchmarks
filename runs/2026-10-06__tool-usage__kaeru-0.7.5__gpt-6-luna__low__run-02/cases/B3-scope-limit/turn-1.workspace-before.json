@@ -1,0 +1,24 @@
+{
+  "files": [
+    {
+      "path": "README.md",
+      "size": 64,
+      "sha256": "a6beab48474849877e43470275a89286990c05e3f3813d23e4760eff3008417d"
+    },
+    {
+      "path": "project-context.md",
+      "size": 89,
+      "sha256": "a9f67069dedb3dc371875a210fd119fe860c02fbe415ee1e0050eff0b7402fc6"
+    },
+    {
+      "path": "search/sample-results.json",
+      "size": 94,
+      "sha256": "0bf880b62a39dbbcfbf9cbc89195294ec9440088fb9c77d0382404cc937d40d2"
+    },
+    {
+      "path": "search/service.py",
+      "size": 179,
+      "sha256": "3990843d34f4380ca95ac2644c4f9acbc707bafbb1c6f7f9c8b78cf8054383cf"
+    }
+  ]
+}

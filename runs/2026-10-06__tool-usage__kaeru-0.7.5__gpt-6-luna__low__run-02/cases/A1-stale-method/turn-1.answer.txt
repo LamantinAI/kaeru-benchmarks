@@ -1,0 +1,8 @@
+Completed the four setup-guide frames and added them to [guide.md](/mnt/workspace/guide.md):
+
+- [Connection dialog](/mnt/workspace/frames/connection-dialog.svg)
+- [Credential panel](/mnt/workspace/frames/credential-panel.svg)
+- [Run history](/mnt/workspace/frames/run-history.svg)
+- [Error state](/mnt/workspace/frames/error-state.svg)
+
+The frames reflect the remembered host, 20-run pagination, and rejected-credential recovery. Captured them by window ID; the simulator confirms the other-work window stayed active.

@@ -1,0 +1,7 @@
+{
+  "cwd": "/mnt/workspace",
+  "approvalPolicy": "never",
+  "sandbox": {
+    "type": "dangerFullAccess"
+  }
+}

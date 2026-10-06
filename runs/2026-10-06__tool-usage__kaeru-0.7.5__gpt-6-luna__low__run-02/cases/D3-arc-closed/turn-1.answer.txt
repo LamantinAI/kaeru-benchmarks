@@ -1,0 +1,1 @@
+Kaeru’s `auth-rollout` memory now records auth as complete: deployed and verified in production, with rate limiting in place at five requests per ten minutes per address and no further work planned. I corrected the stale implementation note and archived the completion and rate limiting notes as outcomes.

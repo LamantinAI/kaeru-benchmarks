@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "unauthenticated_status": 401,
+  "node_local_absence": true,
+  "cloud_nodes": 1
+}

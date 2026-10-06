@@ -1,0 +1,3 @@
+Recorded [latency-test-ambiguous] as an inconclusive test result in the `latency-investigation` initiative and linked it to the existing latency hypothesis.
+
+I also marked the claim that rate limiting alone explains the latency as inconclusive. The record notes that rate limiting fits daytime spikes, cold starts fit overnight spikes, and the current instrumentation can’t distinguish between them.

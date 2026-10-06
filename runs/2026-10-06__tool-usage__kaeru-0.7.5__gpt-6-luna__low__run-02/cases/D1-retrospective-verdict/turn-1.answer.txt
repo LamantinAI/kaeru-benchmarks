@@ -1,0 +1,1 @@
+Recorded in Kaeru as **output-size-root-cause-settled**, linked to the earlier suspicion with a `falsifies` edge. It notes that the provider honours the size parameter; our client config’s default overwrote it.

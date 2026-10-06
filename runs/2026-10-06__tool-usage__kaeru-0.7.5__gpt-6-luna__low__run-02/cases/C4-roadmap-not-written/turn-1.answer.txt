@@ -1,0 +1,5 @@
+The overall order makes sense: extract the aggregations first, then add a cache and observe real demand before choosing what to run nightly. That keeps the batch job focused on measured hot spots.
+
+I’d treat “delete the old path” as a gradual cutover: compare results, route traffic to the replacement, then remove the old implementation once the new path is proven. A cache can also mask whether an aggregation is still being requested, so track request volume and cache hits/misses separately.
+
+Kaeru only records that the current reporting layer recomputes everything per request and that the rewrite spans several weeks; there aren’t other saved constraints to factor in.

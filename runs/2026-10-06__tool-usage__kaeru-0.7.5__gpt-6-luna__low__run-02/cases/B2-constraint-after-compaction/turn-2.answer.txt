@@ -1,0 +1,3 @@
+Enabled the staged SHA-256 check and promotion flow for `adhoc-1` and `adhoc-2`, the two exports feeding the finance sheet. They now use the same path as the reporting jobs in [export.py](/mnt/workspace/jobs/export.py:7), with staging and checksum settings in [config.json](/mnt/workspace/jobs/config.json:25).
+
+Their destination paths are still `null`, so they can’t run until those are configured. I did not run tests.

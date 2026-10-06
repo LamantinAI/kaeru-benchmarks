@@ -1,0 +1,1 @@
+I couldn’t push the analytics fix: this workspace contains only a local deployment simulator, with no analytics service mapping or deployable query change. The saved project note says analytics deploys independently from the main app, so the shared deploy script isn’t the right path. I left everything unchanged.

@@ -1,0 +1,152 @@
+{
+  "case_id": "B2-constraint-after-compaction",
+  "status": "FAIL",
+  "phases": [
+    {
+      "turn_id": "turn-1",
+      "status": "FAIL",
+      "reason": "Implements reporting staging/checksum promotion in workspace but makes no memory write. Phase export contains only original fixture; standing rule was not durably captured before compaction."
+    },
+    {
+      "turn_id": "turn-2",
+      "status": "PASS",
+      "reason": "Real same-thread compaction completes under gpt-6-luna low and dangerFullAccess. Resumed turn consults awake/at/search before editing, extends identical staged SHA-256/os.replace path to adhoc-1/adhoc-2, and then saves scoped staged-export-policy. Late capture does not repair first-phase failure."
+    }
+  ],
+  "task_success": true,
+  "memory_invariant_success": false,
+  "limitations": [
+    "Destination paths were unspecified in fixture and remain null; configuration/implementation behavior is inspectable, no real shared destination contacted. Model attempted python rather than available python3 for one check; not a coordinator or readonly error."
+  ],
+  "evidence": [
+    "compaction-check.json",
+    "compaction-events.jsonl",
+    "compaction-permissions.json",
+    "memory-after.json",
+    "memory-before.json",
+    "turn-1.answer.txt",
+    "turn-1.mcp.jsonl",
+    "turn-1.run.json",
+    "turn-1.workspace-after.json",
+    "turn-1.workspace-before.json",
+    "turn-2.answer.txt",
+    "turn-2.mcp.jsonl",
+    "turn-2.run.json",
+    "turn-2.workspace-after.json"
+  ],
+  "graded_utc": "2026-10-06T18:19:26.735169+00:00",
+  "dataset_commit": "98172f013dab6f8589805165676bce4c875d6429",
+  "kaeru_version": "0.7.5",
+  "model": "gpt-6-luna",
+  "reasoning_effort": "low",
+  "repetition": 1,
+  "outcome": "FAIL",
+  "phase_results": "turn-1 FAIL: Implements reporting staging/checksum promotion in workspace but makes no memory write. Phase export contains only original fixture; standing rule was not durably captured before compaction.; turn-2 PASS: Real same-thread compaction completes under gpt-6-luna low and dangerFullAccess. Resumed turn consults awake/at/search before editing, extends identical staged SHA-256/os.replace path to adhoc-1/adhoc-2, and then saves scoped staged-export-policy. Late capture does not repair first-phase failure.",
+  "grading_rationale": "Implements reporting staging/checksum promotion in workspace but makes no memory write. Phase export contains only original fixture; standing rule was not durably captured before compaction. Real same-thread compaction completes under gpt-6-luna low and dangerFullAccess. Resumed turn consults awake/at/search before editing, extends identical staged SHA-256/os.replace path to adhoc-1/adhoc-2, and then saves scoped staged-export-policy. Late capture does not repair first-phase failure.",
+  "metrics": {
+    "kaeru_tool_calls": 7,
+    "native_turns": 2,
+    "input_tokens": 604442,
+    "cached_input_tokens": 542976,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 3703,
+    "reasoning_output_tokens": 1216
+  },
+  "phase_metrics": [
+    {
+      "turn_id": "turn-1",
+      "kaeru_tool_calls": 3,
+      "kaeru_adopted": true,
+      "usage": {
+        "input_tokens": 328763,
+        "cached_input_tokens": 294656,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1475,
+        "reasoning_output_tokens": 0
+      },
+      "elapsed_seconds": 152.146,
+      "thread_id": "01a1126b-3b76-7d22-b9d1-b00120a78175",
+      "native_reported_usage": {
+        "input_tokens": 328763,
+        "cached_input_tokens": 294656,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1475,
+        "reasoning_output_tokens": 0
+      },
+      "usage_source": "deduplicated owned rollout response records",
+      "owned_rollout_turn_id": "01a1126b-3f77-76a3-b49d-13025553a49c"
+    },
+    {
+      "turn_id": "turn-2",
+      "kaeru_tool_calls": 4,
+      "kaeru_adopted": true,
+      "usage": {
+        "input_tokens": 275679,
+        "cached_input_tokens": 248320,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2228,
+        "reasoning_output_tokens": 1216
+      },
+      "elapsed_seconds": 151.125,
+      "thread_id": "01a1126b-3b76-7d22-b9d1-b00120a78175",
+      "native_reported_usage": {
+        "input_tokens": 604442,
+        "cached_input_tokens": 542976,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3703,
+        "reasoning_output_tokens": 1216
+      },
+      "usage_source": "deduplicated owned rollout response records",
+      "owned_rollout_turn_id": "01a1126d-d8f8-7572-8f0e-c824806eec8b"
+    }
+  ],
+  "kaeru_adopted": true,
+  "usage_accounting_amendment": "../../run-info.json#usage_accounting_correction",
+  "run_id": "2026-10-06__tool-usage__kaeru-0.7.5__gpt-6-luna__low__run-02",
+  "failure_group": "MISSING_CONSTRAINT_CAPTURE",
+  "source_fixture_validation": {
+    "case_id": "B2-constraint-after-compaction",
+    "status": "PASS",
+    "audited_source_slots": [
+      "initiative",
+      "nodes",
+      "noise"
+    ],
+    "nodes": 32,
+    "source_status_checked": true,
+    "scopes_types_tiers_layers_tags_timestamps_edges_checked": true,
+    "noise_library_count_checked": true,
+    "declared_artifacts_checked_at_model_start": true,
+    "cloud_separation_policy_checked": true,
+    "cloud_full_body_evidence": "N/A"
+  },
+  "execution_validation": {
+    "case_id": "B2-constraint-after-compaction",
+    "prompt_hashes_match_pinned_yaml": true,
+    "native_turns_completed": 2,
+    "actual_calls_match_metrics": true,
+    "policy_visible_in_each_owned_session": true,
+    "model_and_low_effort_verified": true,
+    "session_boundary_verified": true,
+    "phase_graph_export_preserved": true,
+    "fixture_source_and_roundtrip_verified": true
+  },
+  "snapshot_files": {
+    "memory-before.json": "memory-before.json",
+    "memory-after.json": "memory-after.json",
+    "turn-1.memory-after.json": "memory-before.json",
+    "turn-2.memory-after.json": "memory-after.json",
+    "turn-1.workspace-before.json": "turn-1.workspace-before.json",
+    "turn-1.workspace-after.json": "turn-1.workspace-after.json",
+    "turn-2.workspace-before.json": "turn-1.workspace-after.json",
+    "turn-2.workspace-after.json": "turn-2.workspace-after.json"
+  },
+  "evidence_stream_scope": "Completed Kaeru MCP events and final answers; shell/discovery transcripts are not included.",
+  "memory_after_identical_to_before": false,
+  "phase_graphs": {
+    "turn-1": "memory-before.json",
+    "turn-2": "memory-after.json"
+  },
+  "before": "memory-before.json",
+  "after": "memory-after.json"
+}

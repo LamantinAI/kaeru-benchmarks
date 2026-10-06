@@ -1,0 +1,1 @@
+It’s already recorded in the `incident-log` memory as [timeout-cascade-root-cause](kaeru). It captures that retries are budgeted per request instead of per operation, a slow dependency multiplies retries until the pool is exhausted, and raising timeouts only moves the cliff.

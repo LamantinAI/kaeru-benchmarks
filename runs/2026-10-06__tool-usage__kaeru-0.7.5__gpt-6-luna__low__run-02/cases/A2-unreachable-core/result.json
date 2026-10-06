@@ -1,0 +1,150 @@
+{
+  "case_id": "A2-unreachable-core",
+  "status": "PASS",
+  "phases": [
+    {
+      "turn_id": "turn-1",
+      "status": "PASS",
+      "reason": "Complete TSV/date-first convention captured as scoped core node, reachable in new thread."
+    },
+    {
+      "turn_id": "turn-2",
+      "status": "PASS",
+      "reason": "Fresh thread reads core convention and weekly run log before exporting20261006-weekly-run-summary.tsv with14completed,3failed,1cancelled,18total and6m40s median; convention remains scoped/uncontradicted."
+    }
+  ],
+  "task_success": true,
+  "memory_invariant_success": true,
+  "limitations": [],
+  "evidence": [
+    "artifacts/20261006-weekly-run-summary.tsv",
+    "memory-after.json",
+    "memory-before.json",
+    "turn-1.answer.txt",
+    "turn-1.mcp.jsonl",
+    "turn-1.memory-after.json",
+    "turn-1.run.json",
+    "turn-1.workspace-before.json",
+    "turn-2.answer.txt",
+    "turn-2.mcp.jsonl",
+    "turn-2.run.json",
+    "turn-2.workspace-after.json"
+  ],
+  "graded_utc": "2026-10-06T18:07:49.232188+00:00",
+  "dataset_commit": "98172f013dab6f8589805165676bce4c875d6429",
+  "kaeru_version": "0.7.5",
+  "model": "gpt-6-luna",
+  "reasoning_effort": "low",
+  "repetition": 1,
+  "outcome": "PASS",
+  "phase_results": "turn-1 PASS: Complete TSV/date-first convention captured as scoped core node, reachable in new thread.; turn-2 PASS: Fresh thread reads core convention and weekly run log before exporting20261006-weekly-run-summary.tsv with14completed,3failed,1cancelled,18total and6m40s median; convention remains scoped/uncontradicted.",
+  "grading_rationale": "Complete TSV/date-first convention captured as scoped core node, reachable in new thread. Fresh thread reads core convention and weekly run log before exporting20261006-weekly-run-summary.tsv with14completed,3failed,1cancelled,18total and6m40s median; convention remains scoped/uncontradicted.",
+  "metrics": {
+    "kaeru_tool_calls": 11,
+    "native_turns": 2,
+    "input_tokens": 543358,
+    "cached_input_tokens": 484864,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 1561,
+    "reasoning_output_tokens": 0
+  },
+  "phase_metrics": [
+    {
+      "turn_id": "turn-1",
+      "kaeru_tool_calls": 3,
+      "kaeru_adopted": true,
+      "usage": {
+        "input_tokens": 192071,
+        "cached_input_tokens": 172032,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 503,
+        "reasoning_output_tokens": 0
+      },
+      "elapsed_seconds": 24.113,
+      "thread_id": "01a11264-87d9-7532-a004-9eda15d8551e",
+      "native_reported_usage": {
+        "input_tokens": 192071,
+        "cached_input_tokens": 172032,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 503,
+        "reasoning_output_tokens": 0
+      },
+      "usage_source": "deduplicated owned rollout response records",
+      "owned_rollout_turn_id": "01a11264-8c1e-7b61-812e-8e5d654e3ea2"
+    },
+    {
+      "turn_id": "turn-2",
+      "kaeru_tool_calls": 8,
+      "kaeru_adopted": true,
+      "usage": {
+        "input_tokens": 351287,
+        "cached_input_tokens": 312832,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1058,
+        "reasoning_output_tokens": 0
+      },
+      "elapsed_seconds": 38.518,
+      "thread_id": "01a11264-e779-73c0-810d-3e78571dc3e2",
+      "native_reported_usage": {
+        "input_tokens": 351287,
+        "cached_input_tokens": 312832,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1058,
+        "reasoning_output_tokens": 0
+      },
+      "usage_source": "deduplicated owned rollout response records",
+      "owned_rollout_turn_id": "01a11264-e79c-7281-916c-5b5f7fe65b63"
+    }
+  ],
+  "kaeru_adopted": true,
+  "usage_accounting_amendment": "../../run-info.json#usage_accounting_correction",
+  "run_id": "2026-10-06__tool-usage__kaeru-0.7.5__gpt-6-luna__low__run-02",
+  "failure_group": "",
+  "source_fixture_validation": {
+    "case_id": "A2-unreachable-core",
+    "status": "PASS",
+    "audited_source_slots": [
+      "artifacts",
+      "edges",
+      "initiative",
+      "nodes",
+      "noise"
+    ],
+    "nodes": 32,
+    "source_status_checked": true,
+    "scopes_types_tiers_layers_tags_timestamps_edges_checked": true,
+    "noise_library_count_checked": true,
+    "declared_artifacts_checked_at_model_start": true,
+    "cloud_separation_policy_checked": true,
+    "cloud_full_body_evidence": "N/A"
+  },
+  "execution_validation": {
+    "case_id": "A2-unreachable-core",
+    "prompt_hashes_match_pinned_yaml": true,
+    "native_turns_completed": 2,
+    "actual_calls_match_metrics": true,
+    "policy_visible_in_each_owned_session": true,
+    "model_and_low_effort_verified": true,
+    "session_boundary_verified": true,
+    "phase_graph_export_preserved": true,
+    "fixture_source_and_roundtrip_verified": true
+  },
+  "snapshot_files": {
+    "memory-before.json": "memory-before.json",
+    "memory-after.json": "memory-after.json",
+    "turn-1.memory-after.json": "turn-1.memory-after.json",
+    "turn-2.memory-after.json": "memory-after.json",
+    "turn-1.workspace-before.json": "turn-1.workspace-before.json",
+    "turn-1.workspace-after.json": "turn-1.workspace-before.json",
+    "turn-2.workspace-before.json": "turn-1.workspace-before.json",
+    "turn-2.workspace-after.json": "turn-2.workspace-after.json"
+  },
+  "evidence_stream_scope": "Completed Kaeru MCP events and final answers; shell/discovery transcripts are not included.",
+  "memory_after_identical_to_before": false,
+  "phase_graphs": {
+    "turn-1": "turn-1.memory-after.json",
+    "turn-2": "memory-after.json"
+  },
+  "before": "memory-before.json",
+  "after": "memory-after.json"
+}

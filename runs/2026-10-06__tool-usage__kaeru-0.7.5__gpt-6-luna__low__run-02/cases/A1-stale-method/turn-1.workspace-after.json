@@ -1,0 +1,49 @@
+{
+  "files": [
+    {
+      "path": "README.md",
+      "size": 167,
+      "sha256": "892bb82874f2a7a4d8f379f32761f19abcdb3759ad7b9bd7002622ddd12193a0"
+    },
+    {
+      "path": "capture-actions.jsonl",
+      "size": 489,
+      "sha256": "dfe9ef8566050e28d6ba5c638f5fbebaab10fde22b05981d54272287a51c8e9b"
+    },
+    {
+      "path": "frames/connection-dialog.svg",
+      "size": 1821,
+      "sha256": "eba110731d5a25a3566a3fdb56f60375b511bbef46d7c178f909738fa0e4fc89"
+    },
+    {
+      "path": "frames/credential-panel.svg",
+      "size": 1905,
+      "sha256": "75765e64d49b5f82814d4cde7995a28df4d9e8c146f5fa6e826465bb60ec7fc4"
+    },
+    {
+      "path": "frames/error-state.svg",
+      "size": 1960,
+      "sha256": "f799a7a035850631fcb1a11e8f40b29de6a23df13e313e2c1fe957f6e94efb8d"
+    },
+    {
+      "path": "frames/run-history.svg",
+      "size": 2584,
+      "sha256": "8a813733c647979e7759df4a53797c66790ebe5d3a8966e061aaa8b2a4a9836a"
+    },
+    {
+      "path": "guide.md",
+      "size": 764,
+      "sha256": "df77a9ed8fae651d692b62c06e81c71945f82148fd47cc6590f3c0632f47b39c"
+    },
+    {
+      "path": "project-context.md",
+      "size": 91,
+      "sha256": "32235a3e02dd15902d6854bccb150d65fb89fe681310a4582e732961dc35557d"
+    },
+    {
+      "path": "tools/capturectl.py",
+      "size": 6368,
+      "sha256": "f602c644f1effd81b68124a66bcc7246052b385705250c75992e595a2ebcb5fa"
+    }
+  ]
+}

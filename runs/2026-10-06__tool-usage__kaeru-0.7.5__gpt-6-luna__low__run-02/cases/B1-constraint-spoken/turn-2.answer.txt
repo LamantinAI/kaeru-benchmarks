@@ -1,0 +1,3 @@
+I found the batch settings and the note that every job must use `effort=low`, but the workspace doesn’t identify either dataset or show the first run’s invocation. The current config only has `batch-a` and `batch-b`, with no dataset fields.
+
+What path or name should I use for the second dataset?

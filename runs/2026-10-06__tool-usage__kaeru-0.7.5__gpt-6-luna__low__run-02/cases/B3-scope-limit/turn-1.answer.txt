@@ -1,0 +1,11 @@
+I reviewed the project notes and the search service. The notes list all three symptoms; the current implementation confirms two directly. This workspace is only a small service stub, so it doesn’t show the full UI or persistence behavior.
+
+| Problem | What I found | Options to consider |
+|---|---|---|
+| Typo tolerance | No query matching or correction logic is present. | Add lightweight fuzzy matching for close misspellings; use an indexed search engine with built-in fuzziness; or suggest corrected terms without changing results automatically. |
+| Ordering | `order_results` returns rows unchanged, so it applies no relevance ranking. | Define a simple score from exact matches, title matches, and partial matches; use a search engine’s relevance ranking; or make sort order explicit (for example, relevance or newest) and let users choose. |
+| Filter reset | The service applies filters but contains no page or browser state handling, so I couldn’t confirm why filters reset on reload. | Preserve filters in the URL for shareable, reload-safe state; store them in browser storage for per-device persistence; or keep reload reset behavior if that is intended. |
+
+Two project constraints may affect the choices: rebuilding the search index takes about 20 minutes, and cache invalidation is time based. If typo tolerance requires a new index or ranking data, rollout and freshness should be part of the decision.
+
+No files were changed.

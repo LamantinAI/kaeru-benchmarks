@@ -1,0 +1,3 @@
+The recorded problem is that search filters are lost when the page reloads. That points to filter state living only in the page’s current memory, with no persistence or restoration.
+
+In this workspace, though, there’s no page code or reset handler to trace: `search/service.py` only applies filters to rows, and the sample data has no filter fields. So I can confirm the reported symptom, but not identify a specific reset bug or where the page state is stored.

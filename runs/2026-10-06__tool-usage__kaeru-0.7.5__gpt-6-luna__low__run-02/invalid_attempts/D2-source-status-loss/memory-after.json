@@ -1,0 +1,552 @@
+{
+  "meta": {
+    "node_count": 32,
+    "edge_count": 1,
+    "initiative_count": 1,
+    "chain_count": 0,
+    "redacted_count": 0,
+    "earliest_secs": 1791311042.0,
+    "latest_secs": 1791311367.0
+  },
+  "initiatives": [
+    {
+      "name": "latency-investigation",
+      "node_count": 32
+    }
+  ],
+  "nodes": [
+    {
+      "id": "01a11279-ec93-7ad3-ba1e-bf03fe381e3c",
+      "name": "sprint-scope-agreed",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Scope for the current sprint agreed: three features, one migration, no new dependencies.",
+      "initiatives": [
+        "latency-investigation"
+      ],
+      "created_secs": 1791311042.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a11279-ec95-78d2-b650-b6fb7dea5f24",
+      "name": "standup-cadence",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Standups moved to twice a week to leave longer focus blocks.",
+      "initiatives": [
+        "latency-investigation"
+      ],
+      "created_secs": 1791311043.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a11279-ec97-79c0-819e-181d1ffa0e30",
+      "name": "staging-refresh",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Staging refreshed from a sanitised copy of production data.",
+      "initiatives": [
+        "latency-investigation"
+      ],
+      "created_secs": 1791311044.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a11279-ec98-75b1-a756-468f624fecc6",
+      "name": "flaky-test-quarantine",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Two flaky tests quarantined pending a proper fix.",
+      "initiatives": [
+        "latency-investigation"
+      ],
+      "created_secs": 1791311045.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a11279-ec9a-77e3-9d9d-753619954b5f",
+      "name": "dependency-bump-queued",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Dependency bump queued behind the current release.",
+      "initiatives": [
+        "latency-investigation"
+      ],
+      "created_secs": 1791311046.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a11279-ec9c-7801-8c7e-e7a0487623d4",
+      "name": "metrics-dashboard-fixed",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Metrics dashboard stopped double-counting retries after the last fix.",
+      "initiatives": [
+        "latency-investigation"
+      ],
+      "created_secs": 1791311047.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a11279-ec9d-7920-a75c-9eb958b5cf27",
+      "name": "error-budget-note",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Error budget for the quarter is largely unspent.",
+      "initiatives": [
+        "latency-investigation"
+      ],
+      "created_secs": 1791311048.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a11279-ec9f-7c03-9157-4d6a4861ea85",
+      "name": "docs-index-restructured",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Docs index restructured so setup comes before reference.",
+      "initiatives": [
+        "latency-investigation"
+      ],
+      "created_secs": 1791311049.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a11279-eca1-7c82-8f81-1fd5febfea17",
+      "name": "support-question-recurring",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "The same support question keeps arriving about first-run configuration.",
+      "initiatives": [
+        "latency-investigation"
+      ],
+      "created_secs": 1791311050.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a11279-eca3-7d70-8b4c-ea9cf406f018",
+      "name": "handover-note-format",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Handover notes list state, blockers, and the next concrete step.",
+      "initiatives": [
+        "latency-investigation"
+      ],
+      "created_secs": 1791311051.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a11279-eca4-7ce3-819e-980a081446e5",
+      "name": "retro-actions",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Retro produced three actions; two are already done.",
+      "initiatives": [
+        "latency-investigation"
+      ],
+      "created_secs": 1791311052.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a11279-eca6-7e01-b91c-88594bfbdf30",
+      "name": "vendor-response-slow",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Vendor takes about a week to answer support tickets.",
+      "initiatives": [
+        "latency-investigation"
+      ],
+      "created_secs": 1791311053.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a11279-eca8-7e50-860a-8e8542f481e4",
+      "name": "pricing-tier-question",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Open question about which pricing tier the workload needs.",
+      "initiatives": [
+        "latency-investigation"
+      ],
+      "created_secs": 1791311054.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a11279-eca9-7653-acdf-d58eb2ca1cc1",
+      "name": "backup-verified",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Backups verified by restoring into a scratch environment.",
+      "initiatives": [
+        "latency-investigation"
+      ],
+      "created_secs": 1791311055.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a11279-ecab-7800-af30-719c5381cc69",
+      "name": "access-request-pending",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Access request for the reporting tool still pending.",
+      "initiatives": [
+        "latency-investigation"
+      ],
+      "created_secs": 1791311056.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a11279-ecad-7910-940e-3683ebc70879",
+      "name": "naming-of-environments",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Environments are named dev, staging and prod; no others.",
+      "initiatives": [
+        "latency-investigation"
+      ],
+      "created_secs": 1791311057.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a11279-ecae-7923-938d-e38ab69d6c6d",
+      "name": "incident-postmortem-short",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Short postmortem written for last month's outage; no action items outstanding.",
+      "initiatives": [
+        "latency-investigation"
+      ],
+      "created_secs": 1791311058.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a11279-ecb0-7912-8a04-40b8622893f4",
+      "name": "onboarding-buddy",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "New joiners get a buddy for the first fortnight.",
+      "initiatives": [
+        "latency-investigation"
+      ],
+      "created_secs": 1791311059.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a11279-ecb2-75c2-9e61-afc15cc439bf",
+      "name": "meeting-notes-location",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Meeting notes live alongside the project docs, not in chat.",
+      "initiatives": [
+        "latency-investigation"
+      ],
+      "created_secs": 1791311060.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a11279-ecb3-7370-9283-745651c1da56",
+      "name": "quarterly-planning-date",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Quarterly planning happens in the last week of the quarter.",
+      "initiatives": [
+        "latency-investigation"
+      ],
+      "created_secs": 1791311061.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a11279-ecb5-7f90-be04-b50eb648eb54",
+      "name": "contractor-availability",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Contractor available two days a week until the end of the engagement.",
+      "initiatives": [
+        "latency-investigation"
+      ],
+      "created_secs": 1791311062.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a11279-ecb7-78b2-89b3-1a71b2f34d05",
+      "name": "legal-review-lead-time",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Legal review needs about ten working days.",
+      "initiatives": [
+        "latency-investigation"
+      ],
+      "created_secs": 1791311063.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a11279-ecb9-7a92-aa7a-8871301c2419",
+      "name": "analytics-sampling",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Analytics samples at a fixed rate; small effects are invisible.",
+      "initiatives": [
+        "latency-investigation"
+      ],
+      "created_secs": 1791311064.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a11279-ecba-70a1-a8b5-fd0ee0db4045",
+      "name": "feature-flag-cleanup",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Old feature flags cleaned up after the last release.",
+      "initiatives": [
+        "latency-investigation"
+      ],
+      "created_secs": 1791311065.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a11279-ecbc-75b1-bb34-4afb7c89c846",
+      "name": "api-versioning-policy",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "API versions are additive; nothing is removed without a major bump.",
+      "initiatives": [
+        "latency-investigation"
+      ],
+      "created_secs": 1791311066.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a11279-ecbe-72b3-9d9c-b48dac2072d6",
+      "name": "rate-limit-defaults",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Default rate limits are generous enough for internal use.",
+      "initiatives": [
+        "latency-investigation"
+      ],
+      "created_secs": 1791311067.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a11279-ecbf-7de3-8619-bca9edb0d383",
+      "name": "cache-invalidation-note",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Cache invalidation is time-based rather than event-driven.",
+      "initiatives": [
+        "latency-investigation"
+      ],
+      "created_secs": 1791311068.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a11279-ecc1-70d0-a405-86b0e752dc1a",
+      "name": "search-index-rebuild",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Search index rebuild takes about twenty minutes.",
+      "initiatives": [
+        "latency-investigation"
+      ],
+      "created_secs": 1791311069.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a11279-ecc3-79f1-990b-3d0358b679f5",
+      "name": "mobile-layout-issue",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Mobile layout breaks on very narrow screens; low priority.",
+      "initiatives": [
+        "latency-investigation"
+      ],
+      "created_secs": 1791311070.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a11279-ecc5-7200-a241-2aacd215331d",
+      "name": "translation-status",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Translations lag the source by roughly one release.",
+      "initiatives": [
+        "latency-investigation"
+      ],
+      "created_secs": 1791311071.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a11279-ecc6-7a33-bea5-89781c184124",
+      "name": "latency-cause-hypothesis",
+      "type": "hypothesis",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "The added second of latency comes from the provider's per-address rate\nlimiting rather than from cold starts on our side.\n",
+      "initiatives": [
+        "latency-investigation"
+      ],
+      "created_secs": 1791311072.0,
+      "degree": 1,
+      "redacted": false
+    },
+    {
+      "id": "01a1127a-4c03-7950-b369-1ecb1da339ca",
+      "name": "latency-test-ambiguous-result",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [
+        "kind:observation",
+        "sig:medium",
+        "lang:en",
+        "topic:latency",
+        "topic:test",
+        "topic:ambiguous",
+        "topic:result",
+        "topic:latency-test-ambiguous-result"
+      ],
+      "body": "Latency test result (2026-10-06): ambiguous. Rate limiting explains the daytime spikes but not the overnight spikes. Cold starts have the opposite explanatory gap: they may fit the overnight spikes, but do not explain the daytime ones. Neither hypothesis accounts for the full pattern. We cannot separate the causes with current instrumentation, so attribution remains unresolved; do not treat either as established.",
+      "initiatives": [
+        "latency-investigation"
+      ],
+      "created_secs": 1791311367.0,
+      "degree": 1,
+      "redacted": false
+    }
+  ],
+  "edges": [
+    {
+      "src": "01a1127a-4c03-7950-b369-1ecb1da339ca",
+      "dst": "01a11279-ecc6-7a33-bea5-89781c184124",
+      "type": "verifies",
+      "weight": 0.9,
+      "dst_store": "local",
+      "created_secs": 1791311369.0
+    }
+  ],
+  "chains": [],
+  "project_links": []
+}

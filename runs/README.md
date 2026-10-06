@@ -58,6 +58,9 @@ repository root with:
 python3 runs/export_results.py runs/<run-id>
 ```
 
+Newer records may append task/memory/adoption diagnostic columns when present
+in per-case JSON. Original schemas remain reproducible.
+
 The exporter also refreshes the run's checksum manifest if one exists.
 Input tokens include cached input tokens; reasoning output is a reported
 component of output, not an additional cost to add to it.
@@ -67,3 +70,6 @@ component of output, not an additional cost to add to it.
 | Run | Suite | Result |
 |---|---|---|
 | [2026-10-05: Kaeru 0.7.5 / GPT-6-Luna low](2026-10-05__tool-usage__kaeru-0.7.5__gpt-6-luna__low__run-01/) | tool-usage, 27 cases, N=1 | 3 PASS, 22 FAIL, 2 partly confounded; 21 cases without Kaeru calls |
+| [2026-10-06: full policy coverage, pre-RFC](2026-10-06__tool-usage__kaeru-0.7.5__gpt-6-luna__low__run-02/) | tool-usage, 27 cases, N=1 | 13 PASS, 13 FAIL, 1 qualified; all 27 cases called Kaeru; prospective RFC analysis |
+
+The October 5 record retains original judgments with a [dated erratum](2026-10-05__tool-usage__kaeru-0.7.5__gpt-6-luna__low__run-01/ERRATA-2026-10-06.md). The October 6 `run-01` identifier is reserved for the locally recorded focused policy study; its paired summary is included as a supplement to `run-02`.

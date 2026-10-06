@@ -1,0 +1,6 @@
+Updated Kaeru’s `queue-redesign` memory for handoff:
+
+- Clarified that the queue investigation is complete and repartitioning by a higher-cardinality key is the next work. Autoscaling stays off.
+- Kept the rationale with the settled decision: traffic concentrated on one partition, and adding consumers increased contention.
+- Saved the reasoning chain from the decision back to the observed backlog.
+- Checked the task board; it has no queue tasks open.

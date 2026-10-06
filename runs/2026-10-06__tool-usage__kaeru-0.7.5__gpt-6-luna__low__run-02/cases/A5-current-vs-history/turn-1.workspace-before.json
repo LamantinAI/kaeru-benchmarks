@@ -1,0 +1,19 @@
+{
+  "files": [
+    {
+      "path": "README.md",
+      "size": 80,
+      "sha256": "93a0595627c320b4ec930e0e96040b62380cb396ac6844137cc98376e1b1ba89"
+    },
+    {
+      "path": "client/upload.py",
+      "size": 237,
+      "sha256": "64df97c7c110edd5a15cc38d3bc4a24f07e21d08511e072d322583c37a1a624c"
+    },
+    {
+      "path": "project-context.md",
+      "size": 91,
+      "sha256": "6afa59999d762f4fbb3b91507f34fa32620e183e137cbbb758eb497d2e64e5f1"
+    }
+  ]
+}

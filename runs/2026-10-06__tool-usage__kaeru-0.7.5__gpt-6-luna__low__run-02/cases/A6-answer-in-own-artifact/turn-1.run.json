@@ -1,0 +1,32 @@
+{
+  "turn_id": "turn-1",
+  "prompt_sha256": "6d73a76edaed670e2634be54ed0864dd3c2a97f780b6f1fbe87a081fd7c9ed35",
+  "thread_id": "01a11266-ea56-7e83-a3ba-2fb930f0b73c",
+  "started_utc": "2026-10-06T18:08:15.483917+00:00",
+  "elapsed_seconds": 26.506,
+  "returncode": 0,
+  "completed": true,
+  "kaeru_tool_calls": 6,
+  "coordinator_boundary": "same completed native trace finalized by host after paused coordinator; kernel zombie exit_code0 observed; no model rerun",
+  "elapsed_measurement": "case progress start to native trace final mtime",
+  "native_reported_usage": {
+    "input_tokens": 247655,
+    "cached_input_tokens": 224768,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 624,
+    "reasoning_output_tokens": 0
+  },
+  "usage": {
+    "input_tokens": 247655,
+    "cached_input_tokens": 224768,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 624,
+    "reasoning_output_tokens": 0
+  },
+  "usage_source": "deduplicated owned rollout response records",
+  "trace": "turn-1.mcp.jsonl",
+  "answer": "turn-1.answer.txt",
+  "workspace_before": "turn-1.workspace-before.json",
+  "workspace_after": "turn-1.workspace-before.json",
+  "graph_after": "memory-before.json"
+}

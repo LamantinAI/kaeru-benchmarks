@@ -1,0 +1,30 @@
+{
+  "turn_id": "turn-1",
+  "prompt_sha256": "363963dae4aea4a8e66381770c04fdf45f1c4f0763cb864aac0f859ea37c2ebb",
+  "thread_id": "01a1127f-019a-74d3-a79a-838231ff70f6",
+  "started_utc": "2026-10-06T18:34:35.565743+00:00",
+  "elapsed_seconds": 40.449,
+  "returncode": 0,
+  "completed": true,
+  "kaeru_tool_calls": 8,
+  "native_reported_usage": {
+    "input_tokens": 360397,
+    "cached_input_tokens": 332544,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 989,
+    "reasoning_output_tokens": 0
+  },
+  "usage": {
+    "input_tokens": 360397,
+    "cached_input_tokens": 332544,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 989,
+    "reasoning_output_tokens": 0
+  },
+  "usage_source": "deduplicated owned rollout response records",
+  "trace": "turn-1.mcp.jsonl",
+  "answer": "turn-1.answer.txt",
+  "workspace_before": "turn-1.workspace-before.json",
+  "workspace_after": "turn-1.workspace-before.json",
+  "graph_after": "memory-after.json"
+}

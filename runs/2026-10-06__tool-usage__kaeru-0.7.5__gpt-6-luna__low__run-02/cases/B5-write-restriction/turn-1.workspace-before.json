@@ -1,0 +1,24 @@
+{
+  "files": [
+    {
+      "path": "README.md",
+      "size": 65,
+      "sha256": "60ccf98acc989ffaa25f1a767f5203d27f6e3bdd870ee0f42df3ceac02277924"
+    },
+    {
+      "path": "project-context.md",
+      "size": 92,
+      "sha256": "106d701915ebf186011cc03a1bdab61e1316d75de9a38f802c8ca9f1eb80c434"
+    },
+    {
+      "path": "vendors/compare.py",
+      "size": 105,
+      "sha256": "912d5fc7f96236ef6c22e0fc6c4941ef9a4ceb85eda90479fd6a818f7c31b780"
+    },
+    {
+      "path": "vendors/comparison-template.md",
+      "size": 68,
+      "sha256": "01b7d52972c97a54b50918ccfa4e709b62c722df23353baacffb855b5dc05809"
+    }
+  ]
+}

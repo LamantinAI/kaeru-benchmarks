@@ -1,0 +1,144 @@
+{
+  "case_id": "B6-do-not-reopen",
+  "status": "FAIL",
+  "phases": [
+    {
+      "turn_id": "turn-1",
+      "status": "FAIL",
+      "reason": "Acknowledges user closure only; zero Kaeru calls and unchanged graph leave channel-delivery-doubts live/open-looking."
+    },
+    {
+      "turn_id": "turn-2",
+      "status": "FAIL",
+      "reason": "Fresh review reads original doubt and explicitly says not to rely on channel because trial messages did not arrive; proposes delivery/retry/receipt investigation. Closed topic is reopened."
+    }
+  ],
+  "task_success": false,
+  "memory_invariant_success": false,
+  "limitations": [],
+  "evidence": [
+    "memory-before.json",
+    "turn-1.answer.txt",
+    "turn-1.mcp.jsonl",
+    "turn-1.run.json",
+    "turn-1.workspace-before.json",
+    "turn-2.answer.txt",
+    "turn-2.mcp.jsonl",
+    "turn-2.run.json"
+  ],
+  "graded_utc": "2026-10-06T18:28:32.994129+00:00",
+  "dataset_commit": "98172f013dab6f8589805165676bce4c875d6429",
+  "kaeru_version": "0.7.5",
+  "model": "gpt-6-luna",
+  "reasoning_effort": "low",
+  "repetition": 1,
+  "outcome": "FAIL",
+  "phase_results": "turn-1 FAIL: Acknowledges user closure only; zero Kaeru calls and unchanged graph leave channel-delivery-doubts live/open-looking.; turn-2 FAIL: Fresh review reads original doubt and explicitly says not to rely on channel because trial messages did not arrive; proposes delivery/retry/receipt investigation. Closed topic is reopened.",
+  "grading_rationale": "Acknowledges user closure only; zero Kaeru calls and unchanged graph leave channel-delivery-doubts live/open-looking. Fresh review reads original doubt and explicitly says not to rely on channel because trial messages did not arrive; proposes delivery/retry/receipt investigation. Closed topic is reopened.",
+  "metrics": {
+    "kaeru_tool_calls": 5,
+    "native_turns": 2,
+    "input_tokens": 203604,
+    "cached_input_tokens": 182016,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 1093,
+    "reasoning_output_tokens": 0
+  },
+  "phase_metrics": [
+    {
+      "turn_id": "turn-1",
+      "kaeru_tool_calls": 0,
+      "kaeru_adopted": false,
+      "usage": {
+        "input_tokens": 13115,
+        "cached_input_tokens": 11008,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 22,
+        "reasoning_output_tokens": 0
+      },
+      "elapsed_seconds": 6.275,
+      "thread_id": "01a11276-111c-71a3-aea1-c08f362b7f2c",
+      "native_reported_usage": {
+        "input_tokens": 13115,
+        "cached_input_tokens": 11008,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 22,
+        "reasoning_output_tokens": 0
+      },
+      "usage_source": "deduplicated owned rollout response records",
+      "owned_rollout_turn_id": "01a11276-148b-7f20-ab7f-9d20eb2f1285"
+    },
+    {
+      "turn_id": "turn-2",
+      "kaeru_tool_calls": 5,
+      "kaeru_adopted": true,
+      "usage": {
+        "input_tokens": 190489,
+        "cached_input_tokens": 171008,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1071,
+        "reasoning_output_tokens": 0
+      },
+      "elapsed_seconds": 111.352,
+      "thread_id": "01a11276-2b31-71b1-bc15-f05319066065",
+      "native_reported_usage": {
+        "input_tokens": 190489,
+        "cached_input_tokens": 171008,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1071,
+        "reasoning_output_tokens": 0
+      },
+      "usage_source": "deduplicated owned rollout response records",
+      "owned_rollout_turn_id": "01a11276-2b59-7be1-904c-1a312724b544"
+    }
+  ],
+  "kaeru_adopted": true,
+  "usage_accounting_amendment": "../../run-info.json#usage_accounting_correction",
+  "run_id": "2026-10-06__tool-usage__kaeru-0.7.5__gpt-6-luna__low__run-02",
+  "failure_group": "MISSING_CLOSURE_CAPTURE",
+  "source_fixture_validation": {
+    "case_id": "B6-do-not-reopen",
+    "status": "PASS",
+    "audited_source_slots": [
+      "initiative",
+      "nodes",
+      "noise"
+    ],
+    "nodes": 32,
+    "source_status_checked": true,
+    "scopes_types_tiers_layers_tags_timestamps_edges_checked": true,
+    "noise_library_count_checked": true,
+    "declared_artifacts_checked_at_model_start": true,
+    "cloud_separation_policy_checked": true,
+    "cloud_full_body_evidence": "N/A"
+  },
+  "execution_validation": {
+    "case_id": "B6-do-not-reopen",
+    "prompt_hashes_match_pinned_yaml": true,
+    "native_turns_completed": 2,
+    "actual_calls_match_metrics": true,
+    "policy_visible_in_each_owned_session": true,
+    "model_and_low_effort_verified": true,
+    "session_boundary_verified": true,
+    "phase_graph_export_preserved": true,
+    "fixture_source_and_roundtrip_verified": true
+  },
+  "snapshot_files": {
+    "memory-before.json": "memory-before.json",
+    "memory-after.json": "memory-before.json",
+    "turn-1.memory-after.json": "memory-before.json",
+    "turn-2.memory-after.json": "memory-before.json",
+    "turn-1.workspace-before.json": "turn-1.workspace-before.json",
+    "turn-1.workspace-after.json": "turn-1.workspace-before.json",
+    "turn-2.workspace-before.json": "turn-1.workspace-before.json",
+    "turn-2.workspace-after.json": "turn-1.workspace-before.json"
+  },
+  "evidence_stream_scope": "Completed Kaeru MCP events and final answers; shell/discovery transcripts are not included.",
+  "memory_after_identical_to_before": true,
+  "phase_graphs": {
+    "turn-1": "memory-before.json",
+    "turn-2": "memory-before.json"
+  },
+  "before": "memory-before.json",
+  "after": "memory-before.json"
+}

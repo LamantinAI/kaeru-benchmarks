@@ -1,0 +1,1 @@
+Split the file into chunks of **5,000 rows or fewer**. The importer limits first runs to 5,000 rows, so a 12,000-row file needs three chunks. Import the sample dataset first, then import each chunk and check the row counts by re-reading the imported data. [onboarding-guide.md](/mnt/workspace/onboarding-guide.md)

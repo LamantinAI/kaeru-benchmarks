@@ -1,0 +1,25 @@
+{
+  "phases": [
+    {
+      "turn_id": "turn-1",
+      "successful_pull_repos": [
+        "api",
+        "client",
+        "shared-schema",
+        "worker"
+      ],
+      "pull_commands": 4,
+      "receipt_commands": 1,
+      "all_repos_pulled_before_first_receipt": true
+    },
+    {
+      "turn_id": "turn-2",
+      "successful_pull_repos": [],
+      "pull_commands": 0,
+      "receipt_commands": 0,
+      "all_repos_pulled_before_first_receipt": false
+    }
+  ],
+  "instrumentation_limitation": "Original wrapper logs only args[0]==pull, omitting valid git -C REPO pull. Native command results and fast-forward/upstream states plus independent PR receipt log are authoritative; no model rerun.",
+  "raw_receipts": "observer-action-log/local-pr-receipts.jsonl"
+}

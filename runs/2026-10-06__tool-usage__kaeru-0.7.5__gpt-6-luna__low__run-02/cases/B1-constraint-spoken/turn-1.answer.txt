@@ -1,0 +1,1 @@
+Set both jobs in [config.json](/mnt/workspace/jobs/config.json) to `effort: "low"` and saved the rule in project memory. The workspace has no batch runner, so I configured the jobs but didn’t start a run.

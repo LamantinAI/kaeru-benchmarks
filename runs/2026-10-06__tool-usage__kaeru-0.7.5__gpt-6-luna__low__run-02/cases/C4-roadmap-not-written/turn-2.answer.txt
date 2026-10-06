@@ -1,0 +1,3 @@
+Kaeru has one settled note: the reporting layer is being rewritten because it recomputes everything on each request, and the work is expected to span several weeks. There are no recorded tasks or further design decisions yet.
+
+The workspace currently contains only [project-context.md](/mnt/workspace/project-context.md), so there’s no implementation to start changing. I’d begin by defining what reports must produce and which inputs they depend on, then map that to the current system and decide what can be cached or incrementally recomputed. Do you have the existing reporting code or a repository to work from?

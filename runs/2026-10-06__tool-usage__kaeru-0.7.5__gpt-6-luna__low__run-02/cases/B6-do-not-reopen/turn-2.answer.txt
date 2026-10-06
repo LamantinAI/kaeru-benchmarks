@@ -1,0 +1,7 @@
+Yes. **I wouldn’t rely on this alerting path yet.**
+
+- The project memory records that **two trial messages never arrived and delivery receipts were inconsistent**.
+- This workspace has configuration for an enabled webhook channel with a retry limit of 3, but **no code here sends alerts or implements retries, checks delivery, or processes receipts**. The only script reads and prints the config.
+- That means I can’t tell whether retries happen, whether failures are surfaced, or whether a “delivered” receipt reflects actual delivery. The configured retry count alone doesn’t establish any of those behaviors.
+
+The main issue is that the sender and its delivery evidence aren’t present in this workspace. Before relying on it, inspect the component that performs webhook delivery and verify that failed sends are visible, retries behave as intended, and receipts can be reconciled with actual delivery.

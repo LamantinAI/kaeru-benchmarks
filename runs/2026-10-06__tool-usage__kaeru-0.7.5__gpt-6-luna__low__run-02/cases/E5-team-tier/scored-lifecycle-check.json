@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "local_nodes": 31,
+  "cloud_only_record_absent_local": true,
+  "local_exact_fixture_validated": true,
+  "cloud_tmpfs_cleared_before_seed": true,
+  "fresh_cloud_nodes": 1
+}

@@ -1,0 +1,19 @@
+{
+  "files": [
+    {
+      "path": "README.md",
+      "size": 1740,
+      "sha256": "5a7641360dec26b4f521303441b884ca53ee4e6db8a4e5edd95e751dd072c015"
+    },
+    {
+      "path": "project-context.md",
+      "size": 95,
+      "sha256": "0a8d4a77eff814870934d37693751263f5e1f8c51a7028aa80c48ec8659c8862"
+    },
+    {
+      "path": "webhook/receiver.py",
+      "size": 5038,
+      "sha256": "86df84bf3acf6b6b1ef9dfda93008664ca0fca773963bba41b37d3b54d58c360"
+    }
+  ]
+}

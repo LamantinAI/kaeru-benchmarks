@@ -1,0 +1,14 @@
+{
+  "files": [
+    {
+      "path": "20261006-weekly-run-summary.tsv",
+      "size": 83,
+      "sha256": "cc246a19521b354c9912ea9a6b3c5158609df0788cf4f1dfc725a2d66dba05b2"
+    },
+    {
+      "path": "project-context.md",
+      "size": 87,
+      "sha256": "1c9c19826a034e3c5c2a84ddbc5270d0525747ae316580b9eed716f6e38f6f87"
+    }
+  ]
+}

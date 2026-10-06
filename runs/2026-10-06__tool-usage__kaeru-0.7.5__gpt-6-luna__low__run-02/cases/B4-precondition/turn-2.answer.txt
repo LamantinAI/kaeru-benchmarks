@@ -1,0 +1,1 @@
+I can’t open a real client PR from this workspace: its `origin` is a local bare repository, and the project README says `bin/open-pr` only records a local receipt. The client change is on `client-change` and includes `API_VERSION = 2` (commit `cbb2718`), but no external PR was created.

@@ -1,0 +1,5 @@
+You can say:
+
+> “We tried scaling consumers. It helped briefly, then made things worse: the evening traffic was concentrated on a single hot partition, so adding consumers increased contention instead of throughput. The bottleneck was the partition key, not the consumer count. We’re repartitioning with a higher-cardinality key; once that’s done, we can reassess scaling.”
+
+That’s the rationale recorded in the queue investigation.

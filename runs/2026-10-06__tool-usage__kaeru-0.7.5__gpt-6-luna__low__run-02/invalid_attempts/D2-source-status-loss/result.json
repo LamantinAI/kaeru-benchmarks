@@ -1,0 +1,16 @@
+{
+  "case_id": "D2-partial-verdict",
+  "status": "INVALID_FIXTURE",
+  "reason": "Source nodes.status=open was omitted by materialization; intended open-claim queue absent.",
+  "excluded_from_final_counts_and_valid_usage": true,
+  "native_turns": 1,
+  "kaeru_tool_calls": 5,
+  "usage": {
+    "input_tokens": 224768,
+    "cached_input_tokens": 198656,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 619,
+    "reasoning_output_tokens": 0
+  },
+  "evidence_scope": "Selected MCP events, final answer and available graph exports; original local evidence retained."
+}

@@ -1,0 +1,24 @@
+{
+  "files": [
+    {
+      "path": "README.md",
+      "size": 167,
+      "sha256": "892bb82874f2a7a4d8f379f32761f19abcdb3759ad7b9bd7002622ddd12193a0"
+    },
+    {
+      "path": "guide.md",
+      "size": 152,
+      "sha256": "247fe6f9d9177810220dd84c6319a03c9f8c6ac495743a719d358965f6a17e55"
+    },
+    {
+      "path": "project-context.md",
+      "size": 91,
+      "sha256": "32235a3e02dd15902d6854bccb150d65fb89fe681310a4582e732961dc35557d"
+    },
+    {
+      "path": "tools/capturectl.py",
+      "size": 1739,
+      "sha256": "2ece5311bf5ac101f938f8884d1dbc870a8420c843034e716a364df1c559a21a"
+    }
+  ]
+}

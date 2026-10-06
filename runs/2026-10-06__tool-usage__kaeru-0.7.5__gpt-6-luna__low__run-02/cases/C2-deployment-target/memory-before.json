@@ -1,0 +1,534 @@
+{
+  "meta": {
+    "node_count": 32,
+    "edge_count": 0,
+    "initiative_count": 1,
+    "chain_count": 0,
+    "redacted_count": 0,
+    "earliest_secs": 1791310927.0,
+    "latest_secs": 1791310958.0
+  },
+  "initiatives": [
+    {
+      "name": "analytics-service",
+      "node_count": 32
+    }
+  ],
+  "nodes": [
+    {
+      "id": "01a11278-2b16-79e3-adf9-beab2efa7651",
+      "name": "sprint-scope-agreed",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Scope for the current sprint agreed: three features, one migration, no new dependencies.",
+      "initiatives": [
+        "analytics-service"
+      ],
+      "created_secs": 1791310927.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a11278-2b18-7383-9f76-76ce8406fca0",
+      "name": "standup-cadence",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Standups moved to twice a week to leave longer focus blocks.",
+      "initiatives": [
+        "analytics-service"
+      ],
+      "created_secs": 1791310928.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a11278-2b1a-7d52-b540-6f307dee3002",
+      "name": "staging-refresh",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Staging refreshed from a sanitised copy of production data.",
+      "initiatives": [
+        "analytics-service"
+      ],
+      "created_secs": 1791310929.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a11278-2b1b-7072-bb2c-a49b7be2cd97",
+      "name": "flaky-test-quarantine",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Two flaky tests quarantined pending a proper fix.",
+      "initiatives": [
+        "analytics-service"
+      ],
+      "created_secs": 1791310930.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a11278-2b1d-7ab2-b4cb-8130657a3337",
+      "name": "dependency-bump-queued",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Dependency bump queued behind the current release.",
+      "initiatives": [
+        "analytics-service"
+      ],
+      "created_secs": 1791310931.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a11278-2b1f-7f61-b570-593c8ab2268d",
+      "name": "metrics-dashboard-fixed",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Metrics dashboard stopped double-counting retries after the last fix.",
+      "initiatives": [
+        "analytics-service"
+      ],
+      "created_secs": 1791310932.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a11278-2b20-74e3-bc80-47fc2662ee34",
+      "name": "error-budget-note",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Error budget for the quarter is largely unspent.",
+      "initiatives": [
+        "analytics-service"
+      ],
+      "created_secs": 1791310933.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a11278-2b22-7f32-b006-45ef404e7f9d",
+      "name": "docs-index-restructured",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Docs index restructured so setup comes before reference.",
+      "initiatives": [
+        "analytics-service"
+      ],
+      "created_secs": 1791310934.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a11278-2b24-7fb1-81e0-7fabeb066abe",
+      "name": "support-question-recurring",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "The same support question keeps arriving about first-run configuration.",
+      "initiatives": [
+        "analytics-service"
+      ],
+      "created_secs": 1791310935.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a11278-2b25-7db2-94f3-1f3a71ac65be",
+      "name": "handover-note-format",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Handover notes list state, blockers, and the next concrete step.",
+      "initiatives": [
+        "analytics-service"
+      ],
+      "created_secs": 1791310936.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a11278-2b27-72a3-b2f6-097055cfd2e6",
+      "name": "retro-actions",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Retro produced three actions; two are already done.",
+      "initiatives": [
+        "analytics-service"
+      ],
+      "created_secs": 1791310937.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a11278-2b29-7661-85c3-0d8915cebe8e",
+      "name": "vendor-response-slow",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Vendor takes about a week to answer support tickets.",
+      "initiatives": [
+        "analytics-service"
+      ],
+      "created_secs": 1791310938.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a11278-2b2a-7a02-b07c-97f69ccdb775",
+      "name": "pricing-tier-question",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Open question about which pricing tier the workload needs.",
+      "initiatives": [
+        "analytics-service"
+      ],
+      "created_secs": 1791310939.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a11278-2b2c-7281-beb6-93fc26698457",
+      "name": "backup-verified",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Backups verified by restoring into a scratch environment.",
+      "initiatives": [
+        "analytics-service"
+      ],
+      "created_secs": 1791310940.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a11278-2b2e-7112-9a70-2c44db64c817",
+      "name": "access-request-pending",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Access request for the reporting tool still pending.",
+      "initiatives": [
+        "analytics-service"
+      ],
+      "created_secs": 1791310941.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a11278-2b2f-7b73-8383-61bbd6a9f6b9",
+      "name": "naming-of-environments",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Environments are named dev, staging and prod; no others.",
+      "initiatives": [
+        "analytics-service"
+      ],
+      "created_secs": 1791310942.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a11278-2b31-7280-a97e-b022f5fbfd49",
+      "name": "incident-postmortem-short",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Short postmortem written for last month's outage; no action items outstanding.",
+      "initiatives": [
+        "analytics-service"
+      ],
+      "created_secs": 1791310943.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a11278-2b33-7850-97d3-ceb7d9619495",
+      "name": "onboarding-buddy",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "New joiners get a buddy for the first fortnight.",
+      "initiatives": [
+        "analytics-service"
+      ],
+      "created_secs": 1791310944.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a11278-2b35-7d72-bdde-b8ba69ffa871",
+      "name": "meeting-notes-location",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Meeting notes live alongside the project docs, not in chat.",
+      "initiatives": [
+        "analytics-service"
+      ],
+      "created_secs": 1791310945.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a11278-2b36-74a1-bda5-b7a297667672",
+      "name": "quarterly-planning-date",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Quarterly planning happens in the last week of the quarter.",
+      "initiatives": [
+        "analytics-service"
+      ],
+      "created_secs": 1791310946.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a11278-2b38-7403-9641-6f763b85685d",
+      "name": "contractor-availability",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Contractor available two days a week until the end of the engagement.",
+      "initiatives": [
+        "analytics-service"
+      ],
+      "created_secs": 1791310947.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a11278-2b3a-7302-bbb6-01a647a9f112",
+      "name": "legal-review-lead-time",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Legal review needs about ten working days.",
+      "initiatives": [
+        "analytics-service"
+      ],
+      "created_secs": 1791310948.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a11278-2b3b-78a2-98c8-afb639094878",
+      "name": "analytics-sampling",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Analytics samples at a fixed rate; small effects are invisible.",
+      "initiatives": [
+        "analytics-service"
+      ],
+      "created_secs": 1791310949.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a11278-2b3d-71d0-81eb-e57a78802093",
+      "name": "feature-flag-cleanup",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Old feature flags cleaned up after the last release.",
+      "initiatives": [
+        "analytics-service"
+      ],
+      "created_secs": 1791310950.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a11278-2b3f-7b62-bcdb-ff4b97d690c4",
+      "name": "api-versioning-policy",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "API versions are additive; nothing is removed without a major bump.",
+      "initiatives": [
+        "analytics-service"
+      ],
+      "created_secs": 1791310951.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a11278-2b41-7bf3-b4bd-a0d14edfd2d6",
+      "name": "rate-limit-defaults",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Default rate limits are generous enough for internal use.",
+      "initiatives": [
+        "analytics-service"
+      ],
+      "created_secs": 1791310952.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a11278-2b42-7d41-9f05-a6bdc0723207",
+      "name": "cache-invalidation-note",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Cache invalidation is time-based rather than event-driven.",
+      "initiatives": [
+        "analytics-service"
+      ],
+      "created_secs": 1791310953.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a11278-2b44-78f3-9d5f-376911a7a746",
+      "name": "search-index-rebuild",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Search index rebuild takes about twenty minutes.",
+      "initiatives": [
+        "analytics-service"
+      ],
+      "created_secs": 1791310954.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a11278-2b46-7e90-8732-df3d9a471592",
+      "name": "mobile-layout-issue",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Mobile layout breaks on very narrow screens; low priority.",
+      "initiatives": [
+        "analytics-service"
+      ],
+      "created_secs": 1791310955.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a11278-2b48-7282-ba4b-fe388d1c4def",
+      "name": "translation-status",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Translations lag the source by roughly one release.",
+      "initiatives": [
+        "analytics-service"
+      ],
+      "created_secs": 1791310956.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a11278-2b49-7280-be88-764fb4ae0f9d",
+      "name": "analytics-host-move",
+      "type": "reference",
+      "tier": "archival",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "The analytics service no longer runs alongside the main application. It\nmoved to its own host after the memory contention incident, and deploys\nthere independently — the shared deploy script does not touch it.\n",
+      "initiatives": [
+        "analytics-service"
+      ],
+      "created_secs": 1791310957.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a11278-2b4b-7010-ad7e-196f5ffc753d",
+      "name": "analytics-dashboard-slow",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Dashboard queries got slower after the last data volume increase.\n",
+      "initiatives": [
+        "analytics-service"
+      ],
+      "created_secs": 1791310958.0,
+      "degree": 0,
+      "redacted": false
+    }
+  ],
+  "edges": [],
+  "chains": [],
+  "project_links": []
+}

@@ -138,3 +138,9 @@ No follow-up experiment is included in this record.
 
 The tool-usage suite was contributed by [@1Croydan1](https://github.com/1Croydan1),
 originally in [kaeru#82](https://github.com/LamantinAI/kaeru/pull/82).
+
+## Follow-up audit
+
+See [October 6 errata](ERRATA-2026-10-06.md) for the D2 source-status
+qualification and normalized B2 usage. Original evidence and grading labels
+are retained; historical totals should be read with these qualifications.

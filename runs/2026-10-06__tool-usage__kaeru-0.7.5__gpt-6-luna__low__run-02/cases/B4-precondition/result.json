@@ -1,0 +1,157 @@
+{
+  "case_id": "B4-precondition",
+  "status": "FAIL",
+  "phases": [
+    {
+      "turn_id": "turn-1",
+      "status": "PASS",
+      "reason": "Standing pull-all-repositories-before-PR rule stored against repo-map. All four current feature branches successfully pulled/fast-forwarded before local PR receipts; native commands, heads/upstreams and independent receipts verify order."
+    },
+    {
+      "turn_id": "turn-2",
+      "status": "FAIL",
+      "reason": "Fresh thread retrieves stored precondition correctly, but performs no refresh and opens no new receipt. It refuses the available local recorder because it cannot create a real remote PR. Required simulated action is unperformed, not a lost-memory or backend failure."
+    }
+  ],
+  "task_success": false,
+  "memory_invariant_success": true,
+  "limitations": [
+    "Declared local PR simulator only; external publishing was never available or tested. Helper availability passed preflight and first-phase receipts succeeded, so phase2 refusal is not a runtime outage.",
+    "Original git wrapper did not log git -C REPO pull. Coordinator-derived native-command audit preserves four successful first-phase pulls before receipt action; phase2 has zero pulls/receipts."
+  ],
+  "evidence": [
+    "action-audit.json",
+    "artifacts/action-log/local-pr-receipts.jsonl",
+    "memory-after.json",
+    "memory-before.json",
+    "turn-1.answer.txt",
+    "turn-1.mcp.jsonl",
+    "turn-1.run.json",
+    "turn-1.workspace-after.json",
+    "turn-1.workspace-before.json",
+    "turn-2.answer.txt",
+    "turn-2.mcp.jsonl",
+    "turn-2.run.json"
+  ],
+  "graded_utc": "2026-10-06T18:27:45.880191+00:00",
+  "failure_class": "SIMULATION_REFUSAL_TASK_ACTION",
+  "memory_subresults": {
+    "capture": "PASS",
+    "recovery": "PASS",
+    "precondition_when_action_taken": "UNEXERCISED_IN_SECOND_PHASE"
+  },
+  "dataset_commit": "98172f013dab6f8589805165676bce4c875d6429",
+  "kaeru_version": "0.7.5",
+  "model": "gpt-6-luna",
+  "reasoning_effort": "low",
+  "repetition": 1,
+  "outcome": "FAIL",
+  "phase_results": "turn-1 PASS: Standing pull-all-repositories-before-PR rule stored against repo-map. All four current feature branches successfully pulled/fast-forwarded before local PR receipts; native commands, heads/upstreams and independent receipts verify order.; turn-2 FAIL: Fresh thread retrieves stored precondition correctly, but performs no refresh and opens no new receipt. It refuses the available local recorder because it cannot create a real remote PR. Required simulated action is unperformed, not a lost-memory or backend failure.",
+  "grading_rationale": "Standing pull-all-repositories-before-PR rule stored against repo-map. All four current feature branches successfully pulled/fast-forwarded before local PR receipts; native commands, heads/upstreams and independent receipts verify order. Fresh thread retrieves stored precondition correctly, but performs no refresh and opens no new receipt. It refuses the available local recorder because it cannot create a real remote PR. Required simulated action is unperformed, not a lost-memory or backend failure.",
+  "metrics": {
+    "kaeru_tool_calls": 11,
+    "native_turns": 2,
+    "input_tokens": 1043864,
+    "cached_input_tokens": 972544,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 3484,
+    "reasoning_output_tokens": 494
+  },
+  "phase_metrics": [
+    {
+      "turn_id": "turn-1",
+      "kaeru_tool_calls": 6,
+      "kaeru_adopted": true,
+      "usage": {
+        "input_tokens": 621096,
+        "cached_input_tokens": 581120,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2465,
+        "reasoning_output_tokens": 494
+      },
+      "elapsed_seconds": 76.128,
+      "thread_id": "01a11271-5dbe-7ad3-9395-1de1f396f275",
+      "native_reported_usage": {
+        "input_tokens": 621096,
+        "cached_input_tokens": 581120,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 2465,
+        "reasoning_output_tokens": 494
+      },
+      "usage_source": "deduplicated owned rollout response records",
+      "owned_rollout_turn_id": "01a11271-6127-7a03-b9ef-19a93567a8eb"
+    },
+    {
+      "turn_id": "turn-2",
+      "kaeru_tool_calls": 5,
+      "kaeru_adopted": true,
+      "usage": {
+        "input_tokens": 422768,
+        "cached_input_tokens": 391424,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1019,
+        "reasoning_output_tokens": 0
+      },
+      "elapsed_seconds": 179.989,
+      "thread_id": "01a11272-889e-78b3-a137-5bf631ef0ebf",
+      "native_reported_usage": {
+        "input_tokens": 422768,
+        "cached_input_tokens": 391424,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 1019,
+        "reasoning_output_tokens": 0
+      },
+      "usage_source": "deduplicated owned rollout response records",
+      "owned_rollout_turn_id": "01a11272-88bf-7712-8836-9d3ce6de21d1"
+    }
+  ],
+  "kaeru_adopted": true,
+  "usage_accounting_amendment": "../../run-info.json#usage_accounting_correction",
+  "run_id": "2026-10-06__tool-usage__kaeru-0.7.5__gpt-6-luna__low__run-02",
+  "failure_group": "SIMULATION_REFUSAL_TASK_ACTION",
+  "source_fixture_validation": {
+    "case_id": "B4-precondition",
+    "status": "PASS",
+    "audited_source_slots": [
+      "initiative",
+      "nodes",
+      "noise"
+    ],
+    "nodes": 32,
+    "source_status_checked": true,
+    "scopes_types_tiers_layers_tags_timestamps_edges_checked": true,
+    "noise_library_count_checked": true,
+    "declared_artifacts_checked_at_model_start": true,
+    "cloud_separation_policy_checked": true,
+    "cloud_full_body_evidence": "N/A"
+  },
+  "execution_validation": {
+    "case_id": "B4-precondition",
+    "prompt_hashes_match_pinned_yaml": true,
+    "native_turns_completed": 2,
+    "actual_calls_match_metrics": true,
+    "policy_visible_in_each_owned_session": true,
+    "model_and_low_effort_verified": true,
+    "session_boundary_verified": true,
+    "phase_graph_export_preserved": true,
+    "fixture_source_and_roundtrip_verified": true
+  },
+  "snapshot_files": {
+    "memory-before.json": "memory-before.json",
+    "memory-after.json": "memory-after.json",
+    "turn-1.memory-after.json": "memory-after.json",
+    "turn-2.memory-after.json": "memory-after.json",
+    "turn-1.workspace-before.json": "turn-1.workspace-before.json",
+    "turn-1.workspace-after.json": "turn-1.workspace-after.json",
+    "turn-2.workspace-before.json": "turn-1.workspace-after.json",
+    "turn-2.workspace-after.json": "turn-1.workspace-after.json"
+  },
+  "evidence_stream_scope": "Completed Kaeru MCP events and final answers; shell/discovery transcripts are not included.",
+  "memory_after_identical_to_before": false,
+  "phase_graphs": {
+    "turn-1": "memory-after.json",
+    "turn-2": "memory-after.json"
+  },
+  "before": "memory-before.json",
+  "after": "memory-after.json"
+}

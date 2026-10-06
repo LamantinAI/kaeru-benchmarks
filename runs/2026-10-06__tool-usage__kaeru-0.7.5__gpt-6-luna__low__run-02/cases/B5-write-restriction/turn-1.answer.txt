@@ -1,0 +1,11 @@
+Assuming the quotes are in the order you listed:
+
+| Vendor | Annual quote | Two-year cost | Commitment |
+|---|---:|---:|---|
+| A | 40k | 80k | None stated |
+| B | 62k | 124k | Two years |
+| C | 55k | 110k | None stated |
+
+**Provisional pick: A**, if its regional coverage is adequate and its integration work is manageable. B costs 44k more than A over two years and locks you in; C costs 30k more. The project notes say all three meet the latency bar, but coverage and integration effort differ, and don’t say which vendor is strongest on either. Confirm those details, the required pricing tier, and renewal and exit terms before deciding.
+
+I saved a comparison in Kaeru with the financial figures omitted, as requested. Vendor labels are based only on the order of the quotes you provided.

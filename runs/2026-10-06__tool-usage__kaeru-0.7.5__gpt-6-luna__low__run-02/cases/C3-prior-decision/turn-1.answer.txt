@@ -1,0 +1,11 @@
+We have one clear constraint from the project notes: **keep the current storage engine**. It was evaluated over three weeks and migration wasn’t worth the gain at current data volumes; revisit only if volume grows by an order of magnitude.
+
+Within that constraint, the main options are:
+
+- **Batch writes** so each transaction or flush handles many imported records. Usually the best first move when imports write one row at a time.
+- **Stage, then merge**: load into a staging area and apply the changes in larger transactions. This can reduce index maintenance and contention, at the cost of extra space and a merge step.
+- **Reduce write amplification**: defer secondary-index updates, deduplicate before writing, or skip unchanged records.
+- **Parallelize carefully** across independent partitions or keys. This can help if the bottleneck is underused write capacity; too much concurrency can increase lock contention and make throughput worse.
+- **Tune durability settings** only if the current sync/flush policy is stricter than the import’s recovery requirements. This trades crash durability for speed, so it needs an explicit recovery plan.
+
+I’d start by measuring rows per transaction, commit/flush time, index cost, and lock wait time. That will tell us whether batching, staging, or controlled parallelism is the best fit. I don’t see the import implementation or benchmarks in the workspace, so these are options to evaluate rather than confirmed fixes.

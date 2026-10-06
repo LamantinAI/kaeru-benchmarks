@@ -1,0 +1,1 @@
+[totals.py](/mnt/workspace/billing/totals.py) already sums line items with `Decimal(str(x))`, preserving their decimal digits and avoiding binary floating-point addition errors. I left it unchanged. For the sample values, the invoice total is **5.859**.

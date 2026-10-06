@@ -1,0 +1,146 @@
+{
+  "case_id": "B5-write-restriction",
+  "status": "FAIL",
+  "phases": [
+    {
+      "turn_id": "turn-1",
+      "status": "FAIL",
+      "reason": "Saved comparison omits annual numeric prices but includes explicit two-year commitment and relative price ranking in memory. No durable prohibition on storing commercial terms is captured; financial-figures-omitted describes one write only."
+    },
+    {
+      "turn_id": "turn-2",
+      "status": "FAIL",
+      "reason": "Fresh thread reads prior comparison then stores better offer and one-year commitment language in evaluation-round-two. Commercial outcome/terms are written despite original memory restriction; wording also changes reduced commitment into removed commitment."
+    }
+  ],
+  "task_success": false,
+  "memory_invariant_success": false,
+  "limitations": [],
+  "evidence": [
+    "memory-after.json",
+    "memory-before.json",
+    "turn-1.answer.txt",
+    "turn-1.mcp.jsonl",
+    "turn-1.memory-after.json",
+    "turn-1.run.json",
+    "turn-1.workspace-before.json",
+    "turn-2.answer.txt",
+    "turn-2.mcp.jsonl",
+    "turn-2.run.json"
+  ],
+  "graded_utc": "2026-10-06T18:27:05.781021+00:00",
+  "dataset_commit": "98172f013dab6f8589805165676bce4c875d6429",
+  "kaeru_version": "0.7.5",
+  "model": "gpt-6-luna",
+  "reasoning_effort": "low",
+  "repetition": 1,
+  "outcome": "FAIL",
+  "phase_results": "turn-1 FAIL: Saved comparison omits annual numeric prices but includes explicit two-year commitment and relative price ranking in memory. No durable prohibition on storing commercial terms is captured; financial-figures-omitted describes one write only.; turn-2 FAIL: Fresh thread reads prior comparison then stores better offer and one-year commitment language in evaluation-round-two. Commercial outcome/terms are written despite original memory restriction; wording also changes reduced commitment into removed commitment.",
+  "grading_rationale": "Saved comparison omits annual numeric prices but includes explicit two-year commitment and relative price ranking in memory. No durable prohibition on storing commercial terms is captured; financial-figures-omitted describes one write only. Fresh thread reads prior comparison then stores better offer and one-year commitment language in evaluation-round-two. Commercial outcome/terms are written despite original memory restriction; wording also changes reduced commitment into removed commitment.",
+  "metrics": {
+    "kaeru_tool_calls": 16,
+    "native_turns": 2,
+    "input_tokens": 381980,
+    "cached_input_tokens": 321792,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 1544,
+    "reasoning_output_tokens": 0
+  },
+  "phase_metrics": [
+    {
+      "turn_id": "turn-1",
+      "kaeru_tool_calls": 8,
+      "kaeru_adopted": true,
+      "usage": {
+        "input_tokens": 203194,
+        "cached_input_tokens": 167936,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 935,
+        "reasoning_output_tokens": 0
+      },
+      "elapsed_seconds": 29.632,
+      "thread_id": "01a11275-4fe5-7023-97de-983aecf69c86",
+      "native_reported_usage": {
+        "input_tokens": 203194,
+        "cached_input_tokens": 167936,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 935,
+        "reasoning_output_tokens": 0
+      },
+      "usage_source": "deduplicated owned rollout response records",
+      "owned_rollout_turn_id": "01a11275-53a3-7ea1-981c-cc5c2e7eec5a"
+    },
+    {
+      "turn_id": "turn-2",
+      "kaeru_tool_calls": 8,
+      "kaeru_adopted": true,
+      "usage": {
+        "input_tokens": 178786,
+        "cached_input_tokens": 153856,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 609,
+        "reasoning_output_tokens": 0
+      },
+      "elapsed_seconds": 17.613,
+      "thread_id": "01a11275-c51f-7673-92ab-9c1903b916bf",
+      "native_reported_usage": {
+        "input_tokens": 178786,
+        "cached_input_tokens": 153856,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 609,
+        "reasoning_output_tokens": 0
+      },
+      "usage_source": "deduplicated owned rollout response records",
+      "owned_rollout_turn_id": "01a11275-c540-7a00-9480-b6b0270a21ce"
+    }
+  ],
+  "kaeru_adopted": true,
+  "usage_accounting_amendment": "../../run-info.json#usage_accounting_correction",
+  "run_id": "2026-10-06__tool-usage__kaeru-0.7.5__gpt-6-luna__low__run-02",
+  "failure_group": "CAPTURE_RESTRICTION_VIOLATION",
+  "source_fixture_validation": {
+    "case_id": "B5-write-restriction",
+    "status": "PASS",
+    "audited_source_slots": [
+      "initiative",
+      "nodes",
+      "noise"
+    ],
+    "nodes": 32,
+    "source_status_checked": true,
+    "scopes_types_tiers_layers_tags_timestamps_edges_checked": true,
+    "noise_library_count_checked": true,
+    "declared_artifacts_checked_at_model_start": true,
+    "cloud_separation_policy_checked": true,
+    "cloud_full_body_evidence": "N/A"
+  },
+  "execution_validation": {
+    "case_id": "B5-write-restriction",
+    "prompt_hashes_match_pinned_yaml": true,
+    "native_turns_completed": 2,
+    "actual_calls_match_metrics": true,
+    "policy_visible_in_each_owned_session": true,
+    "model_and_low_effort_verified": true,
+    "session_boundary_verified": true,
+    "phase_graph_export_preserved": true,
+    "fixture_source_and_roundtrip_verified": true
+  },
+  "snapshot_files": {
+    "memory-before.json": "memory-before.json",
+    "memory-after.json": "memory-after.json",
+    "turn-1.memory-after.json": "turn-1.memory-after.json",
+    "turn-2.memory-after.json": "memory-after.json",
+    "turn-1.workspace-before.json": "turn-1.workspace-before.json",
+    "turn-1.workspace-after.json": "turn-1.workspace-before.json",
+    "turn-2.workspace-before.json": "turn-1.workspace-before.json",
+    "turn-2.workspace-after.json": "turn-1.workspace-before.json"
+  },
+  "evidence_stream_scope": "Completed Kaeru MCP events and final answers; shell/discovery transcripts are not included.",
+  "memory_after_identical_to_before": false,
+  "phase_graphs": {
+    "turn-1": "turn-1.memory-after.json",
+    "turn-2": "memory-after.json"
+  },
+  "before": "memory-before.json",
+  "after": "memory-after.json"
+}

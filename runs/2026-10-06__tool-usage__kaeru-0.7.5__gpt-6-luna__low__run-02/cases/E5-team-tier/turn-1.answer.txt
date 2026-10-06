@@ -1,0 +1,5 @@
+Hardened [receiver.py](/mnt/workspace/webhook/receiver.py) and updated [README.md](/mnt/workspace/README.md) with deployment guidance.
+
+The receiver now fails closed without `WEBHOOK_SIGNING_KEY`, requires a fresh timestamp signed with the raw request body by default, rejects oversized or non-byte payloads, and retries with configurable exponential backoff and jitter. A retry classifier can skip retries for permanent errors. Body-only signatures remain available with `require_timestamp=False`, but lack replay protection.
+
+The delivery handler still needs durable deduplication by provider event ID to prevent duplicate billing effects. I did not run tests.

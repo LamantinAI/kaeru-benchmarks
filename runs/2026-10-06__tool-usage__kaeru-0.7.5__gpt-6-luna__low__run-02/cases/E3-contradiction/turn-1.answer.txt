@@ -1,0 +1,3 @@
+Updated Kaeru for `auth-provider`: access tokens last 15 minutes, confirmed by the token payload and provider dashboard. I corrected the session design to use that lifetime and linked the new fact to it.
+
+The workspace contains no application code beyond [project-context.md](/mnt/workspace/project-context.md), so I couldn’t inspect or change the refresh schedule. That still needs code-level verification.

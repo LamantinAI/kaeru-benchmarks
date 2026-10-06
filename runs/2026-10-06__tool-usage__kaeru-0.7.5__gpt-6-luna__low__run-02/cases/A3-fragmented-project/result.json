@@ -1,0 +1,110 @@
+{
+  "case_id": "A3-fragmented-project",
+  "status": "FAIL",
+  "phases": [
+    {
+      "turn_id": "turn-1",
+      "status": "FAIL",
+      "reason": "Reads billing-service, knows billing-legacy exists, but one broad multiword search returns no matches and lookup stops. Never retrieves invoice-rounding-decision across scope. Leaves raw Decimal sum unchanged and presents5.859 as correct, instead of rounding each line to two decimals first (5.86). No conflicting memory write."
+    }
+  ],
+  "task_success": false,
+  "memory_invariant_success": false,
+  "limitations": [],
+  "evidence": [
+    "memory-before.json",
+    "turn-1.answer.txt",
+    "turn-1.mcp.jsonl",
+    "turn-1.run.json",
+    "turn-1.workspace-before.json"
+  ],
+  "graded_utc": "2026-10-06T18:07:49.232352+00:00",
+  "dataset_commit": "98172f013dab6f8589805165676bce4c875d6429",
+  "kaeru_version": "0.7.5",
+  "model": "gpt-6-luna",
+  "reasoning_effort": "low",
+  "repetition": 1,
+  "outcome": "FAIL",
+  "phase_results": "turn-1 FAIL: Reads billing-service, knows billing-legacy exists, but one broad multiword search returns no matches and lookup stops. Never retrieves invoice-rounding-decision across scope. Leaves raw Decimal sum unchanged and presents5.859 as correct, instead of rounding each line to two decimals first (5.86). No conflicting memory write.",
+  "grading_rationale": "Reads billing-service, knows billing-legacy exists, but one broad multiword search returns no matches and lookup stops. Never retrieves invoice-rounding-decision across scope. Leaves raw Decimal sum unchanged and presents5.859 as correct, instead of rounding each line to two decimals first (5.86). No conflicting memory write.",
+  "metrics": {
+    "kaeru_tool_calls": 5,
+    "native_turns": 1,
+    "input_tokens": 245798,
+    "cached_input_tokens": 224768,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 712,
+    "reasoning_output_tokens": 0
+  },
+  "phase_metrics": [
+    {
+      "turn_id": "turn-1",
+      "kaeru_tool_calls": 5,
+      "kaeru_adopted": true,
+      "usage": {
+        "input_tokens": 245798,
+        "cached_input_tokens": 224768,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 712,
+        "reasoning_output_tokens": 0
+      },
+      "elapsed_seconds": 28.727,
+      "thread_id": "01a11265-8532-7c61-84c0-4ca10877e1a5",
+      "native_reported_usage": {
+        "input_tokens": 245798,
+        "cached_input_tokens": 224768,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 712,
+        "reasoning_output_tokens": 0
+      },
+      "usage_source": "deduplicated owned rollout response records",
+      "owned_rollout_turn_id": "01a11265-8909-7341-b0a3-33cc1dda7cab"
+    }
+  ],
+  "kaeru_adopted": true,
+  "usage_accounting_amendment": "../../run-info.json#usage_accounting_correction",
+  "run_id": "2026-10-06__tool-usage__kaeru-0.7.5__gpt-6-luna__low__run-02",
+  "failure_group": "CROSS_INITIATIVE_RETRIEVAL",
+  "source_fixture_validation": {
+    "case_id": "A3-fragmented-project",
+    "status": "PASS",
+    "audited_source_slots": [
+      "edges",
+      "initiative",
+      "nodes",
+      "noise"
+    ],
+    "nodes": 33,
+    "source_status_checked": true,
+    "scopes_types_tiers_layers_tags_timestamps_edges_checked": true,
+    "noise_library_count_checked": true,
+    "declared_artifacts_checked_at_model_start": true,
+    "cloud_separation_policy_checked": true,
+    "cloud_full_body_evidence": "N/A"
+  },
+  "execution_validation": {
+    "case_id": "A3-fragmented-project",
+    "prompt_hashes_match_pinned_yaml": true,
+    "native_turns_completed": 1,
+    "actual_calls_match_metrics": true,
+    "policy_visible_in_each_owned_session": true,
+    "model_and_low_effort_verified": true,
+    "session_boundary_verified": true,
+    "phase_graph_export_preserved": true,
+    "fixture_source_and_roundtrip_verified": true
+  },
+  "snapshot_files": {
+    "memory-before.json": "memory-before.json",
+    "memory-after.json": "memory-before.json",
+    "turn-1.memory-after.json": "memory-before.json",
+    "turn-1.workspace-before.json": "turn-1.workspace-before.json",
+    "turn-1.workspace-after.json": "turn-1.workspace-before.json"
+  },
+  "evidence_stream_scope": "Completed Kaeru MCP events and final answers; shell/discovery transcripts are not included.",
+  "memory_after_identical_to_before": true,
+  "phase_graphs": {
+    "turn-1": "memory-before.json"
+  },
+  "before": "memory-before.json",
+  "after": "memory-before.json"
+}

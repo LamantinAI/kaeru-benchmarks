@@ -23,17 +23,19 @@ def export(run: Path) -> int:
     paths = sorted(run.glob('cases/*/result.json'))
     if not paths:
         raise ValueError('No per-case result.json files found')
+    optional = ('task_success', 'memory_invariant_success', 'kaeru_adopted')
+    results = [(path, json.loads(path.read_text())) for path in paths]
+    fields = (*FIELDS, *(key for key in optional if any(key in r for _, r in results)))
     rows = []
-    for path in paths:
-        result = json.loads(path.read_text())
-        row = {key: result[key] for key in FIELDS if key in result}
+    for path, result in results:
+        row = {key: result[key] for key in fields if key in result}
         row.update({key: result['metrics'][key] for key in METRICS})
         row.update(run_id=info['run_id'],
                    failure_group=result.get('failure_group', ''),
                    result_file=path.relative_to(run).as_posix())
         rows.append(row)
     with (run / 'results.csv').open('w', encoding='utf-8', newline='') as stream:
-        writer = csv.DictWriter(stream, fieldnames=FIELDS, lineterminator='\n')
+        writer = csv.DictWriter(stream, fieldnames=fields, lineterminator='\n')
         writer.writeheader()
         writer.writerows(rows)
     # Keep an existing evidence manifest valid after regenerating the table.

@@ -1,0 +1,1 @@
+Numeric columns now use right alignment and tabular figures in [style.css](/mnt/workspace/table/style.css). This keeps digits aligned for easier scanning and follows the project’s no-monospace typography rule.

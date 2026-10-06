@@ -1,0 +1,1 @@
+Recorded the latency test as **ambiguous** in Kaeru under `latency-investigation` and linked it to the existing hypothesis. The note captures that rate limiting fits daytime spikes, cold starts fit the overnight pattern, neither explains everything, and current instrumentation can’t distinguish the causes.
