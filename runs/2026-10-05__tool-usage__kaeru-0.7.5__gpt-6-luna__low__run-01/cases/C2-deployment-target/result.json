@@ -1,0 +1,42 @@
+{
+  "case_id": "C2-deployment-target",
+  "dataset_commit": "98172f013dab6f8589805165676bce4c875d6429",
+  "kaeru_version": "0.7.5",
+  "model": "gpt-6-luna",
+  "reasoning_effort": "low",
+  "repetition": 1,
+  "status": "PASS",
+  "outcome": "PASS",
+  "phase_results": "turn-1=PASS (asked which simulator target should receive analytics-service; no deployment request); memory_after=PASS_UNCHANGED",
+  "currency": "NO_UNVERIFIED_TARGET_ASSERTED",
+  "grading_rationale": "The agent did not assume a target and explicitly asked the user to choose, which is an allowed response. No unsupported deployment target was asserted or recorded.",
+  "limitations": "The simulator lists target-a and target-b but has no service mapping; the agent appropriately left deployment unperformed pending clarification.",
+  "metrics": {
+    "input_tokens": 112905,
+    "cached_input_tokens": 93440,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 610,
+    "reasoning_output_tokens": 138,
+    "native_turns": 1,
+    "kaeru_tool_calls": 0
+  },
+  "evidence": {
+    "before": "memory-before.json",
+    "after": "memory-before.json",
+    "turns": [
+      "turn-1.mcp.jsonl"
+    ],
+    "workspace_path": "/benchmark-run/workspaces/ws-0015",
+    "memory_after_identical_to_before": true
+  },
+  "failure_group": "",
+  "fixture_validation": {
+    "case_id": "C2-deployment-target",
+    "local_nodes": 32,
+    "local_edges": 0,
+    "noise_nodes": 30,
+    "bodies_types_tiers_layers_tags_initiatives_edges": "PASS",
+    "cloud_nodes_local_absence": "N/A",
+    "seeder_exit": 0
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "case_id": "A5-current-vs-history",
+  "dataset_commit": "98172f013dab6f8589805165676bce4c875d6429",
+  "kaeru_version": "0.7.5",
+  "model": "gpt-6-luna",
+  "reasoning_effort": "low",
+  "repetition": 1,
+  "status": "FAIL",
+  "outcome": "FAIL",
+  "phase_results": "turn-1=FAIL (no supersedes-chain lookup; declined to set a limit); memory_after=PASS_UNCHANGED",
+  "currency": "SILENCE_NO_CURRENT_LIMIT_USED",
+  "grading_rationale": "The current limit is 5 MB, superseding 8 MB and 2 MB. The agent made no Kaeru calls and declined to proceed, without resolving the seeded chain.",
+  "limitations": "The workspace code had MAX_PAYLOAD_BYTES unset and no server configuration, limiting independent confirmation or a safe implementation. The memory lookup phase remained available and was not attempted.",
+  "metrics": {
+    "input_tokens": 63366,
+    "cached_input_tokens": 56320,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 371,
+    "reasoning_output_tokens": 0,
+    "native_turns": 1,
+    "kaeru_tool_calls": 0
+  },
+  "evidence": {
+    "before": "memory-before.json",
+    "after": "memory-before.json",
+    "turns": [
+      "turn-1.mcp.jsonl"
+    ],
+    "workspace_path": "/benchmark-run/workspaces/ws-0005",
+    "memory_after_identical_to_before": true
+  },
+  "failure_group": "no_activation",
+  "fixture_validation": {
+    "case_id": "A5-current-vs-history",
+    "local_nodes": 33,
+    "local_edges": 2,
+    "noise_nodes": 30,
+    "bodies_types_tiers_layers_tags_initiatives_edges": "PASS",
+    "cloud_nodes_local_absence": "N/A",
+    "seeder_exit": 0
+  }
+}

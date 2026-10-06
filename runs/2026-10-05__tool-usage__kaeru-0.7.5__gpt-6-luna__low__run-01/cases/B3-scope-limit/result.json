@@ -1,0 +1,43 @@
+{
+  "case_id": "B3-scope-limit",
+  "dataset_commit": "98172f013dab6f8589805165676bce4c875d6429",
+  "kaeru_version": "0.7.5",
+  "model": "gpt-6-luna",
+  "reasoning_effort": "low",
+  "repetition": 1,
+  "status": "FAIL",
+  "outcome": "FAIL",
+  "phase_results": "turn-1=PARTIAL (research only and no code edits; failed to capture the standing limit); turn-2=FAIL (fresh thread made no memory lookup; no code edits); memory_after=FAIL for required capture",
+  "currency": "SCOPE_LIMIT_NOT_PERSISTED",
+  "grading_rationale": "The first turn respected the no-code-change boundary but did not record it. The second fresh thread made no Kaeru call, so it did not recover the standing constraint before responding.",
+  "limitations": "The local service is a minimal scaffold with basic filtering and two sample rows, limiting diagnosis of the reported reset behavior. The independent memory-capture phase still failed.",
+  "metrics": {
+    "input_tokens": 94521,
+    "cached_input_tokens": 82432,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 704,
+    "reasoning_output_tokens": 0,
+    "native_turns": 2,
+    "kaeru_tool_calls": 0
+  },
+  "evidence": {
+    "before": "memory-before.json",
+    "after": "memory-before.json",
+    "turns": [
+      "turn-1.mcp.jsonl",
+      "turn-2.mcp.jsonl"
+    ],
+    "workspace_path": "/benchmark-run/workspaces/ws-0010",
+    "memory_after_identical_to_before": true
+  },
+  "failure_group": "no_activation",
+  "fixture_validation": {
+    "case_id": "B3-scope-limit",
+    "local_nodes": 32,
+    "local_edges": 0,
+    "noise_nodes": 30,
+    "bodies_types_tiers_layers_tags_initiatives_edges": "PASS",
+    "cloud_nodes_local_absence": "N/A",
+    "seeder_exit": 0
+  }
+}

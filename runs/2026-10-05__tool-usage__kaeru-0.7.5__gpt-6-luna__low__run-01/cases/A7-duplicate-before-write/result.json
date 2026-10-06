@@ -1,0 +1,42 @@
+{
+  "case_id": "A7-duplicate-before-write",
+  "dataset_commit": "98172f013dab6f8589805165676bce4c875d6429",
+  "kaeru_version": "0.7.5",
+  "model": "gpt-6-luna",
+  "reasoning_effort": "low",
+  "repetition": 1,
+  "status": "FAIL",
+  "outcome": "FAIL",
+  "phase_results": "turn-1=FAIL (wrote a duplicate with jot without searching; new node unlinked); memory_after=FAIL (node count rose from 31 to 32 with an unconnected near-duplicate)",
+  "currency": "DUPLICATE_OF_CURRENT_FACT",
+  "grading_rationale": "The existing timeout-cascade reference already contains the same root cause. The agent called jot without a prior search, creating a second unlinked node that restates it.",
+  "limitations": "No objective workspace limitation is evidenced; this is a memory capture and deduplication failure.",
+  "metrics": {
+    "input_tokens": 158690,
+    "cached_input_tokens": 135680,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 454,
+    "reasoning_output_tokens": 0,
+    "native_turns": 1,
+    "kaeru_tool_calls": 2
+  },
+  "evidence": {
+    "before": "memory-before.json",
+    "after": "memory-after.json",
+    "turns": [
+      "turn-1.mcp.jsonl"
+    ],
+    "workspace_path": "/benchmark-run/workspaces/ws-0007",
+    "memory_after_identical_to_before": false
+  },
+  "failure_group": "curation_after_activation",
+  "fixture_validation": {
+    "case_id": "A7-duplicate-before-write",
+    "local_nodes": 31,
+    "local_edges": 0,
+    "noise_nodes": 30,
+    "bodies_types_tiers_layers_tags_initiatives_edges": "PASS",
+    "cloud_nodes_local_absence": "N/A",
+    "seeder_exit": 0
+  }
+}

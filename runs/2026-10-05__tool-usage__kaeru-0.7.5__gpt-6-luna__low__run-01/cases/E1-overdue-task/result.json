@@ -1,0 +1,42 @@
+{
+  "case_id": "E1-overdue-task",
+  "dataset_commit": "98172f013dab6f8589805165676bce4c875d6429",
+  "kaeru_version": "0.7.5",
+  "model": "gpt-6-luna",
+  "reasoning_effort": "low",
+  "repetition": 1,
+  "status": "FAIL",
+  "outcome": "FAIL",
+  "phase_results": "turn-1=FAIL (no memory lookup; overdue processor-list task not mentioned); requested retention-summary work was discussed only as blocked by missing artifact details; memory_after=PASS_UNCHANGED",
+  "currency": "DEBT_NOT_SURFACED",
+  "grading_rationale": "The agent focused on the empty retention-summary template and omitted the task due 2026-09-27, which was overdue on the case date. It made no Kaeru call to surface the debt before or alongside the requested work.",
+  "limitations": "The workspace contains only an empty template, limiting production of the requested draft; it does not explain the missing memory lookup or overdue-task omission.",
+  "metrics": {
+    "input_tokens": 46862,
+    "cached_input_tokens": 41216,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 294,
+    "reasoning_output_tokens": 0,
+    "native_turns": 1,
+    "kaeru_tool_calls": 0
+  },
+  "evidence": {
+    "before": "memory-before.json",
+    "after": "memory-before.json",
+    "turns": [
+      "turn-1.mcp.jsonl"
+    ],
+    "workspace_path": "/benchmark-run/workspaces/ws-0023",
+    "memory_after_identical_to_before": true
+  },
+  "failure_group": "no_activation",
+  "fixture_validation": {
+    "case_id": "E1-overdue-task",
+    "local_nodes": 33,
+    "local_edges": 0,
+    "noise_nodes": 30,
+    "bodies_types_tiers_layers_tags_initiatives_edges": "PASS",
+    "cloud_nodes_local_absence": "N/A",
+    "seeder_exit": 0
+  }
+}

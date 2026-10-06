@@ -1,0 +1,42 @@
+{
+  "case_id": "D1-retrospective-verdict",
+  "dataset_commit": "98172f013dab6f8589805165676bce4c875d6429",
+  "kaeru_version": "0.7.5",
+  "model": "gpt-6-luna",
+  "reasoning_effort": "low",
+  "repetition": 1,
+  "status": "FAIL",
+  "outcome": "FAIL",
+  "phase_results": "turn-1=PARTIAL (found the suspicion; added a refuted hypothesis and settled outcome with evidence prose); FAIL (final graph has zero edges, leaving the finding unlinked to the original suspicion); memory_after=FAIL for required relationships",
+  "currency": "VERDICT_AND_EVIDENCE_NOT_LINKED_AFTER_SETTLE",
+  "grading_rationale": "The agent successfully linked evidence with falsifies and created a refuted claim by that evidence. A later successful settle replaced the evidence node; the final export has zero edges and the refuted hypothesis and archival outcome have degree 0. The required evidence relationship was lost during product promotion, not omitted by the model.",
+  "limitations": "Confirmed product behavior under the recorded operation sequence; no infrastructure failure.",
+  "metrics": {
+    "input_tokens": 299329,
+    "cached_input_tokens": 274944,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 786,
+    "reasoning_output_tokens": 109,
+    "native_turns": 1,
+    "kaeru_tool_calls": 5
+  },
+  "evidence": {
+    "before": "memory-before.json",
+    "after": "memory-after.json",
+    "turns": [
+      "turn-1.mcp.jsonl"
+    ],
+    "workspace_path": "/benchmark-run/workspaces/ws-0018",
+    "memory_after_identical_to_before": false
+  },
+  "failure_group": "product_promotion_semantics",
+  "fixture_validation": {
+    "case_id": "D1-retrospective-verdict",
+    "local_nodes": 31,
+    "local_edges": 0,
+    "noise_nodes": 30,
+    "bodies_types_tiers_layers_tags_initiatives_edges": "PASS",
+    "cloud_nodes_local_absence": "N/A",
+    "seeder_exit": 0
+  }
+}

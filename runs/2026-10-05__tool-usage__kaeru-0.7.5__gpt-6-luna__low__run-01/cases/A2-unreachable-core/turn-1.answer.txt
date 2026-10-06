@@ -1,0 +1,3 @@
+Saved **`export-convention`** to the `pipeline-reports` initiative’s core memory and pinned it for the active window:
+
+> Every exported table uses TSV. Name export files `<YYYYMMDD>-<topic>.tsv`, with the date first. This is a standing project rule for all exports.

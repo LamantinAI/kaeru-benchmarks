@@ -1,0 +1,1 @@
+I couldn’t determine the active upload limit from this workspace. The only code is [client/upload.py](/benchmark-run/workspaces/ws-0005/client/upload.py), where `MAX_PAYLOAD_BYTES` is `None`; there’s no server configuration or upload flow to confirm the limit. I left it unchanged rather than guess.

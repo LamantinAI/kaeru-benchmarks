@@ -1,0 +1,29 @@
+{
+  "files": [
+    {
+      "path": "README.md",
+      "type": "file",
+      "size": 89,
+      "sha256": "0e8245969864f6f0afe88fc69d85a63cf016c6a2197f8abc2f07c471a9226de9"
+    },
+    {
+      "path": "billing/sample-lines.json",
+      "type": "file",
+      "size": 47,
+      "sha256": "e1e08786c0b8a018f24d08e679244df38d7d128c9d7142ed82b1f9f45df79e37"
+    },
+    {
+      "path": "billing/totals.py",
+      "type": "file",
+      "size": 128,
+      "sha256": "42249ea41cf74734487bd065a0a95d94c2f71cf6ff20fd3b416a15beddff70ac"
+    },
+    {
+      "path": "project-context.md",
+      "type": "file",
+      "size": 91,
+      "sha256": "390bac1417d5300b0fa8511ea0390ee36857cc07b46e98aebfaf6b6b7a0248e9"
+    }
+  ],
+  "git_repositories": []
+}

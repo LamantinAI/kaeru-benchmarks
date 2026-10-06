@@ -1,0 +1,43 @@
+{
+  "case_id": "A6-answer-in-own-artifact",
+  "dataset_commit": "98172f013dab6f8589805165676bce4c875d6429",
+  "kaeru_version": "0.7.5",
+  "model": "gpt-6-luna",
+  "reasoning_effort": "low",
+  "repetition": 1,
+  "status": "PASS",
+  "outcome": "PASS",
+  "phase_results": "turn-1=PASS (read onboarding-guide.md and gave the 5,000-row first-run limit plus split-file advice); memory_after=PASS_UNCHANGED",
+  "currency": "CURRENT_ARTIFACT_FACT",
+  "grading_rationale": "The agent read the project’s authoritative guide and advised splitting the 12,000-row file into chunks of no more than 5,000, with sample-first import and verification instructions. This case permits artifact reading; zero memory calls is not a failure.",
+  "limitations": "None material to the required answer.",
+  "metrics": {
+    "input_tokens": 62727,
+    "cached_input_tokens": 56320,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 277,
+    "reasoning_output_tokens": 0,
+    "native_turns": 1,
+    "kaeru_tool_calls": 0
+  },
+  "evidence": {
+    "before": "memory-before.json",
+    "after": "memory-before.json",
+    "turns": [
+      "turn-1.mcp.jsonl"
+    ],
+    "workspace_path": "/benchmark-run/workspaces/ws-0006",
+    "memory_after_identical_to_before": true
+  },
+  "failure_group": "",
+  "fixture_validation": {
+    "case_id": "A6-answer-in-own-artifact",
+    "local_nodes": 32,
+    "local_edges": 1,
+    "noise_nodes": 30,
+    "bodies_types_tiers_layers_tags_initiatives_edges": "PASS",
+    "cloud_nodes_local_absence": "N/A",
+    "seeder_exit": 0,
+    "artifacts_exact": "PASS"
+  }
+}

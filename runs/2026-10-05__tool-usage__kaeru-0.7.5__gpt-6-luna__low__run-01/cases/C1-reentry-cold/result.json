@@ -1,0 +1,42 @@
+{
+  "case_id": "C1-reentry-cold",
+  "dataset_commit": "98172f013dab6f8589805165676bce4c875d6429",
+  "kaeru_version": "0.7.5",
+  "model": "gpt-6-luna",
+  "reasoning_effort": "low",
+  "repetition": 1,
+  "status": "FAIL",
+  "outcome": "FAIL",
+  "phase_results": "turn-1=FAIL (no memory read; omitted overdue task, open claim, and review); memory_after=PASS_UNCHANGED",
+  "currency": "DEBTS_NOT_SURFACED",
+  "grading_rationale": "The agent asked for migration notes rather than consulting the provided initiative memory. It surfaced none of the overdue task, unresolved claim, or open review.",
+  "limitations": "The workspace contains only the initiative pointer, but this re-entry case’s debts are in the provided memory export; no workspace operation was needed.",
+  "metrics": {
+    "input_tokens": 46735,
+    "cached_input_tokens": 41216,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 224,
+    "reasoning_output_tokens": 0,
+    "native_turns": 1,
+    "kaeru_tool_calls": 0
+  },
+  "evidence": {
+    "before": "memory-before.json",
+    "after": "memory-before.json",
+    "turns": [
+      "turn-1.mcp.jsonl"
+    ],
+    "workspace_path": "/benchmark-run/workspaces/ws-0014",
+    "memory_after_identical_to_before": true
+  },
+  "failure_group": "no_activation",
+  "fixture_validation": {
+    "case_id": "C1-reentry-cold",
+    "local_nodes": 34,
+    "local_edges": 1,
+    "noise_nodes": 30,
+    "bodies_types_tiers_layers_tags_initiatives_edges": "PASS",
+    "cloud_nodes_local_absence": "N/A",
+    "seeder_exit": 0
+  }
+}

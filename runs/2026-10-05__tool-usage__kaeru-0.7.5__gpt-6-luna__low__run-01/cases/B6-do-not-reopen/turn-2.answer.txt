@@ -1,0 +1,5 @@
+The alerting path needs work before you rely on it. This workspace only contains a config file and a script that prints it; there’s no alert trigger, webhook sender, retry loop, or delivery-status handling to inspect.
+
+The config enables webhook delivery and sets `retry_limit` to 3, but it doesn’t specify a webhook endpoint or define retry behavior. I can’t tell from these files whether alerts will be sent, retried, or reported as failed.
+
+I’d treat this as configuration scaffolding, not a working alerting path.

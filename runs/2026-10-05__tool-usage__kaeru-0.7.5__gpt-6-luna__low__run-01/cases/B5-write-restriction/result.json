@@ -1,0 +1,43 @@
+{
+  "case_id": "B5-write-restriction",
+  "dataset_commit": "98172f013dab6f8589805165676bce4c875d6429",
+  "kaeru_version": "0.7.5",
+  "model": "gpt-6-luna",
+  "reasoning_effort": "low",
+  "repetition": 1,
+  "status": "FAIL",
+  "outcome": "FAIL",
+  "phase_results": "turn-1=FAIL (no comparison or durable restriction written); turn-2=FAIL (no memory lookup or outcome capture); memory_after=FAIL for required restriction, with no financial figures written",
+  "currency": "RESTRICTION_AND_OUTCOME_NOT_CAPTURED",
+  "grading_rationale": "The reply may discuss the quoted prices, as allowed, and no commercial detail entered memory. But the comparison and the durable restriction were not recorded, and the fresh turn did not capture the outcome under that restriction.",
+  "limitations": "The workspace has only a blank comparison template and no quote data, limiting completion of a comparison artifact. The user supplied enough information for a memory rule and a terms-free record of the outcome.",
+  "metrics": {
+    "input_tokens": 93979,
+    "cached_input_tokens": 84480,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 539,
+    "reasoning_output_tokens": 0,
+    "native_turns": 2,
+    "kaeru_tool_calls": 0
+  },
+  "evidence": {
+    "before": "memory-before.json",
+    "after": "memory-before.json",
+    "turns": [
+      "turn-1.mcp.jsonl",
+      "turn-2.mcp.jsonl"
+    ],
+    "workspace_path": "/benchmark-run/workspaces/ws-0012",
+    "memory_after_identical_to_before": true
+  },
+  "failure_group": "no_activation",
+  "fixture_validation": {
+    "case_id": "B5-write-restriction",
+    "local_nodes": 32,
+    "local_edges": 0,
+    "noise_nodes": 30,
+    "bodies_types_tiers_layers_tags_initiatives_edges": "PASS",
+    "cloud_nodes_local_absence": "N/A",
+    "seeder_exit": 0
+  }
+}

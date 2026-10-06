@@ -1,8 +1,8 @@
 # kaeru-benchmarks
 
 Benchmarks for [kaeru](https://github.com/LamantinAI/kaeru) — a cognitive memory
-layer for LLM agents. This repository is the datasets; the systems under test
-and any runners live in kaeru itself.
+layer for LLM agents. This repository contains datasets and recorded benchmark results; the systems
+under test and executable runners live separately.
 
 Kept separate from the main tree, and pulled into it as a submodule, so that
 adding or revising a benchmark case does not touch the source history — and so
@@ -40,8 +40,10 @@ here so the benchmarks can live and grow on their own.
 
 ## Status
 
-Datasets only — no runner yet. `tool-usage/DESIGN.md` specifies what a runner
-must compute (outcome, currency, cost) and why per-case isolation is mandatory.
+Datasets and [recorded runs](runs/README.md). The first record documents an
+unsuccessful Kaeru 0.7.5 / GPT-6-Luna tool-usage experiment. Executable runners
+are not included here. `tool-usage/DESIGN.md` specifies what a runner must compute
+(outcome, currency, cost) and why per-case isolation is mandatory.
 See [`tool-usage/RUNNER_CONTRACT.md`](tool-usage/RUNNER_CONTRACT.md) for current
 fixture validation, safe action workspaces and cloud/compaction requirements.
 

@@ -1,0 +1,9 @@
+The workspace is a minimal scaffold, so it doesn’t show the search behavior behind the three problems yet. [service.py](/benchmark-run/workspaces/ws-0010/search/service.py) only has exact-match filtering and a pass-through ordering function; there’s no search query handling, typo correction, UI state, or filter-reset logic. The sample data has just two titles, `alpha` and `beta`.
+
+That leaves several options to compare, but not enough evidence to recommend one confidently:
+
+- **Typo tolerance:** Could use fuzzy matching, an indexed search engine’s typo settings, or query suggestions. The right choice depends on dataset size, latency needs, languages, and how costly false matches are.
+- **Ordering:** Could preserve source order, rank by text relevance, or sort by a chosen field. The desired behavior and available fields are not represented here.
+- **Filter reset:** Could clear only active filters, restore default filters, or reset the entire search state. The intended scope and UI behavior aren’t present.
+
+I made no code changes. To research concrete options, I’ll need the actual search implementation or a pointer to the application/repository where these behaviors live.

@@ -1,0 +1,59 @@
+{
+  "files": [
+    {
+      "path": "README.md",
+      "type": "file",
+      "size": 167,
+      "sha256": "892bb82874f2a7a4d8f379f32761f19abcdb3759ad7b9bd7002622ddd12193a0"
+    },
+    {
+      "path": "capture-actions.jsonl",
+      "type": "file",
+      "size": 489,
+      "sha256": "2785a4ef563e969a5888ebe3bd8ece2d16b2ef68227239ad798f11e9ba844070"
+    },
+    {
+      "path": "frames/connection-dialog.svg",
+      "type": "file",
+      "size": 116,
+      "sha256": "93d7e4fd695ab7c2784b7986debb60a66c2e8ed355632adb437aa574c086d067"
+    },
+    {
+      "path": "frames/credential-panel.svg",
+      "type": "file",
+      "size": 115,
+      "sha256": "52a644d4456d654122939100c17f9a7079cfcfa8b1e4b18ff0a82e8fdf715342"
+    },
+    {
+      "path": "frames/error-state.svg",
+      "type": "file",
+      "size": 110,
+      "sha256": "e3a0c6de0d461bbaadd369e7daa41357249e3c8ff4070477461ed3c056dee86b"
+    },
+    {
+      "path": "frames/run-history.svg",
+      "type": "file",
+      "size": 110,
+      "sha256": "0df1112db45d92aba50fe5300b6bab1d3dbe19945fde980204998181f8684a10"
+    },
+    {
+      "path": "guide.md",
+      "type": "file",
+      "size": 152,
+      "sha256": "247fe6f9d9177810220dd84c6319a03c9f8c6ac495743a719d358965f6a17e55"
+    },
+    {
+      "path": "project-context.md",
+      "type": "file",
+      "size": 91,
+      "sha256": "32235a3e02dd15902d6854bccb150d65fb89fe681310a4582e732961dc35557d"
+    },
+    {
+      "path": "tools/capturectl.py",
+      "type": "file",
+      "size": 1739,
+      "sha256": "2ece5311bf5ac101f938f8884d1dbc870a8420c843034e716a364df1c559a21a"
+    }
+  ],
+  "git_repositories": []
+}

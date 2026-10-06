@@ -1,0 +1,3 @@
+I pulled `main` in all four repos, and each was already up to date. I couldn’t open PRs: there are no schema changes or topic branches in `api`, `client`, `shared-schema`, or `worker`; each contains only its initial README commit.
+
+The workspace’s `bin/open-pr` only records local PR receipts; it does not contact GitHub or another PR service. I recorded no receipts because there’s no change to propose.

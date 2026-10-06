@@ -1,0 +1,42 @@
+{
+  "case_id": "D3-arc-closed",
+  "dataset_commit": "98172f013dab6f8589805165676bce4c875d6429",
+  "kaeru_version": "0.7.5",
+  "model": "gpt-6-luna",
+  "reasoning_effort": "low",
+  "repetition": 1,
+  "status": "PASS",
+  "outcome": "PASS",
+  "phase_results": "turn-1=PASS (verified production outcome archived; stale implementation wording revised; provenance retained); memory_after=PASS for required arc state",
+  "currency": "ARCHIVAL_OUTCOME_AND_STALE_WORDING_CLOSED",
+  "grading_rationale": "The final memory contains an archival outcome retaining deployment and verification facts, the stale implementation node no longer reads as current unfinished work, and provenance edges remain. The hygiene event does not invalidate these requirements.",
+  "limitations": "None material to the required memory state.",
+  "metrics": {
+    "input_tokens": 572083,
+    "cached_input_tokens": 531200,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 2031,
+    "reasoning_output_tokens": 742,
+    "native_turns": 1,
+    "kaeru_tool_calls": 15
+  },
+  "evidence": {
+    "before": "memory-before.json",
+    "after": "memory-after.json",
+    "turns": [
+      "turn-1.mcp.jsonl"
+    ],
+    "workspace_path": "/benchmark-run/workspaces/ws-0020",
+    "memory_after_identical_to_before": false
+  },
+  "failure_group": "",
+  "fixture_validation": {
+    "case_id": "D3-arc-closed",
+    "local_nodes": 35,
+    "local_edges": 4,
+    "noise_nodes": 30,
+    "bodies_types_tiers_layers_tags_initiatives_edges": "PASS",
+    "cloud_nodes_local_absence": "N/A",
+    "seeder_exit": 0
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "thread_id": "01a10de0-4730-7c10-9120-99622ea53b4e",
+  "request_method": "thread/compact/start",
+  "real_compaction_event": true,
+  "status": "PASS"
+}

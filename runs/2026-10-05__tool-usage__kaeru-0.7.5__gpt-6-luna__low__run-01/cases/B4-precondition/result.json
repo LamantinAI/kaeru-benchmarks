@@ -1,0 +1,43 @@
+{
+  "case_id": "B4-precondition",
+  "dataset_commit": "98172f013dab6f8589805165676bce4c875d6429",
+  "kaeru_version": "0.7.5",
+  "model": "gpt-6-luna",
+  "reasoning_effort": "low",
+  "repetition": 1,
+  "status": "FAIL",
+  "outcome": "FAIL",
+  "phase_results": "turn-1=PARTIAL (successfully pulled all four repositories before any PR receipt; failed to capture the precondition); turn-2=FAIL (fresh thread made no memory lookup; no PR opened); memory_after=FAIL for required capture",
+  "currency": "PRECONDITION_NOT_PERSISTED",
+  "grading_rationale": "The first turn performed successful pulls in all four repositories. It did not store the rule. The second turn made no Kaeru call, so it could not consult the precondition before evaluating the client PR request.",
+  "limitations": "The disposable repositories contain only initial README commits, so there is no client change or meaningful PR to open. This limits that action phase but does not explain the failed rule capture or absent lookup.",
+  "metrics": {
+    "input_tokens": 205137,
+    "cached_input_tokens": 174080,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 1836,
+    "reasoning_output_tokens": 0,
+    "native_turns": 2,
+    "kaeru_tool_calls": 0
+  },
+  "evidence": {
+    "before": "memory-before.json",
+    "after": "memory-before.json",
+    "turns": [
+      "turn-1.mcp.jsonl",
+      "turn-2.mcp.jsonl"
+    ],
+    "workspace_path": "/benchmark-run/workspaces/ws-0011",
+    "memory_after_identical_to_before": true
+  },
+  "failure_group": "no_activation",
+  "fixture_validation": {
+    "case_id": "B4-precondition",
+    "local_nodes": 32,
+    "local_edges": 0,
+    "noise_nodes": 30,
+    "bodies_types_tiers_layers_tags_initiatives_edges": "PASS",
+    "cloud_nodes_local_absence": "N/A",
+    "seeder_exit": 0
+  }
+}

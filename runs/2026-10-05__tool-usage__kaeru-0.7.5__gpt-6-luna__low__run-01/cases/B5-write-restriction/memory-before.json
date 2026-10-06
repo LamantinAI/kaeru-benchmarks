@@ -1,0 +1,534 @@
+{
+  "meta": {
+    "node_count": 32,
+    "edge_count": 0,
+    "initiative_count": 1,
+    "chain_count": 0,
+    "redacted_count": 0,
+    "earliest_secs": 1791233008.0,
+    "latest_secs": 1791233039.0
+  },
+  "initiatives": [
+    {
+      "name": "vendor-selection",
+      "node_count": 32
+    }
+  ],
+  "nodes": [
+    {
+      "id": "01a10dd3-36ac-7950-a99c-58a279f0fd97",
+      "name": "sprint-scope-agreed",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Scope for the current sprint agreed: three features, one migration, no new dependencies.",
+      "initiatives": [
+        "vendor-selection"
+      ],
+      "created_secs": 1791233008.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dd3-36ae-7fe1-9af9-e42a5b87cc2d",
+      "name": "standup-cadence",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Standups moved to twice a week to leave longer focus blocks.",
+      "initiatives": [
+        "vendor-selection"
+      ],
+      "created_secs": 1791233009.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dd3-36b0-78f0-85d1-89b3a58a68e4",
+      "name": "staging-refresh",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Staging refreshed from a sanitised copy of production data.",
+      "initiatives": [
+        "vendor-selection"
+      ],
+      "created_secs": 1791233010.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dd3-36b2-7f80-a4fa-4cfbb6b7e1a8",
+      "name": "flaky-test-quarantine",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Two flaky tests quarantined pending a proper fix.",
+      "initiatives": [
+        "vendor-selection"
+      ],
+      "created_secs": 1791233011.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dd3-36b3-7fa2-82dd-afec022e78dc",
+      "name": "dependency-bump-queued",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Dependency bump queued behind the current release.",
+      "initiatives": [
+        "vendor-selection"
+      ],
+      "created_secs": 1791233012.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dd3-36b5-7f42-898e-36e50a6521ba",
+      "name": "metrics-dashboard-fixed",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Metrics dashboard stopped double-counting retries after the last fix.",
+      "initiatives": [
+        "vendor-selection"
+      ],
+      "created_secs": 1791233013.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dd3-36b7-7e90-b15c-f9b9991fc817",
+      "name": "error-budget-note",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Error budget for the quarter is largely unspent.",
+      "initiatives": [
+        "vendor-selection"
+      ],
+      "created_secs": 1791233014.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dd3-36b9-7573-83e3-e605fb08260e",
+      "name": "docs-index-restructured",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Docs index restructured so setup comes before reference.",
+      "initiatives": [
+        "vendor-selection"
+      ],
+      "created_secs": 1791233015.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dd3-36ba-75f2-952f-5f9e63181df2",
+      "name": "support-question-recurring",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "The same support question keeps arriving about first-run configuration.",
+      "initiatives": [
+        "vendor-selection"
+      ],
+      "created_secs": 1791233016.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dd3-36bc-7651-b0a2-02614c292c73",
+      "name": "handover-note-format",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Handover notes list state, blockers, and the next concrete step.",
+      "initiatives": [
+        "vendor-selection"
+      ],
+      "created_secs": 1791233017.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dd3-36be-7cb2-a7d7-0381e0b06789",
+      "name": "retro-actions",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Retro produced three actions; two are already done.",
+      "initiatives": [
+        "vendor-selection"
+      ],
+      "created_secs": 1791233018.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dd3-36bf-7261-aa4e-0030508a74d4",
+      "name": "vendor-response-slow",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Vendor takes about a week to answer support tickets.",
+      "initiatives": [
+        "vendor-selection"
+      ],
+      "created_secs": 1791233019.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dd3-36c1-7f90-b362-8d3a0d104519",
+      "name": "pricing-tier-question",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Open question about which pricing tier the workload needs.",
+      "initiatives": [
+        "vendor-selection"
+      ],
+      "created_secs": 1791233020.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dd3-36c3-7c72-a068-4720c23a630b",
+      "name": "backup-verified",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Backups verified by restoring into a scratch environment.",
+      "initiatives": [
+        "vendor-selection"
+      ],
+      "created_secs": 1791233021.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dd3-36c5-7f30-870c-8171a97bb9f6",
+      "name": "access-request-pending",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Access request for the reporting tool still pending.",
+      "initiatives": [
+        "vendor-selection"
+      ],
+      "created_secs": 1791233022.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dd3-36c6-7b73-9222-3a561a5825e3",
+      "name": "naming-of-environments",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Environments are named dev, staging and prod; no others.",
+      "initiatives": [
+        "vendor-selection"
+      ],
+      "created_secs": 1791233023.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dd3-36c8-7b40-bf9c-74b95060dba3",
+      "name": "incident-postmortem-short",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Short postmortem written for last month's outage; no action items outstanding.",
+      "initiatives": [
+        "vendor-selection"
+      ],
+      "created_secs": 1791233024.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dd3-36ca-7ef0-81c3-3049304c9393",
+      "name": "onboarding-buddy",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "New joiners get a buddy for the first fortnight.",
+      "initiatives": [
+        "vendor-selection"
+      ],
+      "created_secs": 1791233025.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dd3-36cc-7e81-ac33-801abf31ecd3",
+      "name": "meeting-notes-location",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Meeting notes live alongside the project docs, not in chat.",
+      "initiatives": [
+        "vendor-selection"
+      ],
+      "created_secs": 1791233026.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dd3-36cd-76c2-8923-99549d8e55b4",
+      "name": "quarterly-planning-date",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Quarterly planning happens in the last week of the quarter.",
+      "initiatives": [
+        "vendor-selection"
+      ],
+      "created_secs": 1791233027.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dd3-36cf-75b1-9a79-d7df3ac114e6",
+      "name": "contractor-availability",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Contractor available two days a week until the end of the engagement.",
+      "initiatives": [
+        "vendor-selection"
+      ],
+      "created_secs": 1791233028.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dd3-36d1-72b1-a7bc-33005faa7241",
+      "name": "legal-review-lead-time",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Legal review needs about ten working days.",
+      "initiatives": [
+        "vendor-selection"
+      ],
+      "created_secs": 1791233029.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dd3-36d2-7f80-86f7-ec34823b4b4e",
+      "name": "analytics-sampling",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Analytics samples at a fixed rate; small effects are invisible.",
+      "initiatives": [
+        "vendor-selection"
+      ],
+      "created_secs": 1791233030.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dd3-36d4-73b1-a450-4fb48d4aef9c",
+      "name": "feature-flag-cleanup",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Old feature flags cleaned up after the last release.",
+      "initiatives": [
+        "vendor-selection"
+      ],
+      "created_secs": 1791233031.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dd3-36d6-7ba0-83d9-118b469b5da3",
+      "name": "api-versioning-policy",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "API versions are additive; nothing is removed without a major bump.",
+      "initiatives": [
+        "vendor-selection"
+      ],
+      "created_secs": 1791233032.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dd3-36d8-7120-9dee-c13efa716ea7",
+      "name": "rate-limit-defaults",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Default rate limits are generous enough for internal use.",
+      "initiatives": [
+        "vendor-selection"
+      ],
+      "created_secs": 1791233033.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dd3-36d9-7a60-bd32-c2e7215b2dd9",
+      "name": "cache-invalidation-note",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Cache invalidation is time-based rather than event-driven.",
+      "initiatives": [
+        "vendor-selection"
+      ],
+      "created_secs": 1791233034.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dd3-36db-79d3-b3eb-5ba5e45981cd",
+      "name": "search-index-rebuild",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Search index rebuild takes about twenty minutes.",
+      "initiatives": [
+        "vendor-selection"
+      ],
+      "created_secs": 1791233035.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dd3-36dd-7680-8dbc-77e8f500209e",
+      "name": "mobile-layout-issue",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Mobile layout breaks on very narrow screens; low priority.",
+      "initiatives": [
+        "vendor-selection"
+      ],
+      "created_secs": 1791233036.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dd3-36de-78f1-a8a8-44f2d09e5227",
+      "name": "translation-status",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Translations lag the source by roughly one release.",
+      "initiatives": [
+        "vendor-selection"
+      ],
+      "created_secs": 1791233037.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dd3-36e0-75a1-88b6-8822ab4690bd",
+      "name": "vendor-shortlist",
+      "type": "reference",
+      "tier": "archival",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Three vendors on the shortlist. Evaluation covers latency, regional\ncoverage, and how much of the integration we have to build ourselves.\n",
+      "initiatives": [
+        "vendor-selection"
+      ],
+      "created_secs": 1791233038.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dd3-36e2-7c72-8cb1-7a32ef46852a",
+      "name": "evaluation-round-one",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "First round done: all three meet the latency bar. Coverage differs, and\none requires substantially more integration work than the others.\n",
+      "initiatives": [
+        "vendor-selection"
+      ],
+      "created_secs": 1791233039.0,
+      "degree": 0,
+      "redacted": false
+    }
+  ],
+  "edges": [],
+  "chains": [],
+  "project_links": []
+}

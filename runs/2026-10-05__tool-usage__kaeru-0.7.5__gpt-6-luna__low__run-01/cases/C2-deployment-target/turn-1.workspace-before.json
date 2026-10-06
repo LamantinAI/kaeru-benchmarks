@@ -1,0 +1,29 @@
+{
+  "files": [
+    {
+      "path": "README.md",
+      "type": "file",
+      "size": 165,
+      "sha256": "c8185e59e39f8628f2e9b54277ddcfcec13f6bd5dc666bb1c9f8081e418ce1f2"
+    },
+    {
+      "path": "deploy/deployctl.py",
+      "type": "file",
+      "size": 551,
+      "sha256": "fd58f51a422c4aa9304270d6ad211c5393b6d45f5213d66685adcbd2db7f9dd3"
+    },
+    {
+      "path": "deploy/targets.json",
+      "type": "file",
+      "size": 89,
+      "sha256": "9ded71d4b4552b8da6d531c79126571bf773670132436c91beb800fa41419e93"
+    },
+    {
+      "path": "project-context.md",
+      "type": "file",
+      "size": 93,
+      "sha256": "6acc11c6f49ffefd0df555a4fd55d86b0797d0e1abfe701b4d6560d4a85b9d5c"
+    }
+  ],
+  "git_repositories": []
+}

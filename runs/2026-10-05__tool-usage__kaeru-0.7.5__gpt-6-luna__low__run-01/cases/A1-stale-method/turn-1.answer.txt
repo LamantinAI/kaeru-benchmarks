@@ -1,0 +1,1 @@
+Captured all four setup guide frames as SVGs in [frames](</benchmark-run/workspaces/ws-0002/frames>). The active window stayed on `other-work-window`.

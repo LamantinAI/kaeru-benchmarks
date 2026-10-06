@@ -1,0 +1,1 @@
+Saved the settled reference in the `platform-conventions` memory initiative as **service-and-messaging-naming-conventions**, and linked it as superseding the earlier discussion.

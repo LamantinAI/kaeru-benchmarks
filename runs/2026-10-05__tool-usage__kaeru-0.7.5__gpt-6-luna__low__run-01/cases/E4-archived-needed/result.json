@@ -1,0 +1,42 @@
+{
+  "case_id": "E4-archived-needed",
+  "dataset_commit": "98172f013dab6f8589805165676bce4c875d6429",
+  "kaeru_version": "0.7.5",
+  "model": "gpt-6-luna",
+  "reasoning_effort": "low",
+  "repetition": 1,
+  "status": "FAIL",
+  "outcome": "FAIL",
+  "phase_results": "turn-1=FAIL (no archived-memory lookup or typography choice; asked for table data); memory_after=PASS_UNCHANGED",
+  "currency": "COLD_DECISION_NOT_CONSULTED",
+  "grading_rationale": "The agent did not check the archived typography decision and left the requested styling question unanswered. The cold-layer rule forbids monospace and requires an existing-decision check before presenting a settled choice.",
+  "limitations": "The workspace contains a table scaffold with no numeric rows, limiting implementation-specific styling, but the stored typography decision was accessible and not consulted.",
+  "metrics": {
+    "input_tokens": 46712,
+    "cached_input_tokens": 43264,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 160,
+    "reasoning_output_tokens": 0,
+    "native_turns": 1,
+    "kaeru_tool_calls": 0
+  },
+  "evidence": {
+    "before": "memory-before.json",
+    "after": "memory-before.json",
+    "turns": [
+      "turn-1.mcp.jsonl"
+    ],
+    "workspace_path": "/benchmark-run/workspaces/ws-0026",
+    "memory_after_identical_to_before": true
+  },
+  "failure_group": "no_activation",
+  "fixture_validation": {
+    "case_id": "E4-archived-needed",
+    "local_nodes": 33,
+    "local_edges": 0,
+    "noise_nodes": 30,
+    "bodies_types_tiers_layers_tags_initiatives_edges": "PASS",
+    "cloud_nodes_local_absence": "N/A",
+    "seeder_exit": 0
+  }
+}

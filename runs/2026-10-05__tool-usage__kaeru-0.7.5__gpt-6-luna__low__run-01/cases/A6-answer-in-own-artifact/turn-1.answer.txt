@@ -1,0 +1,1 @@
+For your first import, split the 12,000-row file into chunks of **5,000 rows or fewer**. Import the sample dataset first, as the onboarding guide requires, then import each chunk through the staging host. Once the imports finish, re-read the imported rows and compare the total count with the original file. Production credentials come after a successful staging run.

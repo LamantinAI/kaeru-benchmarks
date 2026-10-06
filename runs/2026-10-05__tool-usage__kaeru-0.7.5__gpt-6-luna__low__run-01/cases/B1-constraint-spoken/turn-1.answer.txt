@@ -1,0 +1,1 @@
+Added `batch-c` to [jobs/config.json](/benchmark-run/workspaces/ws-0008/jobs/config.json) with effort set to `low`. The existing batch entries are unchanged.

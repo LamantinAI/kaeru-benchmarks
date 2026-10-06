@@ -1,0 +1,1 @@
+I couldn’t find this week’s run data in the project folder, so I can’t calculate the counts, failures, or median duration yet. The folder only contains `project-context.md`. Add the run records here and I can export the table.

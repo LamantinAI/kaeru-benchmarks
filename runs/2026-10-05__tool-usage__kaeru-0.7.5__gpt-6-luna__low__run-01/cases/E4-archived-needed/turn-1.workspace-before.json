@@ -1,0 +1,29 @@
+{
+  "files": [
+    {
+      "path": "README.md",
+      "type": "file",
+      "size": 90,
+      "sha256": "0be6db87186c8e6621eaa3f435551502968cc0ea1aa42fbfbfb1a2da9c36c344"
+    },
+    {
+      "path": "project-context.md",
+      "type": "file",
+      "size": 89,
+      "sha256": "7e4e6f619f8a37d29a08d925f9fb6369f1633e6dc58fc4fe89f896bc760061d1"
+    },
+    {
+      "path": "table/index.html",
+      "type": "file",
+      "size": 121,
+      "sha256": "fc28ad231703133885337b15b25748dea7d32cb859f509389bfa6ac496476855"
+    },
+    {
+      "path": "table/style.css",
+      "type": "file",
+      "size": 72,
+      "sha256": "31412c901316c7e49b5c90afafd1782081580fcdca7fab51c8af2191b3bce7d9"
+    }
+  ],
+  "git_repositories": []
+}

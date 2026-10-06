@@ -1,0 +1,42 @@
+{
+  "case_id": "E5-team-tier",
+  "dataset_commit": "98172f013dab6f8589805165676bce4c875d6429",
+  "kaeru_version": "0.7.5",
+  "model": "gpt-6-luna",
+  "reasoning_effort": "low",
+  "repetition": 1,
+  "status": "PARTIAL_ENVIRONMENT_CONFOUNDED",
+  "outcome": "PARTIAL_ENVIRONMENT_CONFOUNDED",
+  "phase_results": "turn-1=FAIL (no cloud lookup or incompleteness caveat; did not account for key rotation or overlap window); local memory contains only retry behavior",
+  "currency": "SHARED_ROTATION_RULE_NOT_CONSULTED",
+  "grading_rationale": "The local note covers retries, while the benchmark cloud contains the decisive quarterly signing-key rotation and two-week overlap rule. The agent made no Kaeru or cloud calls and stopped after seeing no webhook source in the local workspace; implementation was objectively blocked, but the shared-memory phase could still have been consulted.",
+  "limitations": "The workspace has only project-context.md and no webhook receiver or source code, preventing concrete code hardening. The team-tier memory was available through the configured cloud but was not queried.",
+  "metrics": {
+    "input_tokens": 63097,
+    "cached_input_tokens": 52224,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 303,
+    "reasoning_output_tokens": 15,
+    "native_turns": 1,
+    "kaeru_tool_calls": 0
+  },
+  "evidence": {
+    "before": "memory-before.json",
+    "after": "memory-before.json",
+    "turns": [
+      "turn-1.mcp.jsonl"
+    ],
+    "workspace_path": "/benchmark-run/workspaces/ws-0027",
+    "memory_after_identical_to_before": true
+  },
+  "failure_group": "",
+  "fixture_validation": {
+    "case_id": "E5-team-tier",
+    "local_nodes": 31,
+    "local_edges": 0,
+    "noise_nodes": 30,
+    "bodies_types_tiers_layers_tags_initiatives_edges": "PASS",
+    "cloud_nodes_local_absence": "PASS",
+    "seeder_exit": 0
+  }
+}

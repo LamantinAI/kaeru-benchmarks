@@ -1,0 +1,45 @@
+{
+  "case_id": "A2-unreachable-core",
+  "dataset_commit": "98172f013dab6f8589805165676bce4c875d6429",
+  "kaeru_version": "0.7.5",
+  "model": "gpt-6-luna",
+  "reasoning_effort": "low",
+  "repetition": 1,
+  "status": "FAIL",
+  "outcome": "FAIL",
+  "phase_results": "turn-1=PASS (complete convention stored as core reference scoped to pipeline-reports); turn-2=FAIL (no memory lookup, no export, weekly run facts not used); memory_after=PASS for scoped convention",
+  "currency": "SILENCE_NO_FACT_USED_IN_SECOND_TURN",
+  "grading_rationale": "The scoped core capture is correct and recoverable. In the fresh second thread, the agent made no Kaeru calls and asked for run records despite the seeded weekly-run-log facts; it created no TSV report.",
+  "limitations": "The second-turn workspace contained only project-context.md and no run-data files, limiting report generation. This does not explain the omitted memory lookup or use of the facts already provided in memory.",
+  "metrics": {
+    "input_tokens": 280851,
+    "cached_input_tokens": 225280,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 958,
+    "reasoning_output_tokens": 0,
+    "native_turns": 2,
+    "kaeru_tool_calls": 7
+  },
+  "evidence": {
+    "before": "memory-before.json",
+    "after": "memory-after.json",
+    "turns": [
+      "turn-1.mcp.jsonl",
+      "turn-2.mcp.jsonl"
+    ],
+    "workspace_path": "/benchmark-run/workspaces/ws-0001",
+    "memory_after_identical_to_before": false
+  },
+  "failure_group": "fresh_session_activation",
+  "fixture_validation": {
+    "case_id": "A2-unreachable-core",
+    "local_nodes": 32,
+    "local_edges": 1,
+    "noise_nodes": 30,
+    "bodies_types_tiers_layers_tags_initiatives_edges": "PASS",
+    "cloud_nodes_local_absence": "N/A",
+    "seeder_exit": 0,
+    "project_context_convention_absence": "PASS",
+    "artifacts_exact": "PASS"
+  }
+}

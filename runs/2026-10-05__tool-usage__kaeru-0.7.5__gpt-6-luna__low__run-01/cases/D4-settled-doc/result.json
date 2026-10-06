@@ -1,0 +1,42 @@
+{
+  "case_id": "D4-settled-doc",
+  "dataset_commit": "98172f013dab6f8589805165676bce4c875d6429",
+  "kaeru_version": "0.7.5",
+  "model": "gpt-6-luna",
+  "reasoning_effort": "low",
+  "repetition": 1,
+  "status": "FAIL",
+  "outcome": "FAIL",
+  "phase_results": "turn-1=PARTIAL (archival reference created and round one superseded); FAIL (stored text is paraphrased and round two remains unresolved); memory_after=FAIL for verbatim settled reference",
+  "currency": "REFERENCE_PARAPHRASED_AND_ROUND_TWO_STILL_OPEN",
+  "grading_rationale": "An archival reference was captured, but it does not preserve the conventions verbatim, and the second discussion episode still says a decision is expected this week. The required settled reference and closure of both prior discussion rounds are incomplete.",
+  "limitations": "No objective workspace limitation is evidenced; the memory writes succeeded but did not meet the required content and closure states.",
+  "metrics": {
+    "input_tokens": 241776,
+    "cached_input_tokens": 215040,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 445,
+    "reasoning_output_tokens": 0,
+    "native_turns": 1,
+    "kaeru_tool_calls": 4
+  },
+  "evidence": {
+    "before": "memory-before.json",
+    "after": "memory-after.json",
+    "turns": [
+      "turn-1.mcp.jsonl"
+    ],
+    "workspace_path": "/benchmark-run/workspaces/ws-0021",
+    "memory_after_identical_to_before": false
+  },
+  "failure_group": "curation_after_activation",
+  "fixture_validation": {
+    "case_id": "D4-settled-doc",
+    "local_nodes": 32,
+    "local_edges": 0,
+    "noise_nodes": 30,
+    "bodies_types_tiers_layers_tags_initiatives_edges": "PASS",
+    "cloud_nodes_local_absence": "N/A",
+    "seeder_exit": 0
+  }
+}

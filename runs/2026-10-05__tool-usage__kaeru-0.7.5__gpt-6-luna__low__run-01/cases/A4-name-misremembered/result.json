@@ -1,0 +1,42 @@
+{
+  "case_id": "A4-name-misremembered",
+  "dataset_commit": "98172f013dab6f8589805165676bce4c875d6429",
+  "kaeru_version": "0.7.5",
+  "model": "gpt-6-luna",
+  "reasoning_effort": "low",
+  "repetition": 1,
+  "status": "FAIL",
+  "outcome": "FAIL",
+  "phase_results": "turn-1=FAIL (stopped after workspace search without searching memory); memory_after=PASS_UNCHANGED",
+  "currency": "SILENCE_NO_MEMORY_FACT_USED",
+  "grading_rationale": "The agent searched workspace files and /tmp for the misremembered runbook title, then asked the user to point it out. It made no Kaeru calls and did not retrieve or follow the stored rollback order.",
+  "limitations": "The workspace had a rollback simulator but no runbook document. The authoritative procedure was present in memory; this file gap does not explain omitting the memory search.",
+  "metrics": {
+    "input_tokens": 135432,
+    "cached_input_tokens": 119040,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 729,
+    "reasoning_output_tokens": 0,
+    "native_turns": 1,
+    "kaeru_tool_calls": 0
+  },
+  "evidence": {
+    "before": "memory-before.json",
+    "after": "memory-before.json",
+    "turns": [
+      "turn-1.mcp.jsonl"
+    ],
+    "workspace_path": "/benchmark-run/workspaces/ws-0004",
+    "memory_after_identical_to_before": true
+  },
+  "failure_group": "no_activation",
+  "fixture_validation": {
+    "case_id": "A4-name-misremembered",
+    "local_nodes": 32,
+    "local_edges": 0,
+    "noise_nodes": 30,
+    "bodies_types_tiers_layers_tags_initiatives_edges": "PASS",
+    "cloud_nodes_local_absence": "N/A",
+    "seeder_exit": 0
+  }
+}

@@ -1,0 +1,563 @@
+{
+  "meta": {
+    "node_count": 33,
+    "edge_count": 1,
+    "initiative_count": 2,
+    "chain_count": 0,
+    "redacted_count": 0,
+    "earliest_secs": 1791232743.0,
+    "latest_secs": 1791232775.0
+  },
+  "initiatives": [
+    {
+      "name": "billing-service",
+      "node_count": 32
+    },
+    {
+      "name": "billing-legacy",
+      "node_count": 1
+    }
+  ],
+  "nodes": [
+    {
+      "id": "01a10dcf-2dda-7053-8b01-4a341180d908",
+      "name": "sprint-scope-agreed",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Scope for the current sprint agreed: three features, one migration, no new dependencies.",
+      "initiatives": [
+        "billing-service"
+      ],
+      "created_secs": 1791232743.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dcf-2ddc-7b10-a23b-e015e7065c85",
+      "name": "standup-cadence",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Standups moved to twice a week to leave longer focus blocks.",
+      "initiatives": [
+        "billing-service"
+      ],
+      "created_secs": 1791232744.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dcf-2ddd-7c40-b946-94f79b75cce5",
+      "name": "staging-refresh",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Staging refreshed from a sanitised copy of production data.",
+      "initiatives": [
+        "billing-service"
+      ],
+      "created_secs": 1791232745.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dcf-2ddf-7991-9b01-ae65d67302ae",
+      "name": "flaky-test-quarantine",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Two flaky tests quarantined pending a proper fix.",
+      "initiatives": [
+        "billing-service"
+      ],
+      "created_secs": 1791232746.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dcf-2de1-7ea3-ae35-7f988763038f",
+      "name": "dependency-bump-queued",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Dependency bump queued behind the current release.",
+      "initiatives": [
+        "billing-service"
+      ],
+      "created_secs": 1791232747.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dcf-2de3-7331-a78c-e8e248b699ba",
+      "name": "metrics-dashboard-fixed",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Metrics dashboard stopped double-counting retries after the last fix.",
+      "initiatives": [
+        "billing-service"
+      ],
+      "created_secs": 1791232748.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dcf-2de4-7520-b915-e36d3789087c",
+      "name": "error-budget-note",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Error budget for the quarter is largely unspent.",
+      "initiatives": [
+        "billing-service"
+      ],
+      "created_secs": 1791232749.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dcf-2de6-7012-b391-ebc3413a4de7",
+      "name": "docs-index-restructured",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Docs index restructured so setup comes before reference.",
+      "initiatives": [
+        "billing-service"
+      ],
+      "created_secs": 1791232750.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dcf-2de8-7f70-9c3d-ef8a7e4b5a4c",
+      "name": "support-question-recurring",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "The same support question keeps arriving about first-run configuration.",
+      "initiatives": [
+        "billing-service"
+      ],
+      "created_secs": 1791232751.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dcf-2dea-7621-a3d0-fcb2bf025351",
+      "name": "handover-note-format",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Handover notes list state, blockers, and the next concrete step.",
+      "initiatives": [
+        "billing-service"
+      ],
+      "created_secs": 1791232752.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dcf-2deb-7f52-9b08-9a75c60152aa",
+      "name": "retro-actions",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Retro produced three actions; two are already done.",
+      "initiatives": [
+        "billing-service"
+      ],
+      "created_secs": 1791232753.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dcf-2ded-7c80-bb3c-47907e82a471",
+      "name": "vendor-response-slow",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Vendor takes about a week to answer support tickets.",
+      "initiatives": [
+        "billing-service"
+      ],
+      "created_secs": 1791232754.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dcf-2def-7760-b949-126abd93e2f3",
+      "name": "pricing-tier-question",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Open question about which pricing tier the workload needs.",
+      "initiatives": [
+        "billing-service"
+      ],
+      "created_secs": 1791232755.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dcf-2df0-79a0-9a3c-7aedec90c808",
+      "name": "backup-verified",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Backups verified by restoring into a scratch environment.",
+      "initiatives": [
+        "billing-service"
+      ],
+      "created_secs": 1791232756.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dcf-2df2-7072-b564-33f7352b0acb",
+      "name": "access-request-pending",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Access request for the reporting tool still pending.",
+      "initiatives": [
+        "billing-service"
+      ],
+      "created_secs": 1791232757.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dcf-2df4-76d1-a061-f63f554143b3",
+      "name": "naming-of-environments",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Environments are named dev, staging and prod; no others.",
+      "initiatives": [
+        "billing-service"
+      ],
+      "created_secs": 1791232758.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dcf-2df6-78b1-bbed-af476343ea39",
+      "name": "incident-postmortem-short",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Short postmortem written for last month's outage; no action items outstanding.",
+      "initiatives": [
+        "billing-service"
+      ],
+      "created_secs": 1791232759.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dcf-2df7-7b10-b345-a57c94ea9773",
+      "name": "onboarding-buddy",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "New joiners get a buddy for the first fortnight.",
+      "initiatives": [
+        "billing-service"
+      ],
+      "created_secs": 1791232760.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dcf-2df9-76d3-a108-02dc07ad1385",
+      "name": "meeting-notes-location",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Meeting notes live alongside the project docs, not in chat.",
+      "initiatives": [
+        "billing-service"
+      ],
+      "created_secs": 1791232761.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dcf-2dfb-7c50-b051-e4da61449df3",
+      "name": "quarterly-planning-date",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Quarterly planning happens in the last week of the quarter.",
+      "initiatives": [
+        "billing-service"
+      ],
+      "created_secs": 1791232762.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dcf-2dfd-7d82-b917-45ef306f56eb",
+      "name": "contractor-availability",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Contractor available two days a week until the end of the engagement.",
+      "initiatives": [
+        "billing-service"
+      ],
+      "created_secs": 1791232763.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dcf-2dfe-7b91-bf24-892a0f462bcb",
+      "name": "legal-review-lead-time",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Legal review needs about ten working days.",
+      "initiatives": [
+        "billing-service"
+      ],
+      "created_secs": 1791232764.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dcf-2e00-74e0-8ee8-5b1b4b9c83f2",
+      "name": "analytics-sampling",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Analytics samples at a fixed rate; small effects are invisible.",
+      "initiatives": [
+        "billing-service"
+      ],
+      "created_secs": 1791232765.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dcf-2e02-7721-96eb-cb1942a7b307",
+      "name": "feature-flag-cleanup",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Old feature flags cleaned up after the last release.",
+      "initiatives": [
+        "billing-service"
+      ],
+      "created_secs": 1791232766.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dcf-2e03-71b0-a4d0-8e22f92fa329",
+      "name": "api-versioning-policy",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "API versions are additive; nothing is removed without a major bump.",
+      "initiatives": [
+        "billing-service"
+      ],
+      "created_secs": 1791232767.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dcf-2e05-7f31-9ccd-bd26edfd2ab2",
+      "name": "rate-limit-defaults",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Default rate limits are generous enough for internal use.",
+      "initiatives": [
+        "billing-service"
+      ],
+      "created_secs": 1791232768.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dcf-2e07-7653-8c88-65efd6bbad99",
+      "name": "cache-invalidation-note",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Cache invalidation is time-based rather than event-driven.",
+      "initiatives": [
+        "billing-service"
+      ],
+      "created_secs": 1791232769.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dcf-2e09-7f43-b588-c452d955a718",
+      "name": "search-index-rebuild",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Search index rebuild takes about twenty minutes.",
+      "initiatives": [
+        "billing-service"
+      ],
+      "created_secs": 1791232770.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dcf-2e0a-7640-b98b-1b0bd59f6ac7",
+      "name": "mobile-layout-issue",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Mobile layout breaks on very narrow screens; low priority.",
+      "initiatives": [
+        "billing-service"
+      ],
+      "created_secs": 1791232771.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dcf-2e0c-7030-9813-03686efbb0d5",
+      "name": "translation-status",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Translations lag the source by roughly one release.",
+      "initiatives": [
+        "billing-service"
+      ],
+      "created_secs": 1791232772.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dcf-2e0e-7983-81d3-364a04a03149",
+      "name": "invoice-rounding-decision",
+      "type": "reference",
+      "tier": "archival",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Decision on invoice totals: round each line to two decimals FIRST, then\nsum. Summing raw values and rounding once at the end produced totals that\ndisagreed with the printed lines by a cent, and two customers noticed.\n",
+      "initiatives": [
+        "billing-legacy"
+      ],
+      "created_secs": 1791232773.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dcf-2e10-7e72-8a48-45a5f21fb84c",
+      "name": "billing-service-overview",
+      "type": "reference",
+      "tier": "archival",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "The billing service composes invoices from usage records and renders them\nfor delivery. Line items come from the metering pipeline.\n",
+      "initiatives": [
+        "billing-service"
+      ],
+      "created_secs": 1791232774.0,
+      "degree": 1,
+      "redacted": false
+    },
+    {
+      "id": "01a10dcf-2e12-74d1-97aa-2a1425a6bef3",
+      "name": "new-usage-source-added",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "A second usage source was added this week; its records arrive with more\ndecimal places than the original one.\n",
+      "initiatives": [
+        "billing-service"
+      ],
+      "created_secs": 1791232775.0,
+      "degree": 1,
+      "redacted": false
+    }
+  ],
+  "edges": [
+    {
+      "src": "01a10dcf-2e12-74d1-97aa-2a1425a6bef3",
+      "dst": "01a10dcf-2e10-7e72-8a48-45a5f21fb84c",
+      "type": "refers_to",
+      "weight": 1.0,
+      "dst_store": "local",
+      "created_secs": 1791233043.0
+    }
+  ],
+  "chains": [],
+  "project_links": []
+}

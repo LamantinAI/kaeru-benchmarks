@@ -1,0 +1,42 @@
+{
+  "case_id": "E3-contradiction",
+  "dataset_commit": "98172f013dab6f8589805165676bce4c875d6429",
+  "kaeru_version": "0.7.5",
+  "model": "gpt-6-luna",
+  "reasoning_effort": "low",
+  "repetition": 1,
+  "status": "FAIL",
+  "outcome": "FAIL",
+  "phase_results": "turn-1=FAIL (no contradiction marking, no check of dependent design node, and no memory update); memory_after=FAIL (old one-hour fact and dependent design remain unchanged)",
+  "currency": "STALE_TOKEN_FACT_UNMARKED",
+  "grading_rationale": "The agent responded with a fix based on the new 15-minute fact but made no memory call. The old one-hour reference remains unmarked, and the derived session-handling design was not checked or updated.",
+  "limitations": "No objective workspace limitation is evidenced; the seeded fact and dependency are available in memory.",
+  "metrics": {
+    "input_tokens": 15487,
+    "cached_input_tokens": 11008,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 47,
+    "reasoning_output_tokens": 0,
+    "native_turns": 1,
+    "kaeru_tool_calls": 0
+  },
+  "evidence": {
+    "before": "memory-before.json",
+    "after": "memory-before.json",
+    "turns": [
+      "turn-1.mcp.jsonl"
+    ],
+    "workspace_path": "/benchmark-run/workspaces/ws-0025",
+    "memory_after_identical_to_before": true
+  },
+  "failure_group": "no_activation",
+  "fixture_validation": {
+    "case_id": "E3-contradiction",
+    "local_nodes": 32,
+    "local_edges": 1,
+    "noise_nodes": 30,
+    "bodies_types_tiers_layers_tags_initiatives_edges": "PASS",
+    "cloud_nodes_local_absence": "N/A",
+    "seeder_exit": 0
+  }
+}

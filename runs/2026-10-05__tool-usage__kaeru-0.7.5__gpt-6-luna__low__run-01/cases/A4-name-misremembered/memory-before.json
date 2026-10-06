@@ -1,0 +1,534 @@
+{
+  "meta": {
+    "node_count": 32,
+    "edge_count": 0,
+    "initiative_count": 1,
+    "chain_count": 0,
+    "redacted_count": 0,
+    "earliest_secs": 1791232757.0,
+    "latest_secs": 1791232788.0
+  },
+  "initiatives": [
+    {
+      "name": "deploy-runbooks",
+      "node_count": 32
+    }
+  ],
+  "nodes": [
+    {
+      "id": "01a10dcf-6101-77c3-be72-b84b4325d1d9",
+      "name": "sprint-scope-agreed",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Scope for the current sprint agreed: three features, one migration, no new dependencies.",
+      "initiatives": [
+        "deploy-runbooks"
+      ],
+      "created_secs": 1791232757.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dcf-6103-7423-898e-a0a26734ae98",
+      "name": "standup-cadence",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Standups moved to twice a week to leave longer focus blocks.",
+      "initiatives": [
+        "deploy-runbooks"
+      ],
+      "created_secs": 1791232758.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dcf-6105-7f43-b9c7-9100d22a0b48",
+      "name": "staging-refresh",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Staging refreshed from a sanitised copy of production data.",
+      "initiatives": [
+        "deploy-runbooks"
+      ],
+      "created_secs": 1791232759.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dcf-6106-7b92-a371-f6a1025af7a7",
+      "name": "flaky-test-quarantine",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Two flaky tests quarantined pending a proper fix.",
+      "initiatives": [
+        "deploy-runbooks"
+      ],
+      "created_secs": 1791232760.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dcf-6108-76e1-9de5-4e3f65de7ea5",
+      "name": "dependency-bump-queued",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Dependency bump queued behind the current release.",
+      "initiatives": [
+        "deploy-runbooks"
+      ],
+      "created_secs": 1791232761.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dcf-610a-7fa1-a4af-58e71b450b5a",
+      "name": "metrics-dashboard-fixed",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Metrics dashboard stopped double-counting retries after the last fix.",
+      "initiatives": [
+        "deploy-runbooks"
+      ],
+      "created_secs": 1791232762.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dcf-610b-7540-8188-a43f2369d2e0",
+      "name": "error-budget-note",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Error budget for the quarter is largely unspent.",
+      "initiatives": [
+        "deploy-runbooks"
+      ],
+      "created_secs": 1791232763.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dcf-610d-71e2-9dea-ad906918c202",
+      "name": "docs-index-restructured",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Docs index restructured so setup comes before reference.",
+      "initiatives": [
+        "deploy-runbooks"
+      ],
+      "created_secs": 1791232764.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dcf-610f-7470-b640-5a8af6d4f6df",
+      "name": "support-question-recurring",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "The same support question keeps arriving about first-run configuration.",
+      "initiatives": [
+        "deploy-runbooks"
+      ],
+      "created_secs": 1791232765.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dcf-6111-7470-ab62-dcdac54adc2c",
+      "name": "handover-note-format",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Handover notes list state, blockers, and the next concrete step.",
+      "initiatives": [
+        "deploy-runbooks"
+      ],
+      "created_secs": 1791232766.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dcf-6112-7122-aa7c-ad908aff2822",
+      "name": "retro-actions",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Retro produced three actions; two are already done.",
+      "initiatives": [
+        "deploy-runbooks"
+      ],
+      "created_secs": 1791232767.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dcf-6114-73c3-80be-24342c4c06a9",
+      "name": "vendor-response-slow",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Vendor takes about a week to answer support tickets.",
+      "initiatives": [
+        "deploy-runbooks"
+      ],
+      "created_secs": 1791232768.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dcf-6116-7973-a8ef-15fdc2cb6a59",
+      "name": "pricing-tier-question",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Open question about which pricing tier the workload needs.",
+      "initiatives": [
+        "deploy-runbooks"
+      ],
+      "created_secs": 1791232769.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dcf-6117-7713-b423-ceab4b1462d3",
+      "name": "backup-verified",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Backups verified by restoring into a scratch environment.",
+      "initiatives": [
+        "deploy-runbooks"
+      ],
+      "created_secs": 1791232770.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dcf-6119-7122-821f-58f73d457476",
+      "name": "access-request-pending",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Access request for the reporting tool still pending.",
+      "initiatives": [
+        "deploy-runbooks"
+      ],
+      "created_secs": 1791232771.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dcf-611b-7a72-8ddc-8ef642a03c96",
+      "name": "naming-of-environments",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Environments are named dev, staging and prod; no others.",
+      "initiatives": [
+        "deploy-runbooks"
+      ],
+      "created_secs": 1791232772.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dcf-611c-7ba3-958e-43351a815a21",
+      "name": "incident-postmortem-short",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Short postmortem written for last month's outage; no action items outstanding.",
+      "initiatives": [
+        "deploy-runbooks"
+      ],
+      "created_secs": 1791232773.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dcf-611e-7b32-9178-62533742407e",
+      "name": "onboarding-buddy",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "New joiners get a buddy for the first fortnight.",
+      "initiatives": [
+        "deploy-runbooks"
+      ],
+      "created_secs": 1791232774.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dcf-6120-7062-be13-96ffc55011a4",
+      "name": "meeting-notes-location",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Meeting notes live alongside the project docs, not in chat.",
+      "initiatives": [
+        "deploy-runbooks"
+      ],
+      "created_secs": 1791232775.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dcf-6122-7c93-9cbb-041ce93eefb8",
+      "name": "quarterly-planning-date",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Quarterly planning happens in the last week of the quarter.",
+      "initiatives": [
+        "deploy-runbooks"
+      ],
+      "created_secs": 1791232776.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dcf-6123-7d50-be06-4dd37f8ed5de",
+      "name": "contractor-availability",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Contractor available two days a week until the end of the engagement.",
+      "initiatives": [
+        "deploy-runbooks"
+      ],
+      "created_secs": 1791232777.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dcf-6125-7062-8b5c-0fe31cb9ec83",
+      "name": "legal-review-lead-time",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Legal review needs about ten working days.",
+      "initiatives": [
+        "deploy-runbooks"
+      ],
+      "created_secs": 1791232778.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dcf-6127-7d13-a04d-007c1719f478",
+      "name": "analytics-sampling",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Analytics samples at a fixed rate; small effects are invisible.",
+      "initiatives": [
+        "deploy-runbooks"
+      ],
+      "created_secs": 1791232779.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dcf-6128-74d3-beba-cefd7e814521",
+      "name": "feature-flag-cleanup",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Old feature flags cleaned up after the last release.",
+      "initiatives": [
+        "deploy-runbooks"
+      ],
+      "created_secs": 1791232780.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dcf-612a-7f23-9adb-de2a5aa0dc76",
+      "name": "api-versioning-policy",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "API versions are additive; nothing is removed without a major bump.",
+      "initiatives": [
+        "deploy-runbooks"
+      ],
+      "created_secs": 1791232781.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dcf-612c-7d23-9094-d9bc3ed9303e",
+      "name": "rate-limit-defaults",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Default rate limits are generous enough for internal use.",
+      "initiatives": [
+        "deploy-runbooks"
+      ],
+      "created_secs": 1791232782.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dcf-612e-79e3-8de9-51d8cd94ce77",
+      "name": "cache-invalidation-note",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Cache invalidation is time-based rather than event-driven.",
+      "initiatives": [
+        "deploy-runbooks"
+      ],
+      "created_secs": 1791232783.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dcf-612f-7602-80f5-90a4d6ac4081",
+      "name": "search-index-rebuild",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Search index rebuild takes about twenty minutes.",
+      "initiatives": [
+        "deploy-runbooks"
+      ],
+      "created_secs": 1791232784.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dcf-6131-7a81-8130-ab12cdcb2519",
+      "name": "mobile-layout-issue",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Mobile layout breaks on very narrow screens; low priority.",
+      "initiatives": [
+        "deploy-runbooks"
+      ],
+      "created_secs": 1791232785.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dcf-6133-7392-bbc8-a799452c783f",
+      "name": "translation-status",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Translations lag the source by roughly one release.",
+      "initiatives": [
+        "deploy-runbooks"
+      ],
+      "created_secs": 1791232786.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dcf-6134-7bc2-8e8f-f49fc54f9264",
+      "name": "rollback-procedure-blue-green",
+      "type": "reference",
+      "tier": "archival",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Rollback for the blue-green setup: repoint the router at the previous\ncolour, wait for connections to drain, and only then stop the new stack.\nStopping first drops in-flight requests, which is how the last rollback\nturned a bad deploy into an outage.\n",
+      "initiatives": [
+        "deploy-runbooks"
+      ],
+      "created_secs": 1791232787.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dcf-6137-7913-a188-8b37f55f4373",
+      "name": "deploy-window-policy",
+      "type": "reference",
+      "tier": "archival",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Deploys happen before mid-afternoon so there is time to react. No deploys\non the last working day of the week.\n",
+      "initiatives": [
+        "deploy-runbooks"
+      ],
+      "created_secs": 1791232788.0,
+      "degree": 0,
+      "redacted": false
+    }
+  ],
+  "edges": [],
+  "chains": [],
+  "project_links": []
+}

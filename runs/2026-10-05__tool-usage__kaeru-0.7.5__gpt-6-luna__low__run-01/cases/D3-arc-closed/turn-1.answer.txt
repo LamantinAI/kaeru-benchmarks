@@ -1,0 +1,1 @@
+Updated the `auth-rollout` memory: auth and rate limiting are recorded as deployed and verified in production, with no further work planned. The completion record is now a settled outcome, and the earlier “in flight” note is marked as a historical snapshot superseded by the completed rollout.

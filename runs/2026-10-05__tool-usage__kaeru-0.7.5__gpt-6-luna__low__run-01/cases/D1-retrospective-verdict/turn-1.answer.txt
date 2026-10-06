@@ -1,0 +1,1 @@
+Saved and settled in the `image-pipeline` memory. The note records that three size tests and the provider’s model page confirmed the parameter is honoured; our client config default was overwriting the requested size. I also linked it as evidence against the earlier suspicion and recorded that suspicion as refuted.

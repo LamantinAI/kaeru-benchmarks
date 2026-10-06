@@ -1,0 +1,5 @@
+I don’t have enough context about that queue to give a factual reason. A safe answer is:
+
+> “Autoscaling consumers only helps if adding workers increases useful throughput. We needed to account for the queue’s bottleneck and constraints first—such as downstream capacity, ordering, or per-consumer limits—so scaling workers could have added cost or pressure without reducing the backlog.”
+
+If you share what the queue does and what constrained it, I can make that answer specific.

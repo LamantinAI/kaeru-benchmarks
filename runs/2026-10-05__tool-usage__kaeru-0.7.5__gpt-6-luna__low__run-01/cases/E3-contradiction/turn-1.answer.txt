@@ -1,0 +1,1 @@
+That explains the session drops: the access tokens are valid for 15 minutes, so anything assuming a one-hour lifetime will expire too late. The fix is to refresh them before expiry and handle refresh failures cleanly.

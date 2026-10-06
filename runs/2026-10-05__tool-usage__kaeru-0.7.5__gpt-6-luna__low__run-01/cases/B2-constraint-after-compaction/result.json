@@ -1,0 +1,43 @@
+{
+  "case_id": "B2-constraint-after-compaction",
+  "dataset_commit": "98172f013dab6f8589805165676bce4c875d6429",
+  "kaeru_version": "0.7.5",
+  "model": "gpt-6-luna",
+  "reasoning_effort": "low",
+  "repetition": 1,
+  "status": "PARTIAL_ENVIRONMENT_CONFOUNDED",
+  "outcome": "PARTIAL_ENVIRONMENT_CONFOUNDED",
+  "phase_results": "turn-1=FAIL (implemented reporting-job staging and checksum promotion but did not store the durable rule); turn-2=ENVIRONMENT_CONFOUNDED (real compaction confirmed; resumed agent reported workspace read-only and did not update finance jobs or consult memory)",
+  "currency": "TWO_STAGE_RULE_NOT_PERSISTED",
+  "grading_rationale": "The required rule was not captured during the completed first phase. The second phase cannot be cleanly judged as an implementation failure because the answer reports a read-only workspace despite the harness’s app-server write permissions; no memory lookup occurred after compaction.",
+  "limitations": "Turn two reported read-only access, conflicting with the supplied app-server workspaceWrite permission evidence. This objectively confounds the requested finance-job edits; it does not erase the independent turn-one capture failure.",
+  "metrics": {
+    "input_tokens": 218324,
+    "cached_input_tokens": 192256,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 2530,
+    "reasoning_output_tokens": 167,
+    "native_turns": 2,
+    "kaeru_tool_calls": 0
+  },
+  "evidence": {
+    "before": "memory-before.json",
+    "after": "memory-before.json",
+    "turns": [
+      "turn-1.mcp.jsonl",
+      "turn-2.mcp.jsonl"
+    ],
+    "workspace_path": "/benchmark-run/workspaces/ws-0009",
+    "memory_after_identical_to_before": true
+  },
+  "failure_group": "",
+  "fixture_validation": {
+    "case_id": "B2-constraint-after-compaction",
+    "local_nodes": 32,
+    "local_edges": 0,
+    "noise_nodes": 30,
+    "bodies_types_tiers_layers_tags_initiatives_edges": "PASS",
+    "cloud_nodes_local_absence": "N/A",
+    "seeder_exit": 0
+  }
+}

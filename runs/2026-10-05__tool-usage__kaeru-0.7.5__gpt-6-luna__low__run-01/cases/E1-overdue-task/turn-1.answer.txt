@@ -1,0 +1,3 @@
+The retention summary is ready to draft, but the workspace only contains an empty template: [retention-summary.md](/benchmark-run/workspaces/ws-0023/compliance/retention-summary.md). There are no retention periods, data categories, or access and approval details in the available materials, so I can’t fill those sections reliably.
+
+Share the applicable policy or review notes, and I’ll complete the summary.

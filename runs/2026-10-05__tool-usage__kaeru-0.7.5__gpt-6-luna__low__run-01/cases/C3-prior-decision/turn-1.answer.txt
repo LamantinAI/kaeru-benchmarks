@@ -1,0 +1,12 @@
+This workspace only identifies the initiative as **storage-layer**; it has no import code or storage configuration to inspect. So I can’t tell which options fit your current write path yet.
+
+Common options, from least to most invasive:
+
+- **Batch writes**: group records into larger inserts or API calls; often the simplest win when per-record overhead dominates.
+- **Use transactions**: commit a batch together instead of paying for a commit per record.
+- **Tune concurrency**: add a small number of parallel writers if the storage engine can handle it; too much concurrency can make contention worse.
+- **Stage then merge**: write into a staging area and bulk-merge into the main tables, useful for upserts or complex transformations.
+- **Change indexes or constraints during the import**: defer or reduce index maintenance if the database supports it and consistency requirements allow.
+- **Change the storage path**: use bulk-load facilities or a different storage format if the current engine’s write throughput is the limit.
+
+Share the importer and storage configuration (or point me to the repository), and I can narrow this to specific changes and tradeoffs.

@@ -1,0 +1,22 @@
+{
+  "turn_id": "turn-1",
+  "prompt_sha256": "8556f06e49d5a518c9e16626b9f2de4ecb84f5ab2ec1e47ea542b5424c6b0a5e",
+  "prompt_chars": 136,
+  "thread_id": "01a10dd7-7439-7a11-b897-1cb4103d3eb6",
+  "started_utc": "2026-10-05T20:53:06.151871+00:00",
+  "elapsed_seconds": 80.204,
+  "returncode": 0,
+  "usage": {
+    "input_tokens": 977287,
+    "cached_input_tokens": 904704,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 1845,
+    "reasoning_output_tokens": 0
+  },
+  "kaeru_tool_calls": 29,
+  "workspace_before": "turn-1.workspace-before.json",
+  "workspace_after": "turn-1.workspace-before.json",
+  "trace": "turn-1.mcp.jsonl",
+  "answer": "turn-1.answer.txt",
+  "workspace_after_identical_to_before": true
+}

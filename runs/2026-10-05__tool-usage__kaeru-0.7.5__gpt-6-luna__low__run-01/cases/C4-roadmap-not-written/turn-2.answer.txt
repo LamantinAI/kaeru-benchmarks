@@ -1,0 +1,3 @@
+Let’s start by finding the reporting code and tracing how a report is produced today: its inputs, format, and where it’s used. Then we can identify what the rewrite needs to preserve and shape the new design around that.
+
+What should the rewrite improve most: readability, report structure, accuracy, or the generation pipeline?

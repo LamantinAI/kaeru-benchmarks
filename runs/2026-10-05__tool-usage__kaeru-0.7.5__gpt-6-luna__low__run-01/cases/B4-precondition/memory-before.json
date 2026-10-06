@@ -1,0 +1,534 @@
+{
+  "meta": {
+    "node_count": 32,
+    "edge_count": 0,
+    "initiative_count": 1,
+    "chain_count": 0,
+    "redacted_count": 0,
+    "earliest_secs": 1791232946.0,
+    "latest_secs": 1791232977.0
+  },
+  "initiatives": [
+    {
+      "name": "multi-repo-release",
+      "node_count": 32
+    }
+  ],
+  "nodes": [
+    {
+      "id": "01a10dd2-46e4-7dc1-a879-904e5e378085",
+      "name": "sprint-scope-agreed",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Scope for the current sprint agreed: three features, one migration, no new dependencies.",
+      "initiatives": [
+        "multi-repo-release"
+      ],
+      "created_secs": 1791232946.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dd2-46e6-75f0-971a-9866b18c082e",
+      "name": "standup-cadence",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Standups moved to twice a week to leave longer focus blocks.",
+      "initiatives": [
+        "multi-repo-release"
+      ],
+      "created_secs": 1791232947.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dd2-46e7-78a2-9c0a-586a7d249518",
+      "name": "staging-refresh",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Staging refreshed from a sanitised copy of production data.",
+      "initiatives": [
+        "multi-repo-release"
+      ],
+      "created_secs": 1791232948.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dd2-46e9-7101-a6b5-433225b58df5",
+      "name": "flaky-test-quarantine",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Two flaky tests quarantined pending a proper fix.",
+      "initiatives": [
+        "multi-repo-release"
+      ],
+      "created_secs": 1791232949.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dd2-46eb-7e80-b49f-7fd5e972a14e",
+      "name": "dependency-bump-queued",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Dependency bump queued behind the current release.",
+      "initiatives": [
+        "multi-repo-release"
+      ],
+      "created_secs": 1791232950.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dd2-46ed-7062-962d-d2380d7cf43f",
+      "name": "metrics-dashboard-fixed",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Metrics dashboard stopped double-counting retries after the last fix.",
+      "initiatives": [
+        "multi-repo-release"
+      ],
+      "created_secs": 1791232951.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dd2-46ef-7bd1-8802-1680ee439dbd",
+      "name": "error-budget-note",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Error budget for the quarter is largely unspent.",
+      "initiatives": [
+        "multi-repo-release"
+      ],
+      "created_secs": 1791232952.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dd2-46f0-7a82-9947-ec807cef13b4",
+      "name": "docs-index-restructured",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Docs index restructured so setup comes before reference.",
+      "initiatives": [
+        "multi-repo-release"
+      ],
+      "created_secs": 1791232953.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dd2-46f2-7903-ad51-dc8c0aff4c68",
+      "name": "support-question-recurring",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "The same support question keeps arriving about first-run configuration.",
+      "initiatives": [
+        "multi-repo-release"
+      ],
+      "created_secs": 1791232954.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dd2-46f4-7430-8513-c855d50bb78a",
+      "name": "handover-note-format",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Handover notes list state, blockers, and the next concrete step.",
+      "initiatives": [
+        "multi-repo-release"
+      ],
+      "created_secs": 1791232955.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dd2-46f6-7772-8bdb-df101814fe76",
+      "name": "retro-actions",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Retro produced three actions; two are already done.",
+      "initiatives": [
+        "multi-repo-release"
+      ],
+      "created_secs": 1791232956.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dd2-46f7-70c2-b699-c5b438aaca5a",
+      "name": "vendor-response-slow",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Vendor takes about a week to answer support tickets.",
+      "initiatives": [
+        "multi-repo-release"
+      ],
+      "created_secs": 1791232957.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dd2-46f9-7d31-a43f-6d20ab47cab0",
+      "name": "pricing-tier-question",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Open question about which pricing tier the workload needs.",
+      "initiatives": [
+        "multi-repo-release"
+      ],
+      "created_secs": 1791232958.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dd2-46fb-75c1-ba6c-34e28be56a37",
+      "name": "backup-verified",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Backups verified by restoring into a scratch environment.",
+      "initiatives": [
+        "multi-repo-release"
+      ],
+      "created_secs": 1791232959.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dd2-46fc-76d1-a521-3e7128d17607",
+      "name": "access-request-pending",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Access request for the reporting tool still pending.",
+      "initiatives": [
+        "multi-repo-release"
+      ],
+      "created_secs": 1791232960.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dd2-46fe-7c70-a7de-b6141aa4f1f4",
+      "name": "naming-of-environments",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Environments are named dev, staging and prod; no others.",
+      "initiatives": [
+        "multi-repo-release"
+      ],
+      "created_secs": 1791232961.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dd2-4700-70d2-80f6-07dfb595cd24",
+      "name": "incident-postmortem-short",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Short postmortem written for last month's outage; no action items outstanding.",
+      "initiatives": [
+        "multi-repo-release"
+      ],
+      "created_secs": 1791232962.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dd2-4702-7230-9cd3-e2f64c7cd24d",
+      "name": "onboarding-buddy",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "New joiners get a buddy for the first fortnight.",
+      "initiatives": [
+        "multi-repo-release"
+      ],
+      "created_secs": 1791232963.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dd2-4703-7772-bede-b9a3c1ada306",
+      "name": "meeting-notes-location",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Meeting notes live alongside the project docs, not in chat.",
+      "initiatives": [
+        "multi-repo-release"
+      ],
+      "created_secs": 1791232964.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dd2-4705-73c1-b056-ce322803d1a3",
+      "name": "quarterly-planning-date",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Quarterly planning happens in the last week of the quarter.",
+      "initiatives": [
+        "multi-repo-release"
+      ],
+      "created_secs": 1791232965.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dd2-4707-73b1-9729-89cdd3474507",
+      "name": "contractor-availability",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Contractor available two days a week until the end of the engagement.",
+      "initiatives": [
+        "multi-repo-release"
+      ],
+      "created_secs": 1791232966.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dd2-4709-7951-a379-9f1bc7ba5b43",
+      "name": "legal-review-lead-time",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Legal review needs about ten working days.",
+      "initiatives": [
+        "multi-repo-release"
+      ],
+      "created_secs": 1791232967.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dd2-470a-7133-abe6-94f3ad8c0ead",
+      "name": "analytics-sampling",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Analytics samples at a fixed rate; small effects are invisible.",
+      "initiatives": [
+        "multi-repo-release"
+      ],
+      "created_secs": 1791232968.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dd2-470c-7cc0-9638-595162db8460",
+      "name": "feature-flag-cleanup",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Old feature flags cleaned up after the last release.",
+      "initiatives": [
+        "multi-repo-release"
+      ],
+      "created_secs": 1791232969.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dd2-470e-7d11-a923-5906267660d1",
+      "name": "api-versioning-policy",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "API versions are additive; nothing is removed without a major bump.",
+      "initiatives": [
+        "multi-repo-release"
+      ],
+      "created_secs": 1791232970.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dd2-4710-7921-8c0f-70cfcf223bb5",
+      "name": "rate-limit-defaults",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Default rate limits are generous enough for internal use.",
+      "initiatives": [
+        "multi-repo-release"
+      ],
+      "created_secs": 1791232971.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dd2-4711-7120-8e73-d9f3a1f20d82",
+      "name": "cache-invalidation-note",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Cache invalidation is time-based rather than event-driven.",
+      "initiatives": [
+        "multi-repo-release"
+      ],
+      "created_secs": 1791232972.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dd2-4713-73c2-b5c2-81d82d818594",
+      "name": "search-index-rebuild",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Search index rebuild takes about twenty minutes.",
+      "initiatives": [
+        "multi-repo-release"
+      ],
+      "created_secs": 1791232973.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dd2-4715-7e41-a017-e1d5e97653b0",
+      "name": "mobile-layout-issue",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Mobile layout breaks on very narrow screens; low priority.",
+      "initiatives": [
+        "multi-repo-release"
+      ],
+      "created_secs": 1791232974.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dd2-4717-70f1-906e-4fb6d2645c6a",
+      "name": "translation-status",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Translations lag the source by roughly one release.",
+      "initiatives": [
+        "multi-repo-release"
+      ],
+      "created_secs": 1791232975.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dd2-4718-7f71-876e-ed7be36daf7a",
+      "name": "repo-map",
+      "type": "reference",
+      "tier": "archival",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Four repositories take part in a release: the API, the worker, the client\nand the shared schema. Changes usually touch at least two.\n",
+      "initiatives": [
+        "multi-repo-release"
+      ],
+      "created_secs": 1791232976.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dd2-471a-75f3-8952-6f33ed1b4246",
+      "name": "last-release-notes",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Last release went out without incident. The schema change landed first,\nthen the services.\n",
+      "initiatives": [
+        "multi-repo-release"
+      ],
+      "created_secs": 1791232977.0,
+      "degree": 0,
+      "redacted": false
+    }
+  ],
+  "edges": [],
+  "chains": [],
+  "project_links": []
+}

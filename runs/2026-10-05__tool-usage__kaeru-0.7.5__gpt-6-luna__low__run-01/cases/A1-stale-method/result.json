@@ -1,0 +1,44 @@
+{
+  "case_id": "A1-stale-method",
+  "dataset_commit": "98172f013dab6f8589805165676bce4c875d6429",
+  "kaeru_version": "0.7.5",
+  "model": "gpt-6-luna",
+  "reasoning_effort": "low",
+  "repetition": 1,
+  "status": "FAIL",
+  "outcome": "FAIL",
+  "phase_results": "memory_lookup=FAIL (no Kaeru call before first capture); capture_action=PASS (all four frames captured by window ID; no activation or screen capture); memory_after=PASS_UNCHANGED",
+  "currency": "CURRENT_ACTION_MATCH_BUT_NOT_MEMORY_DERIVED",
+  "grading_rationale": "The agent used the correct background capture action and kept the other-work window active, but A1 also requires consulting memory before the first capture. The trace records zero Kaeru calls, so correct workspace execution does not satisfy the memory lookup requirement.",
+  "limitations": "No objective workspace limitation is evidenced; the simulator provided all four panels and supported window-ID capture.",
+  "metrics": {
+    "input_tokens": 103437,
+    "cached_input_tokens": 93696,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 616,
+    "reasoning_output_tokens": 135,
+    "native_turns": 1,
+    "kaeru_tool_calls": 0
+  },
+  "evidence": {
+    "before": "memory-before.json",
+    "after": "memory-before.json",
+    "turns": [
+      "turn-1.mcp.jsonl"
+    ],
+    "workspace_path": "/benchmark-run/workspaces/ws-0002",
+    "memory_after_identical_to_before": true
+  },
+  "failure_group": "no_activation",
+  "fixture_validation": {
+    "case_id": "A1-stale-method",
+    "local_nodes": 48,
+    "local_edges": 1,
+    "noise_nodes": 44,
+    "bodies_types_tiers_layers_tags_initiatives_edges": "PASS",
+    "cloud_nodes_local_absence": "N/A",
+    "seeder_exit": 0,
+    "target_rank_capture_prefix": 5,
+    "newer_noise_nodes": 44
+  }
+}

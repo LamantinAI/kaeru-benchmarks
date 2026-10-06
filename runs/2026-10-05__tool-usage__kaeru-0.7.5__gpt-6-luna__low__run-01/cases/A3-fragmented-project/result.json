@@ -1,0 +1,42 @@
+{
+  "case_id": "A3-fragmented-project",
+  "dataset_commit": "98172f013dab6f8589805165676bce4c875d6429",
+  "kaeru_version": "0.7.5",
+  "model": "gpt-6-luna",
+  "reasoning_effort": "low",
+  "repetition": 1,
+  "status": "FAIL",
+  "outcome": "FAIL",
+  "phase_results": "turn-1=FAIL (no cross-initiative memory lookup; reported raw-sum total 5.859); memory_after=PASS_UNCHANGED",
+  "currency": "SILENCE_OR_WRONG_TOTAL",
+  "grading_rationale": "The stored billing-legacy decision requires rounding each line to two decimals before summing. The answer reports 5.859, and no Kaeru call was made to discover or apply that decision.",
+  "limitations": "No objective workspace limitation is evidenced for the required decision lookup; the seeded sibling-initiative node is the relevant source.",
+  "metrics": {
+    "input_tokens": 47132,
+    "cached_input_tokens": 37120,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 265,
+    "reasoning_output_tokens": 0,
+    "native_turns": 1,
+    "kaeru_tool_calls": 0
+  },
+  "evidence": {
+    "before": "memory-before.json",
+    "after": "memory-before.json",
+    "turns": [
+      "turn-1.mcp.jsonl"
+    ],
+    "workspace_path": "/benchmark-run/workspaces/ws-0003",
+    "memory_after_identical_to_before": true
+  },
+  "failure_group": "no_activation",
+  "fixture_validation": {
+    "case_id": "A3-fragmented-project",
+    "local_nodes": 33,
+    "local_edges": 1,
+    "noise_nodes": 30,
+    "bodies_types_tiers_layers_tags_initiatives_edges": "PASS",
+    "cloud_nodes_local_absence": "N/A",
+    "seeder_exit": 0
+  }
+}

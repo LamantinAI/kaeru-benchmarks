@@ -1,0 +1,8 @@
+Yes. That sequence gives us evidence before we invest in scheduling and materializing the heavy aggregations:
+
+1. Extract the current aggregations behind a clear interface.
+2. Add a cache and observe which aggregations are actually hot.
+3. Move the hot, expensive aggregations to a nightly job.
+4. Remove the old path once the new path is serving the same needs.
+
+One useful refinement: make stage 2 collect hit rates and compute cost, so “hot” means both frequently requested and worth precomputing. Keep the old path available during migration until the nightly results are validated.

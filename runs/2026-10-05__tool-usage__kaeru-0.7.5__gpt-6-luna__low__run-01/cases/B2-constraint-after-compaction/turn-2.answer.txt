@@ -1,0 +1,1 @@
+The two finance jobs are `finance-a` and `finance-b`. I couldn’t update their configuration because this workspace is mounted read-only in the current session. They need staging paths under `storage/staging/` and `"promotion": "checksum-verified"`, matching the reporting jobs.

@@ -1,0 +1,43 @@
+{
+  "case_id": "D5-trail-worth-saving",
+  "dataset_commit": "98172f013dab6f8589805165676bce4c875d6429",
+  "kaeru_version": "0.7.5",
+  "model": "gpt-6-luna",
+  "reasoning_effort": "low",
+  "repetition": 1,
+  "status": "FAIL",
+  "outcome": "FAIL",
+  "phase_results": "turn-1 PASS: readable archived handoff summary and repaired path; turn-2 FAIL: no memory read, failed autoscaling attempt omitted.",
+  "currency": "HANDOFF_BRIEF_WITHOUT_READABLE_SAVED_CHAIN",
+  "grading_rationale": "The first turn preserved a readable reasoning path and archival summary, including the failed scaling attempt. A formal chain verb is not mandatory. The fresh second turn made zero memory calls and gave speculative reasons without the actual failed attempt.",
+  "limitations": "Promotion left old historical provenance dangling, but the agent repaired live links and saved a readable summary; this does not make the case environment-confounded.",
+  "metrics": {
+    "input_tokens": 1023926,
+    "cached_input_tokens": 950016,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 2051,
+    "reasoning_output_tokens": 0,
+    "native_turns": 2,
+    "kaeru_tool_calls": 29
+  },
+  "evidence": {
+    "before": "memory-before.json",
+    "after": "memory-after.json",
+    "turns": [
+      "turn-1.mcp.jsonl",
+      "turn-2.mcp.jsonl"
+    ],
+    "workspace_path": "/benchmark-run/workspaces/ws-0022",
+    "memory_after_identical_to_before": false
+  },
+  "failure_group": "fresh_session_activation",
+  "fixture_validation": {
+    "case_id": "D5-trail-worth-saving",
+    "local_nodes": 34,
+    "local_edges": 3,
+    "noise_nodes": 30,
+    "bodies_types_tiers_layers_tags_initiatives_edges": "PASS",
+    "cloud_nodes_local_absence": "N/A",
+    "seeder_exit": 0
+  }
+}

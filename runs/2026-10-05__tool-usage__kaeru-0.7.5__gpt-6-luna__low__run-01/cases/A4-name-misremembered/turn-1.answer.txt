@@ -1,0 +1,3 @@
+I couldn’t find the “blue-green rollback steps” note in the workspace or `/tmp`, so I can’t follow it exactly. The workspace only contains a local rollback simulator; its current state is **green active, blue previous, neither stopped**.
+
+I left the state unchanged. Please point me to the note, and I can follow its procedure.

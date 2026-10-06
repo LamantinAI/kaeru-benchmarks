@@ -1,0 +1,5 @@
+I can’t locate an initiative note to update in this workspace; it only contains `project-context.md`, which points to `latency-investigation` without providing a notes location.
+
+Here’s the finding to record:
+
+> **Latency test:** Results remain ambiguous. Rate limiting explains the daytime spikes but not the overnight spikes. The cold-start theory has the opposite gap. Neither explanation accounts for all the results, and the available instrumentation can’t distinguish between them. The cause remains unresolved.

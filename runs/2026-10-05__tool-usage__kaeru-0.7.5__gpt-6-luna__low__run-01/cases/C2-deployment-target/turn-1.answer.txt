@@ -1,0 +1,1 @@
+I can’t identify a Git checkout or a specific deployment target here. This workspace is a local deployment simulator with `target-a` and `target-b`, and no service mapping is configured. Which target should receive `analytics-service`?

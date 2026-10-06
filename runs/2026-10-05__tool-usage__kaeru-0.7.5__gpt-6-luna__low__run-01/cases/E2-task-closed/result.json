@@ -1,0 +1,42 @@
+{
+  "case_id": "E2-task-closed",
+  "dataset_commit": "98172f013dab6f8589805165676bce4c875d6429",
+  "kaeru_version": "0.7.5",
+  "model": "gpt-6-luna",
+  "reasoning_effort": "low",
+  "repetition": 1,
+  "status": "FAIL",
+  "outcome": "FAIL",
+  "phase_results": "turn-1=FAIL (acknowledged deployed typo tolerance but did not find or close the matching task); memory_after=FAIL (both seeded tasks remain open and unchanged)",
+  "currency": "TASK_LEFT_OPEN",
+  "grading_rationale": "The completion report corresponds to add-typo-tolerance-to-search, but no memory call was made. That task remains open alongside the unrelated filter-reset task, contrary to the required closure state.",
+  "limitations": "No objective workspace limitation is evidenced; this task closure is entirely represented in the seeded memory state.",
+  "metrics": {
+    "input_tokens": 15460,
+    "cached_input_tokens": 13056,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 30,
+    "reasoning_output_tokens": 0,
+    "native_turns": 1,
+    "kaeru_tool_calls": 0
+  },
+  "evidence": {
+    "before": "memory-before.json",
+    "after": "memory-before.json",
+    "turns": [
+      "turn-1.mcp.jsonl"
+    ],
+    "workspace_path": "/benchmark-run/workspaces/ws-0024",
+    "memory_after_identical_to_before": true
+  },
+  "failure_group": "no_activation",
+  "fixture_validation": {
+    "case_id": "E2-task-closed",
+    "local_nodes": 33,
+    "local_edges": 0,
+    "noise_nodes": 30,
+    "bodies_types_tiers_layers_tags_initiatives_edges": "PASS",
+    "cloud_nodes_local_absence": "N/A",
+    "seeder_exit": 0
+  }
+}

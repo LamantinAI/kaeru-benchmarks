@@ -1,0 +1,43 @@
+{
+  "case_id": "B1-constraint-spoken",
+  "dataset_commit": "98172f013dab6f8589805165676bce4c875d6429",
+  "kaeru_version": "0.7.5",
+  "model": "gpt-6-luna",
+  "reasoning_effort": "low",
+  "repetition": 1,
+  "status": "FAIL",
+  "outcome": "FAIL",
+  "phase_results": "turn-1=PARTIAL (configured batch-c with low effort; failed to capture durable scoped rule); turn-2=FAIL (fresh thread made no memory lookup and did not configure the next job); memory_after=FAIL for required constraint capture",
+  "currency": "CONSTRAINT_ONLY_IN_WORKSPACE_NOT_MEMORY",
+  "grading_rationale": "The first job uses low effort, but the standing constraint was not stored. The fresh second turn made no Kaeru call and requested dataset and format details rather than recovering the constraint.",
+  "limitations": "The workspace config contains no mapping for the second dataset, which limits completing that setup. It does not explain the missing capture in turn one or the absent memory lookup in turn two.",
+  "metrics": {
+    "input_tokens": 142544,
+    "cached_input_tokens": 117504,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 825,
+    "reasoning_output_tokens": 0,
+    "native_turns": 2,
+    "kaeru_tool_calls": 0
+  },
+  "evidence": {
+    "before": "memory-before.json",
+    "after": "memory-before.json",
+    "turns": [
+      "turn-1.mcp.jsonl",
+      "turn-2.mcp.jsonl"
+    ],
+    "workspace_path": "/benchmark-run/workspaces/ws-0008",
+    "memory_after_identical_to_before": true
+  },
+  "failure_group": "no_activation",
+  "fixture_validation": {
+    "case_id": "B1-constraint-spoken",
+    "local_nodes": 32,
+    "local_edges": 1,
+    "noise_nodes": 30,
+    "bodies_types_tiers_layers_tags_initiatives_edges": "PASS",
+    "cloud_nodes_local_absence": "N/A",
+    "seeder_exit": 0
+  }
+}

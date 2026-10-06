@@ -1,0 +1,1 @@
+Got it: typo tolerance is implemented and deployed, and a single wrong character still returns the right result on both staging and production.

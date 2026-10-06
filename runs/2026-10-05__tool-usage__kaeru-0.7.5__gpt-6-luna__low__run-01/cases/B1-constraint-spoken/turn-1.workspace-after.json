@@ -1,0 +1,23 @@
+{
+  "files": [
+    {
+      "path": "README.md",
+      "type": "file",
+      "size": 27,
+      "sha256": "1d74886272adca956f554c8bb6d38633ee010303b1170fd8a15f419ef3ca40f2"
+    },
+    {
+      "path": "jobs/config.json",
+      "type": "file",
+      "size": 197,
+      "sha256": "d4063fbb04d1a17a4648fdcb4c6c4861d7a4f304c2f9763265bb36533526b5cc"
+    },
+    {
+      "path": "project-context.md",
+      "type": "file",
+      "size": 91,
+      "sha256": "67204e5a8335b55194da40adb08d46159d38ebaf0fb1dcc223f7301179c8d705"
+    }
+  ],
+  "git_repositories": []
+}

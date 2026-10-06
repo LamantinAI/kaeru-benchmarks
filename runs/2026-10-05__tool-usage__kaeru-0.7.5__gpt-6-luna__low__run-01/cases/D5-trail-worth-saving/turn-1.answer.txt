@@ -1,0 +1,8 @@
+I tidied the `queue-redesign` memory for handoff:
+
+- Added and pinned a concise handoff brief; pinned the existing repartition decision too.
+- Settled the queue observations as archival outcomes and restored their links to the decision rationale.
+- Confirmed the direction is **repartition using a higher-cardinality key**; autoscaling stays off.
+- Left the 30 unrelated operational notes untouched because their relevance is unclear.
+
+The initiative overview shows the handoff and decision in the archival set. The provenance view still displays some linked nodes as “unknown,” so that view may need attention if the next person relies on it.

@@ -1,0 +1,3 @@
+The three reporting jobs now have explicit staging paths and checksum-verified promotion in [jobs/config.json](/benchmark-run/workspaces/ws-0009/jobs/config.json). I added `export_staged()` to write the data to staging, verify its SHA-256 checksum, and only then promote it to the shared destination in [jobs/export_io.py](/benchmark-run/workspaces/ws-0009/jobs/export_io.py).
+
+I didn’t run tests. `promote()` now requires an expected checksum, so any existing callers of that helper will need to provide one.

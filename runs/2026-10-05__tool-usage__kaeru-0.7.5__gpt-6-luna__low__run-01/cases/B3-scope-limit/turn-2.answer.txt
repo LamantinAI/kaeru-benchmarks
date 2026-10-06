@@ -1,0 +1,1 @@
+I don’t see a filter-reset issue described in the files or conversation available here. Which app or screen is this about? Share the symptom or a link to the relevant code, and I can trace it.

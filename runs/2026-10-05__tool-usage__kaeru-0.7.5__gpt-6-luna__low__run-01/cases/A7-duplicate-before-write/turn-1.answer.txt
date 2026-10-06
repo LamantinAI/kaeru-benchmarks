@@ -1,0 +1,1 @@
+Saved to the `incident-log` initiative as **timeout-storms-are-caused-by-4989c2**. It records that per-request retry accounting multiplies retries against a slow dependency until the pool is exhausted, and that raising timeouts won’t fix the root cause.

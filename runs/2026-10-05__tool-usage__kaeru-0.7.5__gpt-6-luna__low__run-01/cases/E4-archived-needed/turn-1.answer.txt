@@ -1,0 +1,1 @@
+The table has a `.numeric` hook, but no numeric cells or data are wired into it yet. What figures should the table display? Once the numeric column is defined, I can style it so the figures line up and scan clearly.

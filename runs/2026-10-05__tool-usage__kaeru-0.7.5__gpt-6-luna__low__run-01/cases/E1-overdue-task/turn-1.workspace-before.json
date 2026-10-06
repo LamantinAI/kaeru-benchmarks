@@ -1,0 +1,23 @@
+{
+  "files": [
+    {
+      "path": "README.md",
+      "type": "file",
+      "size": 35,
+      "sha256": "67e955810591a4cb1ca3e400691551d358ab9bbe1742f2e7774af6b88c18da32"
+    },
+    {
+      "path": "compliance/retention-summary.md",
+      "type": "file",
+      "size": 77,
+      "sha256": "9d4c43fcf424a6f998535c3a118bc2f8f976134c236aea9bad0b21450ec5f99c"
+    },
+    {
+      "path": "project-context.md",
+      "type": "file",
+      "size": 93,
+      "sha256": "c2cb7705e1dae55350aafe5ceede8a4e2d7cebcf2368c42bc736653e8ff7dce0"
+    }
+  ],
+  "git_repositories": []
+}

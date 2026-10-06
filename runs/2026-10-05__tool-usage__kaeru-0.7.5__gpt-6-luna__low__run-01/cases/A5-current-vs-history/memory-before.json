@@ -1,0 +1,567 @@
+{
+  "meta": {
+    "node_count": 33,
+    "edge_count": 2,
+    "initiative_count": 1,
+    "chain_count": 0,
+    "redacted_count": 0,
+    "earliest_secs": 1791232783.0,
+    "latest_secs": 1791233076.0
+  },
+  "initiatives": [
+    {
+      "name": "api-integration",
+      "node_count": 33
+    }
+  ],
+  "nodes": [
+    {
+      "id": "01a10dcf-c6bd-7702-9b1f-b77412ff4f43",
+      "name": "sprint-scope-agreed",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Scope for the current sprint agreed: three features, one migration, no new dependencies.",
+      "initiatives": [
+        "api-integration"
+      ],
+      "created_secs": 1791232783.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dcf-c6bf-7183-b561-6ad5790c067e",
+      "name": "standup-cadence",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Standups moved to twice a week to leave longer focus blocks.",
+      "initiatives": [
+        "api-integration"
+      ],
+      "created_secs": 1791232784.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dcf-c6c1-78d2-bde5-e320326be053",
+      "name": "staging-refresh",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Staging refreshed from a sanitised copy of production data.",
+      "initiatives": [
+        "api-integration"
+      ],
+      "created_secs": 1791232785.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dcf-c6c2-7073-87b6-cbcc300d2fb4",
+      "name": "flaky-test-quarantine",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Two flaky tests quarantined pending a proper fix.",
+      "initiatives": [
+        "api-integration"
+      ],
+      "created_secs": 1791232786.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dcf-c6c4-77d2-92e2-7c272e64a78b",
+      "name": "dependency-bump-queued",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Dependency bump queued behind the current release.",
+      "initiatives": [
+        "api-integration"
+      ],
+      "created_secs": 1791232787.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dcf-c6c6-70d0-863c-ae1f607aa751",
+      "name": "metrics-dashboard-fixed",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Metrics dashboard stopped double-counting retries after the last fix.",
+      "initiatives": [
+        "api-integration"
+      ],
+      "created_secs": 1791232788.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dcf-c6c8-7dc2-9614-32ad29cc5817",
+      "name": "error-budget-note",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Error budget for the quarter is largely unspent.",
+      "initiatives": [
+        "api-integration"
+      ],
+      "created_secs": 1791232789.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dcf-c6c9-7e21-9eff-77420f8795c3",
+      "name": "docs-index-restructured",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Docs index restructured so setup comes before reference.",
+      "initiatives": [
+        "api-integration"
+      ],
+      "created_secs": 1791232790.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dcf-c6cb-7d02-9252-4d47b673be8b",
+      "name": "support-question-recurring",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "The same support question keeps arriving about first-run configuration.",
+      "initiatives": [
+        "api-integration"
+      ],
+      "created_secs": 1791232791.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dcf-c6cd-7520-b048-5c220f1a1126",
+      "name": "handover-note-format",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Handover notes list state, blockers, and the next concrete step.",
+      "initiatives": [
+        "api-integration"
+      ],
+      "created_secs": 1791232792.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dcf-c6ce-7601-97bf-185929a9f0ab",
+      "name": "retro-actions",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Retro produced three actions; two are already done.",
+      "initiatives": [
+        "api-integration"
+      ],
+      "created_secs": 1791232793.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dcf-c6d0-7162-80e5-1b1f6f796b39",
+      "name": "vendor-response-slow",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Vendor takes about a week to answer support tickets.",
+      "initiatives": [
+        "api-integration"
+      ],
+      "created_secs": 1791232794.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dcf-c6d2-7270-9215-360f4b881579",
+      "name": "pricing-tier-question",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Open question about which pricing tier the workload needs.",
+      "initiatives": [
+        "api-integration"
+      ],
+      "created_secs": 1791232795.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dcf-c6d4-72a0-ba86-ac49901faf62",
+      "name": "backup-verified",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Backups verified by restoring into a scratch environment.",
+      "initiatives": [
+        "api-integration"
+      ],
+      "created_secs": 1791232796.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dcf-c6d5-76f2-bbc0-1a21bd625af1",
+      "name": "access-request-pending",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Access request for the reporting tool still pending.",
+      "initiatives": [
+        "api-integration"
+      ],
+      "created_secs": 1791232797.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dcf-c6d7-7ae3-8e75-dc16b8410d82",
+      "name": "naming-of-environments",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Environments are named dev, staging and prod; no others.",
+      "initiatives": [
+        "api-integration"
+      ],
+      "created_secs": 1791232798.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dcf-c6d9-78f2-96da-f09cf0555e3c",
+      "name": "incident-postmortem-short",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Short postmortem written for last month's outage; no action items outstanding.",
+      "initiatives": [
+        "api-integration"
+      ],
+      "created_secs": 1791232799.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dcf-c6da-7a51-b689-a7e366d679d1",
+      "name": "onboarding-buddy",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "New joiners get a buddy for the first fortnight.",
+      "initiatives": [
+        "api-integration"
+      ],
+      "created_secs": 1791232800.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dcf-c6dc-7fd0-b5d1-0134d126390e",
+      "name": "meeting-notes-location",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Meeting notes live alongside the project docs, not in chat.",
+      "initiatives": [
+        "api-integration"
+      ],
+      "created_secs": 1791232801.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dcf-c6de-7900-8647-9a11d586817c",
+      "name": "quarterly-planning-date",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Quarterly planning happens in the last week of the quarter.",
+      "initiatives": [
+        "api-integration"
+      ],
+      "created_secs": 1791232802.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dcf-c6e0-7922-9751-523f8bf62dcb",
+      "name": "contractor-availability",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Contractor available two days a week until the end of the engagement.",
+      "initiatives": [
+        "api-integration"
+      ],
+      "created_secs": 1791232803.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dcf-c6e1-7b50-aab6-7592d38c20b9",
+      "name": "legal-review-lead-time",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Legal review needs about ten working days.",
+      "initiatives": [
+        "api-integration"
+      ],
+      "created_secs": 1791232804.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dcf-c6e3-7e80-8c2d-695f3586e06c",
+      "name": "analytics-sampling",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Analytics samples at a fixed rate; small effects are invisible.",
+      "initiatives": [
+        "api-integration"
+      ],
+      "created_secs": 1791232805.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dcf-c6e5-7c33-92f1-9e7a974befab",
+      "name": "feature-flag-cleanup",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Old feature flags cleaned up after the last release.",
+      "initiatives": [
+        "api-integration"
+      ],
+      "created_secs": 1791232806.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dcf-c6e7-7cc0-ac64-6caa329a1ef7",
+      "name": "api-versioning-policy",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "API versions are additive; nothing is removed without a major bump.",
+      "initiatives": [
+        "api-integration"
+      ],
+      "created_secs": 1791232807.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dcf-c6e9-7cb3-ad1c-15b559455c62",
+      "name": "rate-limit-defaults",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Default rate limits are generous enough for internal use.",
+      "initiatives": [
+        "api-integration"
+      ],
+      "created_secs": 1791232808.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dcf-c6ea-7632-9ae0-e051cedf50ef",
+      "name": "cache-invalidation-note",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Cache invalidation is time-based rather than event-driven.",
+      "initiatives": [
+        "api-integration"
+      ],
+      "created_secs": 1791232809.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dcf-c6ec-7aa3-8ae9-74990d489d61",
+      "name": "search-index-rebuild",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Search index rebuild takes about twenty minutes.",
+      "initiatives": [
+        "api-integration"
+      ],
+      "created_secs": 1791232810.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dcf-c6ee-75e1-b254-82ca7f159224",
+      "name": "mobile-layout-issue",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Mobile layout breaks on very narrow screens; low priority.",
+      "initiatives": [
+        "api-integration"
+      ],
+      "created_secs": 1791232811.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dcf-c6ef-7441-b7d9-7e6fa6292ee8",
+      "name": "translation-status",
+      "type": "episode",
+      "tier": "operational",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Translations lag the source by roughly one release.",
+      "initiatives": [
+        "api-integration"
+      ],
+      "created_secs": 1791232812.0,
+      "degree": 0,
+      "redacted": false
+    },
+    {
+      "id": "01a10dcf-c6f1-72c0-bee0-86317baf6b65",
+      "name": "upload-limit-initial",
+      "type": "reference",
+      "tier": "archival",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "As of the first integration round, the upload endpoint accepts payloads up\nto 2 MB. Larger uploads are rejected outright.\n",
+      "initiatives": [
+        "api-integration"
+      ],
+      "created_secs": 1791233074.0,
+      "degree": 1,
+      "redacted": false
+    },
+    {
+      "id": "01a10dcf-c6f3-7552-ac6b-4e90c0293a8a",
+      "name": "upload-limit-raised",
+      "type": "reference",
+      "tier": "archival",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "The vendor raised the upload ceiling to 8 MB for our account after the\nvolume discussion.\n",
+      "initiatives": [
+        "api-integration"
+      ],
+      "created_secs": 1791233075.0,
+      "degree": 2,
+      "redacted": false
+    },
+    {
+      "id": "01a10dcf-c6f5-7823-aa28-85465d5f1125",
+      "name": "upload-limit-current",
+      "type": "reference",
+      "tier": "archival",
+      "layer": "warm",
+      "visibility": "local",
+      "tags": [],
+      "body": "Current state: the ceiling is back down to 5 MB. The vendor reduced it\nwhen the account moved to the standard plan, and confirmed in writing that\n5 MB is the enforced figure.\n",
+      "initiatives": [
+        "api-integration"
+      ],
+      "created_secs": 1791233076.0,
+      "degree": 1,
+      "redacted": false
+    }
+  ],
+  "edges": [
+    {
+      "src": "01a10dcf-c6f3-7552-ac6b-4e90c0293a8a",
+      "dst": "01a10dcf-c6f1-72c0-bee0-86317baf6b65",
+      "type": "supersedes",
+      "weight": 1.0,
+      "dst_store": "local",
+      "created_secs": 1791233083.0
+    },
+    {
+      "src": "01a10dcf-c6f5-7823-aa28-85465d5f1125",
+      "dst": "01a10dcf-c6f3-7552-ac6b-4e90c0293a8a",
+      "type": "supersedes",
+      "weight": 1.0,
+      "dst_store": "local",
+      "created_secs": 1791233083.0
+    }
+  ],
+  "chains": [],
+  "project_links": []
+}
