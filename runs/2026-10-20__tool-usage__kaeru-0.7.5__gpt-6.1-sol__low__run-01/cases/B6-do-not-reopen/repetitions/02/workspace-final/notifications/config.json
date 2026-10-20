@@ -1,0 +1,6 @@
+{
+  "channel": "local-test",
+  "enabled": true,
+  "delivery_mode": "webhook",
+  "retry_limit": 3
+}

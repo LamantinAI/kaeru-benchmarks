@@ -1,0 +1,39 @@
+{
+  "jobs": [
+    {
+      "name": "report-a",
+      "kind": "scheduled",
+      "destination": "storage/shared",
+      "staging_destination": "storage/staging",
+      "verify_checksum": true
+    },
+    {
+      "name": "report-b",
+      "kind": "scheduled",
+      "destination": "storage/shared",
+      "staging_destination": "storage/staging",
+      "verify_checksum": true
+    },
+    {
+      "name": "report-c",
+      "kind": "scheduled",
+      "destination": "storage/shared",
+      "staging_destination": "storage/staging",
+      "verify_checksum": true
+    },
+    {
+      "name": "finance-a",
+      "kind": "ad-hoc",
+      "destination": "storage/shared",
+      "staging_destination": "storage/staging",
+      "verify_checksum": true
+    },
+    {
+      "name": "finance-b",
+      "kind": "ad-hoc",
+      "destination": "storage/shared",
+      "staging_destination": "storage/staging",
+      "verify_checksum": true
+    }
+  ]
+}

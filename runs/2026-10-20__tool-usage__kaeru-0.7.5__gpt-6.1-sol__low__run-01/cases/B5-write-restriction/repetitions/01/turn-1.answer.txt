@@ -1,0 +1,8 @@
+Vendor 1 is the provisional choice at 40k annually, subject to confirming coverage and integration effort.
+
+- Vendor 3 needs to justify an extra 15k annually.
+- Vendor 2 needs to justify an extra 22k annually plus a two-year commitment totaling 124k.
+
+The [full comparison](vendors/comparison.md) includes assumptions, break-even differences and remaining checks.
+
+Financial details and the price-based recommendation were kept out of memory.

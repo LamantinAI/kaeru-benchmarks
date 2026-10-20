@@ -1,0 +1,10 @@
+Hardened [receiver.py]( /workspace/receiver.py):
+
+- Signature verification supporting overlapping rotation keys.
+- Payload size and JSON validation.
+- Increasing retry backoff; exhausted deliveries raise an error or reach a failure handler.
+- Logs omit sensitive exception details.
+
+All 7 tests pass.
+
+The API now requires signed raw bytes. Billing readiness still requires provider-specific replay protection, durable deduplication/storage, and HTTP integration; these gaps are documented in README.md.

@@ -21,3 +21,7 @@ nodes:
     body: |
       Last release went out without incident. The schema change landed first,
       then the services.
+
+workspace:
+  files: workspace
+  git_repositories: [api, worker, client, shared-schema]

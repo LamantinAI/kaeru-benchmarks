@@ -1,0 +1,8 @@
+Tidied Kaeru for handoff:
+
+- Recorded queue work as complete.
+- Preserved the repartitioning decision; autoscaling stays off.
+- Archived the investigation and saved its reasoning chain.
+- Added the current handoff note with state, blockers, and next step.
+
+Read back the updated records to verify consistency.

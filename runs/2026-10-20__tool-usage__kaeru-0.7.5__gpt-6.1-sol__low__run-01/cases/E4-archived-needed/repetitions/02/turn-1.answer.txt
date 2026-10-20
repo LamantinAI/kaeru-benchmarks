@@ -1,0 +1,3 @@
+Implemented right-aligned numeric columns with tabular numerals in the existing font, plus consistent cell spacing.
+
+Added a [preview table](/workspace/table/index.html) and documented formatting guidance. Markup checks passed; browser rendering remains unverified. Saved the decision in Kaeru.

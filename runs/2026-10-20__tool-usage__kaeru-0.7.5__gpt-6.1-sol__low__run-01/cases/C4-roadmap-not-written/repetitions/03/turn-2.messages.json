@@ -1,0 +1,4 @@
+[
+  "I’ll check the project’s saved decisions and open work so we can start from the agreed scope.\n",
+  "We start by **extracting the existing aggregations**, preserving their current results. The agreed sequence is:\n\n1. Extract the aggregations.\n2. Add a cache with time-based expiry and measure usage.\n3. Use those measurements to select heavy aggregations for nightly processing.\n4. Delete the old implementation.\n\nThe first concrete slice should be one report: trace its calculations, capture representative expected outputs, and extract the aggregation behind the existing interface.\n\nThe reporting-tool access request was still pending in today’s notes; that may limit validation. I also don’t see project code in this workspace yet—where is the repository?"
+]

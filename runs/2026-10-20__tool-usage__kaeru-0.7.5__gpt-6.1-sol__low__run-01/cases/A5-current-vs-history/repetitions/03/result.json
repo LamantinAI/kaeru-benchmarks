@@ -1,0 +1,30 @@
+{
+  "case_id": "A5-current-vs-history",
+  "status": "PASS",
+  "execution_status": "EXECUTED",
+  "repetition": 3,
+  "reason": "Current superseding 5 MB limit recovered; implementation and boundary checks use 5,000,000 bytes.",
+  "limitations": [],
+  "metrics": {
+    "native_turns": 1,
+    "kaeru_tool_calls": 6,
+    "input_tokens": 171277,
+    "cached_input_tokens": 152576,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 1180,
+    "reasoning_output_tokens": 17
+  },
+  "rejected_calls": 0,
+  "elapsed_seconds": 41.743242160999216,
+  "evidence": [
+    "memory-before.json",
+    "memory-after.json",
+    "workspace-final.json",
+    "fixture-validation.json",
+    "isolation-check.json",
+    "turn-1.mcp.jsonl",
+    "turn-1.messages.json",
+    "turn-1.answer.txt",
+    "turn-1.execution.json"
+  ]
+}

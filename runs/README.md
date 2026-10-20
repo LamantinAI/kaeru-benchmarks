@@ -71,5 +71,6 @@ component of output, not an additional cost to add to it.
 |---|---|---|
 | [2026-10-05: Kaeru 0.7.5 / GPT-6-Luna low](2026-10-05__tool-usage__kaeru-0.7.5__gpt-6-luna__low__run-01/) | tool-usage, 27 cases, N=1 | 3 PASS, 22 FAIL, 2 partly confounded; 21 cases without Kaeru calls |
 | [2026-10-06: full policy coverage, pre-RFC](2026-10-06__tool-usage__kaeru-0.7.5__gpt-6-luna__low__run-02/) | tool-usage, 27 cases, N=1 | 13 PASS, 13 FAIL, 1 qualified; all 27 cases called Kaeru; prospective RFC analysis |
+| [2026-10-20: R2 API with operating guide / GPT-6.1-Sol low](2026-10-20__tool-usage__kaeru-0.7.5__gpt-6.1-sol__low__run-01/) | tool-usage, 27 cases, N=3 | API validation passed for the evaluated scope; 80/81 attempts PASS, one omitted archival promotion |
 
 The October 5 record retains original judgments with a [dated erratum](2026-10-05__tool-usage__kaeru-0.7.5__gpt-6-luna__low__run-01/ERRATA-2026-10-06.md). The October 6 `run-01` identifier is reserved for the locally recorded focused policy study; its paired summary is included as a supplement to `run-02`.

@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kaeru-benchmarks"
+version = "0.1.0"
+description = "Tool-usage datasets and benchmark runner for Kaeru"
+requires-python = ">=3.11"
+dependencies = ["jsonschema>=4.10,<5", "PyYAML>=6,<7"]
+
+[tool.setuptools]
+packages = ["runner"]
+
+[tool.setuptools.package-data]
+runner = ["fixture_helper.rs"]

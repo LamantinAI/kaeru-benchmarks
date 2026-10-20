@@ -1,0 +1,44 @@
+{
+  "case_id": "D3-arc-closed",
+  "status": "PARTIAL",
+  "dataset_commit": "50fd4fff622890a43270172da8d92df9fd017119",
+  "kaeru_version": "0.7.5",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "low",
+  "repetition": null,
+  "repetitions": 3,
+  "attempt_status_counts": {
+    "PASS": 2,
+    "FAIL": 1
+  },
+  "attempts": [
+    {
+      "repetition": 1,
+      "status": "PASS",
+      "result": "repetitions/01/result.json"
+    },
+    {
+      "repetition": 2,
+      "status": "FAIL",
+      "result": "repetitions/02/result.json"
+    },
+    {
+      "repetition": 3,
+      "status": "PASS",
+      "result": "repetitions/03/result.json"
+    }
+  ],
+  "metrics": {
+    "native_turns": 3,
+    "kaeru_tool_calls": 62,
+    "input_tokens": 883902,
+    "cached_input_tokens": 761600,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 3565,
+    "reasoning_output_tokens": 134
+  },
+  "phase_results": "repeat-01 PASS; repeat-02 FAIL; repeat-03 PASS",
+  "currency": "Evaluated against case authority, original expectations and saved state/action evidence.",
+  "grading_rationale": "repeat-01 PASS: Stale rate-limit wording resolved; completion promoted to archival with delivery facts and provenance links preserved. repeat-02 FAIL: Completion facts and stale wording were corrected, but no archival record exists in final state and no lifecycle promotion was attempted. The required archival conclusion is missing. repeat-03 PASS: Stale rate-limit wording resolved; completion promoted to archival with delivery facts and provenance links preserved.",
+  "limitations": ""
+}

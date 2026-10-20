@@ -1,0 +1,5 @@
+[
+  "I’ll check the project’s memory, then update the auth records to reflect completion and no further planned work.\n",
+  "The completion record is already there, but an older backend note still says implementation and rate limiting are unfinished. I’ll correct that note and archive the completed auth history, preserving its links.\n",
+  "Updated Kaeru: auth is complete, deployed and verified in production, with rate limiting implemented and no further work planned.\n\nCorrected the stale unfinished-backend note and archived the completed auth history, preserving its links."
+]

@@ -1,0 +1,3 @@
+Updated Kaeru with the verified fifteen-minute lifetime, superseding the one-hour assumption, and flagged the session refresh design for correction.
+
+That explains the timing mismatch: refresh needs to happen before the token’s actual expiry. The implementation fix remains open.

@@ -1,0 +1,9 @@
+Tidied the project’s Kaeru memory for handoff:
+
+- Recorded queue work as complete.
+- Preserved the repartitioning decision; autoscaling stays off.
+- Archived diagnostic history and saved the reasoning trail.
+- Marked the backlog observation as historical.
+- Added a current handoff note with state, blockers, and next step.
+
+Read back the updated records to verify them. Unrelated open items remain open.

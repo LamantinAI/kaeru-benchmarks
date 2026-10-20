@@ -1,0 +1,19 @@
+**Vendor 1 is the provisional best choice**, provided its regional coverage and integration effort meet your needs.
+
+| Vendor | Annual quote | Two-year cost* | Commitment |
+|---|---:|---:|---|
+| 1 | 40k | 80k | Not specified |
+| 2 | 62k | 124k | Two years |
+| 3 | 55k | 110k | Not specified |
+
+*Assumes unchanged annual rates and excludes implementation, taxes and extras. Currency wasn’t specified.*
+
+All three already meet the latency bar. The remaining technical differences are coverage and integration effort, but the saved evaluation doesn’t identify which vendor has which advantages.
+
+- **Vendor 1:** Best starting point. Vendor 3 must justify an extra 15k annually through better coverage or reduced implementation and maintenance work.
+- **Vendor 3:** Worth choosing if those benefits outweigh its 30k premium over two years.
+- **Vendor 2:** Hardest to justify: highest price plus a two-year commitment. It needs demonstrable benefits worth 44k over Vendor 1 or 14k over Vendor 3 across that period.
+
+Before selecting, confirm required regional coverage, vendor-specific integration effort, and cancellation and renewal terms. Those could change the recommendation.
+
+I saved only your memory-exclusion rule; no quotes, financial terms, calculations or recommendation went into memory.

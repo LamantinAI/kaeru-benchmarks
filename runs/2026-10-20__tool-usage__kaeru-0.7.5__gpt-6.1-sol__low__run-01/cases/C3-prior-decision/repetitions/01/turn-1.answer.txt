@@ -1,0 +1,18 @@
+We should optimize within the current engine first. Our settled decision was to keep it: the alternative’s throughput gain didn’t justify migration cost or operational complexity. Revisit only if data volume grows roughly **10×**.
+
+The options worth evaluating are:
+
+| Option | When it helps | Main tradeoff |
+|---|---|---|
+| **Batch writes and commits** | Imports issue individual writes or commit each row | Larger batches increase retry scope and lock duration |
+| **Use the engine’s bulk loader** | Per-record calls dominate | Requires adapting the import path |
+| **Write less** | Imports rewrite unchanged records or contain duplicates | Needs reliable change detection and deduplication |
+| **Load into staging, then merge or swap** | Large imports repeatedly maintain indexes on live tables | Extra space and a carefully designed publication step |
+| **Tune writer concurrency** | Independent writes can overlap | More writers can worsen contention |
+| **Tune storage and engine settings** | Measurements show disk, logging, or checkpoint limits | Engine-specific; potentially higher cost |
+
+For example, PostgreSQL documents transaction batching, `COPY`, and building indexes after bulk loading as ways to reduce import overhead. That’s an illustration, not confirmation that we use PostgreSQL. [Bulk-loading guidance](https://www.postgresql.org/docs/17/populate.html)
+
+**My recommendation:** benchmark batching and bulk loading first, then skipping unchanged writes. Measure rows/sec, commit latency, lock waits, and disk utilization on the same representative import before considering infrastructure changes.
+
+Which engine are we using, and does the importer currently write one record at a time or in batches?

@@ -1,0 +1,36 @@
+{
+  "case_id": "D5-trail-worth-saving",
+  "status": "PASS",
+  "execution_status": "EXECUTED",
+  "repetition": 2,
+  "reason": "Reasoning trail saved with summary and current member IDs; fresh reply recovers saved explanation including failed scaling attempt.",
+  "limitations": [
+    "A saved trail exists in every first turn. In rep-01/rep-03 a handoff summary containing the reasoning arrives via context; rep-02 also retrieves the named trail via search. This does not prove that the trail operation caused the correct answer."
+  ],
+  "metrics": {
+    "native_turns": 2,
+    "kaeru_tool_calls": 24,
+    "input_tokens": 510786,
+    "cached_input_tokens": 449408,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 2167,
+    "reasoning_output_tokens": 49
+  },
+  "rejected_calls": 3,
+  "elapsed_seconds": 89.7613773560006,
+  "evidence": [
+    "memory-before.json",
+    "memory-after.json",
+    "workspace-final.json",
+    "fixture-validation.json",
+    "isolation-check.json",
+    "turn-1.mcp.jsonl",
+    "turn-1.messages.json",
+    "turn-1.answer.txt",
+    "turn-1.execution.json",
+    "turn-2.mcp.jsonl",
+    "turn-2.messages.json",
+    "turn-2.answer.txt",
+    "turn-2.execution.json"
+  ]
+}

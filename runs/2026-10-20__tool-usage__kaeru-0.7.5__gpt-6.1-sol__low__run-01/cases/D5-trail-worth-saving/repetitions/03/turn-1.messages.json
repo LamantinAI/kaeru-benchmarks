@@ -1,0 +1,5 @@
+[
+  "I’ll check the project’s memory, record the repartitioning decision, and reconcile older notes that still show queue work as pending.\n",
+  "The saved decision already matches: use a higher-cardinality partition key and keep autoscaling off. The supporting history explains why scaling increased contention. I’ll preserve that reasoning, archive the completed investigation, and add a handoff note with your completion update.\n",
+  "Tidied Kaeru for handoff:\n\n- Recorded queue work as complete.\n- Preserved the repartitioning decision; autoscaling stays off.\n- Archived the investigation and saved its reasoning chain.\n- Added the current handoff note with state, blockers, and next step.\n\nRead back the updated records to verify consistency."
+]

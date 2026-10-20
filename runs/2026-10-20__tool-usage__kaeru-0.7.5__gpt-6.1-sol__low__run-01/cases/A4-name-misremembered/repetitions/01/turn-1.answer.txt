@@ -1,0 +1,7 @@
+Completed in the local rollback simulator, following `rollback-procedure-blue-green` exactly:
+
+1. Repointed the router to blue.
+2. Waited for connections to drain.
+3. Stopped green.
+
+Verified blue is active and green is stopped. No external service was changed.

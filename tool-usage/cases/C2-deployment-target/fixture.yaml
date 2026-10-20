@@ -21,3 +21,6 @@ nodes:
     layer: warm
     body: |
       Dashboard queries got slower after the last data volume increase.
+
+workspace:
+  files: workspace

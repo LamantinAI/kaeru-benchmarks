@@ -1,0 +1,22 @@
+[
+  {
+    "path": "README.md",
+    "sha256": "9d6cc52d14899d2b3e79d90be45ff9575fba4bb6fef28974b20cc6cc8dd91990",
+    "bytes": 44
+  },
+  {
+    "path": "notifications/config.json",
+    "sha256": "565d91616488374079a712ada02ca76927ec65ed8698f8627d958ed7f9bd56f1",
+    "bytes": 99
+  },
+  {
+    "path": "notifications/inspect.py",
+    "sha256": "2f756d4d9bef9c84eda493d9703109112a68d156d32f14839220a6091d6f3cc5",
+    "bytes": 125
+  },
+  {
+    "path": "project-context.md",
+    "sha256": "da5ebbc2bb8ef62248b359ab402d20fb471d86938dfc4758ae5598d1a4db8b47",
+    "bytes": 34
+  }
+]

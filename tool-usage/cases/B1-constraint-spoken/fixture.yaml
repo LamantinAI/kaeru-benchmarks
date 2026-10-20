@@ -31,3 +31,6 @@ edges:
   - from: cost-overrun-incident
     to: pipeline-config-current
     type: refers_to
+
+workspace:
+  files: workspace

@@ -1,0 +1,5 @@
+[
+  "I’ll find the recorded rollback procedure and check the deployment context before following its steps.\n",
+  "The note is `rollback-procedure-blue-green`. It requires repointing to the previous colour, waiting for connections to drain, then stopping the new stack. The local simulator shows green active and blue previous; I’ll apply those steps in that order.\n",
+  "Completed in the local rollback simulator, following `rollback-procedure-blue-green` exactly:\n\n1. Repointed the router to blue.\n2. Waited for connections to drain.\n3. Stopped green.\n\nVerified blue is active and green is stopped. No external service was changed."
+]

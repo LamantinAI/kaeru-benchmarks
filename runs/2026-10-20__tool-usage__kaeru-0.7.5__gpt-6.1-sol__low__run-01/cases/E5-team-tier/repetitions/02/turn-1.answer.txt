@@ -1,0 +1,5 @@
+Hardened the local receiver with signature verification supporting overlapping rotation keys, payload validation, isolated retries, and sanitized logs. Exhausted retries now raise `DeliveryFailed` so callers can retry instead of silently dropping events.
+
+All 7 tests pass.
+
+Billing readiness still requires the production HTTP adapter, sender-specific signature protocol, durable delivery handling, and transactional deduplication. Those components aren’t present here; integration requirements are documented in `README.md`.

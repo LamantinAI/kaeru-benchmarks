@@ -1,0 +1,3 @@
+Prepared `jobs/config.json` using `datasets/first.jsonl`, with both jobs explicitly set to `low`.
+
+Validation passed; no jobs were launched. Saved the standing low-only rule in Kaeru for future batches.

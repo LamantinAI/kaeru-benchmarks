@@ -1,0 +1,43 @@
+{
+  "case_id": "A5-current-vs-history",
+  "status": "PASS",
+  "dataset_commit": "50fd4fff622890a43270172da8d92df9fd017119",
+  "kaeru_version": "0.7.5",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "low",
+  "repetition": null,
+  "repetitions": 3,
+  "attempt_status_counts": {
+    "PASS": 3
+  },
+  "attempts": [
+    {
+      "repetition": 1,
+      "status": "PASS",
+      "result": "repetitions/01/result.json"
+    },
+    {
+      "repetition": 2,
+      "status": "PASS",
+      "result": "repetitions/02/result.json"
+    },
+    {
+      "repetition": 3,
+      "status": "PASS",
+      "result": "repetitions/03/result.json"
+    }
+  ],
+  "metrics": {
+    "native_turns": 3,
+    "kaeru_tool_calls": 17,
+    "input_tokens": 539960,
+    "cached_input_tokens": 472192,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 3439,
+    "reasoning_output_tokens": 40
+  },
+  "phase_results": "repeat-01 PASS; repeat-02 PASS; repeat-03 PASS",
+  "currency": "Evaluated against case authority, original expectations and saved state/action evidence.",
+  "grading_rationale": "repeat-01 PASS: Current superseding 5 MB limit recovered; implementation and boundary checks use 5,000,000 bytes. repeat-02 PASS: Current superseding 5 MB limit recovered; implementation and boundary checks use 5,000,000 bytes. repeat-03 PASS: Current superseding 5 MB limit recovered; implementation and boundary checks use 5,000,000 bytes.",
+  "limitations": ""
+}

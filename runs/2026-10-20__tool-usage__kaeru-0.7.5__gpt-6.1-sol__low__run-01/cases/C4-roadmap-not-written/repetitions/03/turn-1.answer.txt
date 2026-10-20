@@ -1,0 +1,10 @@
+Yes—that sequence makes sense:
+
+1. Extract existing aggregations and verify result parity.
+2. Add the cache with per-aggregation request counts, hit/miss rates, and computation timings.
+3. Use those measurements to select expensive aggregations that can tolerate nightly freshness.
+4. Delete the old path after validating the replacement and cutover.
+
+Cache before nightly is the right dependency. Measure all requests, including hits, so caching doesn’t hide demand. Hotness, computation cost, and freshness requirements together determine nightly candidates.
+
+Saved the four-stage plan in Kaeru.

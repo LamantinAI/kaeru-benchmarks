@@ -1,0 +1,4 @@
+[
+  "I’ll check the saved investigation and record what the test establishes and what remains unresolved.\n",
+  "Recorded in Kaeru and marked the existing latency hypothesis **inconclusive**, linked to the test outcome.\n\nRate limiting explains daytime spikes; cold starts explain overnight spikes. Neither explains everything. The cause remains unresolved, and separating their contributions requires instrumentation we don’t currently have."
+]

@@ -1,0 +1,30 @@
+{
+  "case_id": "D3-arc-closed",
+  "status": "PASS",
+  "execution_status": "EXECUTED",
+  "repetition": 1,
+  "reason": "Stale rate-limit wording resolved; completion promoted to archival with delivery facts and provenance links preserved.",
+  "limitations": [],
+  "metrics": {
+    "native_turns": 1,
+    "kaeru_tool_calls": 21,
+    "input_tokens": 284803,
+    "cached_input_tokens": 243456,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 1055,
+    "reasoning_output_tokens": 38
+  },
+  "rejected_calls": 1,
+  "elapsed_seconds": 44.84874076599954,
+  "evidence": [
+    "memory-before.json",
+    "memory-after.json",
+    "workspace-final.json",
+    "fixture-validation.json",
+    "isolation-check.json",
+    "turn-1.mcp.jsonl",
+    "turn-1.messages.json",
+    "turn-1.answer.txt",
+    "turn-1.execution.json"
+  ]
+}

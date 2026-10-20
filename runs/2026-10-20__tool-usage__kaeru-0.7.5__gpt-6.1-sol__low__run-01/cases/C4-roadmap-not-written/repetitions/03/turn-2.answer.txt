@@ -1,0 +1,10 @@
+We start by **extracting the existing aggregations**, preserving their current results. The agreed sequence is:
+
+1. Extract the aggregations.
+2. Add a cache with time-based expiry and measure usage.
+3. Use those measurements to select heavy aggregations for nightly processing.
+4. Delete the old implementation.
+
+The first concrete slice should be one report: trace its calculations, capture representative expected outputs, and extract the aggregation behind the existing interface.
+
+The reporting-tool access request was still pending in today’s notes; that may limit validation. I also don’t see project code in this workspace yet—where is the repository?

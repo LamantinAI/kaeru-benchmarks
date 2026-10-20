@@ -1,0 +1,4 @@
+[
+  "I’ll check the project notes for the queue decision and the reasoning behind it.",
+  "Tell them:\n\n> We tried scaling consumers with the backlog. It helped briefly, then made things worse because more consumers increased contention on the same partition. The partition key concentrated evening traffic onto that partition, so adding consumers couldn’t resolve the bottleneck. We chose to repartition using a higher-cardinality key to spread the load, and kept consumer autoscaling off for this queue."
+]

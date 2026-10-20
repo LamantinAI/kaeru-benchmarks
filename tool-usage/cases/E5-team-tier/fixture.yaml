@@ -3,6 +3,9 @@
 initiative: shared-integrations
 policy: team              # initiative is shared; a cloud tier exists
 
+workspace:
+  files: workspace
+
 noise:
   library: ../../noise/project-noise.yaml
   count: 30

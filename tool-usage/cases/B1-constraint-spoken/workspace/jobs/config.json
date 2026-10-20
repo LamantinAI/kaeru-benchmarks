@@ -1,0 +1,7 @@
+{
+  "dataset": null,
+  "jobs": [
+    {"name": "batch-a", "effort": null},
+    {"name": "batch-b", "effort": null}
+  ]
+}

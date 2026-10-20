@@ -1,0 +1,5 @@
+[
+  "I’ll check the billing code and project rules, then add invoice totals with decimal-safe arithmetic and verify the precision cases.",
+  "The saved billing decision says to round each line to two decimal places before summing, so the total matches the printed lines. I’ll apply that rule and add tests for values where rounding only the final sum gives a different result.",
+  "Implemented decimal-safe totalling: each line rounds to cents before summing, following the saved billing rule.\n\nThe sample invoice total is **5.86**. All 7 tests pass.\n\nSupply strings or `Decimal` values to preserve the new source’s full precision."
+]

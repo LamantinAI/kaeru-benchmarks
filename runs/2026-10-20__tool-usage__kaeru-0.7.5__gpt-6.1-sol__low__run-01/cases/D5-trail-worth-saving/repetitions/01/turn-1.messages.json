@@ -1,0 +1,5 @@
+[
+  "I’ll check the project’s memory, update the queue work to reflect the repartitioning decision, and resolve stale open items for the handoff.",
+  "The saved decision already calls for repartitioning with autoscaling off. I found the supporting observations, but they aren’t linked into a handoff. I’ll preserve that reasoning, mark the queue work complete, and leave unrelated open notes as they are.",
+  "Tidied the project’s Kaeru memory for handoff:\n\n- Recorded queue work as complete, with repartitioning chosen and autoscaling off.\n- Archived the supporting observations and saved the decision rationale.\n- Added a current handoff with state, blockers, and next step.\n- Verified the updated records and links; unrelated open notes remain intact."
+]

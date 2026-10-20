@@ -1,0 +1,5 @@
+[
+  "I’ll check the project rules and reporting jobs, then set up staging with checksum verification before promotion.\n",
+  "The exporter already supports staging, SHA-256 verification, and promotion. I’ll enable all three for `report-a`, `report-b`, and `report-c`, then check that a checksum mismatch leaves the shared file untouched.\n",
+  "Configured `report-a`, `report-b`, and `report-c` to write to `storage/staging`, verify SHA-256, then promote to `storage/shared`.\n\nVerified all three: successful checksums allow promotion; corrupted output is blocked and the existing shared file stays intact. Saved the requirement in project memory."
+]

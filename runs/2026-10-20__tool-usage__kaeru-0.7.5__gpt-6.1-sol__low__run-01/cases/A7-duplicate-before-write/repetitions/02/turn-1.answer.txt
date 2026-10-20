@@ -1,0 +1,1 @@
+This is already saved in Kaeru as `timeout-cascade-root-cause`: per-request retry budgets amplify retries until the pool is exhausted. The budget needs to apply per operation; raising timeouts won’t fix it.

@@ -1,0 +1,168 @@
+[
+  {
+    "evidence": "cases/A2-unreachable-core/repetitions/01",
+    "check": "Scoped core TSV convention and actual valid TSV output",
+    "status": "PASS"
+  },
+  {
+    "evidence": "cases/B1-constraint-spoken/repetitions/01",
+    "check": "Durable low rule and second dataset config with low jobs",
+    "status": "PASS"
+  },
+  {
+    "evidence": "cases/B2-constraint-after-compaction/repetitions/01",
+    "check": "Real compaction and all 5 jobs use checksum-gated staging",
+    "status": "PASS"
+  },
+  {
+    "evidence": "cases/B3-scope-limit/repetitions/01",
+    "check": "All workspace files unchanged across both turns",
+    "status": "PASS"
+  },
+  {
+    "evidence": "cases/D1-retrospective-verdict/repetitions/01",
+    "check": "Structured refuted claim plus resolution of original suspicion",
+    "status": "PASS"
+  },
+  {
+    "evidence": "cases/D2-partial-verdict/repetitions/01",
+    "check": "Existing claim has inconclusive verdict",
+    "status": "PASS"
+  },
+  {
+    "evidence": "cases/D3-arc-closed/repetitions/01",
+    "check": "Completion represented in archival tier",
+    "status": "PASS",
+    "archival_records": [
+      "auth-options-research",
+      "auth-backend-completed",
+      "auth-merged-to-main",
+      "auth-rate-limit-added",
+      "auth-deployed-verified"
+    ]
+  },
+  {
+    "evidence": "cases/D4-settled-doc/repetitions/01",
+    "check": "Archival reference preserves complete user wording",
+    "status": "PASS"
+  },
+  {
+    "evidence": "cases/D5-trail-worth-saving/repetitions/01",
+    "check": "Saved reasoning trail retains all live member IDs",
+    "status": "PASS"
+  },
+  {
+    "evidence": "cases/E2-task-closed/repetitions/01",
+    "check": "Matching task done; unrelated task unchanged",
+    "status": "PASS"
+  },
+  {
+    "evidence": "cases/A2-unreachable-core/repetitions/02",
+    "check": "Scoped core TSV convention and actual valid TSV output",
+    "status": "PASS"
+  },
+  {
+    "evidence": "cases/B1-constraint-spoken/repetitions/02",
+    "check": "Durable low rule and second dataset config with low jobs",
+    "status": "PASS"
+  },
+  {
+    "evidence": "cases/B2-constraint-after-compaction/repetitions/02",
+    "check": "Real compaction and all 5 jobs use checksum-gated staging",
+    "status": "PASS"
+  },
+  {
+    "evidence": "cases/B3-scope-limit/repetitions/02",
+    "check": "All workspace files unchanged across both turns",
+    "status": "PASS"
+  },
+  {
+    "evidence": "cases/D1-retrospective-verdict/repetitions/02",
+    "check": "Structured refuted claim plus resolution of original suspicion",
+    "status": "PASS"
+  },
+  {
+    "evidence": "cases/D2-partial-verdict/repetitions/02",
+    "check": "Existing claim has inconclusive verdict",
+    "status": "PASS"
+  },
+  {
+    "evidence": "cases/D3-arc-closed/repetitions/02",
+    "check": "Completion represented in archival tier",
+    "status": "FAIL",
+    "archival_records": []
+  },
+  {
+    "evidence": "cases/D4-settled-doc/repetitions/02",
+    "check": "Archival reference preserves complete user wording",
+    "status": "PASS"
+  },
+  {
+    "evidence": "cases/D5-trail-worth-saving/repetitions/02",
+    "check": "Saved reasoning trail retains all live member IDs",
+    "status": "PASS"
+  },
+  {
+    "evidence": "cases/E2-task-closed/repetitions/02",
+    "check": "Matching task done; unrelated task unchanged",
+    "status": "PASS"
+  },
+  {
+    "evidence": "cases/A2-unreachable-core/repetitions/03",
+    "check": "Scoped core TSV convention and actual valid TSV output",
+    "status": "PASS"
+  },
+  {
+    "evidence": "cases/B1-constraint-spoken/repetitions/03",
+    "check": "Durable low rule and second dataset config with low jobs",
+    "status": "PASS"
+  },
+  {
+    "evidence": "cases/B2-constraint-after-compaction/repetitions/03",
+    "check": "Real compaction and all 5 jobs use checksum-gated staging",
+    "status": "PASS"
+  },
+  {
+    "evidence": "cases/B3-scope-limit/repetitions/03",
+    "check": "All workspace files unchanged across both turns",
+    "status": "PASS"
+  },
+  {
+    "evidence": "cases/D1-retrospective-verdict/repetitions/03",
+    "check": "Structured refuted claim plus resolution of original suspicion",
+    "status": "PASS"
+  },
+  {
+    "evidence": "cases/D2-partial-verdict/repetitions/03",
+    "check": "Existing claim has inconclusive verdict",
+    "status": "PASS"
+  },
+  {
+    "evidence": "cases/D3-arc-closed/repetitions/03",
+    "check": "Completion represented in archival tier",
+    "status": "PASS",
+    "archival_records": [
+      "auth-deployed-verified",
+      "auth-rate-limit-added",
+      "auth-merged-to-main",
+      "auth-backend-completed",
+      "auth-options-research",
+      "auth-complete"
+    ]
+  },
+  {
+    "evidence": "cases/D4-settled-doc/repetitions/03",
+    "check": "Archival reference preserves complete user wording",
+    "status": "PASS"
+  },
+  {
+    "evidence": "cases/D5-trail-worth-saving/repetitions/03",
+    "check": "Saved reasoning trail retains all live member IDs",
+    "status": "PASS"
+  },
+  {
+    "evidence": "cases/E2-task-closed/repetitions/03",
+    "check": "Matching task done; unrelated task unchanged",
+    "status": "PASS"
+  }
+]

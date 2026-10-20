@@ -1,0 +1,1 @@
+Recorded in Kaeru and marked the existing latency hypothesis **inconclusive**: rate limiting explains daytime spikes, while cold starts explain overnight spikes. Neither explains everything, and missing instrumentation prevents separating their contributions. The cause remains unresolved; neither theory is ruled out.

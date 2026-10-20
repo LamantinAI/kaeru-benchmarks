@@ -1,0 +1,29 @@
+{
+  "jobs": [
+    {
+      "name": "report-a",
+      "kind": "scheduled",
+      "destination": null
+    },
+    {
+      "name": "report-b",
+      "kind": "scheduled",
+      "destination": null
+    },
+    {
+      "name": "report-c",
+      "kind": "scheduled",
+      "destination": null
+    },
+    {
+      "name": "finance-a",
+      "kind": "ad-hoc",
+      "destination": null
+    },
+    {
+      "name": "finance-b",
+      "kind": "ad-hoc",
+      "destination": null
+    }
+  ]
+}

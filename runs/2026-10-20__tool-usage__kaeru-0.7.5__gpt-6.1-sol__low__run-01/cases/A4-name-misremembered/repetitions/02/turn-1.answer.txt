@@ -1,0 +1,3 @@
+Completed the local simulator rollback exactly as recorded: repointed to blue, waited for connections to drain, then stopped green.
+
+Verified blue is active and green is stopped. Saved the outcome in Kaeru. No live deployment was changed; this workspace only provides a simulator.

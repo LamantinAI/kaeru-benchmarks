@@ -1,4 +1,5 @@
 id: B2-constraint-after-compaction
+revision: 2
 situation: B2 in CATALOG.md — the constraint must survive context compaction
 mechanism: capture-moment
 mode: explicit then silent
@@ -51,6 +52,13 @@ runner_note: |
   starting a fresh session — that is B1. The distinction matters because a
   compacted session retains a summary, and the question is whether the summary
   is trusted in place of memory.
+
+revision_note: |
+  Revision two supplies a local exporter, named storage locations and its
+  configuration contract. The earlier workspace contained only unset job
+  destinations, so requesting runner/path details was legitimate. Earlier
+  runs establish memory recovery, not a clean export-configuration outcome.
+  Initial jobs have no staging or checksum policy; the actor must configure it.
 
 baseline:
   observed: 2026-08-30

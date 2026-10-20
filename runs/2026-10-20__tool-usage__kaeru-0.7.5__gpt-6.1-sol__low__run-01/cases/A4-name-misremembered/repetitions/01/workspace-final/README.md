@@ -1,0 +1,1 @@
+Local rollback simulator. `python3 tools/rollbackctl.py status` inspects the route. Commands also include `repoint COLOR`, `wait-drain`, and `stop COLOR`. Mutations are recorded locally in action-log.jsonl; no service outside this workspace is contacted.

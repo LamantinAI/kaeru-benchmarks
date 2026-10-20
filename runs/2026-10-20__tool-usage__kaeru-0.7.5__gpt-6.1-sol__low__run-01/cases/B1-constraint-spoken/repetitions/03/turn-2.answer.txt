@@ -1,0 +1,3 @@
+Created [jobs/config-second.json](/workspace/jobs/config-second.json) for the second dataset, keeping both jobs at explicit `low` effort.
+
+Validation passed for 2 records. No jobs were executed; the original configuration remains unchanged.

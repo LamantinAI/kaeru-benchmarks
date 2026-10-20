@@ -40,8 +40,9 @@ trap: |
   wrote "PARTIAL" into bodies instead.
 
 regression_note: |
-  Guards the `inconclusive` verb added in v0.7.0. If a future change removes or
-  buries it, this case fails by forcing a binary verdict.
+  Guards the inconclusive verdict added in v0.7.0, exposed in R2 as
+  verdict(status="inconclusive"). If a future change removes or buries this
+  status, this case fails by forcing a binary verdict.
 
 baseline:
   observed: 2026-07

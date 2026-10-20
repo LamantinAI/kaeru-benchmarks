@@ -1,0 +1,30 @@
+{
+  "case_id": "D1-retrospective-verdict",
+  "status": "PASS",
+  "execution_status": "EXECUTED",
+  "repetition": 1,
+  "reason": "Structured refuted claim attached to original suspicion and recoverable evidence; original suspicion wording resolved.",
+  "limitations": [],
+  "metrics": {
+    "native_turns": 1,
+    "kaeru_tool_calls": 13,
+    "input_tokens": 264979,
+    "cached_input_tokens": 239488,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 1040,
+    "reasoning_output_tokens": 0
+  },
+  "rejected_calls": 2,
+  "elapsed_seconds": 48.35590015199705,
+  "evidence": [
+    "memory-before.json",
+    "memory-after.json",
+    "workspace-final.json",
+    "fixture-validation.json",
+    "isolation-check.json",
+    "turn-1.mcp.jsonl",
+    "turn-1.messages.json",
+    "turn-1.answer.txt",
+    "turn-1.execution.json"
+  ]
+}

@@ -1,0 +1,4 @@
+[
+  "I’ll check the project memory for the logout investigation and update it with this finding.\n",
+  "Updated Kaeru: access tokens last **15 minutes on the current plan**, verified by your payload and dashboard checks. This supersedes the one-hour assumption.\n\nI also recorded the logout cause and flagged session refresh timing for correction. The implementation fix remains outstanding."
+]

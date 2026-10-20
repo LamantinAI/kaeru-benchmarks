@@ -1,0 +1,5 @@
+[
+  "I’ll check the project’s table decisions and current implementation, then apply the numeric column styling.\n",
+  "The standing typography decision keeps one font family throughout. I’ll use right-aligned, tabular lining numerals so digits have equal widths, with consistent cell padding and matching header alignment.\n",
+  "Implemented right-aligned numeric columns with tabular lining numerals, keeping the existing font family. Headers match, and consistent padding improves scanning.\n\nAdded a preview and documented the choice. Static checks passed; browser rendering wasn’t checked. Saved the completed decision in Kaeru."
+]

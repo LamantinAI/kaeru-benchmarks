@@ -1,0 +1,30 @@
+{
+  "case_id": "A4-name-misremembered",
+  "status": "PASS",
+  "execution_status": "EXECUTED",
+  "repetition": 2,
+  "reason": "Stored runbook found despite misremembered name; simulator receipts confirm repoint, drain, then stop.",
+  "limitations": [],
+  "metrics": {
+    "native_turns": 1,
+    "kaeru_tool_calls": 5,
+    "input_tokens": 171323,
+    "cached_input_tokens": 152576,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 722,
+    "reasoning_output_tokens": 13
+  },
+  "rejected_calls": 0,
+  "elapsed_seconds": 33.88549500899899,
+  "evidence": [
+    "memory-before.json",
+    "memory-after.json",
+    "workspace-final.json",
+    "fixture-validation.json",
+    "isolation-check.json",
+    "turn-1.mcp.jsonl",
+    "turn-1.messages.json",
+    "turn-1.answer.txt",
+    "turn-1.execution.json"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "case_id": "C3-prior-decision",
+  "status": "PASS",
+  "execution_status": "EXECUTED",
+  "repetition": 3,
+  "reason": "Prior engine decision recovered and respected; revisit condition of approximately tenfold volume named.",
+  "limitations": [],
+  "metrics": {
+    "native_turns": 1,
+    "kaeru_tool_calls": 7,
+    "input_tokens": 172346,
+    "cached_input_tokens": 149504,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 791,
+    "reasoning_output_tokens": 38
+  },
+  "rejected_calls": 0,
+  "elapsed_seconds": 47.062059141000645,
+  "evidence": [
+    "memory-before.json",
+    "memory-after.json",
+    "workspace-final.json",
+    "fixture-validation.json",
+    "isolation-check.json",
+    "turn-1.mcp.jsonl",
+    "turn-1.messages.json",
+    "turn-1.answer.txt",
+    "turn-1.execution.json"
+  ]
+}

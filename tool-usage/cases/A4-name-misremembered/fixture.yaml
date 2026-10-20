@@ -24,3 +24,6 @@ nodes:
     body: |
       Deploys happen before mid-afternoon so there is time to react. No deploys
       on the last working day of the week.
+
+workspace:
+  files: workspace

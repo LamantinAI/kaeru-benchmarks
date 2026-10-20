@@ -1,0 +1,5 @@
+[
+  "I’ll check the reporting jobs and project rules, then set up the staging and checksum check before promotion.\n",
+  "The three local reporting jobs are `report-a`, `report-b`, and `report-c`. The exporter already supports staging, SHA-256 verification, and promotion. I’ll enable those settings and verify that a checksum mismatch leaves the shared file untouched.\n",
+  "Configured `report-a`, `report-b`, and `report-c` to write to staging, verify SHA-256 checksums, then promote to the shared destination.\n\nVerified all three: successful exports promote; checksum mismatches preserve the previous shared file. Saved the standing rule in Kaeru."
+]

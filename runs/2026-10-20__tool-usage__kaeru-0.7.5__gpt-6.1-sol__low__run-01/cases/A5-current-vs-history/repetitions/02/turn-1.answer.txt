@@ -1,0 +1,3 @@
+Updated `client/upload.py` to enforce the current standard-plan limit of **5 MB (5,000,000 bytes)** and report a clear maximum-size error.
+
+Verified that payloads at the limit pass and larger payloads are rejected locally.

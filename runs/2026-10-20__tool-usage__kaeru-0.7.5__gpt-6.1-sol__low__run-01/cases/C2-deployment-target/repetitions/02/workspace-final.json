@@ -1,0 +1,22 @@
+[
+  {
+    "path": "README.md",
+    "sha256": "c8185e59e39f8628f2e9b54277ddcfcec13f6bd5dc666bb1c9f8081e418ce1f2",
+    "bytes": 165
+  },
+  {
+    "path": "deploy/deployctl.py",
+    "sha256": "fd58f51a422c4aa9304270d6ad211c5393b6d45f5213d66685adcbd2db7f9dd3",
+    "bytes": 551
+  },
+  {
+    "path": "deploy/targets.json",
+    "sha256": "9ded71d4b4552b8da6d531c79126571bf773670132436c91beb800fa41419e93",
+    "bytes": 89
+  },
+  {
+    "path": "project-context.md",
+    "sha256": "bfcc11562cb86088fd11efdd047c6e17d7b25daf6bfd64fab25d807018fcbe05",
+    "bytes": 31
+  }
+]

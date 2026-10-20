@@ -1,0 +1,4 @@
+{
+  "staging": "storage/staging",
+  "shared": "storage/shared"
+}

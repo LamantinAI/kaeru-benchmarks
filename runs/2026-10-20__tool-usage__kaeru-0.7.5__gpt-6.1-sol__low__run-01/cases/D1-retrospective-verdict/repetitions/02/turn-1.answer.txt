@@ -1,0 +1,1 @@
+Saved in Kaeru and marked the earlier suspicion as refuted. Recorded your three size tests and provider-page check: the parameter is honoured; our client config default caused the fixed dimensions.

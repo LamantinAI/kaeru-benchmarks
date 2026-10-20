@@ -1,0 +1,27 @@
+[
+  {
+    "path": ".rollback-state.json",
+    "sha256": "c087f1205d7fdfd0840d87e51267a990f911dadaa1927ba47567f07c870f7747",
+    "bytes": 60
+  },
+  {
+    "path": "README.md",
+    "sha256": "87f53bb29d8f6a5c3beb413e095d177b122990654b26afd96f8a643604d848b7",
+    "bytes": 255
+  },
+  {
+    "path": "action-log.jsonl",
+    "sha256": "f1cea821bea04f9cb3c2e14cb8e794dbbc48d0800089595a0e5908fea6a132f1",
+    "bytes": 178
+  },
+  {
+    "path": "project-context.md",
+    "sha256": "d81d54478db699ded4d1f89d1276be251379d44369f493664be9e1df3c07d454",
+    "bytes": 29
+  },
+  {
+    "path": "tools/rollbackctl.py",
+    "sha256": "a8cfa4b695698fbf7bc6951072ec0b9b3d0d038c9b95ca1baac67ee735d8b00d",
+    "bytes": 1078
+  }
+]

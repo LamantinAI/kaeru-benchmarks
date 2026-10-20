@@ -1,0 +1,12 @@
+The reported symptom is that selected filters disappear after a page reload. **The exact cause is still unverified.**
+
+The available [filter code](/workspace/search/service.py:1) only applies whichever filters it receives. There’s no browser UI or persistence code here to show how selections are saved or restored.
+
+The likely failure is in restoring state: selections may exist only in page memory, or saved values may be ignored or overwritten by defaults during startup. Reloading then sends an empty or default filter set.
+
+To distinguish those cases, trace one selected filter through:
+1. Its representation in the URL or browser storage before reload.
+2. The state restored when the page starts.
+3. The filters sent in the first search request afterward.
+
+That will show whether the selection was never saved, wasn’t restored, or was restored correctly but omitted from the request. No code changes made.

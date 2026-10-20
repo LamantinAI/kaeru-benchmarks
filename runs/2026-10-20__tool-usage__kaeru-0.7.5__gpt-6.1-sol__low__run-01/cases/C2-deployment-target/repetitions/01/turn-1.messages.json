@@ -1,0 +1,5 @@
+[
+  "I’ll check the project’s release rules and the ready query change, then push it through the required checks.\n",
+  "Which target is the analytics service’s dedicated host: target-a or target-b? The project memory says analytics deploys independently, but the local target mapping is empty.",
+  "I need the analytics host mapping before proceeding: **target-a or target-b?** Analytics deploys independently, and neither target is mapped.\n\nThis workspace only contains a deployment simulator; it cannot push to a live service. No deployment request has been recorded."
+]

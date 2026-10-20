@@ -37,3 +37,6 @@ nodes:
 
 edges:
   - {from: new-usage-source-added, to: billing-service-overview, type: refers_to}
+
+workspace:
+  files: workspace

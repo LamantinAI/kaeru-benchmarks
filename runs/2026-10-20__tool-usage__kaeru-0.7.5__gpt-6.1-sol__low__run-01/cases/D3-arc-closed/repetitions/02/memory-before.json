@@ -1,0 +1,1144 @@
+{
+  "graph": {
+    "chains": [],
+    "edges": [
+      {
+        "created_secs": 1792501683.0,
+        "dst": "ded0e011-f16e-53dd-8964-e6553bb01ae4",
+        "dst_store": "local",
+        "src": "249c431c-c458-579f-bd98-29d2d29db20b",
+        "type": "derived_from",
+        "weight": 1.0
+      },
+      {
+        "created_secs": 1792501683.0,
+        "dst": "ded0e011-f16e-53dd-8964-e6553bb01ae4",
+        "dst_store": "local",
+        "src": "c339470a-10eb-5eb9-a507-45bfcb6241c4",
+        "type": "derived_from",
+        "weight": 1.0
+      },
+      {
+        "created_secs": 1792501683.0,
+        "dst": "463dd11e-0b2b-5781-b6e1-8acb257c87b1",
+        "dst_store": "local",
+        "src": "ded0e011-f16e-53dd-8964-e6553bb01ae4",
+        "type": "derived_from",
+        "weight": 1.0
+      },
+      {
+        "created_secs": 1792501683.0,
+        "dst": "c339470a-10eb-5eb9-a507-45bfcb6241c4",
+        "dst_store": "local",
+        "src": "fff3b73d-b4e9-5cd1-b579-1238a0b381ff",
+        "type": "derived_from",
+        "weight": 1.0
+      }
+    ],
+    "initiatives": [
+      {
+        "name": "auth-rollout",
+        "node_count": 35
+      }
+    ],
+    "meta": {
+      "chain_count": 0,
+      "earliest_secs": 1780401600.0,
+      "edge_count": 4,
+      "initiative_count": 1,
+      "latest_secs": 1792501412.0,
+      "node_count": 35,
+      "redacted_count": 0
+    },
+    "nodes": [
+      {
+        "body": "Short postmortem written for last month's outage; no action items outstanding.",
+        "created_secs": 1792501399.0,
+        "degree": 0,
+        "id": "01e8511d-d24e-5db9-bec2-9d7c491bf76f",
+        "initiatives": [
+          "auth-rollout"
+        ],
+        "layer": "warm",
+        "name": "incident-postmortem-short",
+        "redacted": false,
+        "tags": [],
+        "tier": "operational",
+        "type": "episode",
+        "visibility": "local"
+      },
+      {
+        "body": "Retro produced three actions; two are already done.",
+        "created_secs": 1792501393.0,
+        "degree": 0,
+        "id": "03ea04b8-cb9d-5cdc-90e3-e218a87c4ab2",
+        "initiatives": [
+          "auth-rollout"
+        ],
+        "layer": "warm",
+        "name": "retro-actions",
+        "redacted": false,
+        "tags": [],
+        "tier": "operational",
+        "type": "episode",
+        "visibility": "local"
+      },
+      {
+        "body": "Legal review needs about ten working days.",
+        "created_secs": 1792501404.0,
+        "degree": 0,
+        "id": "11a74041-df93-5430-9b6e-c96115702147",
+        "initiatives": [
+          "auth-rollout"
+        ],
+        "layer": "warm",
+        "name": "legal-review-lead-time",
+        "redacted": false,
+        "tags": [],
+        "tier": "operational",
+        "type": "episode",
+        "visibility": "local"
+      },
+      {
+        "body": "Staging refreshed from a sanitised copy of production data.",
+        "created_secs": 1792501385.0,
+        "degree": 0,
+        "id": "1610585e-9f1b-5f54-8264-eed973aa6396",
+        "initiatives": [
+          "auth-rollout"
+        ],
+        "layer": "warm",
+        "name": "staging-refresh",
+        "redacted": false,
+        "tags": [],
+        "tier": "operational",
+        "type": "episode",
+        "visibility": "local"
+      },
+      {
+        "body": "API versions are additive; nothing is removed without a major bump.",
+        "created_secs": 1792501407.0,
+        "degree": 0,
+        "id": "17c193f4-8bd6-5914-9b78-b9cbe141eae3",
+        "initiatives": [
+          "auth-rollout"
+        ],
+        "layer": "warm",
+        "name": "api-versioning-policy",
+        "redacted": false,
+        "tags": [],
+        "tier": "operational",
+        "type": "episode",
+        "visibility": "local"
+      },
+      {
+        "body": "Translations lag the source by roughly one release.",
+        "created_secs": 1792501412.0,
+        "degree": 0,
+        "id": "1e4501c9-3ac4-58e7-89a5-6585fe3ac997",
+        "initiatives": [
+          "auth-rollout"
+        ],
+        "layer": "warm",
+        "name": "translation-status",
+        "redacted": false,
+        "tags": [],
+        "tier": "operational",
+        "type": "episode",
+        "visibility": "local"
+      },
+      {
+        "body": "Rate limiting added: five requests per ten minutes per address. Closes\nthe outstanding item from the implementation step.\n",
+        "created_secs": 1781006400.0,
+        "degree": 1,
+        "id": "249c431c-c458-579f-bd98-29d2d29db20b",
+        "initiatives": [
+          "auth-rollout"
+        ],
+        "layer": "warm",
+        "name": "auth-rate-limit-added",
+        "redacted": false,
+        "tags": [],
+        "tier": "operational",
+        "type": "episode",
+        "visibility": "local"
+      },
+      {
+        "body": "New joiners get a buddy for the first fortnight.",
+        "created_secs": 1792501400.0,
+        "degree": 0,
+        "id": "25303497-1347-52a2-bdb8-f5b95f18583c",
+        "initiatives": [
+          "auth-rollout"
+        ],
+        "layer": "warm",
+        "name": "onboarding-buddy",
+        "redacted": false,
+        "tags": [],
+        "tier": "operational",
+        "type": "episode",
+        "visibility": "local"
+      },
+      {
+        "body": "Search index rebuild takes about twenty minutes.",
+        "created_secs": 1792501410.0,
+        "degree": 0,
+        "id": "31f06504-e6ac-52b2-8078-38682fb6fcda",
+        "initiatives": [
+          "auth-rollout"
+        ],
+        "layer": "warm",
+        "name": "search-index-rebuild",
+        "redacted": false,
+        "tags": [],
+        "tier": "operational",
+        "type": "episode",
+        "visibility": "local"
+      },
+      {
+        "body": "Default rate limits are generous enough for internal use.",
+        "created_secs": 1792501408.0,
+        "degree": 0,
+        "id": "357df752-070f-553f-bc91-d4b91e94ac92",
+        "initiatives": [
+          "auth-rollout"
+        ],
+        "layer": "warm",
+        "name": "rate-limit-defaults",
+        "redacted": false,
+        "tags": [],
+        "tier": "operational",
+        "type": "episode",
+        "visibility": "local"
+      },
+      {
+        "body": "Meeting notes live alongside the project docs, not in chat.",
+        "created_secs": 1792501401.0,
+        "degree": 0,
+        "id": "371a8b55-8021-54af-bf19-555ffa772f84",
+        "initiatives": [
+          "auth-rollout"
+        ],
+        "layer": "warm",
+        "name": "meeting-notes-location",
+        "redacted": false,
+        "tags": [],
+        "tier": "operational",
+        "type": "episode",
+        "visibility": "local"
+      },
+      {
+        "body": "Vendor takes about a week to answer support tickets.",
+        "created_secs": 1792501394.0,
+        "degree": 0,
+        "id": "44953bf7-e725-543a-b2b0-5ef5a390c25d",
+        "initiatives": [
+          "auth-rollout"
+        ],
+        "layer": "warm",
+        "name": "vendor-response-slow",
+        "redacted": false,
+        "tags": [],
+        "tier": "operational",
+        "type": "episode",
+        "visibility": "local"
+      },
+      {
+        "body": "Compared three sign-in options: two social providers and an email\nmagic-link. Axes: integration cost, domain verification requirements,\nfirst-run experience. Conclusion: start with email plus one social\nprovider.\n",
+        "created_secs": 1780401600.0,
+        "degree": 1,
+        "id": "463dd11e-0b2b-5781-b6e1-8acb257c87b1",
+        "initiatives": [
+          "auth-rollout"
+        ],
+        "layer": "warm",
+        "name": "auth-options-research",
+        "redacted": false,
+        "tags": [],
+        "tier": "operational",
+        "type": "episode",
+        "visibility": "local"
+      },
+      {
+        "body": "Mobile layout breaks on very narrow screens; low priority.",
+        "created_secs": 1792501411.0,
+        "degree": 0,
+        "id": "48fb492d-3536-5306-ac10-f05e42f37dc4",
+        "initiatives": [
+          "auth-rollout"
+        ],
+        "layer": "warm",
+        "name": "mobile-layout-issue",
+        "redacted": false,
+        "tags": [],
+        "tier": "operational",
+        "type": "episode",
+        "visibility": "local"
+      },
+      {
+        "body": "Contractor available two days a week until the end of the engagement.",
+        "created_secs": 1792501403.0,
+        "degree": 0,
+        "id": "76addbb0-7aa2-54ed-9dcd-544432fc6b19",
+        "initiatives": [
+          "auth-rollout"
+        ],
+        "layer": "warm",
+        "name": "contractor-availability",
+        "redacted": false,
+        "tags": [],
+        "tier": "operational",
+        "type": "episode",
+        "visibility": "local"
+      },
+      {
+        "body": "Metrics dashboard stopped double-counting retries after the last fix.",
+        "created_secs": 1792501388.0,
+        "degree": 0,
+        "id": "8d643020-1278-5a3f-8068-e738efd839ca",
+        "initiatives": [
+          "auth-rollout"
+        ],
+        "layer": "warm",
+        "name": "metrics-dashboard-fixed",
+        "redacted": false,
+        "tags": [],
+        "tier": "operational",
+        "type": "episode",
+        "visibility": "local"
+      },
+      {
+        "body": "Backups verified by restoring into a scratch environment.",
+        "created_secs": 1792501396.0,
+        "degree": 0,
+        "id": "8de3f0bc-7a5f-5499-a57f-cd52a49cd012",
+        "initiatives": [
+          "auth-rollout"
+        ],
+        "layer": "warm",
+        "name": "backup-verified",
+        "redacted": false,
+        "tags": [],
+        "tier": "operational",
+        "type": "episode",
+        "visibility": "local"
+      },
+      {
+        "body": "Error budget for the quarter is largely unspent.",
+        "created_secs": 1792501389.0,
+        "degree": 0,
+        "id": "9511d403-c509-577c-b37e-a79c5699ff53",
+        "initiatives": [
+          "auth-rollout"
+        ],
+        "layer": "warm",
+        "name": "error-budget-note",
+        "redacted": false,
+        "tags": [],
+        "tier": "operational",
+        "type": "episode",
+        "visibility": "local"
+      },
+      {
+        "body": "Analytics samples at a fixed rate; small effects are invisible.",
+        "created_secs": 1792501405.0,
+        "degree": 0,
+        "id": "997b1f39-5cf5-52d0-8bfa-3f7a8ed23dad",
+        "initiatives": [
+          "auth-rollout"
+        ],
+        "layer": "warm",
+        "name": "analytics-sampling",
+        "redacted": false,
+        "tags": [],
+        "tier": "operational",
+        "type": "episode",
+        "visibility": "local"
+      },
+      {
+        "body": "Dependency bump queued behind the current release.",
+        "created_secs": 1792501387.0,
+        "degree": 0,
+        "id": "9baf8388-f9c7-5427-9e0a-86d4054bfe71",
+        "initiatives": [
+          "auth-rollout"
+        ],
+        "layer": "warm",
+        "name": "dependency-bump-queued",
+        "redacted": false,
+        "tags": [],
+        "tier": "operational",
+        "type": "episode",
+        "visibility": "local"
+      },
+      {
+        "body": "Access request for the reporting tool still pending.",
+        "created_secs": 1792501397.0,
+        "degree": 0,
+        "id": "a53740f9-d854-5d86-bba3-b2b95d47f8fb",
+        "initiatives": [
+          "auth-rollout"
+        ],
+        "layer": "warm",
+        "name": "access-request-pending",
+        "redacted": false,
+        "tags": [],
+        "tier": "operational",
+        "type": "episode",
+        "visibility": "local"
+      },
+      {
+        "body": "Quarterly planning happens in the last week of the quarter.",
+        "created_secs": 1792501402.0,
+        "degree": 0,
+        "id": "a89607a0-1505-5d55-9661-ade0bf3b7416",
+        "initiatives": [
+          "auth-rollout"
+        ],
+        "layer": "warm",
+        "name": "quarterly-planning-date",
+        "redacted": false,
+        "tags": [],
+        "tier": "operational",
+        "type": "episode",
+        "visibility": "local"
+      },
+      {
+        "body": "Cache invalidation is time-based rather than event-driven.",
+        "created_secs": 1792501409.0,
+        "degree": 0,
+        "id": "c004adf9-baa2-548d-8c43-4a1a1656dd9c",
+        "initiatives": [
+          "auth-rollout"
+        ],
+        "layer": "warm",
+        "name": "cache-invalidation-note",
+        "redacted": false,
+        "tags": [],
+        "tier": "operational",
+        "type": "episode",
+        "visibility": "local"
+      },
+      {
+        "body": "Merged to main after review. Two review comments addressed: token\nentropy and the expiry check on reuse.\n",
+        "created_secs": 1780920000.0,
+        "degree": 2,
+        "id": "c339470a-10eb-5eb9-a507-45bfcb6241c4",
+        "initiatives": [
+          "auth-rollout"
+        ],
+        "layer": "warm",
+        "name": "auth-merged-to-main",
+        "redacted": false,
+        "tags": [],
+        "tier": "operational",
+        "type": "episode",
+        "visibility": "local"
+      },
+      {
+        "body": "Docs index restructured so setup comes before reference.",
+        "created_secs": 1792501390.0,
+        "degree": 0,
+        "id": "c9605850-1415-5fff-aeaf-78817c875e02",
+        "initiatives": [
+          "auth-rollout"
+        ],
+        "layer": "warm",
+        "name": "docs-index-restructured",
+        "redacted": false,
+        "tags": [],
+        "tier": "operational",
+        "type": "episode",
+        "visibility": "local"
+      },
+      {
+        "body": "Standups moved to twice a week to leave longer focus blocks.",
+        "created_secs": 1792501384.0,
+        "degree": 0,
+        "id": "d5b7041e-074e-517d-a136-9d8fab970357",
+        "initiatives": [
+          "auth-rollout"
+        ],
+        "layer": "warm",
+        "name": "standup-cadence",
+        "redacted": false,
+        "tags": [],
+        "tier": "operational",
+        "type": "episode",
+        "visibility": "local"
+      },
+      {
+        "body": "Scope for the current sprint agreed: three features, one migration, no new dependencies.",
+        "created_secs": 1792501383.0,
+        "degree": 0,
+        "id": "da2d72a8-86b2-5693-96b8-90a44922b741",
+        "initiatives": [
+          "auth-rollout"
+        ],
+        "layer": "warm",
+        "name": "sprint-scope-agreed",
+        "redacted": false,
+        "tags": [],
+        "tier": "operational",
+        "type": "episode",
+        "visibility": "local"
+      },
+      {
+        "body": "Old feature flags cleaned up after the last release.",
+        "created_secs": 1792501406.0,
+        "degree": 0,
+        "id": "de3fe7cf-ea0a-56bd-91a3-89146ebfa388",
+        "initiatives": [
+          "auth-rollout"
+        ],
+        "layer": "warm",
+        "name": "feature-flag-cleanup",
+        "redacted": false,
+        "tags": [],
+        "tier": "operational",
+        "type": "episode",
+        "visibility": "local"
+      },
+      {
+        "body": "Backend implementation under way: request-link and verify endpoints,\nsessions table, magic-link TTL of 15 minutes. Rate limiting still to do.\n",
+        "created_secs": 1780660800.0,
+        "degree": 3,
+        "id": "ded0e011-f16e-53dd-8964-e6553bb01ae4",
+        "initiatives": [
+          "auth-rollout"
+        ],
+        "layer": "warm",
+        "name": "auth-backend-in-flight",
+        "redacted": false,
+        "tags": [],
+        "tier": "operational",
+        "type": "episode",
+        "visibility": "local"
+      },
+      {
+        "body": "Two flaky tests quarantined pending a proper fix.",
+        "created_secs": 1792501386.0,
+        "degree": 0,
+        "id": "dff5bd02-c3e9-543c-92dc-6cf2d16b2b69",
+        "initiatives": [
+          "auth-rollout"
+        ],
+        "layer": "warm",
+        "name": "flaky-test-quarantine",
+        "redacted": false,
+        "tags": [],
+        "tier": "operational",
+        "type": "episode",
+        "visibility": "local"
+      },
+      {
+        "body": "The same support question keeps arriving about first-run configuration.",
+        "created_secs": 1792501391.0,
+        "degree": 0,
+        "id": "e88b868d-6724-5fb3-9654-9b84b1597e37",
+        "initiatives": [
+          "auth-rollout"
+        ],
+        "layer": "warm",
+        "name": "support-question-recurring",
+        "redacted": false,
+        "tags": [],
+        "tier": "operational",
+        "type": "episode",
+        "visibility": "local"
+      },
+      {
+        "body": "Handover notes list state, blockers, and the next concrete step.",
+        "created_secs": 1792501392.0,
+        "degree": 0,
+        "id": "ed97b94e-9c9f-5a00-a38e-b48309997f98",
+        "initiatives": [
+          "auth-rollout"
+        ],
+        "layer": "warm",
+        "name": "handover-note-format",
+        "redacted": false,
+        "tags": [],
+        "tier": "operational",
+        "type": "episode",
+        "visibility": "local"
+      },
+      {
+        "body": "Open question about which pricing tier the workload needs.",
+        "created_secs": 1792501395.0,
+        "degree": 0,
+        "id": "f22f894a-bc1e-50d8-aa0a-dcacb353863e",
+        "initiatives": [
+          "auth-rollout"
+        ],
+        "layer": "warm",
+        "name": "pricing-tier-question",
+        "redacted": false,
+        "tags": [],
+        "tier": "operational",
+        "type": "episode",
+        "visibility": "local"
+      },
+      {
+        "body": "Environments are named dev, staging and prod; no others.",
+        "created_secs": 1792501398.0,
+        "degree": 0,
+        "id": "fa83718d-858d-5815-916a-8de3f41db4d0",
+        "initiatives": [
+          "auth-rollout"
+        ],
+        "layer": "warm",
+        "name": "naming-of-environments",
+        "redacted": false,
+        "tags": [],
+        "tier": "operational",
+        "type": "episode",
+        "visibility": "local"
+      },
+      {
+        "body": "Auth deployed to production and verified live: registration, sign-in,\nrepeat sign-in by link, and TTL expiry all behaved. The line of work is\nfinished; nothing further is planned.\n",
+        "created_secs": 1781092800.0,
+        "degree": 1,
+        "id": "fff3b73d-b4e9-5cd1-b579-1238a0b381ff",
+        "initiatives": [
+          "auth-rollout"
+        ],
+        "layer": "warm",
+        "name": "auth-deployed-verified",
+        "redacted": false,
+        "tags": [],
+        "tier": "operational",
+        "type": "episode",
+        "visibility": "local"
+      }
+    ],
+    "project_links": []
+  },
+  "records": [
+    {
+      "body": "Short postmortem written for last month's outage; no action items outstanding.",
+      "id": "01e8511d-d24e-5db9-bec2-9d7c491bf76f",
+      "layer": "warm",
+      "name": "incident-postmortem-short",
+      "properties": null,
+      "tags": [],
+      "tier": "operational",
+      "type": "episode",
+      "validity": [
+        1792501399,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": "Retro produced three actions; two are already done.",
+      "id": "03ea04b8-cb9d-5cdc-90e3-e218a87c4ab2",
+      "layer": "warm",
+      "name": "retro-actions",
+      "properties": null,
+      "tags": [],
+      "tier": "operational",
+      "type": "episode",
+      "validity": [
+        1792501393,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": "Legal review needs about ten working days.",
+      "id": "11a74041-df93-5430-9b6e-c96115702147",
+      "layer": "warm",
+      "name": "legal-review-lead-time",
+      "properties": null,
+      "tags": [],
+      "tier": "operational",
+      "type": "episode",
+      "validity": [
+        1792501404,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": "Staging refreshed from a sanitised copy of production data.",
+      "id": "1610585e-9f1b-5f54-8264-eed973aa6396",
+      "layer": "warm",
+      "name": "staging-refresh",
+      "properties": null,
+      "tags": [],
+      "tier": "operational",
+      "type": "episode",
+      "validity": [
+        1792501385,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": "API versions are additive; nothing is removed without a major bump.",
+      "id": "17c193f4-8bd6-5914-9b78-b9cbe141eae3",
+      "layer": "warm",
+      "name": "api-versioning-policy",
+      "properties": null,
+      "tags": [],
+      "tier": "operational",
+      "type": "episode",
+      "validity": [
+        1792501407,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": "Translations lag the source by roughly one release.",
+      "id": "1e4501c9-3ac4-58e7-89a5-6585fe3ac997",
+      "layer": "warm",
+      "name": "translation-status",
+      "properties": null,
+      "tags": [],
+      "tier": "operational",
+      "type": "episode",
+      "validity": [
+        1792501412,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": "Rate limiting added: five requests per ten minutes per address. Closes\nthe outstanding item from the implementation step.\n",
+      "id": "249c431c-c458-579f-bd98-29d2d29db20b",
+      "layer": "warm",
+      "name": "auth-rate-limit-added",
+      "properties": null,
+      "tags": [],
+      "tier": "operational",
+      "type": "episode",
+      "validity": [
+        1781006400,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": "New joiners get a buddy for the first fortnight.",
+      "id": "25303497-1347-52a2-bdb8-f5b95f18583c",
+      "layer": "warm",
+      "name": "onboarding-buddy",
+      "properties": null,
+      "tags": [],
+      "tier": "operational",
+      "type": "episode",
+      "validity": [
+        1792501400,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": "Search index rebuild takes about twenty minutes.",
+      "id": "31f06504-e6ac-52b2-8078-38682fb6fcda",
+      "layer": "warm",
+      "name": "search-index-rebuild",
+      "properties": null,
+      "tags": [],
+      "tier": "operational",
+      "type": "episode",
+      "validity": [
+        1792501410,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": "Default rate limits are generous enough for internal use.",
+      "id": "357df752-070f-553f-bc91-d4b91e94ac92",
+      "layer": "warm",
+      "name": "rate-limit-defaults",
+      "properties": null,
+      "tags": [],
+      "tier": "operational",
+      "type": "episode",
+      "validity": [
+        1792501408,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": "Meeting notes live alongside the project docs, not in chat.",
+      "id": "371a8b55-8021-54af-bf19-555ffa772f84",
+      "layer": "warm",
+      "name": "meeting-notes-location",
+      "properties": null,
+      "tags": [],
+      "tier": "operational",
+      "type": "episode",
+      "validity": [
+        1792501401,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": "Vendor takes about a week to answer support tickets.",
+      "id": "44953bf7-e725-543a-b2b0-5ef5a390c25d",
+      "layer": "warm",
+      "name": "vendor-response-slow",
+      "properties": null,
+      "tags": [],
+      "tier": "operational",
+      "type": "episode",
+      "validity": [
+        1792501394,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": "Compared three sign-in options: two social providers and an email\nmagic-link. Axes: integration cost, domain verification requirements,\nfirst-run experience. Conclusion: start with email plus one social\nprovider.\n",
+      "id": "463dd11e-0b2b-5781-b6e1-8acb257c87b1",
+      "layer": "warm",
+      "name": "auth-options-research",
+      "properties": null,
+      "tags": [],
+      "tier": "operational",
+      "type": "episode",
+      "validity": [
+        1780401600,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": "Mobile layout breaks on very narrow screens; low priority.",
+      "id": "48fb492d-3536-5306-ac10-f05e42f37dc4",
+      "layer": "warm",
+      "name": "mobile-layout-issue",
+      "properties": null,
+      "tags": [],
+      "tier": "operational",
+      "type": "episode",
+      "validity": [
+        1792501411,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": "Contractor available two days a week until the end of the engagement.",
+      "id": "76addbb0-7aa2-54ed-9dcd-544432fc6b19",
+      "layer": "warm",
+      "name": "contractor-availability",
+      "properties": null,
+      "tags": [],
+      "tier": "operational",
+      "type": "episode",
+      "validity": [
+        1792501403,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": "Metrics dashboard stopped double-counting retries after the last fix.",
+      "id": "8d643020-1278-5a3f-8068-e738efd839ca",
+      "layer": "warm",
+      "name": "metrics-dashboard-fixed",
+      "properties": null,
+      "tags": [],
+      "tier": "operational",
+      "type": "episode",
+      "validity": [
+        1792501388,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": "Backups verified by restoring into a scratch environment.",
+      "id": "8de3f0bc-7a5f-5499-a57f-cd52a49cd012",
+      "layer": "warm",
+      "name": "backup-verified",
+      "properties": null,
+      "tags": [],
+      "tier": "operational",
+      "type": "episode",
+      "validity": [
+        1792501396,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": "Error budget for the quarter is largely unspent.",
+      "id": "9511d403-c509-577c-b37e-a79c5699ff53",
+      "layer": "warm",
+      "name": "error-budget-note",
+      "properties": null,
+      "tags": [],
+      "tier": "operational",
+      "type": "episode",
+      "validity": [
+        1792501389,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": "Analytics samples at a fixed rate; small effects are invisible.",
+      "id": "997b1f39-5cf5-52d0-8bfa-3f7a8ed23dad",
+      "layer": "warm",
+      "name": "analytics-sampling",
+      "properties": null,
+      "tags": [],
+      "tier": "operational",
+      "type": "episode",
+      "validity": [
+        1792501405,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": "Dependency bump queued behind the current release.",
+      "id": "9baf8388-f9c7-5427-9e0a-86d4054bfe71",
+      "layer": "warm",
+      "name": "dependency-bump-queued",
+      "properties": null,
+      "tags": [],
+      "tier": "operational",
+      "type": "episode",
+      "validity": [
+        1792501387,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": "Access request for the reporting tool still pending.",
+      "id": "a53740f9-d854-5d86-bba3-b2b95d47f8fb",
+      "layer": "warm",
+      "name": "access-request-pending",
+      "properties": null,
+      "tags": [],
+      "tier": "operational",
+      "type": "episode",
+      "validity": [
+        1792501397,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": "Quarterly planning happens in the last week of the quarter.",
+      "id": "a89607a0-1505-5d55-9661-ade0bf3b7416",
+      "layer": "warm",
+      "name": "quarterly-planning-date",
+      "properties": null,
+      "tags": [],
+      "tier": "operational",
+      "type": "episode",
+      "validity": [
+        1792501402,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": "Cache invalidation is time-based rather than event-driven.",
+      "id": "c004adf9-baa2-548d-8c43-4a1a1656dd9c",
+      "layer": "warm",
+      "name": "cache-invalidation-note",
+      "properties": null,
+      "tags": [],
+      "tier": "operational",
+      "type": "episode",
+      "validity": [
+        1792501409,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": "Merged to main after review. Two review comments addressed: token\nentropy and the expiry check on reuse.\n",
+      "id": "c339470a-10eb-5eb9-a507-45bfcb6241c4",
+      "layer": "warm",
+      "name": "auth-merged-to-main",
+      "properties": null,
+      "tags": [],
+      "tier": "operational",
+      "type": "episode",
+      "validity": [
+        1780920000,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": "Docs index restructured so setup comes before reference.",
+      "id": "c9605850-1415-5fff-aeaf-78817c875e02",
+      "layer": "warm",
+      "name": "docs-index-restructured",
+      "properties": null,
+      "tags": [],
+      "tier": "operational",
+      "type": "episode",
+      "validity": [
+        1792501390,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": "Standups moved to twice a week to leave longer focus blocks.",
+      "id": "d5b7041e-074e-517d-a136-9d8fab970357",
+      "layer": "warm",
+      "name": "standup-cadence",
+      "properties": null,
+      "tags": [],
+      "tier": "operational",
+      "type": "episode",
+      "validity": [
+        1792501384,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": "Scope for the current sprint agreed: three features, one migration, no new dependencies.",
+      "id": "da2d72a8-86b2-5693-96b8-90a44922b741",
+      "layer": "warm",
+      "name": "sprint-scope-agreed",
+      "properties": null,
+      "tags": [],
+      "tier": "operational",
+      "type": "episode",
+      "validity": [
+        1792501383,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": "Old feature flags cleaned up after the last release.",
+      "id": "de3fe7cf-ea0a-56bd-91a3-89146ebfa388",
+      "layer": "warm",
+      "name": "feature-flag-cleanup",
+      "properties": null,
+      "tags": [],
+      "tier": "operational",
+      "type": "episode",
+      "validity": [
+        1792501406,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": "Backend implementation under way: request-link and verify endpoints,\nsessions table, magic-link TTL of 15 minutes. Rate limiting still to do.\n",
+      "id": "ded0e011-f16e-53dd-8964-e6553bb01ae4",
+      "layer": "warm",
+      "name": "auth-backend-in-flight",
+      "properties": null,
+      "tags": [],
+      "tier": "operational",
+      "type": "episode",
+      "validity": [
+        1780660800,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": "Two flaky tests quarantined pending a proper fix.",
+      "id": "dff5bd02-c3e9-543c-92dc-6cf2d16b2b69",
+      "layer": "warm",
+      "name": "flaky-test-quarantine",
+      "properties": null,
+      "tags": [],
+      "tier": "operational",
+      "type": "episode",
+      "validity": [
+        1792501386,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": "The same support question keeps arriving about first-run configuration.",
+      "id": "e88b868d-6724-5fb3-9654-9b84b1597e37",
+      "layer": "warm",
+      "name": "support-question-recurring",
+      "properties": null,
+      "tags": [],
+      "tier": "operational",
+      "type": "episode",
+      "validity": [
+        1792501391,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": "Handover notes list state, blockers, and the next concrete step.",
+      "id": "ed97b94e-9c9f-5a00-a38e-b48309997f98",
+      "layer": "warm",
+      "name": "handover-note-format",
+      "properties": null,
+      "tags": [],
+      "tier": "operational",
+      "type": "episode",
+      "validity": [
+        1792501392,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": "Open question about which pricing tier the workload needs.",
+      "id": "f22f894a-bc1e-50d8-aa0a-dcacb353863e",
+      "layer": "warm",
+      "name": "pricing-tier-question",
+      "properties": null,
+      "tags": [],
+      "tier": "operational",
+      "type": "episode",
+      "validity": [
+        1792501395,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": "Environments are named dev, staging and prod; no others.",
+      "id": "fa83718d-858d-5815-916a-8de3f41db4d0",
+      "layer": "warm",
+      "name": "naming-of-environments",
+      "properties": null,
+      "tags": [],
+      "tier": "operational",
+      "type": "episode",
+      "validity": [
+        1792501398,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": "Auth deployed to production and verified live: registration, sign-in,\nrepeat sign-in by link, and TTL expiry all behaved. The line of work is\nfinished; nothing further is planned.\n",
+      "id": "fff3b73d-b4e9-5cd1-b579-1238a0b381ff",
+      "layer": "warm",
+      "name": "auth-deployed-verified",
+      "properties": null,
+      "tags": [],
+      "tier": "operational",
+      "type": "episode",
+      "validity": [
+        1781092800,
+        true
+      ],
+      "visibility": "local"
+    }
+  ]
+}

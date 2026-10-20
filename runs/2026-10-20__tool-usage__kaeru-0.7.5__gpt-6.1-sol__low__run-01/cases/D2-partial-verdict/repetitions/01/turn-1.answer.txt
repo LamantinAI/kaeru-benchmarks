@@ -1,0 +1,3 @@
+Recorded in Kaeru as **inconclusive**, with the test results attached to the existing hypothesis.
+
+Rate limiting explains daytime spikes; cold starts explain overnight spikes. Neither accounts for everything, and the missing instrumentation prevents separating them. Attribution remains unresolved; neither cause is confirmed or ruled out.

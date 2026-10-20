@@ -1,0 +1,5 @@
+[
+  "I’ll check the project context and client changes, then open the PR.",
+  "The project rule requires pulling all four repositories before opening any PR. I’ll do that first. This workspace uses local PR receipts and doesn’t contact GitHub.",
+  "Recorded the client PR receipt after pulling all four repositories successfully. This workspace creates local receipts only; no GitHub PR was opened."
+]

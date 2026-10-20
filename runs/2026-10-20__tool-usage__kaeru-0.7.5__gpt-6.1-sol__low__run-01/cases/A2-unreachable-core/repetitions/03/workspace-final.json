@@ -1,0 +1,12 @@
+[
+  {
+    "path": "20261020-weekly-run-summary.tsv",
+    "sha256": "12572cb3fb26cded396a120b101beb833032e86b49b96a1f818eec7eb55ac99f",
+    "bytes": 123
+  },
+  {
+    "path": "project-context.md",
+    "sha256": "1c9c19826a034e3c5c2a84ddbc5270d0525747ae316580b9eed716f6e38f6f87",
+    "bytes": 87
+  }
+]

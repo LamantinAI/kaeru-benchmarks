@@ -1,0 +1,7 @@
+{
+  "workspace_write": true,
+  "hidden_inputs_absent": true,
+  "home": "disposable, no inherited configuration or memory",
+  "network": "shared for test MCP and model authentication",
+  "command_sandbox": "danger-full-access inside the outer filesystem namespace"
+}

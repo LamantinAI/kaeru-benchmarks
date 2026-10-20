@@ -1,0 +1,4 @@
+[
+  "I’ll check the project’s release rules and the ready change, then push it through the required checks.\n",
+  "Analytics deploys independently on its own host. The local simulator lists `target-a` and `target-b`, but neither is mapped to analytics.\n\nWhich target is the analytics host? No deployment has been recorded; this workspace can only simulate deployment requests."
+]

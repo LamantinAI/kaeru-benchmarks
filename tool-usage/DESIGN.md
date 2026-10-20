@@ -83,6 +83,11 @@ method, and the only way to succeed is to consult it unprompted. A suite where e
 prompt says "look in memory" measures retrieval under laboratory conditions and
 would have missed every one of the eight most expensive failures in the corpus.
 
+The R2 runner defaults to a declared, generic instruction to use Kaeru. Under
+that condition, `silent` describes the case prompt, not an unprompted-use
+experiment. Runs without that instruction must be reported separately; see
+[RUNNER_CONTRACT.md](RUNNER_CONTRACT.md).
+
 ## Scoring
 
 Per case, three independent outcomes:

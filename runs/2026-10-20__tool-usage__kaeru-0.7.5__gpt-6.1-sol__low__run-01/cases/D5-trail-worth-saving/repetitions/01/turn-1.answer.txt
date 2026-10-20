@@ -1,0 +1,6 @@
+Tidied the project’s Kaeru memory for handoff:
+
+- Recorded queue work as complete, with repartitioning chosen and autoscaling off.
+- Archived the supporting observations and saved the decision rationale.
+- Added a current handoff with state, blockers, and next step.
+- Verified the updated records and links; unrelated open notes remain intact.

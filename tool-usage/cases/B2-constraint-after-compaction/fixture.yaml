@@ -21,3 +21,6 @@ nodes:
     layer: warm
     body: |
       Backlog from the outage cleared; all nine jobs are current again.
+
+workspace:
+  files: workspace

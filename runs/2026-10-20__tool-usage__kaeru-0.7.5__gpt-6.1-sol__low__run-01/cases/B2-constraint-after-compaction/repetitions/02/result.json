@@ -1,0 +1,35 @@
+{
+  "case_id": "B2-constraint-after-compaction",
+  "status": "PASS",
+  "execution_status": "EXECUTED",
+  "repetition": 2,
+  "reason": "Actual native compaction completed; memory reread and all five exports use checksum-gated staging before promotion.",
+  "limitations": [],
+  "metrics": {
+    "native_turns": 2,
+    "kaeru_tool_calls": 12,
+    "input_tokens": 391687,
+    "cached_input_tokens": 339456,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 2393,
+    "reasoning_output_tokens": 23
+  },
+  "rejected_calls": 0,
+  "elapsed_seconds": 78.38833825099573,
+  "evidence": [
+    "memory-before.json",
+    "memory-after.json",
+    "workspace-final.json",
+    "fixture-validation.json",
+    "isolation-check.json",
+    "compaction-check.json",
+    "turn-1.mcp.jsonl",
+    "turn-1.messages.json",
+    "turn-1.answer.txt",
+    "turn-1.execution.json",
+    "turn-2.mcp.jsonl",
+    "turn-2.messages.json",
+    "turn-2.answer.txt",
+    "turn-2.execution.json"
+  ]
+}

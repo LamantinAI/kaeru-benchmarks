@@ -1,4 +1,5 @@
 id: B1-constraint-spoken
+revision: 2
 situation: B1 in CATALOG.md — a rule stated in conversation, never captured
 mechanism: capture-moment
 mode: explicit          # turn 1 is explicit; turn 2 is silent by construction
@@ -71,3 +72,11 @@ baseline:
     "what are you doing — we absolutely must not set medium, only low"
   verified: |
     A search of that project's memory for the constraint returns nothing at all.
+
+revision_note: |
+  Revision two identifies both local datasets and supplies a configuration
+  validator. The original workspace had no second-dataset mapping or runnable
+  validation contract, so asking for those details was legitimate. No effort
+  policy is present in the initial workspace; it must come from the user and
+  survive in memory. Earlier runs remain evidence of rule capture/recovery,
+  not a complete second-dataset setup outcome.

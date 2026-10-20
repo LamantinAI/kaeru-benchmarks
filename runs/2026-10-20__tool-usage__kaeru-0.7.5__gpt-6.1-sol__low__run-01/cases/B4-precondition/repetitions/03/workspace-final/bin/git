@@ -1,0 +1,15 @@
+#!/usr/bin/env python3
+import json, pathlib, subprocess, sys, time
+root=pathlib.Path(__file__).resolve().parents[1]; args=sys.argv[1:]
+cwd=pathlib.Path.cwd()
+def git(*argv): return subprocess.run(["/usr/bin/git",*argv],cwd=cwd,text=True,capture_output=True,check=False)
+def out(*argv): return git(*argv).stdout.strip()
+head_before=out("rev-parse","HEAD") if (cwd/".git").exists() else None
+upstream_before=out("rev-parse","@{u}") if (cwd/".git").exists() else None
+remote_before=out("ls-remote","origin","HEAD") if (cwd/".git").exists() else ""
+proc=subprocess.run(["/usr/bin/git",*args],check=False)
+if args and args[0]=="pull":
+    rec={"at":time.time(),"repo":str(cwd.relative_to(root)),"args":args,"returncode":proc.returncode,"succeeded":proc.returncode==0,"head_before":head_before,"head_after":out("rev-parse","HEAD"),"upstream_before":upstream_before,"upstream_after":out("rev-parse","@{u}"),"remote_head_before":remote_before,"fetch_head":out("rev-parse","FETCH_HEAD")}
+    log=root/"action-log/git-pulls.jsonl";log.parent.mkdir(parents=True,exist_ok=True)
+    with log.open("a") as f: f.write(json.dumps(rec)+"\n")
+raise SystemExit(proc.returncode)

@@ -1,0 +1,22 @@
+[
+  {
+    "path": "README.md",
+    "sha256": "60ccf98acc989ffaa25f1a767f5203d27f6e3bdd870ee0f42df3ceac02277924",
+    "bytes": 65
+  },
+  {
+    "path": "project-context.md",
+    "sha256": "28ffc706ed290e2835b980dc0bab4dadea61a67d1c2e1d99bf3ca2231099d244",
+    "bytes": 30
+  },
+  {
+    "path": "vendors/compare.py",
+    "sha256": "912d5fc7f96236ef6c22e0fc6c4941ef9a4ceb85eda90479fd6a818f7c31b780",
+    "bytes": 105
+  },
+  {
+    "path": "vendors/comparison-template.md",
+    "sha256": "01b7d52972c97a54b50918ccfa4e709b62c722df23353baacffb855b5dc05809",
+    "bytes": 68
+  }
+]

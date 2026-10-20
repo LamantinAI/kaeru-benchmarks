@@ -1,0 +1,34 @@
+{
+  "case_id": "B1-constraint-spoken",
+  "status": "PASS",
+  "execution_status": "EXECUTED",
+  "repetition": 1,
+  "reason": "Low-only rule persisted and recovered in a distinct fresh thread; first and second dataset configurations use low effort.",
+  "limitations": [],
+  "metrics": {
+    "native_turns": 2,
+    "kaeru_tool_calls": 15,
+    "input_tokens": 453594,
+    "cached_input_tokens": 389760,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 2182,
+    "reasoning_output_tokens": 35
+  },
+  "rejected_calls": 1,
+  "elapsed_seconds": 79.52865103899603,
+  "evidence": [
+    "memory-before.json",
+    "memory-after.json",
+    "workspace-final.json",
+    "fixture-validation.json",
+    "isolation-check.json",
+    "turn-1.mcp.jsonl",
+    "turn-1.messages.json",
+    "turn-1.answer.txt",
+    "turn-1.execution.json",
+    "turn-2.mcp.jsonl",
+    "turn-2.messages.json",
+    "turn-2.answer.txt",
+    "turn-2.execution.json"
+  ]
+}

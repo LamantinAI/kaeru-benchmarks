@@ -1,0 +1,43 @@
+{
+  "case_id": "C3-prior-decision",
+  "status": "PASS",
+  "dataset_commit": "50fd4fff622890a43270172da8d92df9fd017119",
+  "kaeru_version": "0.7.5",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "low",
+  "repetition": null,
+  "repetitions": 3,
+  "attempt_status_counts": {
+    "PASS": 3
+  },
+  "attempts": [
+    {
+      "repetition": 1,
+      "status": "PASS",
+      "result": "repetitions/01/result.json"
+    },
+    {
+      "repetition": 2,
+      "status": "PASS",
+      "result": "repetitions/02/result.json"
+    },
+    {
+      "repetition": 3,
+      "status": "PASS",
+      "result": "repetitions/03/result.json"
+    }
+  ],
+  "metrics": {
+    "native_turns": 3,
+    "kaeru_tool_calls": 20,
+    "input_tokens": 518349,
+    "cached_input_tokens": 439808,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 2398,
+    "reasoning_output_tokens": 97
+  },
+  "phase_results": "repeat-01 PASS; repeat-02 PASS; repeat-03 PASS",
+  "currency": "Evaluated against case authority, original expectations and saved state/action evidence.",
+  "grading_rationale": "repeat-01 PASS: Prior engine decision recovered and respected; revisit condition of approximately tenfold volume named. repeat-02 PASS: Prior engine decision recovered and respected; revisit condition of approximately tenfold volume named. repeat-03 PASS: Prior engine decision recovered and respected; revisit condition of approximately tenfold volume named.",
+  "limitations": ""
+}

@@ -1,0 +1,4 @@
+[
+  "I’ll check the project memory and save the finding with the related context.",
+  "Recorded in Kaeru: per-request retry budgets amplify retries from a slow dependency until the pool is exhausted. The budget must apply per operation; raising timeouts won’t fix the cause. Linked it to the existing timeout-cascade record."
+]

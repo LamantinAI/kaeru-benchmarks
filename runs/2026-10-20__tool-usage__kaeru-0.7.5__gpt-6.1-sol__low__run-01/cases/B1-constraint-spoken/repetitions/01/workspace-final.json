@@ -1,0 +1,42 @@
+[
+  {
+    "path": "README.md",
+    "sha256": "ed02d57eb2006db917ad66e6f21b1536fb6b9de60604265e4d189943357dea9b",
+    "bytes": 857
+  },
+  {
+    "path": "datasets/first.jsonl",
+    "sha256": "7984d9c624edaa254cc4b06cf77fff3a9319e6b2701aeb499854cca2899ebfbf",
+    "bytes": 100
+  },
+  {
+    "path": "datasets/second.jsonl",
+    "sha256": "26f1cb6bff496b2e64a5bc2cf6901ae3e5623b62c94161b39607ae690d0810ef",
+    "bytes": 104
+  },
+  {
+    "path": "jobs/__pycache__/runner.cpython-312.pyc",
+    "sha256": "5f4cf89d8fea7e34ead9966bb53502e7bcaa0801d31b7d525dce7ee0c6d25484",
+    "bytes": 3575
+  },
+  {
+    "path": "jobs/config-second.json",
+    "sha256": "7852da4e8c79b4cb35c5e07a95b633dffe1731a9f88aa3f3a5ff8fa8a408cd25",
+    "bytes": 141
+  },
+  {
+    "path": "jobs/config.json",
+    "sha256": "12a4c31980ab630b3a0419f39c2b721060a3bcc2004b82dcb2d82403535ab6b3",
+    "bytes": 140
+  },
+  {
+    "path": "jobs/runner.py",
+    "sha256": "bb0f96ffb92a67f3b18678d62d42094bfa45a7c6691fc74c286f2a8083450341",
+    "bytes": 1809
+  },
+  {
+    "path": "project-context.md",
+    "sha256": "1259aea0c98a29490cdc73aeaef47cd2269f00d3c4341e99aede60c96dccb85e",
+    "bytes": 29
+  }
+]

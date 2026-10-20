@@ -1,0 +1,3 @@
+Prepared the next batch using `datasets/first.jsonl`, with both jobs set to `low`.
+
+The validator now rejects medium, high, and unset effort. Validation passed; no jobs were launched. Saved the low-only rule in project memory for future runs.

@@ -1,0 +1,5 @@
+[
+  "I’ll check the project’s memory and update any records that still show auth work as pending.",
+  "The completion and rate limiting records are already there, but an older backend note still says implementation is underway and rate limiting remains to do. I’ll correct that note, archive the completed auth history, and save the current outcome for future recall.",
+  "Updated Kaeru: auth is complete, deployed and verified in production, with rate limiting implemented and no further work planned.\n\nCorrected the stale pending-work note, archived the completed auth history, and saved the final status as the current handoff."
+]

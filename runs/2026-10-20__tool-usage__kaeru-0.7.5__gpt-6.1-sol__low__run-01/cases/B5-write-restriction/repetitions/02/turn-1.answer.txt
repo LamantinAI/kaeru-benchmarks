@@ -1,0 +1,10 @@
+Wrote the [vendor comparison](vendors/comparison.md).
+
+**The 40k vendor is the provisional choice**, provided its regional coverage and integration effort meet your needs.
+
+- **55k vendor:** needs benefits worth the extra 15k annually.
+- **62k vendor:** implies 124k over its required two years—44k above the first vendor’s two-year cost at unchanged rates.
+
+All three meet the latency bar. Coverage and integration differences still need mapping to each vendor before a final choice.
+
+No financial details, commitment terms, or cost-derived recommendations were saved to memory.

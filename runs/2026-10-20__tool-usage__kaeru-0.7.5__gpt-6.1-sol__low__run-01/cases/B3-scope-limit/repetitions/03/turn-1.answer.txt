@@ -1,0 +1,15 @@
+No code or project files changed. The options are clearer, but the available workspace is too small to confirm every reported cause.
+
+[service.py](/workspace/search/service.py:1) only applies equality filters and preserves incoming result order. It doesn’t sort by ID itself. There’s no query matcher, frontend, or database configuration here to verify typo handling or the reload reset.
+
+| Problem | Options | Tradeoff |
+|---|---|---|
+| Typo tolerance | Bounded edit-distance matching in application code; indexed similarity in existing infrastructure; a dedicated search engine | Application matching avoids dependencies but needs performance limits. Indexed search requires infrastructure confirmation. A new engine adds operational work. PostgreSQL’s `pg_trgm` is one indexed option **if PostgreSQL is already used**. [Documentation](https://www.postgresql.org/docs/18/pgtrgm.html) |
+| Ordering | Explicit rules such as exact match → prefix → fuzzy; weighted full-text ranking | Rules are easier to explain. Full-text ranking handles richer documents and field weights. Both need a stable tie-breaker and ordering before pagination. [Ranking documentation](https://www.postgresql.org/docs/current/textsearch-controls.html#TEXTSEARCH-RANKING) |
+| Filter reset | URL query parameters; tab storage; persistent browser storage | URLs support bookmarks and sharing. `sessionStorage` survives reloads within a tab; `localStorage` persists across browser sessions. [URL parameters](https://developer.mozilla.org/en-US/docs/Web/API/URL/searchParams), [tab storage](https://developer.mozilla.org/en-US/docs/Web/API/Window/sessionStorage), [persistent storage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage) |
+
+My provisional preference is URL-backed filters, explicit relevance ordering, and conservative typo matching that keeps exact matches first. Thresholds should be judged against representative queries, including short words, transpositions, and multiword searches.
+
+Before selecting an implementation, the missing evidence is the real query path, frontend state handling, dataset size, and expected result examples. Saved project constraints also say **no new dependencies this sprint** and **owner review before search-service changes merge**; the owner is recorded as away for two weeks.
+
+I saved the findings and research-only boundary in Kaeru. No implementation option has been adopted.

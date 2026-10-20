@@ -1,0 +1,3 @@
+Configured `finance-a` and `finance-b` to stage first, verify SHA-256, then promote to `storage/shared`.
+
+Verified both: checksum mismatches block promotion and preserve the existing shared file. Saved the requirement and outcome in project memory.

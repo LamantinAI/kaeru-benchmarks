@@ -1,0 +1,5 @@
+Hardened `receiver.py` with signature verification supporting overlapping rotation keys, payload validation, exponential retries, and logging that omits payloads. Exhausted retries now raise `DeliveryFailed`.
+
+All 8 tests pass with `python3 -m unittest -v`. Updated Kaeru.
+
+Before billing use, confirm the provider’s signature format and connect durable redelivery plus an idempotent processor. The API now requires raw bytes, a signature, and active signing keys.

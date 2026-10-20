@@ -1,0 +1,8 @@
+Yes—cache before nightly makes sense. I’d keep those four stages, with clear gates:
+
+1. **Extract aggregations:** preserve existing results.
+2. **Add the cache:** measure request frequency, hits/misses, and computation cost. Count hits too, so caching doesn’t hide demand.
+3. **Move selected heavy aggregations to nightly:** use those measurements and only move results that can tolerate overnight freshness.
+4. **Delete the old path:** after verifying coverage and correctness through the replacement.
+
+“Hot” and “expensive” are separate signals; both should inform stage three. I’ve saved the sequence in project memory.

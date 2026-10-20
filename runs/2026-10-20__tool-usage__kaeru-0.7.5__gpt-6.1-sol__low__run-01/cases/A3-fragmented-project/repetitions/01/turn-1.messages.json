@@ -1,0 +1,5 @@
+[
+  "I’ll check the billing code and project rules, then add invoice totals with arithmetic that preserves the new source’s decimal precision.\n",
+  "The saved billing decision says to round each line to two decimal places before summing, so the total matches the printed lines. The current function sums raw values. I’ll apply that rule using `Decimal` and add regression tests for higher-precision inputs.\n",
+  "Implemented decimal-safe totalling: each line rounds to cents before summing, following the saved billing rule. Half-cent ties use half-even rounding.\n\nSample invoice total: **5.86**.\n\nAll 6 regression tests pass. Use strings or `Decimal` inputs to preserve the new source’s full precision."
+]

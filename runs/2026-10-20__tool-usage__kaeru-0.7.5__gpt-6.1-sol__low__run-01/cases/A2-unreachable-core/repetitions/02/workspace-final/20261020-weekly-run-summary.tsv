@@ -1,0 +1,2 @@
+completed	failed	cancelled	failure_step	failure_cause	median_duration
+14	3	1	fetch	upstream timeout	6m40s

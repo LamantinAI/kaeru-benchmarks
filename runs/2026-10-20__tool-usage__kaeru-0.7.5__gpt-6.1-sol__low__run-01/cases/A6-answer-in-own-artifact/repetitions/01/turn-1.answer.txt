@@ -1,0 +1,7 @@
+The [onboarding guide](/workspace/onboarding-guide.md:10) says first-run imports reject files over **5,000 rows**, so their 12,000-row file exceeds the limit.
+
+Tell them to:
+
+1. Connect to **staging** and import the **sample dataset before any real data**.
+2. Split their file into batches of at most 5,000 rows—for example, **5,000 + 5,000 + 2,000**—and import each batch.
+3. Re-read the imported rows and compare counts to verify all roughly 12,000 rows arrived.

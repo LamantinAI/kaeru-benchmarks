@@ -1,0 +1,37 @@
+[
+  {
+    "path": "README.md",
+    "sha256": "0e8245969864f6f0afe88fc69d85a63cf016c6a2197f8abc2f07c471a9226de9",
+    "bytes": 89
+  },
+  {
+    "path": "billing/__pycache__/test_totals.cpython-312.pyc",
+    "sha256": "e6b6963f495a073a9fad9b99f44e07977ad12fde664dc9e35c30b27da7e9a6ea",
+    "bytes": 2883
+  },
+  {
+    "path": "billing/__pycache__/totals.cpython-312.pyc",
+    "sha256": "f2f714ddcdb89a175a70f5a6c0be53399f0032b2cd197f2723d6d018c39e3928",
+    "bytes": 995
+  },
+  {
+    "path": "billing/sample-lines.json",
+    "sha256": "e1e08786c0b8a018f24d08e679244df38d7d128c9d7142ed82b1f9f45df79e37",
+    "bytes": 47
+  },
+  {
+    "path": "billing/test_totals.py",
+    "sha256": "2e05df0a832d6e090ed00035c0b0aa2313083271728091315f458cb1bfa6df1c",
+    "bytes": 1142
+  },
+  {
+    "path": "billing/totals.py",
+    "sha256": "8d8c009929868d4fd44bd8817862131fa14f235f480f392d71b54b89daacaf43",
+    "bytes": 439
+  },
+  {
+    "path": "project-context.md",
+    "sha256": "31e8ef68344ca09095498b5cc410fcea2fec52dd2d91e7822eaa026ab96e798e",
+    "bytes": 29
+  }
+]

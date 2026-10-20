@@ -1,0 +1,5 @@
+[
+  "I’ll check the table work and saved project guidance, then choose a numeric style that makes the figures easy to compare.\n",
+  "The saved typography rule requires one type family and excludes monospace. I’ll use tabular lining figures in the inherited font, right-align values and their headers, and use consistent cell padding.\n",
+  "Implemented right-aligned numeric columns with tabular lining figures, so digits have equal widths while preserving the product font. Added consistent padding and a linked example table.\n\nVerified the markup and CSS; browser rendering wasn’t tested. Saved the decision in Kaeru."
+]

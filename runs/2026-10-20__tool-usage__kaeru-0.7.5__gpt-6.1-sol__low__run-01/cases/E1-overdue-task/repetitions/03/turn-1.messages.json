@@ -1,0 +1,5 @@
+[
+  "I’ll check the project’s retention decisions and review requirements, then draft the summary.\n",
+  "The saved scope confirms that retention, access logging, and the processor list each need separate owner sign-off. I haven’t found approved retention periods yet, so I’ll mark those as open items in the draft.\n\nThe processor-list sign-off task was due October 12 and is eight days overdue; the data owner needs it before the quarterly filing.\n",
+  "Drafted [retention-summary.md](/workspace/compliance/retention-summary.md) with scope, a retention inventory, and approval requirements. Unconfirmed periods and controls are clearly marked. Drafting is recorded as complete in Kaeru; owner review remains pending.\n\nThe processor-list sign-off is eight days overdue and needed before the quarterly filing."
+]

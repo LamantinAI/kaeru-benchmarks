@@ -1,0 +1,4 @@
+[
+  "I’ll check the project’s batch setup and saved rules, then prepare the next run with effort set to `low`.\n",
+  "Prepared the next batch using `datasets/first.jsonl`, with both jobs set to `low`.\n\nThe validator now rejects medium, high, and unset effort. Validation passed; no jobs were launched. Saved the low-only rule in project memory for future runs."
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "path": "onboarding-guide.md",
+    "sha256": "9f2530591faf55ece6b7d68373d6d25241c9aee969cea8935196fd90429a82c2",
+    "bytes": 509
+  },
+  {
+    "path": "project-context.md",
+    "sha256": "aed4e056f764f3a20c68ba807f306183210b2a1a0ba14a0df5c01fea58489170",
+    "bytes": 30
+  }
+]

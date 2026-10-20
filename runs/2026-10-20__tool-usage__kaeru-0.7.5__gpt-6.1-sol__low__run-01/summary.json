@@ -1,0 +1,162 @@
+{
+  "condition": {
+    "model": "gpt-6.1-sol",
+    "effort": "low",
+    "guide_sha256": "58f4d596783bd32b142be1c60d74fbd1f1415fc3728df00401023d9afab43214",
+    "source_commit": "e397e649257568f9db79ff2de4770607bd932cd8",
+    "runner_commit": "50fd4fff622890a43270172da8d92df9fd017119",
+    "frozen": true
+  },
+  "execution": {
+    "attempts": 81,
+    "status_counts": {
+      "EXECUTED": 81
+    },
+    "actor_phases": 108,
+    "unique_threads": 105,
+    "wall_seconds": 1731.809211,
+    "started_utc": "2026-10-20T12:48:44.623268+00:00",
+    "ended_utc": "2026-10-20T13:17:36.432479+00:00"
+  },
+  "correctness": {
+    "method": "Manual evidence review of saved case expectations, native actions/messages, before/final records and actual workspace artifacts; independent artifact checks supplement rather than replace assessment. No judge-model call.",
+    "counts": {
+      "PASS": 80,
+      "FAIL": 1
+    },
+    "pass_rate": 0.9876543209876543,
+    "cases_passing_all_three": 26,
+    "cases_passing_at_least_once": 27,
+    "by_run": {
+      "rep-01": {
+        "PASS": 27
+      },
+      "rep-02": {
+        "PASS": 26,
+        "FAIL": 1
+      },
+      "rep-03": {
+        "PASS": 27
+      }
+    },
+    "by_case": {
+      "A1-stale-method": {
+        "PASS": 3
+      },
+      "A2-unreachable-core": {
+        "PASS": 3
+      },
+      "A3-fragmented-project": {
+        "PASS": 3
+      },
+      "A4-name-misremembered": {
+        "PASS": 3
+      },
+      "A5-current-vs-history": {
+        "PASS": 3
+      },
+      "A6-answer-in-own-artifact": {
+        "PASS": 3
+      },
+      "A7-duplicate-before-write": {
+        "PASS": 3
+      },
+      "B1-constraint-spoken": {
+        "PASS": 3
+      },
+      "B2-constraint-after-compaction": {
+        "PASS": 3
+      },
+      "B3-scope-limit": {
+        "PASS": 3
+      },
+      "B4-precondition": {
+        "PASS": 3
+      },
+      "B5-write-restriction": {
+        "PASS": 3
+      },
+      "B6-do-not-reopen": {
+        "PASS": 3
+      },
+      "C1-reentry-cold": {
+        "PASS": 3
+      },
+      "C2-deployment-target": {
+        "PASS": 3
+      },
+      "C3-prior-decision": {
+        "PASS": 3
+      },
+      "C4-roadmap-not-written": {
+        "PASS": 3
+      },
+      "D1-retrospective-verdict": {
+        "PASS": 3
+      },
+      "D2-partial-verdict": {
+        "PASS": 3
+      },
+      "D3-arc-closed": {
+        "PASS": 2,
+        "FAIL": 1
+      },
+      "D4-settled-doc": {
+        "PASS": 3
+      },
+      "D5-trail-worth-saving": {
+        "PASS": 3
+      },
+      "E1-overdue-task": {
+        "PASS": 3
+      },
+      "E2-task-closed": {
+        "PASS": 3
+      },
+      "E3-contradiction": {
+        "PASS": 3
+      },
+      "E4-archived-needed": {
+        "PASS": 3
+      },
+      "E5-team-tier": {
+        "PASS": 3
+      }
+    },
+    "groups": {
+      "A": {
+        "PASS": 21
+      },
+      "B": {
+        "PASS": 18
+      },
+      "C": {
+        "PASS": 12
+      },
+      "D": {
+        "PASS": 14,
+        "FAIL": 1
+      },
+      "E": {
+        "PASS": 15
+      }
+    }
+  },
+  "usage": {
+    "input_tokens": 23526986,
+    "cached_input_tokens": 20284032,
+    "output_tokens": 108604,
+    "reasoning_output_tokens": 2185
+  },
+  "usage_basis": "Last native cumulative usage per unique actor thread; cached input is included in input, reasoning in output; additional compaction usage not separately reported. Parent analysis excluded.",
+  "kaeru_tool_calls": 891,
+  "rejected_calls": 37,
+  "uncached_input_tokens": 3242954,
+  "remaining_failure": "rep-02 D3: no archival promotion despite corrected completion facts",
+  "no_reruns": true,
+  "conclusion": {
+    "api_validation": "PASSED_FOR_EVALUATED_SCOPE",
+    "statement": "The R2 API passed integration and tool-use validation on the evaluated 27-scenario suite with the operating guide explicitly delivered. All 81 attempts executed; 80 met every scenario requirement.",
+    "qualification": "One D3 repetition omitted archival promotion, an agent action-selection failure. Its FAIL remains in the results. This is not proof of complete API coverage or universal reliability."
+  }
+}

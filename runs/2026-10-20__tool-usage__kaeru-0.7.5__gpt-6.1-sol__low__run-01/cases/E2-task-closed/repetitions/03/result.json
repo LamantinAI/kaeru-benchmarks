@@ -1,0 +1,30 @@
+{
+  "case_id": "E2-task-closed",
+  "status": "PASS",
+  "execution_status": "EXECUTED",
+  "repetition": 3,
+  "reason": "Matching typo-tolerance task marked done; unrelated task unchanged.",
+  "limitations": [],
+  "metrics": {
+    "native_turns": 1,
+    "kaeru_tool_calls": 7,
+    "input_tokens": 145338,
+    "cached_input_tokens": 123776,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 509,
+    "reasoning_output_tokens": 0
+  },
+  "rejected_calls": 0,
+  "elapsed_seconds": 29.775803773001826,
+  "evidence": [
+    "memory-before.json",
+    "memory-after.json",
+    "workspace-final.json",
+    "fixture-validation.json",
+    "isolation-check.json",
+    "turn-1.mcp.jsonl",
+    "turn-1.messages.json",
+    "turn-1.answer.txt",
+    "turn-1.execution.json"
+  ]
+}

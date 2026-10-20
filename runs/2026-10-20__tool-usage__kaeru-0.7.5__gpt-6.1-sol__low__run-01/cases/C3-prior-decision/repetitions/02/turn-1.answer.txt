@@ -1,0 +1,16 @@
+We should optimize within the current storage engine first. Our settled decision rejected migration after a three-week evaluation: the throughput gain didn’t justify migration cost and operational complexity. Revisit only if data volume grows roughly **10×**.
+
+The options to benchmark are:
+
+| Option | When it helps | Tradeoff |
+|---|---|---|
+| **Batch writes and commits** | Per-row calls or commits dominate | Larger batches increase retry cost and transaction duration |
+| **Use the engine’s bulk-load path** | Imports currently issue individual writes | May require a separate import path |
+| **Write less** | Imports rewrite unchanged records or contain duplicates | Requires reliable change detection |
+| **Reduce index maintenance** | Secondary indexes dominate write work | Deferring rebuilds needs a safe publication strategy |
+| **Tune writer concurrency** | Independent writes can overlap | Extra writers may worsen contention |
+| **Increase storage throughput** | Measurements show saturated disk or IOPS | Recurring cost; won’t fix locking or per-row overhead |
+
+Bulk loading, fewer commits, and building indexes after loading are established techniques—for example, [PostgreSQL’s bulk-loading guidance](https://www.postgresql.org/docs/17/populate.html). The exact mechanisms depend on our engine, which the available project notes don’t identify.
+
+I’d start with a representative import benchmark measuring rows/sec, commit latency, lock waits, and disk utilization. Compare the current path against batching and bulk loading first, then skipping unchanged records. That should tell us which option buys meaningful time before we change infrastructure.

@@ -1,0 +1,22 @@
+[
+  {
+    "path": "README.md",
+    "sha256": "a6beab48474849877e43470275a89286990c05e3f3813d23e4760eff3008417d",
+    "bytes": 64
+  },
+  {
+    "path": "project-context.md",
+    "sha256": "8f2a0aa1b9508039f19006706f11bb26c94972f9c06604e3fc70852b9a534b68",
+    "bytes": 27
+  },
+  {
+    "path": "search/sample-results.json",
+    "sha256": "0bf880b62a39dbbcfbf9cbc89195294ec9440088fb9c77d0382404cc937d40d2",
+    "bytes": 94
+  },
+  {
+    "path": "search/service.py",
+    "sha256": "3990843d34f4380ca95ac2644c4f9acbc707bafbb1c6f7f9c8b78cf8054383cf",
+    "bytes": 179
+  }
+]

@@ -1,0 +1,4 @@
+[
+  "I’ll check the saved project decisions and open work so we can pick the right starting point.\n",
+  "We start by **extracting the existing aggregations**, following the agreed sequence: extraction → cache → selected nightly jobs → removal of the old path.\n\nFor the first change, I’d:\n\n1. Map report entry points to their aggregations and inputs.\n2. Pick one representative report and capture its current results in parity tests.\n3. Extract its aggregation behind a clear interface, preserving behavior.\n\nThat gives us a small, reviewable first PR. Then we add the time-based cache and measure demand and computation cost to choose nightly candidates.\n\nOne potential blocker: saved notes still show reporting-tool access as pending. This workspace also has no project files yet, so I’ll need the repository location to begin the code audit."
+]

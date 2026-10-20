@@ -22,3 +22,6 @@ nodes:
     layer: warm
     body: |
       Integration with the channel is built and wired into the alert path.
+
+workspace:
+  files: workspace

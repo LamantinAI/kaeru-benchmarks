@@ -1,0 +1,5 @@
+[
+  "I’ll check the upload flow and the project’s recorded limit, then add a size check with a clear message.\n",
+  "The current vendor-confirmed limit is 5 MB; the earlier 8 MB limit was superseded when the account moved to the standard plan. I’ll apply that limit and include it in the error message.\n",
+  "Updated [client/upload.py](/workspace/client/upload.py) to enforce the current 5 MB limit (5,000,000 bytes), with a clear message asking users to choose a smaller file.\n\nVerified that payloads at the limit pass and oversized payloads fail."
+]

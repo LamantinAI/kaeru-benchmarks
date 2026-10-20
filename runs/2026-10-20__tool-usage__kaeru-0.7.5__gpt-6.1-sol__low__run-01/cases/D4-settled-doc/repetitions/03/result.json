@@ -1,0 +1,30 @@
+{
+  "case_id": "D4-settled-doc",
+  "status": "PASS",
+  "execution_status": "EXECUTED",
+  "repetition": 3,
+  "reason": "Complete supplied wording preserved verbatim in archival reference; earlier discussion records revised or replaced as settled.",
+  "limitations": [],
+  "metrics": {
+    "native_turns": 1,
+    "kaeru_tool_calls": 12,
+    "input_tokens": 231620,
+    "cached_input_tokens": 200832,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 881,
+    "reasoning_output_tokens": 0
+  },
+  "rejected_calls": 0,
+  "elapsed_seconds": 38.239601060002315,
+  "evidence": [
+    "memory-before.json",
+    "memory-after.json",
+    "workspace-final.json",
+    "fixture-validation.json",
+    "isolation-check.json",
+    "turn-1.mcp.jsonl",
+    "turn-1.messages.json",
+    "turn-1.answer.txt",
+    "turn-1.execution.json"
+  ]
+}

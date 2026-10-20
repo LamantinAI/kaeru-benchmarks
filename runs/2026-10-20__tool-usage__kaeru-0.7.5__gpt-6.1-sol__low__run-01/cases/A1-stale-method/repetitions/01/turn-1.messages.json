@@ -1,0 +1,5 @@
+[
+  "I’ll check the project guidance and existing screens, then complete the four setup-guide frames.",
+  "The capture rule says to keep the tool window in the background and capture it by window ID. I’m checking whether this session has access to that window.",
+  "I couldn’t capture the four frames: this session has no access to your desktop or tool window. I need a desktop capture connection that supports window IDs to proceed while keeping the window in the background."
+]

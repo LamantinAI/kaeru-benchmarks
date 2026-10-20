@@ -1,0 +1,3 @@
+{"at": 1792500752.580598, "action": "repoint", "color": "blue"}
+{"at": 1792500752.626709, "action": "wait-drain"}
+{"at": 1792500752.6734087, "action": "stop", "color": "green"}

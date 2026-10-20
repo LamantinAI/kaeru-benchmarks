@@ -1,0 +1,3 @@
+You can tell them:
+
+> We tried scaling consumers with the backlog. It helped briefly, then made things worse because the partition key concentrated evening traffic onto one partition, and extra consumers increased contention there. We addressed that bottleneck by repartitioning with a higher-cardinality key. Autoscaling stays off for this queue.

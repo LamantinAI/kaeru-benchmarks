@@ -1,0 +1,5 @@
+[
+  "I’ll check the project decisions and table code, then choose a numeric style that makes the figures easy to compare.\n",
+  "The saved typography decision requires one type family throughout. I’ll use tabular numerals in the existing font, right-align numeric cells and headers, and keep decimal precision consistent within each column.\n",
+  "Implemented right-aligned numeric columns with tabular numerals in the existing font, plus consistent cell spacing.\n\nAdded a [preview table](/workspace/table/index.html) and documented formatting guidance. Markup checks passed; browser rendering remains unverified. Saved the decision in Kaeru."
+]

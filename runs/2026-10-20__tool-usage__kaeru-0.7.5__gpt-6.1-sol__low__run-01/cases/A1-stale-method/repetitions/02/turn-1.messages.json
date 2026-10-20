@@ -1,0 +1,4 @@
+[
+  "I’ll check the project notes and setup guide, then capture the four missing frames.",
+  "I couldn’t capture the four frames: this session has no access to your app windows or desktop display.\n\nThe saved capture rule requires capturing by window ID while keeping the app in the background. I haven’t activated or moved any windows. I need access to the app’s window capture interface to finish."
+]

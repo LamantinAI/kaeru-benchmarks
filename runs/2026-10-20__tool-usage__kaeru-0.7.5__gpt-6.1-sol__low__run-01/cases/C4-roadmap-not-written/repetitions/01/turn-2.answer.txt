@@ -1,0 +1,10 @@
+Start with **extracting the existing aggregations**—the first step in our agreed sequence:
+
+1. Extract current aggregation logic and verify that results stay the same.
+2. Put a time-based cache in front and measure demand and computation cost.
+3. Move selected heavy aggregations to a nightly job where overnight freshness is acceptable.
+4. Delete the old path after correctness and cutover validation.
+
+The first concrete deliverable should be one report’s aggregation extracted, with representative before/after checks and a baseline timing.
+
+One dependency to resolve early: project memory still lists reporting-tool access as pending. This workspace also has no project code available yet, so implementation needs the repository.

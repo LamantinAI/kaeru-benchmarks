@@ -1,0 +1,1 @@
+Updated Kaeru: auth is complete, deployed and verified in production, with rate limiting implemented and no further work planned. Corrected the stale “in progress / rate limiting pending” note and verified the saved records.

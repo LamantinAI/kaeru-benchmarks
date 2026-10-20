@@ -1,0 +1,1 @@
+Saved verbatim in Kaeru as `naming-conventions-final`, the authoritative reference for `platform-conventions`. Updated the earlier discussion records to show the decision is settled.

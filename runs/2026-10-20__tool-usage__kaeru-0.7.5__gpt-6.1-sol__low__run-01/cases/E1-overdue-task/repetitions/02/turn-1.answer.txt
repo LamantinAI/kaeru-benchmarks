@@ -1,0 +1,5 @@
+Drafted [retention-summary.md](/workspace/compliance/retention-summary.md) with scope, retention schedule placeholders, approval requirements and review dependencies.
+
+Retention periods and the approver still need confirmation. Recorded drafting as complete in Kaeru.
+
+The processor-list sign-off task remains eight days overdue and is needed before the quarterly filing.

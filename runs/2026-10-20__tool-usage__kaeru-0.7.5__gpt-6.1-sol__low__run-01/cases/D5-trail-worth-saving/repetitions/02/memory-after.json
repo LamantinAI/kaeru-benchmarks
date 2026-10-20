@@ -1,0 +1,1466 @@
+{
+  "graph": {
+    "chains": [
+      {
+        "id": "01a1596f-82ab-7ab1-9c37-0c4cad005abd",
+        "members": [
+          "9ece376a-70ba-5d6a-8242-9c90b3c6c298",
+          "01a1596f-41f6-7722-bb97-54051d900e72",
+          "01a1596f-410d-7b20-b916-b313ac019a9e",
+          "01a1596f-404f-7c50-9d81-4b369a94ae54"
+        ],
+        "name": "queue-resolution-reasoning"
+      }
+    ],
+    "edges": [
+      {
+        "created_secs": 1792501825.0,
+        "dst": "01a1596f-404f-7c50-9d81-4b369a94ae54",
+        "dst_store": "local",
+        "src": "01a1596f-410d-7b20-b916-b313ac019a9e",
+        "type": "derived_from",
+        "weight": 1.0
+      },
+      {
+        "created_secs": 1792501826.0,
+        "dst": "01a1596f-410d-7b20-b916-b313ac019a9e",
+        "dst_store": "local",
+        "src": "01a1596f-41f6-7722-bb97-54051d900e72",
+        "type": "derived_from",
+        "weight": 1.0
+      },
+      {
+        "created_secs": 1792501826.0,
+        "dst": "9ece376a-70ba-5d6a-8242-9c90b3c6c298",
+        "dst_store": "local",
+        "src": "01a1596f-42b3-74c0-a096-ec10b7c65143",
+        "type": "derived_from",
+        "weight": 1.0
+      },
+      {
+        "created_secs": 1792501826.0,
+        "dst": "01a1596f-41f6-7722-bb97-54051d900e72",
+        "dst_store": "local",
+        "src": "9ece376a-70ba-5d6a-8242-9c90b3c6c298",
+        "type": "derived_from",
+        "weight": 1.0
+      }
+    ],
+    "initiatives": [
+      {
+        "name": "queue-redesign",
+        "node_count": 36
+      }
+    ],
+    "meta": {
+      "chain_count": 1,
+      "earliest_secs": 1792501474.0,
+      "edge_count": 4,
+      "initiative_count": 1,
+      "latest_secs": 1792501842.0,
+      "node_count": 36,
+      "redacted_count": 0
+    },
+    "nodes": [
+      {
+        "body": "Historical observation before the queue work was completed: backlog grew during the evening peak and cleared overnight; consumer count was fixed. The user reports the queue work is now done. The settled approach is repartitioning by the higher-cardinality key, with autoscaling off. This observation is retained as diagnostic history, not an unresolved queue work item.",
+        "created_secs": 1792501825.0,
+        "degree": 1,
+        "id": "01a1596f-404f-7c50-9d81-4b369a94ae54",
+        "initiatives": [
+          "queue-redesign"
+        ],
+        "layer": "warm",
+        "name": "queue-backlog-observed",
+        "redacted": false,
+        "tags": [
+          "role:revised",
+          "kind:outcome",
+          "lang:en",
+          "topic:queue",
+          "topic:backlog",
+          "topic:queue-backlog-observed",
+          "topic:observed",
+          "topic:work"
+        ],
+        "tier": "archival",
+        "type": "outcome",
+        "visibility": "local"
+      },
+      {
+        "body": "Tried scaling consumers with the backlog. It helped briefly, then made\nthings worse: more consumers meant more contention on the same partition.\n",
+        "created_secs": 1792501825.0,
+        "degree": 2,
+        "id": "01a1596f-410d-7b20-b916-b313ac019a9e",
+        "initiatives": [
+          "queue-redesign"
+        ],
+        "layer": "warm",
+        "name": "consumer-scaling-tried",
+        "redacted": false,
+        "tags": [
+          "kind:outcome",
+          "lang:en",
+          "topic:scaling",
+          "topic:tried",
+          "topic:consumer-scaling-tried",
+          "topic:consumer",
+          "topic:consumers"
+        ],
+        "tier": "archival",
+        "type": "outcome",
+        "visibility": "local"
+      },
+      {
+        "body": "The partition key concentrates evening traffic onto one partition, so\nextra consumers cannot help. Repartitioning by a higher-cardinality key\nis the fix.\n",
+        "created_secs": 1792501826.0,
+        "degree": 2,
+        "id": "01a1596f-41f6-7722-bb97-54051d900e72",
+        "initiatives": [
+          "queue-redesign"
+        ],
+        "layer": "warm",
+        "name": "partition-key-was-the-problem",
+        "redacted": false,
+        "tags": [
+          "kind:outcome",
+          "lang:en",
+          "topic:partition",
+          "topic:key",
+          "topic:partition-key-was-the-problem",
+          "topic:problem",
+          "topic:concentrates"
+        ],
+        "tier": "archival",
+        "type": "outcome",
+        "visibility": "local"
+      },
+      {
+        "body": "State: The user reports the queue work is done. The settled decision is to repartition by the higher-cardinality key; consumer autoscaling stays off for this queue.\nReasoning: Evening traffic concentrated on one partition. Scaling consumers helped briefly, then increased contention on that partition. Repartitioning addresses the partition-key bottleneck.\nBlockers: No queue blockers are recorded. Other project notes contain unresolved items, but their relationship to the queue is not established and their status has not been changed.\nNext concrete step: Hand the completed queue work and linked diagnostic history to the incoming owner. No further queue action was requested; deployment or post-change validation details were not supplied.",
+        "created_secs": 1792501826.0,
+        "degree": 1,
+        "id": "01a1596f-42b3-74c0-a096-ec10b7c65143",
+        "initiatives": [
+          "queue-redesign"
+        ],
+        "layer": "hot",
+        "name": "queue-work-handoff",
+        "redacted": false,
+        "tags": [
+          "kind:outcome",
+          "sig:medium",
+          "lang:en",
+          "topic:queue",
+          "topic:work",
+          "topic:queue-work-handoff",
+          "topic:handoff",
+          "topic:partition"
+        ],
+        "tier": "archival",
+        "type": "outcome",
+        "visibility": "local"
+      },
+      {
+        "body": "Repartition by a higher-cardinality key and keep autoscaling off: evening traffic concentrated on one partition; adding consumers briefly helped, then increased contention. The linked records retain the partition-key diagnosis, failed scaling attempt and original backlog observation. The user reports queue work complete; the backlog observation is historical.",
+        "created_secs": 1792501842.0,
+        "degree": 0,
+        "id": "01a1596f-82ab-7ab1-9c37-0c4cad005abd",
+        "initiatives": [
+          "queue-redesign"
+        ],
+        "layer": "warm",
+        "name": "queue-resolution-reasoning",
+        "redacted": false,
+        "tags": [],
+        "tier": "operational",
+        "type": "chain",
+        "visibility": "local"
+      },
+      {
+        "body": "Environments are named dev, staging and prod; no others.",
+        "created_secs": 1792501489.0,
+        "degree": 0,
+        "id": "01b9603b-e107-5318-a806-453ae80eb333",
+        "initiatives": [
+          "queue-redesign"
+        ],
+        "layer": "warm",
+        "name": "naming-of-environments",
+        "redacted": false,
+        "tags": [],
+        "tier": "operational",
+        "type": "episode",
+        "visibility": "local"
+      },
+      {
+        "body": "Default rate limits are generous enough for internal use.",
+        "created_secs": 1792501499.0,
+        "degree": 0,
+        "id": "053dc433-e008-5900-b7b0-bdf6b465cc71",
+        "initiatives": [
+          "queue-redesign"
+        ],
+        "layer": "warm",
+        "name": "rate-limit-defaults",
+        "redacted": false,
+        "tags": [],
+        "tier": "operational",
+        "type": "episode",
+        "visibility": "local"
+      },
+      {
+        "body": "Error budget for the quarter is largely unspent.",
+        "created_secs": 1792501480.0,
+        "degree": 0,
+        "id": "0609a780-0cb3-5a08-a99d-16e97fcabce8",
+        "initiatives": [
+          "queue-redesign"
+        ],
+        "layer": "warm",
+        "name": "error-budget-note",
+        "redacted": false,
+        "tags": [],
+        "tier": "operational",
+        "type": "episode",
+        "visibility": "local"
+      },
+      {
+        "body": "New joiners get a buddy for the first fortnight.",
+        "created_secs": 1792501491.0,
+        "degree": 0,
+        "id": "0a8d7e80-3cc5-50eb-b395-b443d26781f0",
+        "initiatives": [
+          "queue-redesign"
+        ],
+        "layer": "warm",
+        "name": "onboarding-buddy",
+        "redacted": false,
+        "tags": [],
+        "tier": "operational",
+        "type": "episode",
+        "visibility": "local"
+      },
+      {
+        "body": "Scope for the current sprint agreed: three features, one migration, no new dependencies.",
+        "created_secs": 1792501474.0,
+        "degree": 0,
+        "id": "0f6ab860-9125-5013-b1bf-0c8bd51df5e6",
+        "initiatives": [
+          "queue-redesign"
+        ],
+        "layer": "warm",
+        "name": "sprint-scope-agreed",
+        "redacted": false,
+        "tags": [],
+        "tier": "operational",
+        "type": "episode",
+        "visibility": "local"
+      },
+      {
+        "body": "Open question about which pricing tier the workload needs.",
+        "created_secs": 1792501486.0,
+        "degree": 0,
+        "id": "0ff38085-2c5e-5ca8-adab-403ce482dcd9",
+        "initiatives": [
+          "queue-redesign"
+        ],
+        "layer": "warm",
+        "name": "pricing-tier-question",
+        "redacted": false,
+        "tags": [],
+        "tier": "operational",
+        "type": "episode",
+        "visibility": "local"
+      },
+      {
+        "body": "Contractor available two days a week until the end of the engagement.",
+        "created_secs": 1792501494.0,
+        "degree": 0,
+        "id": "2ff96b4f-c7ce-5e57-82d5-877c4fea8a94",
+        "initiatives": [
+          "queue-redesign"
+        ],
+        "layer": "warm",
+        "name": "contractor-availability",
+        "redacted": false,
+        "tags": [],
+        "tier": "operational",
+        "type": "episode",
+        "visibility": "local"
+      },
+      {
+        "body": "Access request for the reporting tool still pending.",
+        "created_secs": 1792501488.0,
+        "degree": 0,
+        "id": "34bf16a9-564b-5c29-a1ea-d397f0a2aaa5",
+        "initiatives": [
+          "queue-redesign"
+        ],
+        "layer": "warm",
+        "name": "access-request-pending",
+        "redacted": false,
+        "tags": [],
+        "tier": "operational",
+        "type": "episode",
+        "visibility": "local"
+      },
+      {
+        "body": "Analytics samples at a fixed rate; small effects are invisible.",
+        "created_secs": 1792501496.0,
+        "degree": 0,
+        "id": "34cf295b-23a9-54a7-b4c4-47e5fdfb715e",
+        "initiatives": [
+          "queue-redesign"
+        ],
+        "layer": "warm",
+        "name": "analytics-sampling",
+        "redacted": false,
+        "tags": [],
+        "tier": "operational",
+        "type": "episode",
+        "visibility": "local"
+      },
+      {
+        "body": "API versions are additive; nothing is removed without a major bump.",
+        "created_secs": 1792501498.0,
+        "degree": 0,
+        "id": "379b349a-cd5a-5d22-91a0-e6a92d66ef68",
+        "initiatives": [
+          "queue-redesign"
+        ],
+        "layer": "warm",
+        "name": "api-versioning-policy",
+        "redacted": false,
+        "tags": [],
+        "tier": "operational",
+        "type": "episode",
+        "visibility": "local"
+      },
+      {
+        "body": "Handover notes list state, blockers, and the next concrete step.",
+        "created_secs": 1792501483.0,
+        "degree": 0,
+        "id": "37c03b50-4730-5dda-9148-d6b7cbfad08f",
+        "initiatives": [
+          "queue-redesign"
+        ],
+        "layer": "warm",
+        "name": "handover-note-format",
+        "redacted": false,
+        "tags": [],
+        "tier": "operational",
+        "type": "episode",
+        "visibility": "local"
+      },
+      {
+        "body": "Docs index restructured so setup comes before reference.",
+        "created_secs": 1792501481.0,
+        "degree": 0,
+        "id": "3ebcbf92-271c-5096-a202-0bdb5b550498",
+        "initiatives": [
+          "queue-redesign"
+        ],
+        "layer": "warm",
+        "name": "docs-index-restructured",
+        "redacted": false,
+        "tags": [],
+        "tier": "operational",
+        "type": "episode",
+        "visibility": "local"
+      },
+      {
+        "body": "Meeting notes live alongside the project docs, not in chat.",
+        "created_secs": 1792501492.0,
+        "degree": 0,
+        "id": "4055e607-1f0b-59f8-bc3f-340f27c731b4",
+        "initiatives": [
+          "queue-redesign"
+        ],
+        "layer": "warm",
+        "name": "meeting-notes-location",
+        "redacted": false,
+        "tags": [],
+        "tier": "operational",
+        "type": "episode",
+        "visibility": "local"
+      },
+      {
+        "body": "Two flaky tests quarantined pending a proper fix.",
+        "created_secs": 1792501477.0,
+        "degree": 0,
+        "id": "4445bbdd-fd65-5049-ada0-c37ec2948edb",
+        "initiatives": [
+          "queue-redesign"
+        ],
+        "layer": "warm",
+        "name": "flaky-test-quarantine",
+        "redacted": false,
+        "tags": [],
+        "tier": "operational",
+        "type": "episode",
+        "visibility": "local"
+      },
+      {
+        "body": "Legal review needs about ten working days.",
+        "created_secs": 1792501495.0,
+        "degree": 0,
+        "id": "4bda0ff7-dda0-5340-9cf5-b9e9227c8228",
+        "initiatives": [
+          "queue-redesign"
+        ],
+        "layer": "warm",
+        "name": "legal-review-lead-time",
+        "redacted": false,
+        "tags": [],
+        "tier": "operational",
+        "type": "episode",
+        "visibility": "local"
+      },
+      {
+        "body": "Short postmortem written for last month's outage; no action items outstanding.",
+        "created_secs": 1792501490.0,
+        "degree": 0,
+        "id": "5a1d9824-12d3-577b-b164-a0ca785a1685",
+        "initiatives": [
+          "queue-redesign"
+        ],
+        "layer": "warm",
+        "name": "incident-postmortem-short",
+        "redacted": false,
+        "tags": [],
+        "tier": "operational",
+        "type": "episode",
+        "visibility": "local"
+      },
+      {
+        "body": "Retro produced three actions; two are already done.",
+        "created_secs": 1792501484.0,
+        "degree": 0,
+        "id": "5f68c090-14e6-5083-a86b-02e1f77d6f17",
+        "initiatives": [
+          "queue-redesign"
+        ],
+        "layer": "warm",
+        "name": "retro-actions",
+        "redacted": false,
+        "tags": [],
+        "tier": "operational",
+        "type": "episode",
+        "visibility": "local"
+      },
+      {
+        "body": "Metrics dashboard stopped double-counting retries after the last fix.",
+        "created_secs": 1792501479.0,
+        "degree": 0,
+        "id": "6f732a56-353f-56ac-9db4-d8a66f9edeb5",
+        "initiatives": [
+          "queue-redesign"
+        ],
+        "layer": "warm",
+        "name": "metrics-dashboard-fixed",
+        "redacted": false,
+        "tags": [],
+        "tier": "operational",
+        "type": "episode",
+        "visibility": "local"
+      },
+      {
+        "body": "Staging refreshed from a sanitised copy of production data.",
+        "created_secs": 1792501476.0,
+        "degree": 0,
+        "id": "7c30d411-82b6-5365-854f-745a45ea980d",
+        "initiatives": [
+          "queue-redesign"
+        ],
+        "layer": "warm",
+        "name": "staging-refresh",
+        "redacted": false,
+        "tags": [],
+        "tier": "operational",
+        "type": "episode",
+        "visibility": "local"
+      },
+      {
+        "body": "Quarterly planning happens in the last week of the quarter.",
+        "created_secs": 1792501493.0,
+        "degree": 0,
+        "id": "92dd9d29-aad3-5e97-85fa-b6209566e7f3",
+        "initiatives": [
+          "queue-redesign"
+        ],
+        "layer": "warm",
+        "name": "quarterly-planning-date",
+        "redacted": false,
+        "tags": [],
+        "tier": "operational",
+        "type": "episode",
+        "visibility": "local"
+      },
+      {
+        "body": "Decided: repartition by the higher-cardinality key rather than autoscale\nconsumers. Autoscaling stays off for this queue.\n",
+        "created_secs": 1792501507.0,
+        "degree": 2,
+        "id": "9ece376a-70ba-5d6a-8242-9c90b3c6c298",
+        "initiatives": [
+          "queue-redesign"
+        ],
+        "layer": "warm",
+        "name": "repartition-decision",
+        "redacted": false,
+        "tags": [],
+        "tier": "archival",
+        "type": "outcome",
+        "visibility": "local"
+      },
+      {
+        "body": "Translations lag the source by roughly one release.",
+        "created_secs": 1792501503.0,
+        "degree": 0,
+        "id": "a06e6478-9e7c-57a5-b2e2-0fd427df143c",
+        "initiatives": [
+          "queue-redesign"
+        ],
+        "layer": "warm",
+        "name": "translation-status",
+        "redacted": false,
+        "tags": [],
+        "tier": "operational",
+        "type": "episode",
+        "visibility": "local"
+      },
+      {
+        "body": "The same support question keeps arriving about first-run configuration.",
+        "created_secs": 1792501482.0,
+        "degree": 0,
+        "id": "a1b2e40d-e5ac-5d06-af0a-8868ecdfacbb",
+        "initiatives": [
+          "queue-redesign"
+        ],
+        "layer": "warm",
+        "name": "support-question-recurring",
+        "redacted": false,
+        "tags": [],
+        "tier": "operational",
+        "type": "episode",
+        "visibility": "local"
+      },
+      {
+        "body": "Vendor takes about a week to answer support tickets.",
+        "created_secs": 1792501485.0,
+        "degree": 0,
+        "id": "ab6c6e9f-0503-542f-af88-e93fae2689ff",
+        "initiatives": [
+          "queue-redesign"
+        ],
+        "layer": "warm",
+        "name": "vendor-response-slow",
+        "redacted": false,
+        "tags": [],
+        "tier": "operational",
+        "type": "episode",
+        "visibility": "local"
+      },
+      {
+        "body": "Dependency bump queued behind the current release.",
+        "created_secs": 1792501478.0,
+        "degree": 0,
+        "id": "baaca86a-db8a-563d-b82b-217eee65fa7c",
+        "initiatives": [
+          "queue-redesign"
+        ],
+        "layer": "warm",
+        "name": "dependency-bump-queued",
+        "redacted": false,
+        "tags": [],
+        "tier": "operational",
+        "type": "episode",
+        "visibility": "local"
+      },
+      {
+        "body": "Old feature flags cleaned up after the last release.",
+        "created_secs": 1792501497.0,
+        "degree": 0,
+        "id": "e2d0fae0-e062-5bb0-88ed-493eb298689c",
+        "initiatives": [
+          "queue-redesign"
+        ],
+        "layer": "warm",
+        "name": "feature-flag-cleanup",
+        "redacted": false,
+        "tags": [],
+        "tier": "operational",
+        "type": "episode",
+        "visibility": "local"
+      },
+      {
+        "body": "Cache invalidation is time-based rather than event-driven.",
+        "created_secs": 1792501500.0,
+        "degree": 0,
+        "id": "e81276fc-fdc1-5320-8adb-ef8a07280b61",
+        "initiatives": [
+          "queue-redesign"
+        ],
+        "layer": "warm",
+        "name": "cache-invalidation-note",
+        "redacted": false,
+        "tags": [],
+        "tier": "operational",
+        "type": "episode",
+        "visibility": "local"
+      },
+      {
+        "body": "Standups moved to twice a week to leave longer focus blocks.",
+        "created_secs": 1792501475.0,
+        "degree": 0,
+        "id": "ecaddb27-eeff-56e9-9b43-3ce86920a940",
+        "initiatives": [
+          "queue-redesign"
+        ],
+        "layer": "warm",
+        "name": "standup-cadence",
+        "redacted": false,
+        "tags": [],
+        "tier": "operational",
+        "type": "episode",
+        "visibility": "local"
+      },
+      {
+        "body": "Mobile layout breaks on very narrow screens; low priority.",
+        "created_secs": 1792501502.0,
+        "degree": 0,
+        "id": "f221e4b7-e4bb-5f7c-9956-01e23506e65f",
+        "initiatives": [
+          "queue-redesign"
+        ],
+        "layer": "warm",
+        "name": "mobile-layout-issue",
+        "redacted": false,
+        "tags": [],
+        "tier": "operational",
+        "type": "episode",
+        "visibility": "local"
+      },
+      {
+        "body": "Search index rebuild takes about twenty minutes.",
+        "created_secs": 1792501501.0,
+        "degree": 0,
+        "id": "f3ec0698-7cef-5bbb-9158-c28a472a5ad7",
+        "initiatives": [
+          "queue-redesign"
+        ],
+        "layer": "warm",
+        "name": "search-index-rebuild",
+        "redacted": false,
+        "tags": [],
+        "tier": "operational",
+        "type": "episode",
+        "visibility": "local"
+      },
+      {
+        "body": "Backups verified by restoring into a scratch environment.",
+        "created_secs": 1792501487.0,
+        "degree": 0,
+        "id": "f803b094-ac5a-500c-949f-a8994aabfea0",
+        "initiatives": [
+          "queue-redesign"
+        ],
+        "layer": "warm",
+        "name": "backup-verified",
+        "redacted": false,
+        "tags": [],
+        "tier": "operational",
+        "type": "episode",
+        "visibility": "local"
+      }
+    ],
+    "project_links": []
+  },
+  "records": [
+    {
+      "body": null,
+      "id": "01a1596f-4002-7593-981b-d6e15eebeafc",
+      "layer": "warm",
+      "name": "audit:improve",
+      "properties": {
+        "actor": "system",
+        "affected_refs": [
+          "8eec6519-24ed-5daf-9f99-40054b2e06bd"
+        ],
+        "details": null,
+        "op": "improve"
+      },
+      "tags": null,
+      "tier": "operational",
+      "type": "audit_event",
+      "validity": [
+        1792501825,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": "Historical observation before the queue work was completed: backlog grew during the evening peak and cleared overnight; consumer count was fixed. The user reports the queue work is now done. The settled approach is repartitioning by the higher-cardinality key, with autoscaling off. This observation is retained as diagnostic history, not an unresolved queue work item.",
+      "id": "01a1596f-404f-7c50-9d81-4b369a94ae54",
+      "layer": "warm",
+      "name": "queue-backlog-observed",
+      "properties": null,
+      "tags": [
+        "role:revised",
+        "kind:outcome",
+        "lang:en",
+        "topic:queue",
+        "topic:backlog",
+        "topic:queue-backlog-observed",
+        "topic:observed",
+        "topic:work"
+      ],
+      "tier": "archival",
+      "type": "outcome",
+      "validity": [
+        1792501825,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": null,
+      "id": "01a1596f-405f-7370-b281-ead6717635d0",
+      "layer": "warm",
+      "name": "audit:consolidate_out",
+      "properties": {
+        "actor": "system",
+        "affected_refs": [
+          "8eec6519-24ed-5daf-9f99-40054b2e06bd",
+          "01a1596f-404f-7c50-9d81-4b369a94ae54"
+        ],
+        "details": null,
+        "op": "consolidate_out"
+      },
+      "tags": null,
+      "tier": "operational",
+      "type": "audit_event",
+      "validity": [
+        1792501825,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": "Tried scaling consumers with the backlog. It helped briefly, then made\nthings worse: more consumers meant more contention on the same partition.\n",
+      "id": "01a1596f-410d-7b20-b916-b313ac019a9e",
+      "layer": "warm",
+      "name": "consumer-scaling-tried",
+      "properties": null,
+      "tags": [
+        "kind:outcome",
+        "lang:en",
+        "topic:scaling",
+        "topic:tried",
+        "topic:consumer-scaling-tried",
+        "topic:consumer",
+        "topic:consumers"
+      ],
+      "tier": "archival",
+      "type": "outcome",
+      "validity": [
+        1792501825,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": null,
+      "id": "01a1596f-411f-7bf0-8371-5494ec20d8b8",
+      "layer": "warm",
+      "name": "audit:consolidate_out",
+      "properties": {
+        "actor": "system",
+        "affected_refs": [
+          "067355f5-ca55-5d94-8a51-76c3d56d5ba2",
+          "01a1596f-410d-7b20-b916-b313ac019a9e"
+        ],
+        "details": null,
+        "op": "consolidate_out"
+      },
+      "tags": null,
+      "tier": "operational",
+      "type": "audit_event",
+      "validity": [
+        1792501825,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": "The partition key concentrates evening traffic onto one partition, so\nextra consumers cannot help. Repartitioning by a higher-cardinality key\nis the fix.\n",
+      "id": "01a1596f-41f6-7722-bb97-54051d900e72",
+      "layer": "warm",
+      "name": "partition-key-was-the-problem",
+      "properties": null,
+      "tags": [
+        "kind:outcome",
+        "lang:en",
+        "topic:partition",
+        "topic:key",
+        "topic:partition-key-was-the-problem",
+        "topic:problem",
+        "topic:concentrates"
+      ],
+      "tier": "archival",
+      "type": "outcome",
+      "validity": [
+        1792501826,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": null,
+      "id": "01a1596f-420a-7a83-b7ff-97be442952e2",
+      "layer": "warm",
+      "name": "audit:consolidate_out",
+      "properties": {
+        "actor": "system",
+        "affected_refs": [
+          "5b582777-3334-552e-8754-1064860b54ff",
+          "01a1596f-41f6-7722-bb97-54051d900e72"
+        ],
+        "details": null,
+        "op": "consolidate_out"
+      },
+      "tags": null,
+      "tier": "operational",
+      "type": "audit_event",
+      "validity": [
+        1792501826,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": "State: The user reports the queue work is done. The settled decision is to repartition by the higher-cardinality key; consumer autoscaling stays off for this queue.\nReasoning: Evening traffic concentrated on one partition. Scaling consumers helped briefly, then increased contention on that partition. Repartitioning addresses the partition-key bottleneck.\nBlockers: No queue blockers are recorded. Other project notes contain unresolved items, but their relationship to the queue is not established and their status has not been changed.\nNext concrete step: Hand the completed queue work and linked diagnostic history to the incoming owner. No further queue action was requested; deployment or post-change validation details were not supplied.",
+      "id": "01a1596f-42b3-74c0-a096-ec10b7c65143",
+      "layer": "hot",
+      "name": "queue-work-handoff",
+      "properties": {
+        "kind": "outcome"
+      },
+      "tags": [
+        "kind:outcome",
+        "sig:medium",
+        "lang:en",
+        "topic:queue",
+        "topic:work",
+        "topic:queue-work-handoff",
+        "topic:handoff",
+        "topic:partition"
+      ],
+      "tier": "archival",
+      "type": "outcome",
+      "validity": [
+        1792501826,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": null,
+      "id": "01a1596f-42b7-7ea2-9327-b4d0418b93b3",
+      "layer": "warm",
+      "name": "audit:upsert_node",
+      "properties": {
+        "actor": "system",
+        "affected_refs": [
+          "01a1596f-42b3-74c0-a096-ec10b7c65143"
+        ],
+        "details": null,
+        "op": "upsert_node"
+      },
+      "tags": null,
+      "tier": "operational",
+      "type": "audit_event",
+      "validity": [
+        1792501826,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": null,
+      "id": "01a1596f-42c6-7a01-ad40-c744e448cf28",
+      "layer": "warm",
+      "name": "audit:set_slot_pointer",
+      "properties": {
+        "actor": "system",
+        "affected_refs": [
+          "01a1596f-42b3-74c0-a096-ec10b7c65143"
+        ],
+        "details": {
+          "after": "01a1596f-42b3-74c0-a096-ec10b7c65143",
+          "before": null,
+          "initiative": "queue-redesign",
+          "revision": "861872a50541799316989024c139ca77116a7cc25d739b4a87b9949ffb346007",
+          "slot": "handoff"
+        },
+        "op": "set_slot_pointer"
+      },
+      "tags": null,
+      "tier": "operational",
+      "type": "audit_event",
+      "validity": [
+        1792501826,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": null,
+      "id": "01a1596f-42cd-7052-9157-ab6c7801778c",
+      "layer": "warm",
+      "name": "audit:link",
+      "properties": {
+        "actor": "system",
+        "affected_refs": [
+          "01a1596f-42b3-74c0-a096-ec10b7c65143",
+          "9ece376a-70ba-5d6a-8242-9c90b3c6c298"
+        ],
+        "details": null,
+        "op": "link"
+      },
+      "tags": null,
+      "tier": "operational",
+      "type": "audit_event",
+      "validity": [
+        1792501826,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": "Repartition by a higher-cardinality key and keep autoscaling off: evening traffic concentrated on one partition; adding consumers briefly helped, then increased contention. The linked records retain the partition-key diagnosis, failed scaling attempt and original backlog observation. The user reports queue work complete; the backlog observation is historical.",
+      "id": "01a1596f-82ab-7ab1-9c37-0c4cad005abd",
+      "layer": "warm",
+      "name": "queue-resolution-reasoning",
+      "properties": null,
+      "tags": null,
+      "tier": "operational",
+      "type": "chain",
+      "validity": [
+        1792501842,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": null,
+      "id": "01a1596f-82af-7d72-8948-f91bfee8fb9d",
+      "layer": "warm",
+      "name": "audit:upsert_node",
+      "properties": {
+        "actor": "system",
+        "affected_refs": [
+          "01a1596f-82ab-7ab1-9c37-0c4cad005abd"
+        ],
+        "details": null,
+        "op": "upsert_node"
+      },
+      "tags": null,
+      "tier": "operational",
+      "type": "audit_event",
+      "validity": [
+        1792501842,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": null,
+      "id": "01a1596f-82b3-70d2-947a-3af602c7cff1",
+      "layer": "warm",
+      "name": "audit:create_chain",
+      "properties": {
+        "actor": "system",
+        "affected_refs": [
+          "01a1596f-82ab-7ab1-9c37-0c4cad005abd",
+          "9ece376a-70ba-5d6a-8242-9c90b3c6c298",
+          "01a1596f-404f-7c50-9d81-4b369a94ae54"
+        ],
+        "details": null,
+        "op": "create_chain"
+      },
+      "tags": null,
+      "tier": "operational",
+      "type": "audit_event",
+      "validity": [
+        1792501842,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": "Environments are named dev, staging and prod; no others.",
+      "id": "01b9603b-e107-5318-a806-453ae80eb333",
+      "layer": "warm",
+      "name": "naming-of-environments",
+      "properties": null,
+      "tags": [],
+      "tier": "operational",
+      "type": "episode",
+      "validity": [
+        1792501489,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": "Default rate limits are generous enough for internal use.",
+      "id": "053dc433-e008-5900-b7b0-bdf6b465cc71",
+      "layer": "warm",
+      "name": "rate-limit-defaults",
+      "properties": null,
+      "tags": [],
+      "tier": "operational",
+      "type": "episode",
+      "validity": [
+        1792501499,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": "Error budget for the quarter is largely unspent.",
+      "id": "0609a780-0cb3-5a08-a99d-16e97fcabce8",
+      "layer": "warm",
+      "name": "error-budget-note",
+      "properties": null,
+      "tags": [],
+      "tier": "operational",
+      "type": "episode",
+      "validity": [
+        1792501480,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": "New joiners get a buddy for the first fortnight.",
+      "id": "0a8d7e80-3cc5-50eb-b395-b443d26781f0",
+      "layer": "warm",
+      "name": "onboarding-buddy",
+      "properties": null,
+      "tags": [],
+      "tier": "operational",
+      "type": "episode",
+      "validity": [
+        1792501491,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": "Scope for the current sprint agreed: three features, one migration, no new dependencies.",
+      "id": "0f6ab860-9125-5013-b1bf-0c8bd51df5e6",
+      "layer": "warm",
+      "name": "sprint-scope-agreed",
+      "properties": null,
+      "tags": [],
+      "tier": "operational",
+      "type": "episode",
+      "validity": [
+        1792501474,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": "Open question about which pricing tier the workload needs.",
+      "id": "0ff38085-2c5e-5ca8-adab-403ce482dcd9",
+      "layer": "warm",
+      "name": "pricing-tier-question",
+      "properties": null,
+      "tags": [],
+      "tier": "operational",
+      "type": "episode",
+      "validity": [
+        1792501486,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": "Contractor available two days a week until the end of the engagement.",
+      "id": "2ff96b4f-c7ce-5e57-82d5-877c4fea8a94",
+      "layer": "warm",
+      "name": "contractor-availability",
+      "properties": null,
+      "tags": [],
+      "tier": "operational",
+      "type": "episode",
+      "validity": [
+        1792501494,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": "Access request for the reporting tool still pending.",
+      "id": "34bf16a9-564b-5c29-a1ea-d397f0a2aaa5",
+      "layer": "warm",
+      "name": "access-request-pending",
+      "properties": null,
+      "tags": [],
+      "tier": "operational",
+      "type": "episode",
+      "validity": [
+        1792501488,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": "Analytics samples at a fixed rate; small effects are invisible.",
+      "id": "34cf295b-23a9-54a7-b4c4-47e5fdfb715e",
+      "layer": "warm",
+      "name": "analytics-sampling",
+      "properties": null,
+      "tags": [],
+      "tier": "operational",
+      "type": "episode",
+      "validity": [
+        1792501496,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": "API versions are additive; nothing is removed without a major bump.",
+      "id": "379b349a-cd5a-5d22-91a0-e6a92d66ef68",
+      "layer": "warm",
+      "name": "api-versioning-policy",
+      "properties": null,
+      "tags": [],
+      "tier": "operational",
+      "type": "episode",
+      "validity": [
+        1792501498,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": "Handover notes list state, blockers, and the next concrete step.",
+      "id": "37c03b50-4730-5dda-9148-d6b7cbfad08f",
+      "layer": "warm",
+      "name": "handover-note-format",
+      "properties": null,
+      "tags": [],
+      "tier": "operational",
+      "type": "episode",
+      "validity": [
+        1792501483,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": "Docs index restructured so setup comes before reference.",
+      "id": "3ebcbf92-271c-5096-a202-0bdb5b550498",
+      "layer": "warm",
+      "name": "docs-index-restructured",
+      "properties": null,
+      "tags": [],
+      "tier": "operational",
+      "type": "episode",
+      "validity": [
+        1792501481,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": "Meeting notes live alongside the project docs, not in chat.",
+      "id": "4055e607-1f0b-59f8-bc3f-340f27c731b4",
+      "layer": "warm",
+      "name": "meeting-notes-location",
+      "properties": null,
+      "tags": [],
+      "tier": "operational",
+      "type": "episode",
+      "validity": [
+        1792501492,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": "Two flaky tests quarantined pending a proper fix.",
+      "id": "4445bbdd-fd65-5049-ada0-c37ec2948edb",
+      "layer": "warm",
+      "name": "flaky-test-quarantine",
+      "properties": null,
+      "tags": [],
+      "tier": "operational",
+      "type": "episode",
+      "validity": [
+        1792501477,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": "Legal review needs about ten working days.",
+      "id": "4bda0ff7-dda0-5340-9cf5-b9e9227c8228",
+      "layer": "warm",
+      "name": "legal-review-lead-time",
+      "properties": null,
+      "tags": [],
+      "tier": "operational",
+      "type": "episode",
+      "validity": [
+        1792501495,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": "Short postmortem written for last month's outage; no action items outstanding.",
+      "id": "5a1d9824-12d3-577b-b164-a0ca785a1685",
+      "layer": "warm",
+      "name": "incident-postmortem-short",
+      "properties": null,
+      "tags": [],
+      "tier": "operational",
+      "type": "episode",
+      "validity": [
+        1792501490,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": "Retro produced three actions; two are already done.",
+      "id": "5f68c090-14e6-5083-a86b-02e1f77d6f17",
+      "layer": "warm",
+      "name": "retro-actions",
+      "properties": null,
+      "tags": [],
+      "tier": "operational",
+      "type": "episode",
+      "validity": [
+        1792501484,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": "Metrics dashboard stopped double-counting retries after the last fix.",
+      "id": "6f732a56-353f-56ac-9db4-d8a66f9edeb5",
+      "layer": "warm",
+      "name": "metrics-dashboard-fixed",
+      "properties": null,
+      "tags": [],
+      "tier": "operational",
+      "type": "episode",
+      "validity": [
+        1792501479,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": "Staging refreshed from a sanitised copy of production data.",
+      "id": "7c30d411-82b6-5365-854f-745a45ea980d",
+      "layer": "warm",
+      "name": "staging-refresh",
+      "properties": null,
+      "tags": [],
+      "tier": "operational",
+      "type": "episode",
+      "validity": [
+        1792501476,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": "Quarterly planning happens in the last week of the quarter.",
+      "id": "92dd9d29-aad3-5e97-85fa-b6209566e7f3",
+      "layer": "warm",
+      "name": "quarterly-planning-date",
+      "properties": null,
+      "tags": [],
+      "tier": "operational",
+      "type": "episode",
+      "validity": [
+        1792501493,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": "Decided: repartition by the higher-cardinality key rather than autoscale\nconsumers. Autoscaling stays off for this queue.\n",
+      "id": "9ece376a-70ba-5d6a-8242-9c90b3c6c298",
+      "layer": "warm",
+      "name": "repartition-decision",
+      "properties": null,
+      "tags": [],
+      "tier": "archival",
+      "type": "outcome",
+      "validity": [
+        1792501507,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": "Translations lag the source by roughly one release.",
+      "id": "a06e6478-9e7c-57a5-b2e2-0fd427df143c",
+      "layer": "warm",
+      "name": "translation-status",
+      "properties": null,
+      "tags": [],
+      "tier": "operational",
+      "type": "episode",
+      "validity": [
+        1792501503,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": "The same support question keeps arriving about first-run configuration.",
+      "id": "a1b2e40d-e5ac-5d06-af0a-8868ecdfacbb",
+      "layer": "warm",
+      "name": "support-question-recurring",
+      "properties": null,
+      "tags": [],
+      "tier": "operational",
+      "type": "episode",
+      "validity": [
+        1792501482,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": "Vendor takes about a week to answer support tickets.",
+      "id": "ab6c6e9f-0503-542f-af88-e93fae2689ff",
+      "layer": "warm",
+      "name": "vendor-response-slow",
+      "properties": null,
+      "tags": [],
+      "tier": "operational",
+      "type": "episode",
+      "validity": [
+        1792501485,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": "Dependency bump queued behind the current release.",
+      "id": "baaca86a-db8a-563d-b82b-217eee65fa7c",
+      "layer": "warm",
+      "name": "dependency-bump-queued",
+      "properties": null,
+      "tags": [],
+      "tier": "operational",
+      "type": "episode",
+      "validity": [
+        1792501478,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": "Old feature flags cleaned up after the last release.",
+      "id": "e2d0fae0-e062-5bb0-88ed-493eb298689c",
+      "layer": "warm",
+      "name": "feature-flag-cleanup",
+      "properties": null,
+      "tags": [],
+      "tier": "operational",
+      "type": "episode",
+      "validity": [
+        1792501497,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": "Cache invalidation is time-based rather than event-driven.",
+      "id": "e81276fc-fdc1-5320-8adb-ef8a07280b61",
+      "layer": "warm",
+      "name": "cache-invalidation-note",
+      "properties": null,
+      "tags": [],
+      "tier": "operational",
+      "type": "episode",
+      "validity": [
+        1792501500,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": "Standups moved to twice a week to leave longer focus blocks.",
+      "id": "ecaddb27-eeff-56e9-9b43-3ce86920a940",
+      "layer": "warm",
+      "name": "standup-cadence",
+      "properties": null,
+      "tags": [],
+      "tier": "operational",
+      "type": "episode",
+      "validity": [
+        1792501475,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": "Mobile layout breaks on very narrow screens; low priority.",
+      "id": "f221e4b7-e4bb-5f7c-9956-01e23506e65f",
+      "layer": "warm",
+      "name": "mobile-layout-issue",
+      "properties": null,
+      "tags": [],
+      "tier": "operational",
+      "type": "episode",
+      "validity": [
+        1792501502,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": "Search index rebuild takes about twenty minutes.",
+      "id": "f3ec0698-7cef-5bbb-9158-c28a472a5ad7",
+      "layer": "warm",
+      "name": "search-index-rebuild",
+      "properties": null,
+      "tags": [],
+      "tier": "operational",
+      "type": "episode",
+      "validity": [
+        1792501501,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": "Backups verified by restoring into a scratch environment.",
+      "id": "f803b094-ac5a-500c-949f-a8994aabfea0",
+      "layer": "warm",
+      "name": "backup-verified",
+      "properties": null,
+      "tags": [],
+      "tier": "operational",
+      "type": "episode",
+      "validity": [
+        1792501487,
+        true
+      ],
+      "visibility": "local"
+    }
+  ]
+}

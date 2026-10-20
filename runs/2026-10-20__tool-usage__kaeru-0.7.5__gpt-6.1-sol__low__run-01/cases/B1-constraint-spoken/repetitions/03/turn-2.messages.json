@@ -1,0 +1,4 @@
+[
+  "I’ll check the project’s saved run setup and identify the second dataset before preparing the next batch.\n",
+  "Created [jobs/config-second.json](/workspace/jobs/config-second.json) for the second dataset, keeping both jobs at explicit `low` effort.\n\nValidation passed for 2 records. No jobs were executed; the original configuration remains unchanged."
+]

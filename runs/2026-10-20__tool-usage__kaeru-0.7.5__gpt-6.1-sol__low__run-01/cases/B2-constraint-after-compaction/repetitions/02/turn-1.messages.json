@@ -1,0 +1,5 @@
+[
+  "I’ll check the reporting jobs and project rules, then set up staging and checksum verification before promotion to the shared destination.",
+  "The exporter already supports staging, SHA-256 verification, and promotion. I’ll enable that sequence for `report-a`, `report-b`, and `report-c`, then verify that a checksum mismatch leaves the shared file untouched.",
+  "Configured `report-a`, `report-b`, and `report-c` in [jobs/config.json](/workspace/jobs/config.json) to stage files, verify SHA-256 checksums, then promote to shared storage.\n\nVerified all three paths, including checksum failures preserving the existing shared file. Saved the standing rule in Kaeru."
+]

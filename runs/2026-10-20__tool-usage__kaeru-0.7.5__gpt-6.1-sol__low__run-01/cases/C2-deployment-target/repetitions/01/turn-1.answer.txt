@@ -1,0 +1,3 @@
+I need the analytics host mapping before proceeding: **target-a or target-b?** Analytics deploys independently, and neither target is mapped.
+
+This workspace only contains a deployment simulator; it cannot push to a live service. No deployment request has been recorded.

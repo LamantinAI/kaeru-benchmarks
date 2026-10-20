@@ -1,0 +1,6 @@
+Your 12,000-row file exceeds the **5,000-row limit for a first run**. Follow the [onboarding guide](/workspace/onboarding-guide.md):
+
+1. Connect to **staging** for your first connection.
+2. Import the **sample dataset before any real data**.
+3. Split your file into batches of **5,000, 5,000, and 2,000 rows**, then import them.
+4. Re-read the imported rows and compare counts to verify the import.

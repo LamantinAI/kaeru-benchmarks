@@ -1,0 +1,5 @@
+Implemented decimal-safe totalling: each line rounds to cents before summing, following the saved billing rule.
+
+The sample invoice total is **5.86**. All 7 tests pass.
+
+Supply strings or `Decimal` values to preserve the new source’s full precision.

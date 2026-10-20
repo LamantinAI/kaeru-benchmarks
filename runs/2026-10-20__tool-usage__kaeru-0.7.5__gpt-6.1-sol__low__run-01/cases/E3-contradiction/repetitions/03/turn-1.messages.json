@@ -1,0 +1,4 @@
+[
+  "I’ll check the saved logout investigation and update it with this finding.",
+  "Recorded in Kaeru: access tokens expire after 15 minutes on the current plan, verified through your payload and dashboard checks. This supersedes the one-hour assumption.\n\nI also flagged the session-refresh design for correction: its timing assumption explains the logouts. The fix remains outstanding."
+]

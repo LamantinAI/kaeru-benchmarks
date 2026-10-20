@@ -1,0 +1,4 @@
+[
+  "I’ll apply the staging and checksum requirement to the two finance exports and verify that a checksum failure preserves the shared file.\n",
+  "Configured `finance-a` and `finance-b` to stage files, verify SHA-256 checksums, then promote to shared storage.\n\nBoth passed verification, including checksum failures preserving the existing shared file. Saved the extended requirement in Kaeru."
+]

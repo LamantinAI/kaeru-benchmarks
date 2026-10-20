@@ -1,0 +1,3 @@
+Implemented right-aligned numeric columns with tabular lining numerals, keeping the existing font family. Headers match, and consistent padding improves scanning.
+
+Added a preview and documented the choice. Static checks passed; browser rendering wasn’t checked. Saved the completed decision in Kaeru.

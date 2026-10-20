@@ -1,0 +1,7 @@
+Completed the rollback in the local simulator, following `rollback-procedure-blue-green` exactly:
+
+1. Repointed the router to blue.
+2. Waited for connections to drain.
+3. Stopped green.
+
+Verified blue is active and green is stopped. No external deployment was changed.

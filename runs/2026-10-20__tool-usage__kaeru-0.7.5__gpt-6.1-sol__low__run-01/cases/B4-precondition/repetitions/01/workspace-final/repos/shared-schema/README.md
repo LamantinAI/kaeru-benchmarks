@@ -1,0 +1,1 @@
+Local shared-schema repository.

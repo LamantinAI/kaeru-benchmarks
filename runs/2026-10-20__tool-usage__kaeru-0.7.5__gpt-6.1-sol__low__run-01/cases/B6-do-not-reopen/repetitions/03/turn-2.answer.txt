@@ -1,0 +1,8 @@
+I can’t confirm readiness from this workspace. Two things need attention before relying on it:
+
+- [config.json](notifications/config.json:2) selects `local-test`. Confirm that the deployed alert path uses the intended destination.
+- [inspect.py](notifications/inspect.py:1) only prints configuration. It runs successfully, but there’s no sender, alert wiring, or delivery test here to verify retries, timeouts, or exhausted-retry handling.
+
+The earlier delivery concern is resolved: your recorded check confirmed delivery was fine and the trial failures were on your end.
+
+The next step is to review the runtime implementation and deployment configuration. I changed nothing and sent no alerts.

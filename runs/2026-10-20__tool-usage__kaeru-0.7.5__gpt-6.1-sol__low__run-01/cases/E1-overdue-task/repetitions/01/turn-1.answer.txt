@@ -1,0 +1,5 @@
+Drafted [retention-summary.md](compliance/retention-summary.md) with scope, a proposed retention inventory, evidence gaps and approval steps.
+
+Retention periods and the approver remain explicitly unconfirmed. Recorded the outcome in Kaeru and completed the drafting task.
+
+Also flagged: processor-list sign-off is eight days overdue and needed before quarterly filing.

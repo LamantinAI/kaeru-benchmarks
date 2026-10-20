@@ -1,0 +1,1523 @@
+{
+  "graph": {
+    "chains": [],
+    "edges": [
+      {
+        "created_secs": 1792500532.0,
+        "dst": "d6ad4f4e-671d-5642-9dc0-0f79f03a32bd",
+        "dst_store": "local",
+        "src": "82b33eeb-effb-52f6-9abe-9855b7201fc6",
+        "type": "refers_to",
+        "weight": 1.0
+      }
+    ],
+    "initiatives": [
+      {
+        "name": "capture-tooling",
+        "node_count": 48
+      }
+    ],
+    "meta": {
+      "chain_count": 0,
+      "earliest_secs": 1777723200.0,
+      "edge_count": 1,
+      "initiative_count": 1,
+      "latest_secs": 1782648000.0,
+      "node_count": 48,
+      "redacted_count": 0
+    },
+    "nodes": [
+      {
+        "body": "The weekly sync moved an hour later for the rest of the quarter.",
+        "created_secs": 1782043227.0,
+        "degree": 0,
+        "id": "0ee661b0-c4c5-57c1-a027-87ecd49cfcb6",
+        "initiatives": [
+          "capture-tooling"
+        ],
+        "layer": "warm",
+        "name": "weekly-sync-moved",
+        "redacted": false,
+        "tags": [],
+        "tier": "operational",
+        "type": "episode",
+        "visibility": "local"
+      },
+      {
+        "body": "Captured frames looked washed out until the colour profile was matched.",
+        "created_secs": 1782043209.0,
+        "degree": 0,
+        "id": "1423cb08-179d-5c9f-b584-305b1899dc61",
+        "initiatives": [
+          "capture-tooling"
+        ],
+        "layer": "warm",
+        "name": "colour-profile-mismatch",
+        "redacted": false,
+        "tags": [],
+        "tier": "operational",
+        "type": "episode",
+        "visibility": "local"
+      },
+      {
+        "body": "Monitor arrangement changed; the secondary display is now on the left.",
+        "created_secs": 1782043229.0,
+        "degree": 0,
+        "id": "261270fa-0ef7-5350-a7cc-d4129dec3086",
+        "initiatives": [
+          "capture-tooling"
+        ],
+        "layer": "warm",
+        "name": "monitor-arrangement",
+        "redacted": false,
+        "tags": [],
+        "tier": "operational",
+        "type": "episode",
+        "visibility": "local"
+      },
+      {
+        "body": "Considered a screen recording instead of frames; rejected as harder to update.",
+        "created_secs": 1782043220.0,
+        "degree": 0,
+        "id": "2745474e-3365-5d69-a86d-39157cab41e8",
+        "initiatives": [
+          "capture-tooling"
+        ],
+        "layer": "warm",
+        "name": "screen-recording-vs-frames",
+        "redacted": false,
+        "tags": [],
+        "tier": "operational",
+        "type": "episode",
+        "visibility": "local"
+      },
+      {
+        "body": "Annotations use a single accent colour and no drop shadows.",
+        "created_secs": 1782043221.0,
+        "degree": 0,
+        "id": "27e34d72-56a1-5abc-b57e-4d54777b0af4",
+        "initiatives": [
+          "capture-tooling"
+        ],
+        "layer": "warm",
+        "name": "annotation-style",
+        "redacted": false,
+        "tags": [],
+        "tier": "operational",
+        "type": "episode",
+        "visibility": "local"
+      },
+      {
+        "body": "Sample data refreshed so screenshots show plausible values.",
+        "created_secs": 1782043236.0,
+        "degree": 0,
+        "id": "32b47ec8-e223-52f7-af5f-fd7f613ea723",
+        "initiatives": [
+          "capture-tooling"
+        ],
+        "layer": "warm",
+        "name": "sample-data-refresh",
+        "redacted": false,
+        "tags": [],
+        "tier": "operational",
+        "type": "episode",
+        "visibility": "local"
+      },
+      {
+        "body": "Capture metrics report capture latency, capture file size and capture retry counts. The capture dashboard groups results by tool version; it does not prescribe how a window is acquired.",
+        "created_secs": 1782043203.0,
+        "degree": 0,
+        "id": "3354a2b1-c1c5-5ed2-bd4a-16d98f376e4b",
+        "initiatives": [
+          "capture-tooling"
+        ],
+        "layer": "warm",
+        "name": "capture-metrics",
+        "redacted": false,
+        "tags": [],
+        "tier": "operational",
+        "type": "episode",
+        "visibility": "local"
+      },
+      {
+        "body": "Captured the twelve frames needed for the guide. Brought the window\nforward first so the capture would catch the right content.\n",
+        "created_secs": 1777723200.0,
+        "degree": 0,
+        "id": "35b60f3c-d340-5763-bc31-b9da62a3d139",
+        "initiatives": [
+          "capture-tooling"
+        ],
+        "layer": "warm",
+        "name": "screen-capture-run-may",
+        "redacted": false,
+        "tags": [],
+        "tier": "operational",
+        "type": "episode",
+        "visibility": "local"
+      },
+      {
+        "body": "Capture cache tracks capture outputs. Each capture entry links a capture job ID to a capture asset checksum. Purging stale cache metadata leaves the exported files alone.",
+        "created_secs": 1782043200.0,
+        "degree": 0,
+        "id": "3aa0a829-dce1-5ee2-991f-f453ab8153f6",
+        "initiatives": [
+          "capture-tooling"
+        ],
+        "layer": "warm",
+        "name": "capture-cache",
+        "redacted": false,
+        "tags": [],
+        "tier": "operational",
+        "type": "episode",
+        "visibility": "local"
+      },
+      {
+        "body": "Link checker found two dead links in the troubleshooting section.",
+        "created_secs": 1782043234.0,
+        "degree": 0,
+        "id": "3d1319a3-856c-5b4c-87ec-34ed245d3c98",
+        "initiatives": [
+          "capture-tooling"
+        ],
+        "layer": "warm",
+        "name": "link-checker-run",
+        "redacted": false,
+        "tags": [],
+        "tier": "operational",
+        "type": "episode",
+        "visibility": "local"
+      },
+      {
+        "body": "Dependency audit came back clean this week.",
+        "created_secs": 1782043217.0,
+        "degree": 0,
+        "id": "44a69417-0f26-592a-9fc4-6fbbeadb8f72",
+        "initiatives": [
+          "capture-tooling"
+        ],
+        "layer": "warm",
+        "name": "dependency-audit-clean",
+        "redacted": false,
+        "tags": [],
+        "tier": "operational",
+        "type": "episode",
+        "visibility": "local"
+      },
+      {
+        "body": "Reviewer is away until the end of the month; drafts can queue until then.",
+        "created_secs": 1782043215.0,
+        "degree": 0,
+        "id": "44d612fb-32ad-52ec-8441-6cedb2beda38",
+        "initiatives": [
+          "capture-tooling"
+        ],
+        "layer": "warm",
+        "name": "reviewer-availability",
+        "redacted": false,
+        "tags": [],
+        "tier": "operational",
+        "type": "episode",
+        "visibility": "local"
+      },
+      {
+        "body": "Capture pipeline working again. Method: position the page, bring the\nwindow to the front, then capture the screen region. Verified on three\nframes.\n",
+        "created_secs": 1778760000.0,
+        "degree": 0,
+        "id": "46c7c574-102a-5cb9-9f33-0b28915396e4",
+        "initiatives": [
+          "capture-tooling"
+        ],
+        "layer": "warm",
+        "name": "screen-capture-pipeline-restored",
+        "redacted": false,
+        "tags": [],
+        "tier": "operational",
+        "type": "episode",
+        "visibility": "local"
+      },
+      {
+        "body": "Batch captures are faster but harder to review one by one.",
+        "created_secs": 1782043231.0,
+        "degree": 0,
+        "id": "4da54278-dd14-5c57-8d8d-e4af31ad8db3",
+        "initiatives": [
+          "capture-tooling"
+        ],
+        "layer": "warm",
+        "name": "batch-vs-single",
+        "redacted": false,
+        "tags": [],
+        "tier": "operational",
+        "type": "episode",
+        "visibility": "local"
+      },
+      {
+        "body": "Added three terms to the glossary after the last review round.",
+        "created_secs": 1782043235.0,
+        "degree": 0,
+        "id": "5140b01a-f10c-511a-9681-aca1f24a74a7",
+        "initiatives": [
+          "capture-tooling"
+        ],
+        "layer": "warm",
+        "name": "glossary-additions",
+        "redacted": false,
+        "tags": [],
+        "tier": "operational",
+        "type": "episode",
+        "visibility": "local"
+      },
+      {
+        "body": "Older guide versions archived rather than deleted, in case of rollback.",
+        "created_secs": 1782043232.0,
+        "degree": 0,
+        "id": "5a7a5689-b858-51d6-ada3-06d7ccead245",
+        "initiatives": [
+          "capture-tooling"
+        ],
+        "layer": "warm",
+        "name": "archive-of-old-guides",
+        "redacted": false,
+        "tags": [],
+        "tier": "operational",
+        "type": "episode",
+        "visibility": "local"
+      },
+      {
+        "body": "Frame numbers drifted after a re-run; renumbered by hand this once.",
+        "created_secs": 1782043207.0,
+        "degree": 0,
+        "id": "669b35b9-a90d-50c6-9ed4-b0037c37d4b9",
+        "initiatives": [
+          "capture-tooling"
+        ],
+        "layer": "warm",
+        "name": "frame-numbering-drift",
+        "redacted": false,
+        "tags": [],
+        "tier": "operational",
+        "type": "episode",
+        "visibility": "local"
+      },
+      {
+        "body": "Ran an accessibility pass over the guide's colour contrast.",
+        "created_secs": 1782043233.0,
+        "degree": 0,
+        "id": "6750d96a-e8c0-5c56-9932-56e4669883d8",
+        "initiatives": [
+          "capture-tooling"
+        ],
+        "layer": "warm",
+        "name": "accessibility-check",
+        "redacted": false,
+        "tags": [],
+        "tier": "operational",
+        "type": "episode",
+        "visibility": "local"
+      },
+      {
+        "body": "Embedded fonts render differently in the export pipeline than on screen.",
+        "created_secs": 1782043222.0,
+        "degree": 0,
+        "id": "685c69dd-8943-5a4e-a7c5-62ce1523dec1",
+        "initiatives": [
+          "capture-tooling"
+        ],
+        "layer": "warm",
+        "name": "font-embedding-issue",
+        "redacted": false,
+        "tags": [],
+        "tier": "operational",
+        "type": "episode",
+        "visibility": "local"
+      },
+      {
+        "body": "Collected the keyboard shortcuts used most often during setup walkthroughs.",
+        "created_secs": 1782043219.0,
+        "degree": 0,
+        "id": "6ce2566b-95b4-5512-b1f0-1db98564a60b",
+        "initiatives": [
+          "capture-tooling"
+        ],
+        "layer": "warm",
+        "name": "keyboard-shortcut-list",
+        "redacted": false,
+        "tags": [],
+        "tier": "operational",
+        "type": "episode",
+        "visibility": "local"
+      },
+      {
+        "body": "Open question on where assets belong relative to the guide source.",
+        "created_secs": 1782043214.0,
+        "degree": 0,
+        "id": "71b7e937-e8bf-5902-a593-71d553754199",
+        "initiatives": [
+          "capture-tooling"
+        ],
+        "layer": "warm",
+        "name": "asset-naming-question",
+        "redacted": false,
+        "tags": [],
+        "tier": "operational",
+        "type": "episode",
+        "visibility": "local"
+      },
+      {
+        "body": "Keep exported assets under a couple of megabytes each.",
+        "created_secs": 1782043223.0,
+        "degree": 0,
+        "id": "746bc876-c6d1-51ed-a49f-acdb444f3b3c",
+        "initiatives": [
+          "capture-tooling"
+        ],
+        "layer": "warm",
+        "name": "export-size-budget",
+        "redacted": false,
+        "tags": [],
+        "tier": "operational",
+        "type": "episode",
+        "visibility": "local"
+      },
+      {
+        "body": "Session helper scripts live in the scratch folder and are not committed.",
+        "created_secs": 1782043210.0,
+        "degree": 0,
+        "id": "7d310581-c250-5622-925a-da6976310c8d",
+        "initiatives": [
+          "capture-tooling"
+        ],
+        "layer": "warm",
+        "name": "helper-script-location",
+        "redacted": false,
+        "tags": [],
+        "tier": "operational",
+        "type": "episode",
+        "visibility": "local"
+      },
+      {
+        "body": "Target length for the guide is short enough to read in one sitting.",
+        "created_secs": 1782043241.0,
+        "degree": 0,
+        "id": "811dbaaf-c43b-5b2f-a48e-48b7ddb6236f",
+        "initiatives": [
+          "capture-tooling"
+        ],
+        "layer": "warm",
+        "name": "guide-length-target",
+        "redacted": false,
+        "tags": [],
+        "tier": "operational",
+        "type": "episode",
+        "visibility": "local"
+      },
+      {
+        "body": "Four frames still missing from the setup guide: the connection dialog,\nthe credential panel, the run history, and the error state.\n",
+        "created_secs": 1782648000.0,
+        "degree": 1,
+        "id": "82b33eeb-effb-52f6-9abe-9855b7201fc6",
+        "initiatives": [
+          "capture-tooling"
+        ],
+        "layer": "warm",
+        "name": "guide-frames-outstanding",
+        "redacted": false,
+        "tags": [],
+        "tier": "operational",
+        "type": "episode",
+        "visibility": "local"
+      },
+      {
+        "body": "Outline for the setup guide agreed: install, connect, first run, troubleshooting.",
+        "created_secs": 1782043212.0,
+        "degree": 0,
+        "id": "90eb8b70-a854-5ce4-b35b-abae4cc1946f",
+        "initiatives": [
+          "capture-tooling"
+        ],
+        "layer": "warm",
+        "name": "guide-outline-agreed",
+        "redacted": false,
+        "tags": [],
+        "tier": "operational",
+        "type": "episode",
+        "visibility": "local"
+      },
+      {
+        "body": "The window manager reshuffles positions after an external display is attached.",
+        "created_secs": 1782043205.0,
+        "degree": 0,
+        "id": "91c255e5-1f77-588d-b598-322ec701df7a",
+        "initiatives": [
+          "capture-tooling"
+        ],
+        "layer": "warm",
+        "name": "window-manager-quirk",
+        "redacted": false,
+        "tags": [],
+        "tier": "operational",
+        "type": "episode",
+        "visibility": "local"
+      },
+      {
+        "body": "Occasionally a frame comes back blank; retrying once is usually enough.",
+        "created_secs": 1782043211.0,
+        "degree": 0,
+        "id": "94883532-3996-581f-9a9e-ee057e9cadf5",
+        "initiatives": [
+          "capture-tooling"
+        ],
+        "layer": "warm",
+        "name": "retry-on-blank-frame",
+        "redacted": false,
+        "tags": [],
+        "tier": "operational",
+        "type": "episode",
+        "visibility": "local"
+      },
+      {
+        "body": "Guide prose should stay in second person and avoid tool jargon in headings.",
+        "created_secs": 1782043213.0,
+        "degree": 0,
+        "id": "9be640b7-2140-5ff0-ba9c-a54a2c6e7647",
+        "initiatives": [
+          "capture-tooling"
+        ],
+        "layer": "warm",
+        "name": "guide-tone-note",
+        "redacted": false,
+        "tags": [],
+        "tier": "operational",
+        "type": "episode",
+        "visibility": "local"
+      },
+      {
+        "body": "Log rotation set to weekly; older logs compress automatically.",
+        "created_secs": 1782043218.0,
+        "degree": 0,
+        "id": "9d607200-f832-5ab6-be62-60a9ba92ab9e",
+        "initiatives": [
+          "capture-tooling"
+        ],
+        "layer": "warm",
+        "name": "log-rotation-setting",
+        "redacted": false,
+        "tags": [],
+        "tier": "operational",
+        "type": "episode",
+        "visibility": "local"
+      },
+      {
+        "body": "Capture audit keeps a capture receipt per job. The receipt includes the capture output count, capture asset names and capture checksums; incomplete batches are flagged for later inspection.",
+        "created_secs": 1782043202.0,
+        "degree": 0,
+        "id": "9f3b0357-03a6-548c-9f48-72cb05ae39a7",
+        "initiatives": [
+          "capture-tooling"
+        ],
+        "layer": "warm",
+        "name": "capture-audit",
+        "redacted": false,
+        "tags": [],
+        "tier": "operational",
+        "type": "episode",
+        "visibility": "local"
+      },
+      {
+        "body": "Onboarding doc references a tool version that no longer ships.",
+        "created_secs": 1782043228.0,
+        "degree": 0,
+        "id": "a20ba96d-537d-534a-8fa2-618d1de6e972",
+        "initiatives": [
+          "capture-tooling"
+        ],
+        "layer": "warm",
+        "name": "onboarding-doc-stale",
+        "redacted": false,
+        "tags": [],
+        "tier": "operational",
+        "type": "episode",
+        "visibility": "local"
+      },
+      {
+        "body": "Capture clock records the capture request time and the capture completion time. A capture receipt stores the offset so capture logs from two machines can be compared.",
+        "created_secs": 1782043201.0,
+        "degree": 0,
+        "id": "a472c29e-80bb-5377-b3c5-e31dc1fcaa7e",
+        "initiatives": [
+          "capture-tooling"
+        ],
+        "layer": "warm",
+        "name": "capture-clock",
+        "redacted": false,
+        "tags": [],
+        "tier": "operational",
+        "type": "episode",
+        "visibility": "local"
+      },
+      {
+        "body": "Connection dialog remembers the last host used.",
+        "created_secs": 1782043240.0,
+        "degree": 0,
+        "id": "a5a306d6-ac00-55a6-8989-8d045f508735",
+        "initiatives": [
+          "capture-tooling"
+        ],
+        "layer": "warm",
+        "name": "connection-dialog-defaults",
+        "redacted": false,
+        "tags": [],
+        "tier": "operational",
+        "type": "episode",
+        "visibility": "local"
+      },
+      {
+        "body": "Run history paginates after twenty entries.",
+        "created_secs": 1782043239.0,
+        "degree": 0,
+        "id": "afe7bdc8-e74a-5e11-a93e-10b64af950c6",
+        "initiatives": [
+          "capture-tooling"
+        ],
+        "layer": "warm",
+        "name": "run-history-pagination",
+        "redacted": false,
+        "tags": [],
+        "tier": "operational",
+        "type": "episode",
+        "visibility": "local"
+      },
+      {
+        "body": "Upgraded the local toolchain; the capture helper needed a rebuild after the runtime bump.",
+        "created_secs": 1782043204.0,
+        "degree": 0,
+        "id": "b0c2ef7a-3051-591f-88de-a428892f06a4",
+        "initiatives": [
+          "capture-tooling"
+        ],
+        "layer": "warm",
+        "name": "tool-upgrade-note",
+        "redacted": false,
+        "tags": [],
+        "tier": "operational",
+        "type": "episode",
+        "visibility": "local"
+      },
+      {
+        "body": "Build cache occasionally serves a stale artefact; clearing it costs a few minutes.",
+        "created_secs": 1782043216.0,
+        "degree": 0,
+        "id": "b8c5ded2-1839-5f40-9783-b213b43209c1",
+        "initiatives": [
+          "capture-tooling"
+        ],
+        "layer": "warm",
+        "name": "build-cache-warning",
+        "redacted": false,
+        "tags": [],
+        "tier": "operational",
+        "type": "episode",
+        "visibility": "local"
+      },
+      {
+        "body": "The credential panel layout changed slightly in the last release.",
+        "created_secs": 1782043238.0,
+        "degree": 0,
+        "id": "baa30183-5066-50b6-af73-0f666e4fc8e4",
+        "initiatives": [
+          "capture-tooling"
+        ],
+        "layer": "warm",
+        "name": "credential-panel-layout",
+        "redacted": false,
+        "tags": [],
+        "tier": "operational",
+        "type": "episode",
+        "visibility": "local"
+      },
+      {
+        "body": "Timestamps in notes are local time unless a zone is written out.",
+        "created_secs": 1782043224.0,
+        "degree": 0,
+        "id": "bcbf8254-ad5d-5145-b03b-5102b7b13365",
+        "initiatives": [
+          "capture-tooling"
+        ],
+        "layer": "warm",
+        "name": "timezone-in-timestamps",
+        "redacted": false,
+        "tags": [],
+        "tier": "operational",
+        "type": "episode",
+        "visibility": "local"
+      },
+      {
+        "body": "Display scaling changes the pixel dimensions of captured regions between machines.",
+        "created_secs": 1782043208.0,
+        "degree": 0,
+        "id": "c5baca0a-75e8-51f5-9079-2a634797f423",
+        "initiatives": [
+          "capture-tooling"
+        ],
+        "layer": "warm",
+        "name": "display-scaling-note",
+        "redacted": false,
+        "tags": [],
+        "tier": "operational",
+        "type": "episode",
+        "visibility": "local"
+      },
+      {
+        "body": "There is a short delay between triggering a capture and the file appearing.",
+        "created_secs": 1782043230.0,
+        "degree": 0,
+        "id": "d509279b-79fc-51a9-83ae-3d2bec4e6d17",
+        "initiatives": [
+          "capture-tooling"
+        ],
+        "layer": "warm",
+        "name": "capture-latency-note",
+        "redacted": false,
+        "tags": [],
+        "tier": "operational",
+        "type": "episode",
+        "visibility": "local"
+      },
+      {
+        "body": "HOW TO CAPTURE A TOOL WINDOW WITHOUT TAKING OVER THE SCREEN.\nFound 2026-06-20, replaces the earlier method in [[screen-capture-run-may]]\nand [[screen-capture-pipeline-restored]].\n\nHARD RULE (the user has complained twice): never bring the window to the\nfront, never activate it. The window must stay in the background.\n\nMETHOD: capture the window by its window id; this grabs the window\ncontents even while it is behind other windows.\n",
+        "created_secs": 1781956800.0,
+        "degree": 1,
+        "id": "d6ad4f4e-671d-5642-9dc0-0f79f03a32bd",
+        "initiatives": [
+          "capture-tooling"
+        ],
+        "layer": "warm",
+        "name": "screen-capture-method-current",
+        "redacted": false,
+        "tags": [],
+        "tier": "archival",
+        "type": "reference",
+        "visibility": "local"
+      },
+      {
+        "body": "Drafts carry a suffix until they are reviewed.",
+        "created_secs": 1782043226.0,
+        "degree": 0,
+        "id": "e10a0d5a-8dc2-5ea1-85ce-b378c607616c",
+        "initiatives": [
+          "capture-tooling"
+        ],
+        "layer": "warm",
+        "name": "naming-of-drafts",
+        "redacted": false,
+        "tags": [],
+        "tier": "operational",
+        "type": "episode",
+        "visibility": "local"
+      },
+      {
+        "body": "Publishing happens on weekdays only.",
+        "created_secs": 1782043243.0,
+        "degree": 0,
+        "id": "e19cf635-29d9-5543-a1d7-2ca3e22d4391",
+        "initiatives": [
+          "capture-tooling"
+        ],
+        "layer": "warm",
+        "name": "publishing-window",
+        "redacted": false,
+        "tags": [],
+        "tier": "operational",
+        "type": "episode",
+        "visibility": "local"
+      },
+      {
+        "body": "Review checklist covers accuracy, tone, and whether every step is reproducible.",
+        "created_secs": 1782043242.0,
+        "degree": 0,
+        "id": "e99bdd37-3056-56cb-93f3-d92badaa3624",
+        "initiatives": [
+          "capture-tooling"
+        ],
+        "layer": "warm",
+        "name": "review-checklist",
+        "redacted": false,
+        "tags": [],
+        "tier": "operational",
+        "type": "episode",
+        "visibility": "local"
+      },
+      {
+        "body": "Reproducing the error state reliably needs a deliberately bad credential.",
+        "created_secs": 1782043237.0,
+        "degree": 0,
+        "id": "ec7072c7-28d9-5793-9438-e698a00164d3",
+        "initiatives": [
+          "capture-tooling"
+        ],
+        "layer": "warm",
+        "name": "error-state-hard-to-trigger",
+        "redacted": false,
+        "tags": [],
+        "tier": "operational",
+        "type": "episode",
+        "visibility": "local"
+      },
+      {
+        "body": "Shared folder permissions were widened to let the reviewer read drafts.",
+        "created_secs": 1782043225.0,
+        "degree": 0,
+        "id": "eff3faa0-f4bb-56f9-bfaf-287814700052",
+        "initiatives": [
+          "capture-tooling"
+        ],
+        "layer": "warm",
+        "name": "shared-folder-permissions",
+        "redacted": false,
+        "tags": [],
+        "tier": "operational",
+        "type": "episode",
+        "visibility": "local"
+      },
+      {
+        "body": "Cleared old capture output; the folder had grown past a few hundred files.",
+        "created_secs": 1782043206.0,
+        "degree": 0,
+        "id": "fd078d38-49d3-51d2-8ad3-b48622846f66",
+        "initiatives": [
+          "capture-tooling"
+        ],
+        "layer": "warm",
+        "name": "capture-folder-cleanup",
+        "redacted": false,
+        "tags": [],
+        "tier": "operational",
+        "type": "episode",
+        "visibility": "local"
+      }
+    ],
+    "project_links": []
+  },
+  "records": [
+    {
+      "body": "The weekly sync moved an hour later for the rest of the quarter.",
+      "id": "0ee661b0-c4c5-57c1-a027-87ecd49cfcb6",
+      "layer": "warm",
+      "name": "weekly-sync-moved",
+      "properties": null,
+      "tags": [],
+      "tier": "operational",
+      "type": "episode",
+      "validity": [
+        1782043227,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": "Captured frames looked washed out until the colour profile was matched.",
+      "id": "1423cb08-179d-5c9f-b584-305b1899dc61",
+      "layer": "warm",
+      "name": "colour-profile-mismatch",
+      "properties": null,
+      "tags": [],
+      "tier": "operational",
+      "type": "episode",
+      "validity": [
+        1782043209,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": "Monitor arrangement changed; the secondary display is now on the left.",
+      "id": "261270fa-0ef7-5350-a7cc-d4129dec3086",
+      "layer": "warm",
+      "name": "monitor-arrangement",
+      "properties": null,
+      "tags": [],
+      "tier": "operational",
+      "type": "episode",
+      "validity": [
+        1782043229,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": "Considered a screen recording instead of frames; rejected as harder to update.",
+      "id": "2745474e-3365-5d69-a86d-39157cab41e8",
+      "layer": "warm",
+      "name": "screen-recording-vs-frames",
+      "properties": null,
+      "tags": [],
+      "tier": "operational",
+      "type": "episode",
+      "validity": [
+        1782043220,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": "Annotations use a single accent colour and no drop shadows.",
+      "id": "27e34d72-56a1-5abc-b57e-4d54777b0af4",
+      "layer": "warm",
+      "name": "annotation-style",
+      "properties": null,
+      "tags": [],
+      "tier": "operational",
+      "type": "episode",
+      "validity": [
+        1782043221,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": "Sample data refreshed so screenshots show plausible values.",
+      "id": "32b47ec8-e223-52f7-af5f-fd7f613ea723",
+      "layer": "warm",
+      "name": "sample-data-refresh",
+      "properties": null,
+      "tags": [],
+      "tier": "operational",
+      "type": "episode",
+      "validity": [
+        1782043236,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": "Capture metrics report capture latency, capture file size and capture retry counts. The capture dashboard groups results by tool version; it does not prescribe how a window is acquired.",
+      "id": "3354a2b1-c1c5-5ed2-bd4a-16d98f376e4b",
+      "layer": "warm",
+      "name": "capture-metrics",
+      "properties": null,
+      "tags": [],
+      "tier": "operational",
+      "type": "episode",
+      "validity": [
+        1782043203,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": "Captured the twelve frames needed for the guide. Brought the window\nforward first so the capture would catch the right content.\n",
+      "id": "35b60f3c-d340-5763-bc31-b9da62a3d139",
+      "layer": "warm",
+      "name": "screen-capture-run-may",
+      "properties": null,
+      "tags": [],
+      "tier": "operational",
+      "type": "episode",
+      "validity": [
+        1777723200,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": "Capture cache tracks capture outputs. Each capture entry links a capture job ID to a capture asset checksum. Purging stale cache metadata leaves the exported files alone.",
+      "id": "3aa0a829-dce1-5ee2-991f-f453ab8153f6",
+      "layer": "warm",
+      "name": "capture-cache",
+      "properties": null,
+      "tags": [],
+      "tier": "operational",
+      "type": "episode",
+      "validity": [
+        1782043200,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": "Link checker found two dead links in the troubleshooting section.",
+      "id": "3d1319a3-856c-5b4c-87ec-34ed245d3c98",
+      "layer": "warm",
+      "name": "link-checker-run",
+      "properties": null,
+      "tags": [],
+      "tier": "operational",
+      "type": "episode",
+      "validity": [
+        1782043234,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": "Dependency audit came back clean this week.",
+      "id": "44a69417-0f26-592a-9fc4-6fbbeadb8f72",
+      "layer": "warm",
+      "name": "dependency-audit-clean",
+      "properties": null,
+      "tags": [],
+      "tier": "operational",
+      "type": "episode",
+      "validity": [
+        1782043217,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": "Reviewer is away until the end of the month; drafts can queue until then.",
+      "id": "44d612fb-32ad-52ec-8441-6cedb2beda38",
+      "layer": "warm",
+      "name": "reviewer-availability",
+      "properties": null,
+      "tags": [],
+      "tier": "operational",
+      "type": "episode",
+      "validity": [
+        1782043215,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": "Capture pipeline working again. Method: position the page, bring the\nwindow to the front, then capture the screen region. Verified on three\nframes.\n",
+      "id": "46c7c574-102a-5cb9-9f33-0b28915396e4",
+      "layer": "warm",
+      "name": "screen-capture-pipeline-restored",
+      "properties": null,
+      "tags": [],
+      "tier": "operational",
+      "type": "episode",
+      "validity": [
+        1778760000,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": "Batch captures are faster but harder to review one by one.",
+      "id": "4da54278-dd14-5c57-8d8d-e4af31ad8db3",
+      "layer": "warm",
+      "name": "batch-vs-single",
+      "properties": null,
+      "tags": [],
+      "tier": "operational",
+      "type": "episode",
+      "validity": [
+        1782043231,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": "Added three terms to the glossary after the last review round.",
+      "id": "5140b01a-f10c-511a-9681-aca1f24a74a7",
+      "layer": "warm",
+      "name": "glossary-additions",
+      "properties": null,
+      "tags": [],
+      "tier": "operational",
+      "type": "episode",
+      "validity": [
+        1782043235,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": "Older guide versions archived rather than deleted, in case of rollback.",
+      "id": "5a7a5689-b858-51d6-ada3-06d7ccead245",
+      "layer": "warm",
+      "name": "archive-of-old-guides",
+      "properties": null,
+      "tags": [],
+      "tier": "operational",
+      "type": "episode",
+      "validity": [
+        1782043232,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": "Frame numbers drifted after a re-run; renumbered by hand this once.",
+      "id": "669b35b9-a90d-50c6-9ed4-b0037c37d4b9",
+      "layer": "warm",
+      "name": "frame-numbering-drift",
+      "properties": null,
+      "tags": [],
+      "tier": "operational",
+      "type": "episode",
+      "validity": [
+        1782043207,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": "Ran an accessibility pass over the guide's colour contrast.",
+      "id": "6750d96a-e8c0-5c56-9932-56e4669883d8",
+      "layer": "warm",
+      "name": "accessibility-check",
+      "properties": null,
+      "tags": [],
+      "tier": "operational",
+      "type": "episode",
+      "validity": [
+        1782043233,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": "Embedded fonts render differently in the export pipeline than on screen.",
+      "id": "685c69dd-8943-5a4e-a7c5-62ce1523dec1",
+      "layer": "warm",
+      "name": "font-embedding-issue",
+      "properties": null,
+      "tags": [],
+      "tier": "operational",
+      "type": "episode",
+      "validity": [
+        1782043222,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": "Collected the keyboard shortcuts used most often during setup walkthroughs.",
+      "id": "6ce2566b-95b4-5512-b1f0-1db98564a60b",
+      "layer": "warm",
+      "name": "keyboard-shortcut-list",
+      "properties": null,
+      "tags": [],
+      "tier": "operational",
+      "type": "episode",
+      "validity": [
+        1782043219,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": "Open question on where assets belong relative to the guide source.",
+      "id": "71b7e937-e8bf-5902-a593-71d553754199",
+      "layer": "warm",
+      "name": "asset-naming-question",
+      "properties": null,
+      "tags": [],
+      "tier": "operational",
+      "type": "episode",
+      "validity": [
+        1782043214,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": "Keep exported assets under a couple of megabytes each.",
+      "id": "746bc876-c6d1-51ed-a49f-acdb444f3b3c",
+      "layer": "warm",
+      "name": "export-size-budget",
+      "properties": null,
+      "tags": [],
+      "tier": "operational",
+      "type": "episode",
+      "validity": [
+        1782043223,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": "Session helper scripts live in the scratch folder and are not committed.",
+      "id": "7d310581-c250-5622-925a-da6976310c8d",
+      "layer": "warm",
+      "name": "helper-script-location",
+      "properties": null,
+      "tags": [],
+      "tier": "operational",
+      "type": "episode",
+      "validity": [
+        1782043210,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": "Target length for the guide is short enough to read in one sitting.",
+      "id": "811dbaaf-c43b-5b2f-a48e-48b7ddb6236f",
+      "layer": "warm",
+      "name": "guide-length-target",
+      "properties": null,
+      "tags": [],
+      "tier": "operational",
+      "type": "episode",
+      "validity": [
+        1782043241,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": "Four frames still missing from the setup guide: the connection dialog,\nthe credential panel, the run history, and the error state.\n",
+      "id": "82b33eeb-effb-52f6-9abe-9855b7201fc6",
+      "layer": "warm",
+      "name": "guide-frames-outstanding",
+      "properties": null,
+      "tags": [],
+      "tier": "operational",
+      "type": "episode",
+      "validity": [
+        1782648000,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": "Outline for the setup guide agreed: install, connect, first run, troubleshooting.",
+      "id": "90eb8b70-a854-5ce4-b35b-abae4cc1946f",
+      "layer": "warm",
+      "name": "guide-outline-agreed",
+      "properties": null,
+      "tags": [],
+      "tier": "operational",
+      "type": "episode",
+      "validity": [
+        1782043212,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": "The window manager reshuffles positions after an external display is attached.",
+      "id": "91c255e5-1f77-588d-b598-322ec701df7a",
+      "layer": "warm",
+      "name": "window-manager-quirk",
+      "properties": null,
+      "tags": [],
+      "tier": "operational",
+      "type": "episode",
+      "validity": [
+        1782043205,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": "Occasionally a frame comes back blank; retrying once is usually enough.",
+      "id": "94883532-3996-581f-9a9e-ee057e9cadf5",
+      "layer": "warm",
+      "name": "retry-on-blank-frame",
+      "properties": null,
+      "tags": [],
+      "tier": "operational",
+      "type": "episode",
+      "validity": [
+        1782043211,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": "Guide prose should stay in second person and avoid tool jargon in headings.",
+      "id": "9be640b7-2140-5ff0-ba9c-a54a2c6e7647",
+      "layer": "warm",
+      "name": "guide-tone-note",
+      "properties": null,
+      "tags": [],
+      "tier": "operational",
+      "type": "episode",
+      "validity": [
+        1782043213,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": "Log rotation set to weekly; older logs compress automatically.",
+      "id": "9d607200-f832-5ab6-be62-60a9ba92ab9e",
+      "layer": "warm",
+      "name": "log-rotation-setting",
+      "properties": null,
+      "tags": [],
+      "tier": "operational",
+      "type": "episode",
+      "validity": [
+        1782043218,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": "Capture audit keeps a capture receipt per job. The receipt includes the capture output count, capture asset names and capture checksums; incomplete batches are flagged for later inspection.",
+      "id": "9f3b0357-03a6-548c-9f48-72cb05ae39a7",
+      "layer": "warm",
+      "name": "capture-audit",
+      "properties": null,
+      "tags": [],
+      "tier": "operational",
+      "type": "episode",
+      "validity": [
+        1782043202,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": "Onboarding doc references a tool version that no longer ships.",
+      "id": "a20ba96d-537d-534a-8fa2-618d1de6e972",
+      "layer": "warm",
+      "name": "onboarding-doc-stale",
+      "properties": null,
+      "tags": [],
+      "tier": "operational",
+      "type": "episode",
+      "validity": [
+        1782043228,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": "Capture clock records the capture request time and the capture completion time. A capture receipt stores the offset so capture logs from two machines can be compared.",
+      "id": "a472c29e-80bb-5377-b3c5-e31dc1fcaa7e",
+      "layer": "warm",
+      "name": "capture-clock",
+      "properties": null,
+      "tags": [],
+      "tier": "operational",
+      "type": "episode",
+      "validity": [
+        1782043201,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": "Connection dialog remembers the last host used.",
+      "id": "a5a306d6-ac00-55a6-8989-8d045f508735",
+      "layer": "warm",
+      "name": "connection-dialog-defaults",
+      "properties": null,
+      "tags": [],
+      "tier": "operational",
+      "type": "episode",
+      "validity": [
+        1782043240,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": "Run history paginates after twenty entries.",
+      "id": "afe7bdc8-e74a-5e11-a93e-10b64af950c6",
+      "layer": "warm",
+      "name": "run-history-pagination",
+      "properties": null,
+      "tags": [],
+      "tier": "operational",
+      "type": "episode",
+      "validity": [
+        1782043239,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": "Upgraded the local toolchain; the capture helper needed a rebuild after the runtime bump.",
+      "id": "b0c2ef7a-3051-591f-88de-a428892f06a4",
+      "layer": "warm",
+      "name": "tool-upgrade-note",
+      "properties": null,
+      "tags": [],
+      "tier": "operational",
+      "type": "episode",
+      "validity": [
+        1782043204,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": "Build cache occasionally serves a stale artefact; clearing it costs a few minutes.",
+      "id": "b8c5ded2-1839-5f40-9783-b213b43209c1",
+      "layer": "warm",
+      "name": "build-cache-warning",
+      "properties": null,
+      "tags": [],
+      "tier": "operational",
+      "type": "episode",
+      "validity": [
+        1782043216,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": "The credential panel layout changed slightly in the last release.",
+      "id": "baa30183-5066-50b6-af73-0f666e4fc8e4",
+      "layer": "warm",
+      "name": "credential-panel-layout",
+      "properties": null,
+      "tags": [],
+      "tier": "operational",
+      "type": "episode",
+      "validity": [
+        1782043238,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": "Timestamps in notes are local time unless a zone is written out.",
+      "id": "bcbf8254-ad5d-5145-b03b-5102b7b13365",
+      "layer": "warm",
+      "name": "timezone-in-timestamps",
+      "properties": null,
+      "tags": [],
+      "tier": "operational",
+      "type": "episode",
+      "validity": [
+        1782043224,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": "Display scaling changes the pixel dimensions of captured regions between machines.",
+      "id": "c5baca0a-75e8-51f5-9079-2a634797f423",
+      "layer": "warm",
+      "name": "display-scaling-note",
+      "properties": null,
+      "tags": [],
+      "tier": "operational",
+      "type": "episode",
+      "validity": [
+        1782043208,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": "There is a short delay between triggering a capture and the file appearing.",
+      "id": "d509279b-79fc-51a9-83ae-3d2bec4e6d17",
+      "layer": "warm",
+      "name": "capture-latency-note",
+      "properties": null,
+      "tags": [],
+      "tier": "operational",
+      "type": "episode",
+      "validity": [
+        1782043230,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": "HOW TO CAPTURE A TOOL WINDOW WITHOUT TAKING OVER THE SCREEN.\nFound 2026-06-20, replaces the earlier method in [[screen-capture-run-may]]\nand [[screen-capture-pipeline-restored]].\n\nHARD RULE (the user has complained twice): never bring the window to the\nfront, never activate it. The window must stay in the background.\n\nMETHOD: capture the window by its window id; this grabs the window\ncontents even while it is behind other windows.\n",
+      "id": "d6ad4f4e-671d-5642-9dc0-0f79f03a32bd",
+      "layer": "warm",
+      "name": "screen-capture-method-current",
+      "properties": null,
+      "tags": [],
+      "tier": "archival",
+      "type": "reference",
+      "validity": [
+        1781956800,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": "Drafts carry a suffix until they are reviewed.",
+      "id": "e10a0d5a-8dc2-5ea1-85ce-b378c607616c",
+      "layer": "warm",
+      "name": "naming-of-drafts",
+      "properties": null,
+      "tags": [],
+      "tier": "operational",
+      "type": "episode",
+      "validity": [
+        1782043226,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": "Publishing happens on weekdays only.",
+      "id": "e19cf635-29d9-5543-a1d7-2ca3e22d4391",
+      "layer": "warm",
+      "name": "publishing-window",
+      "properties": null,
+      "tags": [],
+      "tier": "operational",
+      "type": "episode",
+      "validity": [
+        1782043243,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": "Review checklist covers accuracy, tone, and whether every step is reproducible.",
+      "id": "e99bdd37-3056-56cb-93f3-d92badaa3624",
+      "layer": "warm",
+      "name": "review-checklist",
+      "properties": null,
+      "tags": [],
+      "tier": "operational",
+      "type": "episode",
+      "validity": [
+        1782043242,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": "Reproducing the error state reliably needs a deliberately bad credential.",
+      "id": "ec7072c7-28d9-5793-9438-e698a00164d3",
+      "layer": "warm",
+      "name": "error-state-hard-to-trigger",
+      "properties": null,
+      "tags": [],
+      "tier": "operational",
+      "type": "episode",
+      "validity": [
+        1782043237,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": "Shared folder permissions were widened to let the reviewer read drafts.",
+      "id": "eff3faa0-f4bb-56f9-bfaf-287814700052",
+      "layer": "warm",
+      "name": "shared-folder-permissions",
+      "properties": null,
+      "tags": [],
+      "tier": "operational",
+      "type": "episode",
+      "validity": [
+        1782043225,
+        true
+      ],
+      "visibility": "local"
+    },
+    {
+      "body": "Cleared old capture output; the folder had grown past a few hundred files.",
+      "id": "fd078d38-49d3-51d2-8ad3-b48622846f66",
+      "layer": "warm",
+      "name": "capture-folder-cleanup",
+      "properties": null,
+      "tags": [],
+      "tier": "operational",
+      "type": "episode",
+      "validity": [
+        1782043206,
+        true
+      ],
+      "visibility": "local"
+    }
+  ]
+}

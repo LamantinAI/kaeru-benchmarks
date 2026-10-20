@@ -1,0 +1,17 @@
+[
+  {
+    "path": "README.md",
+    "sha256": "67e955810591a4cb1ca3e400691551d358ab9bbe1742f2e7774af6b88c18da32",
+    "bytes": 35
+  },
+  {
+    "path": "compliance/retention-summary.md",
+    "sha256": "de4a2e53b338069dce82e41b0b6e0792b6661096a89cd314d162a6cbadcc12b1",
+    "bytes": 2990
+  },
+  {
+    "path": "project-context.md",
+    "sha256": "1c4f06cf57ce0758b12072890ad1bd99c3a806afe7615cd083f02111a2207883",
+    "bytes": 31
+  }
+]

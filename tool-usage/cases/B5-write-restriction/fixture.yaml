@@ -22,3 +22,6 @@ nodes:
     body: |
       First round done: all three meet the latency bar. Coverage differs, and
       one requires substantially more integration work than the others.
+
+workspace:
+  files: workspace

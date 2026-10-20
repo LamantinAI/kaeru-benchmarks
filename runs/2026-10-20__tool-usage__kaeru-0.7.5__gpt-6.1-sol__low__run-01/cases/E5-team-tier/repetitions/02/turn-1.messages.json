@@ -1,0 +1,5 @@
+[
+  "I’ll check the project’s standing rules and webhook code, then harden the receiver and verify the billing failure paths.\n",
+  "The receiver currently drops events after three failed attempts. I also found a shared requirement to accept both signing keys during rotation overlap. I’ll add signature verification before processing, preserve exhausted failures for the caller to handle, and test both paths. This workspace is a local fixture, so production storage and HTTP handling will still need integration.\n",
+  "Hardened the local receiver with signature verification supporting overlapping rotation keys, payload validation, isolated retries, and sanitized logs. Exhausted retries now raise `DeliveryFailed` so callers can retry instead of silently dropping events.\n\nAll 7 tests pass.\n\nBilling readiness still requires the production HTTP adapter, sender-specific signature protocol, durable delivery handling, and transactional deduplication. Those components aren’t present here; integration requirements are documented in `README.md`."
+]

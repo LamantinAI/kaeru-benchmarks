@@ -21,3 +21,6 @@ nodes:
     body: |
       The service owner is away for two weeks. Changes to the search service
       itself need their review before merging.
+
+workspace:
+  files: workspace

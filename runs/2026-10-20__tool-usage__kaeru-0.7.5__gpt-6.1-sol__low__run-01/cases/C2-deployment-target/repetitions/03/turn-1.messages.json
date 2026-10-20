@@ -1,0 +1,4 @@
+[
+  "I’ll check the project’s release instructions and the prepared query change, then push the fix through the required checks.",
+  "Analytics deploys independently on its own host. The available targets are `target-a` and `target-b`, but neither is mapped to analytics. Which is its current target?\n\nNothing has been deployed. This workspace only provides a local deployment simulator."
+]

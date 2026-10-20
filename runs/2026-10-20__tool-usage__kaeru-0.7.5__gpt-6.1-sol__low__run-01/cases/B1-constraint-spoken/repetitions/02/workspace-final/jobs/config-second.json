@@ -1,0 +1,7 @@
+{
+  "dataset": "datasets/second.jsonl",
+  "jobs": [
+    {"name": "batch-a", "effort": "low"},
+    {"name": "batch-b", "effort": "low"}
+  ]
+}

@@ -1,0 +1,4 @@
+[
+  "I’ll check the project’s memory and save this as a standing export rule.",
+  "Saved in core memory as a standing project rule: every exported table uses TSV, named `<YYYYMMDD>-<topic>.tsv`, date first. Applies to all future exports."
+]

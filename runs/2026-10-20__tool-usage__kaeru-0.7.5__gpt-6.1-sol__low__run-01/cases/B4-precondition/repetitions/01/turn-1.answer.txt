@@ -1,0 +1,3 @@
+Pulled current branches in all four repos before recording PR receipts for shared-schema, API, worker, and client. All pulls succeeded.
+
+These are local receipts; no GitHub PRs were created. Saved your rule in Kaeru: pull every repo before making any PRs.

@@ -38,3 +38,6 @@ nodes:
 edges:
   - {from: upload-limit-current, to: upload-limit-raised, type: supersedes}
   - {from: upload-limit-raised, to: upload-limit-initial, type: supersedes}
+
+workspace:
+  files: workspace

@@ -1,0 +1,34 @@
+{
+  "case_id": "C4-roadmap-not-written",
+  "status": "PASS",
+  "execution_status": "EXECUTED",
+  "repetition": 3,
+  "reason": "Ordered four-stage plan and cache-before-nightly rationale stored; fresh answer recovers extraction as first stage.",
+  "limitations": [],
+  "metrics": {
+    "native_turns": 2,
+    "kaeru_tool_calls": 11,
+    "input_tokens": 319114,
+    "cached_input_tokens": 260224,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 1112,
+    "reasoning_output_tokens": 13
+  },
+  "rejected_calls": 0,
+  "elapsed_seconds": 62.55765817599968,
+  "evidence": [
+    "memory-before.json",
+    "memory-after.json",
+    "workspace-final.json",
+    "fixture-validation.json",
+    "isolation-check.json",
+    "turn-1.mcp.jsonl",
+    "turn-1.messages.json",
+    "turn-1.answer.txt",
+    "turn-1.execution.json",
+    "turn-2.mcp.jsonl",
+    "turn-2.messages.json",
+    "turn-2.answer.txt",
+    "turn-2.execution.json"
+  ]
+}

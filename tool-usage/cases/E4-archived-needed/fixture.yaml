@@ -32,3 +32,6 @@ nodes:
     body: |
       Table rework under way — column alignment and density are the open
       questions.
+
+workspace:
+  files: workspace

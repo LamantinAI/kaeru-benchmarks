@@ -1,0 +1,43 @@
+{
+  "case_id": "A2-unreachable-core",
+  "status": "PASS",
+  "dataset_commit": "50fd4fff622890a43270172da8d92df9fd017119",
+  "kaeru_version": "0.7.5",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "low",
+  "repetition": null,
+  "repetitions": 3,
+  "attempt_status_counts": {
+    "PASS": 3
+  },
+  "attempts": [
+    {
+      "repetition": 1,
+      "status": "PASS",
+      "result": "repetitions/01/result.json"
+    },
+    {
+      "repetition": 2,
+      "status": "PASS",
+      "result": "repetitions/02/result.json"
+    },
+    {
+      "repetition": 3,
+      "status": "PASS",
+      "result": "repetitions/03/result.json"
+    }
+  ],
+  "metrics": {
+    "native_turns": 6,
+    "kaeru_tool_calls": 39,
+    "input_tokens": 1323941,
+    "cached_input_tokens": 1144832,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 4361,
+    "reasoning_output_tokens": 80
+  },
+  "phase_results": "repeat-01 PASS; repeat-02 PASS; repeat-03 PASS",
+  "currency": "Evaluated against case authority, original expectations and saved state/action evidence.",
+  "grading_rationale": "repeat-01 PASS: Scoped core convention recovered in fresh session; actual date-first TSV file contains the stored weekly facts. repeat-02 PASS: Scoped core convention recovered in fresh session; actual date-first TSV file contains the stored weekly facts. repeat-03 PASS: Scoped core convention recovered in fresh session; actual date-first TSV file contains the stored weekly facts.",
+  "limitations": ""
+}

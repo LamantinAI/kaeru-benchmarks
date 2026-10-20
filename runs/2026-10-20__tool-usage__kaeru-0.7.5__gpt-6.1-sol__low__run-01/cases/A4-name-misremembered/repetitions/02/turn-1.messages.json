@@ -1,0 +1,5 @@
+[
+  "I’ll find the recorded rollback procedure and check which deployment it applies to before following its steps.\n",
+  "Found `rollback-procedure-blue-green`: repoint to the previous colour, wait for connections to drain, then stop the new stack. The local simulator shows green active and blue previous. I’ll execute that exact sequence; this workspace does not contact a live service.\n",
+  "Completed the local simulator rollback exactly as recorded: repointed to blue, waited for connections to drain, then stopped green.\n\nVerified blue is active and green is stopped. Saved the outcome in Kaeru. No live deployment was changed; this workspace only provides a simulator."
+]

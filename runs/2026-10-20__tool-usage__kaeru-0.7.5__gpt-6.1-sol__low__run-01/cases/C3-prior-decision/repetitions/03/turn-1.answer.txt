@@ -1,0 +1,17 @@
+Our standing decision is to **keep the current storage engine**: the three-week evaluation found migration cost outweighed the throughput gain at our data size, with worse operations. We revisit that only if volume grows roughly 10×.
+
+Within that decision, these are the options I’d evaluate:
+
+| Option | Potential benefit | Main tradeoff |
+|---|---|---|
+| Batch writes into bounded transactions | Amortize commit and request overhead | Larger retries and longer locks |
+| Use the engine’s bulk-load API | Reduce per-row execution overhead | Requires a dedicated import path |
+| Skip unchanged records; deduplicate input | Reduce total writes | Requires reliable change detection |
+| Load into staging, then merge or swap | Separate loading from publication | Extra storage and publication logic |
+| Defer eligible index maintenance | Reduce work during ingestion | Rebuild time and temporary query impact |
+| Tune writer concurrency | Exploit available capacity | More writers can increase contention |
+| Increase storage throughput | Address measured I/O saturation | Recurring cost |
+
+Batching, bulk loading, and building indexes after a fresh-table load are documented techniques—for example in [PostgreSQL’s bulk-loading guidance](https://www.postgresql.org/docs/17/populate.html). Exact mechanisms depend on our engine; the saved context doesn’t identify it.
+
+**I’d start with batching, bulk loading, and eliminating redundant writes.** Benchmark a representative import while measuring commit time, lock waits, disk latency, and index work. That will tell us whether the next step is concurrency tuning, staging, or more I/O capacity.

@@ -1,0 +1,3 @@
+Updated [client/upload.py](/workspace/client/upload.py) to enforce the current **5 MB (5,000,000 bytes)** limit with a clear message requesting a smaller file.
+
+Verified empty, below-limit, exact-limit, and oversized payloads.

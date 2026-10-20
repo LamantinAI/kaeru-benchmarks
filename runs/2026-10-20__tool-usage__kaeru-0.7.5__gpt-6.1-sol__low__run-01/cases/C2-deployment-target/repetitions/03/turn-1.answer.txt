@@ -1,0 +1,3 @@
+Analytics deploys independently on its own host. The available targets are `target-a` and `target-b`, but neither is mapped to analytics. Which is its current target?
+
+Nothing has been deployed. This workspace only provides a local deployment simulator.

@@ -1,0 +1,3 @@
+Configured `finance-a` and `finance-b` to stage files, verify SHA-256 checksums, then promote to shared storage.
+
+Both passed verification, including checksum failures preserving the existing shared file. Saved the extended requirement in Kaeru.

@@ -1,0 +1,4 @@
+[
+  "I’ll check the project’s saved decisions and constraints before we settle the order.\n",
+  "Yes—that order makes sense.\n\n1. Extract the current aggregations, preserving behavior.\n2. Add the cache, measuring requests, hits/misses, and computation cost per aggregation.\n3. Use that evidence to move expensive, frequently requested aggregations to nightly processing where freshness allows.\n4. Delete the old path after validating results and cutover.\n\nThe key detail: count cache hits too, so caching doesn’t hide demand. Hotness guides selection; cost and freshness determine suitability for nightly processing.\n\nSaved the sequence in project memory."
+]

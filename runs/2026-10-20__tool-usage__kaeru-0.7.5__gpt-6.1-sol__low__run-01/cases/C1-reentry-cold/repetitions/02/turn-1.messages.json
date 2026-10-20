@@ -1,0 +1,4 @@
+[
+  "I’ll check the migration’s saved decisions and open work to find the next step.",
+  "**First, confirm the rollback window with ops.** That task was due October 14—six days overdue—and ops needs the window confirmed to staff the write cutover.\n\nThen focus on two unresolved issues:\n\n1. **Validate rollback before proceeding with writes.** The saved plan has reads first, writes a week later, and a rollback point between them. It’s contested because rollback may stop being viable once writes are dual-running.\n2. **Investigate the phase-one read lag.** The index-bound explanation is still an untested hypothesis. Check it before deciding whether more replicas would help.\n\nMy recommendation: secure ops coverage and establish exactly when rollback remains possible before committing to the write cutover."
+]

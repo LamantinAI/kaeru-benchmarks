@@ -1,0 +1,11 @@
+The reported behavior is that **selected filters disappear when the page reloads**, so users have to reapply them.
+
+That suggests the selections aren’t being saved or restored correctly. The exact cause is unverified: this workspace only contains a function that applies supplied filters ([service.py](/workspace/search/service.py:1)); it has no page or persistence code to inspect.
+
+The main options are:
+
+- **URL parameters:** filters survive reloads, and users can bookmark or share the filtered view.
+- **Session storage:** selections survive reloads within the same browser tab.
+- **Saved preferences:** selections persist across visits, potentially across devices.
+
+I’d favor URL parameters for search filters. The next investigation is to trace where selections are stored and how the page restores them on load. No code changes made.

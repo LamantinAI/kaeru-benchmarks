@@ -1,0 +1,5 @@
+[
+  "I’ll check the project’s review context and retention requirements, then draft the summary.\n",
+  "The review scope is recorded, but retention periods and the retention approver aren’t documented. I’ll mark those gaps in the draft for owner confirmation.\n\nThe processor-list sign-off task is also eight days overdue, from October 12; the data owner needs it before the quarterly filing.\n",
+  "Drafted [retention-summary.md](compliance/retention-summary.md) with scope, a proposed retention inventory, evidence gaps and approval steps.\n\nRetention periods and the approver remain explicitly unconfirmed. Recorded the outcome in Kaeru and completed the drafting task.\n\nAlso flagged: processor-list sign-off is eight days overdue and needed before quarterly filing."
+]

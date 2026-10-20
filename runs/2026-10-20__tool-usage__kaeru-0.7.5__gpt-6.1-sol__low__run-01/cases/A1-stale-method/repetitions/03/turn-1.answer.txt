@@ -1,0 +1,3 @@
+I couldn’t capture the four frames: this session has no connection to your desktop or app window.
+
+The saved capture rule requires capturing by window ID while keeping the window in the background. Connect the app’s desktop session so I can capture all four without interrupting your other screen.

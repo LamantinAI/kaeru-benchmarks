@@ -1,4 +1,5 @@
 id: E5-team-tier
+revision: 2
 situation: E5 in CATALOG.md — a shared initiative with a team tier
 mechanism: debts
 mode: silent
@@ -34,8 +35,13 @@ trap: |
   tier the agent must choose to open.
 
 runner_note: |
-  Requires a cloud tier reachable by the run. Where none is available the case
-  should be skipped and reported as skipped, not passed.
+  Requires a reachable disposable cloud, native discovery and team policy,
+  with the rotation record present only in the cloud. Missing infrastructure
+  is unsupported or an environment error, never an agent failure or a pass.
+  An inline shared-tier hint is observed, not required for fixture validity.
+  Grade actual delivery of shared content, not a particular cloud verb. A
+  caveat about missing shared context does not satisfy the separate rotation
+  requirement; record these criteria independently.
 
 baseline:
   observed: continuous

@@ -1,0 +1,1 @@
+Saved in core memory as a standing project rule: every exported table uses TSV, named `<YYYYMMDD>-<topic>.tsv`, date first. Applies to all future exports.

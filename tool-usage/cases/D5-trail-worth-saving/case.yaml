@@ -1,4 +1,5 @@
 id: D5-trail-worth-saving
+revision: 2
 situation: D5 in CATALOG.md — work runs observation to decision across sessions
 mechanism: capture-dispatch
 mode: silent
@@ -35,12 +36,18 @@ turns:
             The decisive detail is that autoscaling was TRIED and backfired.
             Reading only the decision node gives the what, not the why.
         - what: the answer is produced without re-deriving the reasoning from scratch
+          note: |
+            The saved trail and its summary may arrive through context, read,
+            or another enriched response. No dedicated trail-read call is
+            required. Verify delivery of the saved explanation and its
+            agreement with the answer; delivery alone does not prove use.
     fail_if:
       - what: the answer omits that autoscaling was tried and made things worse
-      - what: the reasoning is reconstructed by reading every node individually
+      - what: no saved reasoning is recovered and the explanation is rebuilt only from source nodes
         note: |
-          Not wrong, but it is the behaviour the trail exists to replace — and
-          the field pattern was 22 trails written and none ever read.
+          A correct answer alone does not establish recovery of the trail.
+          Reading individual nodes to verify a delivered summary is allowed;
+          call count and verb choice are not the failure criterion.
 
 trap: |
   Turn 1 never says "save a trail", and the edges already exist, so the graph

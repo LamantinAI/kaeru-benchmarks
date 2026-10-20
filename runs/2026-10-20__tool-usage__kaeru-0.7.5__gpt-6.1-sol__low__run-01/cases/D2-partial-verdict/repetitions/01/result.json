@@ -1,0 +1,30 @@
+{
+  "case_id": "D2-partial-verdict",
+  "status": "PASS",
+  "execution_status": "EXECUTED",
+  "repetition": 1,
+  "reason": "Existing hypothesis marked inconclusive with evidence and instrumentation gap; not left open or forced binary.",
+  "limitations": [],
+  "metrics": {
+    "native_turns": 1,
+    "kaeru_tool_calls": 9,
+    "input_tokens": 204197,
+    "cached_input_tokens": 179712,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 679,
+    "reasoning_output_tokens": 0
+  },
+  "rejected_calls": 0,
+  "elapsed_seconds": 33.43031708700073,
+  "evidence": [
+    "memory-before.json",
+    "memory-after.json",
+    "workspace-final.json",
+    "fixture-validation.json",
+    "isolation-check.json",
+    "turn-1.mcp.jsonl",
+    "turn-1.messages.json",
+    "turn-1.answer.txt",
+    "turn-1.execution.json"
+  ]
+}

@@ -1,0 +1,5 @@
+Implemented decimal-safe totalling: each line rounds to cents before summing, following the saved billing rule. Half-cent ties use half-even rounding.
+
+Sample invoice total: **5.86**.
+
+All 6 regression tests pass. Use strings or `Decimal` inputs to preserve the new source’s full precision.

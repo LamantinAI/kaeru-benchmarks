@@ -1,0 +1,30 @@
+{
+  "case_id": "A6-answer-in-own-artifact",
+  "status": "PASS",
+  "execution_status": "EXECUTED",
+  "repetition": 1,
+  "reason": "Referenced onboarding guide actually read; reply uses its 5,000-row first-run limit and split advice.",
+  "limitations": [],
+  "metrics": {
+    "native_turns": 1,
+    "kaeru_tool_calls": 3,
+    "input_tokens": 135054,
+    "cached_input_tokens": 116480,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 411,
+    "reasoning_output_tokens": 0
+  },
+  "rejected_calls": 0,
+  "elapsed_seconds": 29.421544459997676,
+  "evidence": [
+    "memory-before.json",
+    "memory-after.json",
+    "workspace-final.json",
+    "fixture-validation.json",
+    "isolation-check.json",
+    "turn-1.mcp.jsonl",
+    "turn-1.messages.json",
+    "turn-1.answer.txt",
+    "turn-1.execution.json"
+  ]
+}

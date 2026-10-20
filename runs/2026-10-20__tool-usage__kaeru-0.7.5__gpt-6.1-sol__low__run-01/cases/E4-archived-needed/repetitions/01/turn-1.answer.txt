@@ -1,0 +1,3 @@
+Implemented right-aligned numeric columns with tabular lining figures, so digits have equal widths while preserving the product font. Added consistent padding and a linked example table.
+
+Verified the markup and CSS; browser rendering wasn’t tested. Saved the decision in Kaeru.

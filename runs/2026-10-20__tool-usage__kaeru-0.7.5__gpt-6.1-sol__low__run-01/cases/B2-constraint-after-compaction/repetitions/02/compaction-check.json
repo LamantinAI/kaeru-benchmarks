@@ -1,0 +1,9 @@
+{
+  "thread_id": "01a15961-6a14-7462-9a6f-ae5a0dd566cb",
+  "request_method": "thread/compact/start",
+  "real_compaction_event": true,
+  "status": "COMPLETED",
+  "turn_id": "01a15962-1afc-7041-bc91-b68af85509e0",
+  "item_id": "01a15962-1b2b-71d1-8a95-7473ae2c178a",
+  "elapsed_seconds": 22.722460820998094
+}

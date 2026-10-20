@@ -1,0 +1,4 @@
+[
+  "I’ll apply the same staging and checksum settings to the two finance exports and verify that a failed checksum preserves the shared file.\n",
+  "Configured `finance-a` and `finance-b` to stage first, verify SHA-256, then promote to the shared destination.\n\nBoth passed success and checksum-failure checks; mismatches preserve the previous shared file. Saved the extended rule in Kaeru."
+]

@@ -1,0 +1,16 @@
+table { border-collapse: collapse; }
+
+th,
+td {
+  padding: 8px 16px;
+  text-align: left;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+/* Keep the product font; equal-width digits help compare numeric values. */
+.numeric {
+  text-align: right;
+  font-variant-numeric: lining-nums tabular-nums;
+  white-space: nowrap;
+}

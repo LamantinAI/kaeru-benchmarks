@@ -1,0 +1,22 @@
+{
+  "returncode": 0,
+  "timed_out": false,
+  "thread_id": "01a1595d-d6b7-7323-b71a-1f4fb4ac94a8",
+  "usage": {
+    "input_tokens": 171323,
+    "cached_input_tokens": 152576,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 722,
+    "reasoning_output_tokens": 13
+  },
+  "errors": [],
+  "malformed_trace_lines": 0,
+  "elapsed_seconds": 33.88549500899899,
+  "usage_scope": "native_thread_cumulative",
+  "kaeru_tool_calls": 5,
+  "kaeru_read_calls": 3,
+  "memory_policy": "required",
+  "memory_read_observed": true,
+  "prompt_sha256": "137ecb07124b48b3f33c1db3d3c5df4326d974518d893930ff24c0b08d4cecf4",
+  "status": "COMPLETED"
+}

@@ -1,0 +1,3 @@
+Updated Kaeru: access tokens last **15 minutes on the current plan**, verified by your payload and dashboard checks. This supersedes the one-hour assumption.
+
+I also recorded the logout cause and flagged session refresh timing for correction. The implementation fix remains outstanding.

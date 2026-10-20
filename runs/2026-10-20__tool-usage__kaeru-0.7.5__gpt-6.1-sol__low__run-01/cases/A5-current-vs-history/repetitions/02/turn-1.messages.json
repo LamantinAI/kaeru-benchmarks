@@ -1,0 +1,4 @@
+[
+  "I’ll check the upload flow and the configured limit, then add a client-side check with a clear message.\n",
+  "Updated `client/upload.py` to enforce the current standard-plan limit of **5 MB (5,000,000 bytes)** and report a clear maximum-size error.\n\nVerified that payloads at the limit pass and larger payloads are rejected locally."
+]

@@ -23,3 +23,6 @@ tasks:
   - name: draft-retention-summary
     body: Draft the retention summary section.
     due: +5d
+
+workspace:
+  files: workspace

@@ -1,0 +1,30 @@
+{
+  "case_id": "C1-reentry-cold",
+  "status": "PASS",
+  "execution_status": "EXECUTED",
+  "repetition": 1,
+  "reason": "All three debts surfaced: overdue ops window, untested read-lag hypothesis and contested rollback plan.",
+  "limitations": [],
+  "metrics": {
+    "native_turns": 1,
+    "kaeru_tool_calls": 8,
+    "input_tokens": 175324,
+    "cached_input_tokens": 137216,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 609,
+    "reasoning_output_tokens": 0
+  },
+  "rejected_calls": 1,
+  "elapsed_seconds": 35.032332233997295,
+  "evidence": [
+    "memory-before.json",
+    "memory-after.json",
+    "workspace-final.json",
+    "fixture-validation.json",
+    "isolation-check.json",
+    "turn-1.mcp.jsonl",
+    "turn-1.messages.json",
+    "turn-1.answer.txt",
+    "turn-1.execution.json"
+  ]
+}

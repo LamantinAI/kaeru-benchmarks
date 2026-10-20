@@ -1,0 +1,3 @@
+Prepared [jobs/config.json](/workspace/jobs/config.json) with `datasets/first.jsonl` and `low` effort for both jobs. Validation passed; no jobs were launched.
+
+Saved the standing rule in Kaeru: these jobs must always use `low`, including future batches.

@@ -1,0 +1,7 @@
+Start with **ops and the rollback plan before moving writes**.
+
+1. **Confirm the rollback window and staffing with ops.** This is still open, due October 14—six days overdue. Ops needs the window to arrange coverage.
+2. **Resolve the rollback concern.** The saved plan says reads first, writes a week later, with a rollback point between. That plan is contested: rollback may stop being viable once writes are dual-running. Establish the last safe rollback point before proceeding.
+3. **Investigate phase-one read lag.** The index-bound explanation is still an untested hypothesis. Check query/index performance against network evidence before deciding whether more replicas would help.
+
+Your next concrete action is to arrange the ops review and come away with a staffed window and an agreed rollback procedure.

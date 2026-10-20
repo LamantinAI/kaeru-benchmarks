@@ -9,6 +9,9 @@ initiative: capture-tooling
 noise:
   library: ../../noise/tooling-noise.yaml
   count: 44
+  recorded_start: "2026-06-21T12:00:00Z"
+  rank_probe: {text: capture, prefix: true, limit: 50}
+  newer_noise_min: 5
   target: screen-capture-method-current
   target_rank_at_least: 4      # must not be in the first three hits for `capture*`
   target_not_newest: true      # at least five noise nodes recorded after it

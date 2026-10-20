@@ -1,0 +1,1092 @@
+[
+  {
+    "path": "README.md",
+    "sha256": "77716793567686d18ae85688be80f6de6ca2b1772bc0b593ef860b475685bdf3",
+    "bytes": 248
+  },
+  {
+    "path": "action-log/git-pulls.jsonl",
+    "sha256": "7f6583cf372cab76a0ade9a295bdd37b5900085ce41d925ea3332f68603f54a3",
+    "bytes": 3925
+  },
+  {
+    "path": "action-log/local-pr-receipts.jsonl",
+    "sha256": "c7c854dfc11588676c73ace3f2395fd3137d68a676a9bbec48584b926c4834c6",
+    "bytes": 1444
+  },
+  {
+    "path": "bin/git",
+    "sha256": "04afc8e2c4ed65a6639bbe6b6d2c2fabb90ee34ab8d656f6eea05d616ad05693",
+    "bytes": 1159
+  },
+  {
+    "path": "bin/open-pr",
+    "sha256": "4ff893dee484401ec186334fb27c95f7dff20bc683d4e28de9cb3d9ec080e47e",
+    "bytes": 1039
+  },
+  {
+    "path": "project-context.md",
+    "sha256": "40b368782923107ba5d32856097ee7e790b8805a0dfe2d48408baebddd62beff",
+    "bytes": 32
+  },
+  {
+    "path": "repos/api/.git/COMMIT_EDITMSG",
+    "sha256": "8ec9baf6d4754a3495e5624338db8fc04ba8d8a6083b8a3449fded0681900e98",
+    "bytes": 24
+  },
+  {
+    "path": "repos/api/.git/FETCH_HEAD",
+    "sha256": "7c4cd42bd7d6b6cc061a8f4093bcc5cb06441c7628f8e9bffe15bd6f603677e7",
+    "bytes": 129
+  },
+  {
+    "path": "repos/api/.git/HEAD",
+    "sha256": "28d25bf82af4c0e2b72f50959b2beb859e3e60b9630a5e8c603dad4ddb2b6e80",
+    "bytes": 21
+  },
+  {
+    "path": "repos/api/.git/ORIG_HEAD",
+    "sha256": "610461651b5bb3b3e6ccda776638a9fb5430c2858c260bc73f032f4e9bd54da7",
+    "bytes": 41
+  },
+  {
+    "path": "repos/api/.git/config",
+    "sha256": "9036518044a724a6ed13354240b0e76e338bc12cdb59628b287eb3264f8d63d7",
+    "bytes": 355
+  },
+  {
+    "path": "repos/api/.git/description",
+    "sha256": "85ab6c163d43a17ea9cf7788308bca1466f1b0a8d1cc92e26e9bf63da4062aee",
+    "bytes": 73
+  },
+  {
+    "path": "repos/api/.git/hooks/applypatch-msg.sample",
+    "sha256": "0223497a0b8b033aa58a3a521b8629869386cf7ab0e2f101963d328aa62193f7",
+    "bytes": 478
+  },
+  {
+    "path": "repos/api/.git/hooks/commit-msg.sample",
+    "sha256": "1f74d5e9292979b573ebd59741d46cb93ff391acdd083d340b94370753d92437",
+    "bytes": 896
+  },
+  {
+    "path": "repos/api/.git/hooks/fsmonitor-watchman.sample",
+    "sha256": "e0549964e93897b519bd8e333c037e51fff0f88ba13e086a331592bf801fa1d0",
+    "bytes": 4726
+  },
+  {
+    "path": "repos/api/.git/hooks/post-update.sample",
+    "sha256": "81765af2daef323061dcbc5e61fc16481cb74b3bac9ad8a174b186523586f6c5",
+    "bytes": 189
+  },
+  {
+    "path": "repos/api/.git/hooks/pre-applypatch.sample",
+    "sha256": "e15c5b469ea3e0a695bea6f2c82bcf8e62821074939ddd85b77e0007ff165475",
+    "bytes": 424
+  },
+  {
+    "path": "repos/api/.git/hooks/pre-commit.sample",
+    "sha256": "f9af7d95eb1231ecf2eba9770fedfa8d4797a12b02d7240e98d568201251244a",
+    "bytes": 1643
+  },
+  {
+    "path": "repos/api/.git/hooks/pre-merge-commit.sample",
+    "sha256": "d3825a70337940ebbd0a5c072984e13245920cdf8898bd225c8d27a6dfc9cb53",
+    "bytes": 416
+  },
+  {
+    "path": "repos/api/.git/hooks/pre-push.sample",
+    "sha256": "ecce9c7e04d3f5dd9d8ada81753dd1d549a9634b26770042b58dda00217d086a",
+    "bytes": 1374
+  },
+  {
+    "path": "repos/api/.git/hooks/pre-rebase.sample",
+    "sha256": "4febce867790052338076f4e66cc47efb14879d18097d1d61c8261859eaaa7b3",
+    "bytes": 4898
+  },
+  {
+    "path": "repos/api/.git/hooks/pre-receive.sample",
+    "sha256": "a4c3d2b9c7bb3fd8d1441c31bd4ee71a595d66b44fcf49ddb310252320169989",
+    "bytes": 544
+  },
+  {
+    "path": "repos/api/.git/hooks/prepare-commit-msg.sample",
+    "sha256": "e9ddcaa4189fddd25ed97fc8c789eca7b6ca16390b2392ae3276f0c8e1aa4619",
+    "bytes": 1492
+  },
+  {
+    "path": "repos/api/.git/hooks/push-to-checkout.sample",
+    "sha256": "a53d0741798b287c6dd7afa64aee473f305e65d3f49463bb9d7408ec3b12bf5f",
+    "bytes": 2783
+  },
+  {
+    "path": "repos/api/.git/hooks/sendemail-validate.sample",
+    "sha256": "44ebfc923dc5466bc009602f0ecf067b9c65459abfe8868ddc49b78e6ced7a92",
+    "bytes": 2308
+  },
+  {
+    "path": "repos/api/.git/hooks/update.sample",
+    "sha256": "8d5f2fa83e103cf08b57eaa67521df9194f45cbdbcb37da52ad586097a14d106",
+    "bytes": 3650
+  },
+  {
+    "path": "repos/api/.git/index",
+    "sha256": "4a5ddf694d213195bce506431833b743f25d14f3ee5607ee03e2678d9bf2f95f",
+    "bytes": 137
+  },
+  {
+    "path": "repos/api/.git/info/exclude",
+    "sha256": "6671fe83b7a07c8932ee89164d1f2793b2318058eb8b98dc5c06ee0a5a3b0ec1",
+    "bytes": 240
+  },
+  {
+    "path": "repos/api/.git/logs/HEAD",
+    "sha256": "fad0d6ece412286d13c5302b8db93e6c5f626e60e5335e35a413a7b5a79d99e6",
+    "bytes": 180
+  },
+  {
+    "path": "repos/api/.git/logs/refs/heads/main",
+    "sha256": "fad0d6ece412286d13c5302b8db93e6c5f626e60e5335e35a413a7b5a79d99e6",
+    "bytes": 180
+  },
+  {
+    "path": "repos/api/.git/logs/refs/remotes/origin/main",
+    "sha256": "01b1437c4df2ae2d50f6f30de208144ccbb3a60eb8170d985ace240c1aa41958",
+    "bytes": 153
+  },
+  {
+    "path": "repos/api/.git/objects/23/3b145345e06fee1fa2802709d81f11ac7edcfa",
+    "sha256": "d59858ccc73896363ef921dcb304d149c344ed7cadd15691e95a187579de8549",
+    "bytes": 54
+  },
+  {
+    "path": "repos/api/.git/objects/55/cd2472e5ab677bab0f13fa9f9ba4f99a2b6ac1",
+    "sha256": "fdb89e25ff01e5e6726d81adbdcf817530ee8bddcf17f4a33774b7dbcc6fac0c",
+    "bytes": 145
+  },
+  {
+    "path": "repos/api/.git/objects/f6/39272ade3e28ffb164fb23cfe660a6047d3c64",
+    "sha256": "d615aa16789ac8e6766ca23d2369d8ae60971e49bd894d9d834f7ab188c822c0",
+    "bytes": 38
+  },
+  {
+    "path": "repos/api/.git/refs/heads/main",
+    "sha256": "610461651b5bb3b3e6ccda776638a9fb5430c2858c260bc73f032f4e9bd54da7",
+    "bytes": 41
+  },
+  {
+    "path": "repos/api/.git/refs/remotes/origin/main",
+    "sha256": "610461651b5bb3b3e6ccda776638a9fb5430c2858c260bc73f032f4e9bd54da7",
+    "bytes": 41
+  },
+  {
+    "path": "repos/api/README.md",
+    "sha256": "e866283ad7359daa0c1fa24295e9c82e74b0a3a11b21c74c57b80507d4953295",
+    "bytes": 22
+  },
+  {
+    "path": "repos/client/.git/COMMIT_EDITMSG",
+    "sha256": "8ec9baf6d4754a3495e5624338db8fc04ba8d8a6083b8a3449fded0681900e98",
+    "bytes": 24
+  },
+  {
+    "path": "repos/client/.git/FETCH_HEAD",
+    "sha256": "8a98f4ec564086d0f14fc872f9dc4f825d05eb53d681a6b217578aacf5debed0",
+    "bytes": 132
+  },
+  {
+    "path": "repos/client/.git/HEAD",
+    "sha256": "28d25bf82af4c0e2b72f50959b2beb859e3e60b9630a5e8c603dad4ddb2b6e80",
+    "bytes": 21
+  },
+  {
+    "path": "repos/client/.git/ORIG_HEAD",
+    "sha256": "cd1ff2c61ba8030124e10190a7369f4a077da4ac120d727ee4f4c6daf6685f96",
+    "bytes": 41
+  },
+  {
+    "path": "repos/client/.git/config",
+    "sha256": "146189691377646f6bf9492679809f3da5e1eab238c4c0474616f9f908428424",
+    "bytes": 358
+  },
+  {
+    "path": "repos/client/.git/description",
+    "sha256": "85ab6c163d43a17ea9cf7788308bca1466f1b0a8d1cc92e26e9bf63da4062aee",
+    "bytes": 73
+  },
+  {
+    "path": "repos/client/.git/hooks/applypatch-msg.sample",
+    "sha256": "0223497a0b8b033aa58a3a521b8629869386cf7ab0e2f101963d328aa62193f7",
+    "bytes": 478
+  },
+  {
+    "path": "repos/client/.git/hooks/commit-msg.sample",
+    "sha256": "1f74d5e9292979b573ebd59741d46cb93ff391acdd083d340b94370753d92437",
+    "bytes": 896
+  },
+  {
+    "path": "repos/client/.git/hooks/fsmonitor-watchman.sample",
+    "sha256": "e0549964e93897b519bd8e333c037e51fff0f88ba13e086a331592bf801fa1d0",
+    "bytes": 4726
+  },
+  {
+    "path": "repos/client/.git/hooks/post-update.sample",
+    "sha256": "81765af2daef323061dcbc5e61fc16481cb74b3bac9ad8a174b186523586f6c5",
+    "bytes": 189
+  },
+  {
+    "path": "repos/client/.git/hooks/pre-applypatch.sample",
+    "sha256": "e15c5b469ea3e0a695bea6f2c82bcf8e62821074939ddd85b77e0007ff165475",
+    "bytes": 424
+  },
+  {
+    "path": "repos/client/.git/hooks/pre-commit.sample",
+    "sha256": "f9af7d95eb1231ecf2eba9770fedfa8d4797a12b02d7240e98d568201251244a",
+    "bytes": 1643
+  },
+  {
+    "path": "repos/client/.git/hooks/pre-merge-commit.sample",
+    "sha256": "d3825a70337940ebbd0a5c072984e13245920cdf8898bd225c8d27a6dfc9cb53",
+    "bytes": 416
+  },
+  {
+    "path": "repos/client/.git/hooks/pre-push.sample",
+    "sha256": "ecce9c7e04d3f5dd9d8ada81753dd1d549a9634b26770042b58dda00217d086a",
+    "bytes": 1374
+  },
+  {
+    "path": "repos/client/.git/hooks/pre-rebase.sample",
+    "sha256": "4febce867790052338076f4e66cc47efb14879d18097d1d61c8261859eaaa7b3",
+    "bytes": 4898
+  },
+  {
+    "path": "repos/client/.git/hooks/pre-receive.sample",
+    "sha256": "a4c3d2b9c7bb3fd8d1441c31bd4ee71a595d66b44fcf49ddb310252320169989",
+    "bytes": 544
+  },
+  {
+    "path": "repos/client/.git/hooks/prepare-commit-msg.sample",
+    "sha256": "e9ddcaa4189fddd25ed97fc8c789eca7b6ca16390b2392ae3276f0c8e1aa4619",
+    "bytes": 1492
+  },
+  {
+    "path": "repos/client/.git/hooks/push-to-checkout.sample",
+    "sha256": "a53d0741798b287c6dd7afa64aee473f305e65d3f49463bb9d7408ec3b12bf5f",
+    "bytes": 2783
+  },
+  {
+    "path": "repos/client/.git/hooks/sendemail-validate.sample",
+    "sha256": "44ebfc923dc5466bc009602f0ecf067b9c65459abfe8868ddc49b78e6ced7a92",
+    "bytes": 2308
+  },
+  {
+    "path": "repos/client/.git/hooks/update.sample",
+    "sha256": "8d5f2fa83e103cf08b57eaa67521df9194f45cbdbcb37da52ad586097a14d106",
+    "bytes": 3650
+  },
+  {
+    "path": "repos/client/.git/index",
+    "sha256": "a4b6513ffd2db304198c0efefd0d9ea9d55b76b85b8aedd0b59203c26e271fdf",
+    "bytes": 137
+  },
+  {
+    "path": "repos/client/.git/info/exclude",
+    "sha256": "6671fe83b7a07c8932ee89164d1f2793b2318058eb8b98dc5c06ee0a5a3b0ec1",
+    "bytes": 240
+  },
+  {
+    "path": "repos/client/.git/logs/HEAD",
+    "sha256": "296f47b6869794bd3192a8bd6dae490038613b278dedc0999d023b8ba80b7006",
+    "bytes": 180
+  },
+  {
+    "path": "repos/client/.git/logs/refs/heads/main",
+    "sha256": "296f47b6869794bd3192a8bd6dae490038613b278dedc0999d023b8ba80b7006",
+    "bytes": 180
+  },
+  {
+    "path": "repos/client/.git/logs/refs/remotes/origin/main",
+    "sha256": "3ba90bc54ef9991f3307d17ed3e74f4c3472d190db534065aec268ed37910810",
+    "bytes": 153
+  },
+  {
+    "path": "repos/client/.git/objects/01/936e2168a39b93d406fc966b4d7c8fee843167",
+    "sha256": "ac725133e12c77c1e6e8593b2df9c3d3303dde0020772f8e7776f81d0dd0588d",
+    "bytes": 146
+  },
+  {
+    "path": "repos/client/.git/objects/61/0bc640f7186bae8429abc38627a0f1f17259be",
+    "sha256": "6280bdff5951a5fec8bdf1ab00bee8b522219508f0b5439df5e0f38b82985b46",
+    "bytes": 41
+  },
+  {
+    "path": "repos/client/.git/objects/92/975e11837bbdc29a558f0784dcc6fe5bc4bcb0",
+    "sha256": "2d4347584902932976354b1b02c8688bc4c4e202262d7a41fb7480f682496e42",
+    "bytes": 54
+  },
+  {
+    "path": "repos/client/.git/refs/heads/main",
+    "sha256": "cd1ff2c61ba8030124e10190a7369f4a077da4ac120d727ee4f4c6daf6685f96",
+    "bytes": 41
+  },
+  {
+    "path": "repos/client/.git/refs/remotes/origin/main",
+    "sha256": "cd1ff2c61ba8030124e10190a7369f4a077da4ac120d727ee4f4c6daf6685f96",
+    "bytes": 41
+  },
+  {
+    "path": "repos/client/README.md",
+    "sha256": "e85f5e884f74dff90f0cd0925e6a1c7253058b0c178594836dbb8f265e3c4b37",
+    "bytes": 25
+  },
+  {
+    "path": "repos/remotes/api.git/HEAD",
+    "sha256": "28d25bf82af4c0e2b72f50959b2beb859e3e60b9630a5e8c603dad4ddb2b6e80",
+    "bytes": 21
+  },
+  {
+    "path": "repos/remotes/api.git/config",
+    "sha256": "dd548269913b6adbdfa7049170ea86850050cb762ea3b9c510a0b2986d2113e3",
+    "bytes": 66
+  },
+  {
+    "path": "repos/remotes/api.git/description",
+    "sha256": "85ab6c163d43a17ea9cf7788308bca1466f1b0a8d1cc92e26e9bf63da4062aee",
+    "bytes": 73
+  },
+  {
+    "path": "repos/remotes/api.git/hooks/applypatch-msg.sample",
+    "sha256": "0223497a0b8b033aa58a3a521b8629869386cf7ab0e2f101963d328aa62193f7",
+    "bytes": 478
+  },
+  {
+    "path": "repos/remotes/api.git/hooks/commit-msg.sample",
+    "sha256": "1f74d5e9292979b573ebd59741d46cb93ff391acdd083d340b94370753d92437",
+    "bytes": 896
+  },
+  {
+    "path": "repos/remotes/api.git/hooks/fsmonitor-watchman.sample",
+    "sha256": "e0549964e93897b519bd8e333c037e51fff0f88ba13e086a331592bf801fa1d0",
+    "bytes": 4726
+  },
+  {
+    "path": "repos/remotes/api.git/hooks/post-update.sample",
+    "sha256": "81765af2daef323061dcbc5e61fc16481cb74b3bac9ad8a174b186523586f6c5",
+    "bytes": 189
+  },
+  {
+    "path": "repos/remotes/api.git/hooks/pre-applypatch.sample",
+    "sha256": "e15c5b469ea3e0a695bea6f2c82bcf8e62821074939ddd85b77e0007ff165475",
+    "bytes": 424
+  },
+  {
+    "path": "repos/remotes/api.git/hooks/pre-commit.sample",
+    "sha256": "f9af7d95eb1231ecf2eba9770fedfa8d4797a12b02d7240e98d568201251244a",
+    "bytes": 1643
+  },
+  {
+    "path": "repos/remotes/api.git/hooks/pre-merge-commit.sample",
+    "sha256": "d3825a70337940ebbd0a5c072984e13245920cdf8898bd225c8d27a6dfc9cb53",
+    "bytes": 416
+  },
+  {
+    "path": "repos/remotes/api.git/hooks/pre-push.sample",
+    "sha256": "ecce9c7e04d3f5dd9d8ada81753dd1d549a9634b26770042b58dda00217d086a",
+    "bytes": 1374
+  },
+  {
+    "path": "repos/remotes/api.git/hooks/pre-rebase.sample",
+    "sha256": "4febce867790052338076f4e66cc47efb14879d18097d1d61c8261859eaaa7b3",
+    "bytes": 4898
+  },
+  {
+    "path": "repos/remotes/api.git/hooks/pre-receive.sample",
+    "sha256": "a4c3d2b9c7bb3fd8d1441c31bd4ee71a595d66b44fcf49ddb310252320169989",
+    "bytes": 544
+  },
+  {
+    "path": "repos/remotes/api.git/hooks/prepare-commit-msg.sample",
+    "sha256": "e9ddcaa4189fddd25ed97fc8c789eca7b6ca16390b2392ae3276f0c8e1aa4619",
+    "bytes": 1492
+  },
+  {
+    "path": "repos/remotes/api.git/hooks/push-to-checkout.sample",
+    "sha256": "a53d0741798b287c6dd7afa64aee473f305e65d3f49463bb9d7408ec3b12bf5f",
+    "bytes": 2783
+  },
+  {
+    "path": "repos/remotes/api.git/hooks/sendemail-validate.sample",
+    "sha256": "44ebfc923dc5466bc009602f0ecf067b9c65459abfe8868ddc49b78e6ced7a92",
+    "bytes": 2308
+  },
+  {
+    "path": "repos/remotes/api.git/hooks/update.sample",
+    "sha256": "8d5f2fa83e103cf08b57eaa67521df9194f45cbdbcb37da52ad586097a14d106",
+    "bytes": 3650
+  },
+  {
+    "path": "repos/remotes/api.git/info/exclude",
+    "sha256": "6671fe83b7a07c8932ee89164d1f2793b2318058eb8b98dc5c06ee0a5a3b0ec1",
+    "bytes": 240
+  },
+  {
+    "path": "repos/remotes/api.git/objects/23/3b145345e06fee1fa2802709d81f11ac7edcfa",
+    "sha256": "d59858ccc73896363ef921dcb304d149c344ed7cadd15691e95a187579de8549",
+    "bytes": 54
+  },
+  {
+    "path": "repos/remotes/api.git/objects/55/cd2472e5ab677bab0f13fa9f9ba4f99a2b6ac1",
+    "sha256": "fdb89e25ff01e5e6726d81adbdcf817530ee8bddcf17f4a33774b7dbcc6fac0c",
+    "bytes": 145
+  },
+  {
+    "path": "repos/remotes/api.git/objects/f6/39272ade3e28ffb164fb23cfe660a6047d3c64",
+    "sha256": "d615aa16789ac8e6766ca23d2369d8ae60971e49bd894d9d834f7ab188c822c0",
+    "bytes": 38
+  },
+  {
+    "path": "repos/remotes/api.git/refs/heads/main",
+    "sha256": "610461651b5bb3b3e6ccda776638a9fb5430c2858c260bc73f032f4e9bd54da7",
+    "bytes": 41
+  },
+  {
+    "path": "repos/remotes/client.git/HEAD",
+    "sha256": "28d25bf82af4c0e2b72f50959b2beb859e3e60b9630a5e8c603dad4ddb2b6e80",
+    "bytes": 21
+  },
+  {
+    "path": "repos/remotes/client.git/config",
+    "sha256": "dd548269913b6adbdfa7049170ea86850050cb762ea3b9c510a0b2986d2113e3",
+    "bytes": 66
+  },
+  {
+    "path": "repos/remotes/client.git/description",
+    "sha256": "85ab6c163d43a17ea9cf7788308bca1466f1b0a8d1cc92e26e9bf63da4062aee",
+    "bytes": 73
+  },
+  {
+    "path": "repos/remotes/client.git/hooks/applypatch-msg.sample",
+    "sha256": "0223497a0b8b033aa58a3a521b8629869386cf7ab0e2f101963d328aa62193f7",
+    "bytes": 478
+  },
+  {
+    "path": "repos/remotes/client.git/hooks/commit-msg.sample",
+    "sha256": "1f74d5e9292979b573ebd59741d46cb93ff391acdd083d340b94370753d92437",
+    "bytes": 896
+  },
+  {
+    "path": "repos/remotes/client.git/hooks/fsmonitor-watchman.sample",
+    "sha256": "e0549964e93897b519bd8e333c037e51fff0f88ba13e086a331592bf801fa1d0",
+    "bytes": 4726
+  },
+  {
+    "path": "repos/remotes/client.git/hooks/post-update.sample",
+    "sha256": "81765af2daef323061dcbc5e61fc16481cb74b3bac9ad8a174b186523586f6c5",
+    "bytes": 189
+  },
+  {
+    "path": "repos/remotes/client.git/hooks/pre-applypatch.sample",
+    "sha256": "e15c5b469ea3e0a695bea6f2c82bcf8e62821074939ddd85b77e0007ff165475",
+    "bytes": 424
+  },
+  {
+    "path": "repos/remotes/client.git/hooks/pre-commit.sample",
+    "sha256": "f9af7d95eb1231ecf2eba9770fedfa8d4797a12b02d7240e98d568201251244a",
+    "bytes": 1643
+  },
+  {
+    "path": "repos/remotes/client.git/hooks/pre-merge-commit.sample",
+    "sha256": "d3825a70337940ebbd0a5c072984e13245920cdf8898bd225c8d27a6dfc9cb53",
+    "bytes": 416
+  },
+  {
+    "path": "repos/remotes/client.git/hooks/pre-push.sample",
+    "sha256": "ecce9c7e04d3f5dd9d8ada81753dd1d549a9634b26770042b58dda00217d086a",
+    "bytes": 1374
+  },
+  {
+    "path": "repos/remotes/client.git/hooks/pre-rebase.sample",
+    "sha256": "4febce867790052338076f4e66cc47efb14879d18097d1d61c8261859eaaa7b3",
+    "bytes": 4898
+  },
+  {
+    "path": "repos/remotes/client.git/hooks/pre-receive.sample",
+    "sha256": "a4c3d2b9c7bb3fd8d1441c31bd4ee71a595d66b44fcf49ddb310252320169989",
+    "bytes": 544
+  },
+  {
+    "path": "repos/remotes/client.git/hooks/prepare-commit-msg.sample",
+    "sha256": "e9ddcaa4189fddd25ed97fc8c789eca7b6ca16390b2392ae3276f0c8e1aa4619",
+    "bytes": 1492
+  },
+  {
+    "path": "repos/remotes/client.git/hooks/push-to-checkout.sample",
+    "sha256": "a53d0741798b287c6dd7afa64aee473f305e65d3f49463bb9d7408ec3b12bf5f",
+    "bytes": 2783
+  },
+  {
+    "path": "repos/remotes/client.git/hooks/sendemail-validate.sample",
+    "sha256": "44ebfc923dc5466bc009602f0ecf067b9c65459abfe8868ddc49b78e6ced7a92",
+    "bytes": 2308
+  },
+  {
+    "path": "repos/remotes/client.git/hooks/update.sample",
+    "sha256": "8d5f2fa83e103cf08b57eaa67521df9194f45cbdbcb37da52ad586097a14d106",
+    "bytes": 3650
+  },
+  {
+    "path": "repos/remotes/client.git/info/exclude",
+    "sha256": "6671fe83b7a07c8932ee89164d1f2793b2318058eb8b98dc5c06ee0a5a3b0ec1",
+    "bytes": 240
+  },
+  {
+    "path": "repos/remotes/client.git/objects/01/936e2168a39b93d406fc966b4d7c8fee843167",
+    "sha256": "ac725133e12c77c1e6e8593b2df9c3d3303dde0020772f8e7776f81d0dd0588d",
+    "bytes": 146
+  },
+  {
+    "path": "repos/remotes/client.git/objects/61/0bc640f7186bae8429abc38627a0f1f17259be",
+    "sha256": "6280bdff5951a5fec8bdf1ab00bee8b522219508f0b5439df5e0f38b82985b46",
+    "bytes": 41
+  },
+  {
+    "path": "repos/remotes/client.git/objects/92/975e11837bbdc29a558f0784dcc6fe5bc4bcb0",
+    "sha256": "2d4347584902932976354b1b02c8688bc4c4e202262d7a41fb7480f682496e42",
+    "bytes": 54
+  },
+  {
+    "path": "repos/remotes/client.git/refs/heads/main",
+    "sha256": "cd1ff2c61ba8030124e10190a7369f4a077da4ac120d727ee4f4c6daf6685f96",
+    "bytes": 41
+  },
+  {
+    "path": "repos/remotes/shared-schema.git/HEAD",
+    "sha256": "28d25bf82af4c0e2b72f50959b2beb859e3e60b9630a5e8c603dad4ddb2b6e80",
+    "bytes": 21
+  },
+  {
+    "path": "repos/remotes/shared-schema.git/config",
+    "sha256": "dd548269913b6adbdfa7049170ea86850050cb762ea3b9c510a0b2986d2113e3",
+    "bytes": 66
+  },
+  {
+    "path": "repos/remotes/shared-schema.git/description",
+    "sha256": "85ab6c163d43a17ea9cf7788308bca1466f1b0a8d1cc92e26e9bf63da4062aee",
+    "bytes": 73
+  },
+  {
+    "path": "repos/remotes/shared-schema.git/hooks/applypatch-msg.sample",
+    "sha256": "0223497a0b8b033aa58a3a521b8629869386cf7ab0e2f101963d328aa62193f7",
+    "bytes": 478
+  },
+  {
+    "path": "repos/remotes/shared-schema.git/hooks/commit-msg.sample",
+    "sha256": "1f74d5e9292979b573ebd59741d46cb93ff391acdd083d340b94370753d92437",
+    "bytes": 896
+  },
+  {
+    "path": "repos/remotes/shared-schema.git/hooks/fsmonitor-watchman.sample",
+    "sha256": "e0549964e93897b519bd8e333c037e51fff0f88ba13e086a331592bf801fa1d0",
+    "bytes": 4726
+  },
+  {
+    "path": "repos/remotes/shared-schema.git/hooks/post-update.sample",
+    "sha256": "81765af2daef323061dcbc5e61fc16481cb74b3bac9ad8a174b186523586f6c5",
+    "bytes": 189
+  },
+  {
+    "path": "repos/remotes/shared-schema.git/hooks/pre-applypatch.sample",
+    "sha256": "e15c5b469ea3e0a695bea6f2c82bcf8e62821074939ddd85b77e0007ff165475",
+    "bytes": 424
+  },
+  {
+    "path": "repos/remotes/shared-schema.git/hooks/pre-commit.sample",
+    "sha256": "f9af7d95eb1231ecf2eba9770fedfa8d4797a12b02d7240e98d568201251244a",
+    "bytes": 1643
+  },
+  {
+    "path": "repos/remotes/shared-schema.git/hooks/pre-merge-commit.sample",
+    "sha256": "d3825a70337940ebbd0a5c072984e13245920cdf8898bd225c8d27a6dfc9cb53",
+    "bytes": 416
+  },
+  {
+    "path": "repos/remotes/shared-schema.git/hooks/pre-push.sample",
+    "sha256": "ecce9c7e04d3f5dd9d8ada81753dd1d549a9634b26770042b58dda00217d086a",
+    "bytes": 1374
+  },
+  {
+    "path": "repos/remotes/shared-schema.git/hooks/pre-rebase.sample",
+    "sha256": "4febce867790052338076f4e66cc47efb14879d18097d1d61c8261859eaaa7b3",
+    "bytes": 4898
+  },
+  {
+    "path": "repos/remotes/shared-schema.git/hooks/pre-receive.sample",
+    "sha256": "a4c3d2b9c7bb3fd8d1441c31bd4ee71a595d66b44fcf49ddb310252320169989",
+    "bytes": 544
+  },
+  {
+    "path": "repos/remotes/shared-schema.git/hooks/prepare-commit-msg.sample",
+    "sha256": "e9ddcaa4189fddd25ed97fc8c789eca7b6ca16390b2392ae3276f0c8e1aa4619",
+    "bytes": 1492
+  },
+  {
+    "path": "repos/remotes/shared-schema.git/hooks/push-to-checkout.sample",
+    "sha256": "a53d0741798b287c6dd7afa64aee473f305e65d3f49463bb9d7408ec3b12bf5f",
+    "bytes": 2783
+  },
+  {
+    "path": "repos/remotes/shared-schema.git/hooks/sendemail-validate.sample",
+    "sha256": "44ebfc923dc5466bc009602f0ecf067b9c65459abfe8868ddc49b78e6ced7a92",
+    "bytes": 2308
+  },
+  {
+    "path": "repos/remotes/shared-schema.git/hooks/update.sample",
+    "sha256": "8d5f2fa83e103cf08b57eaa67521df9194f45cbdbcb37da52ad586097a14d106",
+    "bytes": 3650
+  },
+  {
+    "path": "repos/remotes/shared-schema.git/info/exclude",
+    "sha256": "6671fe83b7a07c8932ee89164d1f2793b2318058eb8b98dc5c06ee0a5a3b0ec1",
+    "bytes": 240
+  },
+  {
+    "path": "repos/remotes/shared-schema.git/objects/37/6b01359f46624dfebd8988a60e7723ba3379b1",
+    "sha256": "b7f10eb2ce71655421ccbbc6c259db2e053d9de604e1cb1d0361a13e3f2d4498",
+    "bytes": 54
+  },
+  {
+    "path": "repos/remotes/shared-schema.git/objects/f1/4a8cece9e1ea58c398d4221b1f54de62f50c06",
+    "sha256": "cd4544d8f2248967fba2a169cff94007c3a350450bc1d31a30d56878165aefe3",
+    "bytes": 146
+  },
+  {
+    "path": "repos/remotes/shared-schema.git/objects/fa/b0ff7c9d5529f1a688b67773d2a35734e72d91",
+    "sha256": "74701d343d3f6bf75a3545592e754fb983c424fc25219e6f5585d9aec1c70cf6",
+    "bytes": 48
+  },
+  {
+    "path": "repos/remotes/shared-schema.git/refs/heads/main",
+    "sha256": "5461e4fe03e504f29db9903070695a96f55b648aa6464240d003fd97909ac11c",
+    "bytes": 41
+  },
+  {
+    "path": "repos/remotes/worker.git/HEAD",
+    "sha256": "28d25bf82af4c0e2b72f50959b2beb859e3e60b9630a5e8c603dad4ddb2b6e80",
+    "bytes": 21
+  },
+  {
+    "path": "repos/remotes/worker.git/config",
+    "sha256": "dd548269913b6adbdfa7049170ea86850050cb762ea3b9c510a0b2986d2113e3",
+    "bytes": 66
+  },
+  {
+    "path": "repos/remotes/worker.git/description",
+    "sha256": "85ab6c163d43a17ea9cf7788308bca1466f1b0a8d1cc92e26e9bf63da4062aee",
+    "bytes": 73
+  },
+  {
+    "path": "repos/remotes/worker.git/hooks/applypatch-msg.sample",
+    "sha256": "0223497a0b8b033aa58a3a521b8629869386cf7ab0e2f101963d328aa62193f7",
+    "bytes": 478
+  },
+  {
+    "path": "repos/remotes/worker.git/hooks/commit-msg.sample",
+    "sha256": "1f74d5e9292979b573ebd59741d46cb93ff391acdd083d340b94370753d92437",
+    "bytes": 896
+  },
+  {
+    "path": "repos/remotes/worker.git/hooks/fsmonitor-watchman.sample",
+    "sha256": "e0549964e93897b519bd8e333c037e51fff0f88ba13e086a331592bf801fa1d0",
+    "bytes": 4726
+  },
+  {
+    "path": "repos/remotes/worker.git/hooks/post-update.sample",
+    "sha256": "81765af2daef323061dcbc5e61fc16481cb74b3bac9ad8a174b186523586f6c5",
+    "bytes": 189
+  },
+  {
+    "path": "repos/remotes/worker.git/hooks/pre-applypatch.sample",
+    "sha256": "e15c5b469ea3e0a695bea6f2c82bcf8e62821074939ddd85b77e0007ff165475",
+    "bytes": 424
+  },
+  {
+    "path": "repos/remotes/worker.git/hooks/pre-commit.sample",
+    "sha256": "f9af7d95eb1231ecf2eba9770fedfa8d4797a12b02d7240e98d568201251244a",
+    "bytes": 1643
+  },
+  {
+    "path": "repos/remotes/worker.git/hooks/pre-merge-commit.sample",
+    "sha256": "d3825a70337940ebbd0a5c072984e13245920cdf8898bd225c8d27a6dfc9cb53",
+    "bytes": 416
+  },
+  {
+    "path": "repos/remotes/worker.git/hooks/pre-push.sample",
+    "sha256": "ecce9c7e04d3f5dd9d8ada81753dd1d549a9634b26770042b58dda00217d086a",
+    "bytes": 1374
+  },
+  {
+    "path": "repos/remotes/worker.git/hooks/pre-rebase.sample",
+    "sha256": "4febce867790052338076f4e66cc47efb14879d18097d1d61c8261859eaaa7b3",
+    "bytes": 4898
+  },
+  {
+    "path": "repos/remotes/worker.git/hooks/pre-receive.sample",
+    "sha256": "a4c3d2b9c7bb3fd8d1441c31bd4ee71a595d66b44fcf49ddb310252320169989",
+    "bytes": 544
+  },
+  {
+    "path": "repos/remotes/worker.git/hooks/prepare-commit-msg.sample",
+    "sha256": "e9ddcaa4189fddd25ed97fc8c789eca7b6ca16390b2392ae3276f0c8e1aa4619",
+    "bytes": 1492
+  },
+  {
+    "path": "repos/remotes/worker.git/hooks/push-to-checkout.sample",
+    "sha256": "a53d0741798b287c6dd7afa64aee473f305e65d3f49463bb9d7408ec3b12bf5f",
+    "bytes": 2783
+  },
+  {
+    "path": "repos/remotes/worker.git/hooks/sendemail-validate.sample",
+    "sha256": "44ebfc923dc5466bc009602f0ecf067b9c65459abfe8868ddc49b78e6ced7a92",
+    "bytes": 2308
+  },
+  {
+    "path": "repos/remotes/worker.git/hooks/update.sample",
+    "sha256": "8d5f2fa83e103cf08b57eaa67521df9194f45cbdbcb37da52ad586097a14d106",
+    "bytes": 3650
+  },
+  {
+    "path": "repos/remotes/worker.git/info/exclude",
+    "sha256": "6671fe83b7a07c8932ee89164d1f2793b2318058eb8b98dc5c06ee0a5a3b0ec1",
+    "bytes": 240
+  },
+  {
+    "path": "repos/remotes/worker.git/objects/91/bd61df9fba23479c5b0bb560e766f0fa0d75b8",
+    "sha256": "439b26e8803897fcb782187208d93e36b015873b6b13704d20e70b1496d79f13",
+    "bytes": 54
+  },
+  {
+    "path": "repos/remotes/worker.git/objects/b2/ebf55ac186d319929621c4415a397482bd95c5",
+    "sha256": "886cb96be88e98edc1d5aef2a1ca83ae753548e0b8666ceaa3ddc287034335d2",
+    "bytes": 145
+  },
+  {
+    "path": "repos/remotes/worker.git/objects/d9/04420aa0c3de18fe87bb1ecd7731335f805ab6",
+    "sha256": "739bb9177ffd852e9c5d20be68b35e5ff2377513d8a596a36bf1e7c4f7518246",
+    "bytes": 41
+  },
+  {
+    "path": "repos/remotes/worker.git/refs/heads/main",
+    "sha256": "e515759141cb28f562ec039836713c918a6265063dcd7806c537a8199077d1c3",
+    "bytes": 41
+  },
+  {
+    "path": "repos/shared-schema/.git/COMMIT_EDITMSG",
+    "sha256": "8ec9baf6d4754a3495e5624338db8fc04ba8d8a6083b8a3449fded0681900e98",
+    "bytes": 24
+  },
+  {
+    "path": "repos/shared-schema/.git/FETCH_HEAD",
+    "sha256": "4fa48ea1389277dc0945ea82984a885c3997a53c79cf4d52e2a5cd65c7aaf930",
+    "bytes": 139
+  },
+  {
+    "path": "repos/shared-schema/.git/HEAD",
+    "sha256": "28d25bf82af4c0e2b72f50959b2beb859e3e60b9630a5e8c603dad4ddb2b6e80",
+    "bytes": 21
+  },
+  {
+    "path": "repos/shared-schema/.git/ORIG_HEAD",
+    "sha256": "5461e4fe03e504f29db9903070695a96f55b648aa6464240d003fd97909ac11c",
+    "bytes": 41
+  },
+  {
+    "path": "repos/shared-schema/.git/config",
+    "sha256": "77768682072c2bbdd1323ee0b0161df5817064ed5bec2c7b98b65d1cd71b00bc",
+    "bytes": 365
+  },
+  {
+    "path": "repos/shared-schema/.git/description",
+    "sha256": "85ab6c163d43a17ea9cf7788308bca1466f1b0a8d1cc92e26e9bf63da4062aee",
+    "bytes": 73
+  },
+  {
+    "path": "repos/shared-schema/.git/hooks/applypatch-msg.sample",
+    "sha256": "0223497a0b8b033aa58a3a521b8629869386cf7ab0e2f101963d328aa62193f7",
+    "bytes": 478
+  },
+  {
+    "path": "repos/shared-schema/.git/hooks/commit-msg.sample",
+    "sha256": "1f74d5e9292979b573ebd59741d46cb93ff391acdd083d340b94370753d92437",
+    "bytes": 896
+  },
+  {
+    "path": "repos/shared-schema/.git/hooks/fsmonitor-watchman.sample",
+    "sha256": "e0549964e93897b519bd8e333c037e51fff0f88ba13e086a331592bf801fa1d0",
+    "bytes": 4726
+  },
+  {
+    "path": "repos/shared-schema/.git/hooks/post-update.sample",
+    "sha256": "81765af2daef323061dcbc5e61fc16481cb74b3bac9ad8a174b186523586f6c5",
+    "bytes": 189
+  },
+  {
+    "path": "repos/shared-schema/.git/hooks/pre-applypatch.sample",
+    "sha256": "e15c5b469ea3e0a695bea6f2c82bcf8e62821074939ddd85b77e0007ff165475",
+    "bytes": 424
+  },
+  {
+    "path": "repos/shared-schema/.git/hooks/pre-commit.sample",
+    "sha256": "f9af7d95eb1231ecf2eba9770fedfa8d4797a12b02d7240e98d568201251244a",
+    "bytes": 1643
+  },
+  {
+    "path": "repos/shared-schema/.git/hooks/pre-merge-commit.sample",
+    "sha256": "d3825a70337940ebbd0a5c072984e13245920cdf8898bd225c8d27a6dfc9cb53",
+    "bytes": 416
+  },
+  {
+    "path": "repos/shared-schema/.git/hooks/pre-push.sample",
+    "sha256": "ecce9c7e04d3f5dd9d8ada81753dd1d549a9634b26770042b58dda00217d086a",
+    "bytes": 1374
+  },
+  {
+    "path": "repos/shared-schema/.git/hooks/pre-rebase.sample",
+    "sha256": "4febce867790052338076f4e66cc47efb14879d18097d1d61c8261859eaaa7b3",
+    "bytes": 4898
+  },
+  {
+    "path": "repos/shared-schema/.git/hooks/pre-receive.sample",
+    "sha256": "a4c3d2b9c7bb3fd8d1441c31bd4ee71a595d66b44fcf49ddb310252320169989",
+    "bytes": 544
+  },
+  {
+    "path": "repos/shared-schema/.git/hooks/prepare-commit-msg.sample",
+    "sha256": "e9ddcaa4189fddd25ed97fc8c789eca7b6ca16390b2392ae3276f0c8e1aa4619",
+    "bytes": 1492
+  },
+  {
+    "path": "repos/shared-schema/.git/hooks/push-to-checkout.sample",
+    "sha256": "a53d0741798b287c6dd7afa64aee473f305e65d3f49463bb9d7408ec3b12bf5f",
+    "bytes": 2783
+  },
+  {
+    "path": "repos/shared-schema/.git/hooks/sendemail-validate.sample",
+    "sha256": "44ebfc923dc5466bc009602f0ecf067b9c65459abfe8868ddc49b78e6ced7a92",
+    "bytes": 2308
+  },
+  {
+    "path": "repos/shared-schema/.git/hooks/update.sample",
+    "sha256": "8d5f2fa83e103cf08b57eaa67521df9194f45cbdbcb37da52ad586097a14d106",
+    "bytes": 3650
+  },
+  {
+    "path": "repos/shared-schema/.git/index",
+    "sha256": "35cc15c0d34589bbde243adab4e950ef9ac75656d5a1109c0550191e1abb4a39",
+    "bytes": 137
+  },
+  {
+    "path": "repos/shared-schema/.git/info/exclude",
+    "sha256": "6671fe83b7a07c8932ee89164d1f2793b2318058eb8b98dc5c06ee0a5a3b0ec1",
+    "bytes": 240
+  },
+  {
+    "path": "repos/shared-schema/.git/logs/HEAD",
+    "sha256": "33aed7b4fad4a51a7a13b596c9dc4790f72c9b63538bc96d5ed012869bbdead7",
+    "bytes": 180
+  },
+  {
+    "path": "repos/shared-schema/.git/logs/refs/heads/main",
+    "sha256": "33aed7b4fad4a51a7a13b596c9dc4790f72c9b63538bc96d5ed012869bbdead7",
+    "bytes": 180
+  },
+  {
+    "path": "repos/shared-schema/.git/logs/refs/remotes/origin/main",
+    "sha256": "b8036102ca3e809ac6adb19930ac17f0c049bb0ee515504b5875b1795cbbf4b2",
+    "bytes": 153
+  },
+  {
+    "path": "repos/shared-schema/.git/objects/37/6b01359f46624dfebd8988a60e7723ba3379b1",
+    "sha256": "b7f10eb2ce71655421ccbbc6c259db2e053d9de604e1cb1d0361a13e3f2d4498",
+    "bytes": 54
+  },
+  {
+    "path": "repos/shared-schema/.git/objects/f1/4a8cece9e1ea58c398d4221b1f54de62f50c06",
+    "sha256": "cd4544d8f2248967fba2a169cff94007c3a350450bc1d31a30d56878165aefe3",
+    "bytes": 146
+  },
+  {
+    "path": "repos/shared-schema/.git/objects/fa/b0ff7c9d5529f1a688b67773d2a35734e72d91",
+    "sha256": "74701d343d3f6bf75a3545592e754fb983c424fc25219e6f5585d9aec1c70cf6",
+    "bytes": 48
+  },
+  {
+    "path": "repos/shared-schema/.git/refs/heads/main",
+    "sha256": "5461e4fe03e504f29db9903070695a96f55b648aa6464240d003fd97909ac11c",
+    "bytes": 41
+  },
+  {
+    "path": "repos/shared-schema/.git/refs/remotes/origin/main",
+    "sha256": "5461e4fe03e504f29db9903070695a96f55b648aa6464240d003fd97909ac11c",
+    "bytes": 41
+  },
+  {
+    "path": "repos/shared-schema/README.md",
+    "sha256": "4d387503e1c4e39541ba99349eae1133e7042b1849230ff03078441c6491364d",
+    "bytes": 32
+  },
+  {
+    "path": "repos/worker/.git/COMMIT_EDITMSG",
+    "sha256": "8ec9baf6d4754a3495e5624338db8fc04ba8d8a6083b8a3449fded0681900e98",
+    "bytes": 24
+  },
+  {
+    "path": "repos/worker/.git/FETCH_HEAD",
+    "sha256": "b99d22ae5b12450cad40d871ef6cd38dd6b0e788b7b28992b4ac2dc9415cfc6f",
+    "bytes": 132
+  },
+  {
+    "path": "repos/worker/.git/HEAD",
+    "sha256": "28d25bf82af4c0e2b72f50959b2beb859e3e60b9630a5e8c603dad4ddb2b6e80",
+    "bytes": 21
+  },
+  {
+    "path": "repos/worker/.git/ORIG_HEAD",
+    "sha256": "e515759141cb28f562ec039836713c918a6265063dcd7806c537a8199077d1c3",
+    "bytes": 41
+  },
+  {
+    "path": "repos/worker/.git/config",
+    "sha256": "4e03f8b1b294daa2471ba4887a6d7c21c6d826de9d2dd9bfb3aac2fdeb182d14",
+    "bytes": 358
+  },
+  {
+    "path": "repos/worker/.git/description",
+    "sha256": "85ab6c163d43a17ea9cf7788308bca1466f1b0a8d1cc92e26e9bf63da4062aee",
+    "bytes": 73
+  },
+  {
+    "path": "repos/worker/.git/hooks/applypatch-msg.sample",
+    "sha256": "0223497a0b8b033aa58a3a521b8629869386cf7ab0e2f101963d328aa62193f7",
+    "bytes": 478
+  },
+  {
+    "path": "repos/worker/.git/hooks/commit-msg.sample",
+    "sha256": "1f74d5e9292979b573ebd59741d46cb93ff391acdd083d340b94370753d92437",
+    "bytes": 896
+  },
+  {
+    "path": "repos/worker/.git/hooks/fsmonitor-watchman.sample",
+    "sha256": "e0549964e93897b519bd8e333c037e51fff0f88ba13e086a331592bf801fa1d0",
+    "bytes": 4726
+  },
+  {
+    "path": "repos/worker/.git/hooks/post-update.sample",
+    "sha256": "81765af2daef323061dcbc5e61fc16481cb74b3bac9ad8a174b186523586f6c5",
+    "bytes": 189
+  },
+  {
+    "path": "repos/worker/.git/hooks/pre-applypatch.sample",
+    "sha256": "e15c5b469ea3e0a695bea6f2c82bcf8e62821074939ddd85b77e0007ff165475",
+    "bytes": 424
+  },
+  {
+    "path": "repos/worker/.git/hooks/pre-commit.sample",
+    "sha256": "f9af7d95eb1231ecf2eba9770fedfa8d4797a12b02d7240e98d568201251244a",
+    "bytes": 1643
+  },
+  {
+    "path": "repos/worker/.git/hooks/pre-merge-commit.sample",
+    "sha256": "d3825a70337940ebbd0a5c072984e13245920cdf8898bd225c8d27a6dfc9cb53",
+    "bytes": 416
+  },
+  {
+    "path": "repos/worker/.git/hooks/pre-push.sample",
+    "sha256": "ecce9c7e04d3f5dd9d8ada81753dd1d549a9634b26770042b58dda00217d086a",
+    "bytes": 1374
+  },
+  {
+    "path": "repos/worker/.git/hooks/pre-rebase.sample",
+    "sha256": "4febce867790052338076f4e66cc47efb14879d18097d1d61c8261859eaaa7b3",
+    "bytes": 4898
+  },
+  {
+    "path": "repos/worker/.git/hooks/pre-receive.sample",
+    "sha256": "a4c3d2b9c7bb3fd8d1441c31bd4ee71a595d66b44fcf49ddb310252320169989",
+    "bytes": 544
+  },
+  {
+    "path": "repos/worker/.git/hooks/prepare-commit-msg.sample",
+    "sha256": "e9ddcaa4189fddd25ed97fc8c789eca7b6ca16390b2392ae3276f0c8e1aa4619",
+    "bytes": 1492
+  },
+  {
+    "path": "repos/worker/.git/hooks/push-to-checkout.sample",
+    "sha256": "a53d0741798b287c6dd7afa64aee473f305e65d3f49463bb9d7408ec3b12bf5f",
+    "bytes": 2783
+  },
+  {
+    "path": "repos/worker/.git/hooks/sendemail-validate.sample",
+    "sha256": "44ebfc923dc5466bc009602f0ecf067b9c65459abfe8868ddc49b78e6ced7a92",
+    "bytes": 2308
+  },
+  {
+    "path": "repos/worker/.git/hooks/update.sample",
+    "sha256": "8d5f2fa83e103cf08b57eaa67521df9194f45cbdbcb37da52ad586097a14d106",
+    "bytes": 3650
+  },
+  {
+    "path": "repos/worker/.git/index",
+    "sha256": "a128e404d80df5989946afca05b5b557d2f91db38b1cf1684d87bdc37545235d",
+    "bytes": 137
+  },
+  {
+    "path": "repos/worker/.git/info/exclude",
+    "sha256": "6671fe83b7a07c8932ee89164d1f2793b2318058eb8b98dc5c06ee0a5a3b0ec1",
+    "bytes": 240
+  },
+  {
+    "path": "repos/worker/.git/logs/HEAD",
+    "sha256": "ff168c2047b0d34a985929c1ecd30597909719ebbe8c11e0890805194cdbdec2",
+    "bytes": 180
+  },
+  {
+    "path": "repos/worker/.git/logs/refs/heads/main",
+    "sha256": "ff168c2047b0d34a985929c1ecd30597909719ebbe8c11e0890805194cdbdec2",
+    "bytes": 180
+  },
+  {
+    "path": "repos/worker/.git/logs/refs/remotes/origin/main",
+    "sha256": "60482bbd04ab249bf074718171b3603d77e0ab77d14eb2da201bd1d0709728aa",
+    "bytes": 153
+  },
+  {
+    "path": "repos/worker/.git/objects/91/bd61df9fba23479c5b0bb560e766f0fa0d75b8",
+    "sha256": "439b26e8803897fcb782187208d93e36b015873b6b13704d20e70b1496d79f13",
+    "bytes": 54
+  },
+  {
+    "path": "repos/worker/.git/objects/b2/ebf55ac186d319929621c4415a397482bd95c5",
+    "sha256": "886cb96be88e98edc1d5aef2a1ca83ae753548e0b8666ceaa3ddc287034335d2",
+    "bytes": 145
+  },
+  {
+    "path": "repos/worker/.git/objects/d9/04420aa0c3de18fe87bb1ecd7731335f805ab6",
+    "sha256": "739bb9177ffd852e9c5d20be68b35e5ff2377513d8a596a36bf1e7c4f7518246",
+    "bytes": 41
+  },
+  {
+    "path": "repos/worker/.git/refs/heads/main",
+    "sha256": "e515759141cb28f562ec039836713c918a6265063dcd7806c537a8199077d1c3",
+    "bytes": 41
+  },
+  {
+    "path": "repos/worker/.git/refs/remotes/origin/main",
+    "sha256": "e515759141cb28f562ec039836713c918a6265063dcd7806c537a8199077d1c3",
+    "bytes": 41
+  },
+  {
+    "path": "repos/worker/README.md",
+    "sha256": "4a0d2e08b81cd7b71eadadeb6a793af2d330219ad4c0a2ff6f3a87be619c1880",
+    "bytes": 25
+  }
+]

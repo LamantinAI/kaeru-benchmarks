@@ -1,0 +1,4 @@
+[
+  "I’ll check the project memory and record this finding against the logout investigation.\n",
+  "Updated Kaeru with the verified fifteen-minute lifetime, superseding the one-hour assumption, and flagged the session refresh design for correction.\n\nThat explains the timing mismatch: refresh needs to happen before the token’s actual expiry. The implementation fix remains open."
+]

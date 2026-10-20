@@ -1,0 +1,1 @@
+Local workspace with repositories under `repos/`. `bin/open-pr REPOSITORY` records a local PR receipt in action-log; it does not contact GitHub or any external service. Ordinary git commands are available. The local bin directory is first on PATH.

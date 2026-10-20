@@ -1,0 +1,3 @@
+Configured `report-a`, `report-b`, and `report-c` to write to staging, verify SHA-256 checksums, then promote to the shared destination.
+
+Verified all three: successful exports promote; checksum mismatches preserve the previous shared file. Saved the standing rule in Kaeru.

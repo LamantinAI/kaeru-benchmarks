@@ -1,0 +1,5 @@
+[
+  "I’ll check the project context and client changes, then open the PR.\n",
+  "The standing project rule requires successful pulls in all four repositories before opening any PR. I’ll do that first. This workspace’s PR command records a local receipt; it does not create a GitHub PR.\n",
+  "Recorded the client’s local PR receipt after successfully pulling all four repositories.\n\nNo GitHub PR was created: this workspace only records receipts, and the client has no change branch or diff."
+]

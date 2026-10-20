@@ -1,0 +1,30 @@
+{
+  "case_id": "E4-archived-needed",
+  "status": "PASS",
+  "execution_status": "EXECUTED",
+  "repetition": 3,
+  "reason": "Frozen typography reference read before styling; tabular figures and right alignment preserve inherited family without monospace.",
+  "limitations": [],
+  "metrics": {
+    "native_turns": 1,
+    "kaeru_tool_calls": 9,
+    "input_tokens": 238787,
+    "cached_input_tokens": 210304,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 1936,
+    "reasoning_output_tokens": 25
+  },
+  "rejected_calls": 0,
+  "elapsed_seconds": 67.55103743100335,
+  "evidence": [
+    "memory-before.json",
+    "memory-after.json",
+    "workspace-final.json",
+    "fixture-validation.json",
+    "isolation-check.json",
+    "turn-1.mcp.jsonl",
+    "turn-1.messages.json",
+    "turn-1.answer.txt",
+    "turn-1.execution.json"
+  ]
+}

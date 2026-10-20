@@ -1,0 +1,37 @@
+[
+  {
+    "path": "README.md",
+    "sha256": "6c1cf822875385aaef76c256adeb81592392a5b6292bbdbb134051a86d6d6b31",
+    "bytes": 824
+  },
+  {
+    "path": "datasets/first.jsonl",
+    "sha256": "7984d9c624edaa254cc4b06cf77fff3a9319e6b2701aeb499854cca2899ebfbf",
+    "bytes": 100
+  },
+  {
+    "path": "datasets/second.jsonl",
+    "sha256": "26f1cb6bff496b2e64a5bc2cf6901ae3e5623b62c94161b39607ae690d0810ef",
+    "bytes": 104
+  },
+  {
+    "path": "jobs/config-second.json",
+    "sha256": "7852da4e8c79b4cb35c5e07a95b633dffe1731a9f88aa3f3a5ff8fa8a408cd25",
+    "bytes": 141
+  },
+  {
+    "path": "jobs/config.json",
+    "sha256": "12a4c31980ab630b3a0419f39c2b721060a3bcc2004b82dcb2d82403535ab6b3",
+    "bytes": 140
+  },
+  {
+    "path": "jobs/runner.py",
+    "sha256": "4f649c09bae8f766868e3e14552078c39dfee21801d1aeeaaf7fc3e9bc978a7b",
+    "bytes": 1831
+  },
+  {
+    "path": "project-context.md",
+    "sha256": "1259aea0c98a29490cdc73aeaef47cd2269f00d3c4341e99aede60c96dccb85e",
+    "bytes": 29
+  }
+]

@@ -1,0 +1,1 @@
+Saved in Kaeru and marked the original suspicion as refuted. Recorded your three-size test and provider-page check, plus the cause: our client config default overwrote the supplied size.

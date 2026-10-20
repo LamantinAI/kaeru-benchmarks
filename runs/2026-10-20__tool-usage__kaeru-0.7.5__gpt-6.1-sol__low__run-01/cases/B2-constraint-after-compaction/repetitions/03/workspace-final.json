@@ -1,0 +1,37 @@
+[
+  {
+    "path": "README.md",
+    "sha256": "e02f2f7b1e94807fe6d6bfaf96529928cbbec93e7e1bc17c9ddcefddc28b4194",
+    "bytes": 67
+  },
+  {
+    "path": "jobs/README.md",
+    "sha256": "08fb83e832e65a665fc93db33b482e0e90958913555e428567e81de6507faf79",
+    "bytes": 1114
+  },
+  {
+    "path": "jobs/config.json",
+    "sha256": "2f3c9e92749ca24fae4572631e66b6e97ac12c22ab92848f9b9b1b4133fe202d",
+    "bytes": 930
+  },
+  {
+    "path": "jobs/runner.py",
+    "sha256": "1e6038973ccfef9c741b75ebeedfc4671a2bb661e70ca4078ef1c83ce40a1177",
+    "bytes": 2228
+  },
+  {
+    "path": "jobs/sample.csv",
+    "sha256": "4b0e3080846d5a42d06f1254a9a8cf1b718a91acf83b219016099de3bdda3ae4",
+    "bytes": 19
+  },
+  {
+    "path": "jobs/storage.json",
+    "sha256": "23321eb86b5b1de103e87b5664cd59d3a4e26c5f0ce0b992526bed1f0820b110",
+    "bytes": 65
+  },
+  {
+    "path": "project-context.md",
+    "sha256": "18d93c24b963cc955b14f051d28ff44bbd0d705fad191643f4b9b6e3754beac7",
+    "bytes": 25
+  }
+]

@@ -1,0 +1,1 @@
+I couldn’t capture the four frames: this session has no access to your desktop or tool window. I need a desktop capture connection that supports window IDs to proceed while keeping the window in the background.

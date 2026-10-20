@@ -1,0 +1,1157 @@
+[
+  {
+    "file": "rep-01/repeat-01/A1-stale-method/native-sessions/2026/10/20/rollout-2026-10-20T15-48-56-01a1595b-9216-74d1-9af4-1cef7ecba42f.jsonl",
+    "thread": "01a1595b-9216-74d1-9af4-1cef7ecba42f",
+    "models": [
+      "gpt-6.1-sol"
+    ],
+    "efforts": [
+      "low"
+    ],
+    "exact_policy_found": true
+  },
+  {
+    "file": "rep-01/repeat-01/A2-unreachable-core/native-sessions/2026/10/20/rollout-2026-10-20T15-49-52-01a1595c-70be-7822-9c24-e6009d9c30ad.jsonl",
+    "thread": "01a1595c-70be-7822-9c24-e6009d9c30ad",
+    "models": [
+      "gpt-6.1-sol"
+    ],
+    "efforts": [
+      "low"
+    ],
+    "exact_policy_found": true
+  },
+  {
+    "file": "rep-01/repeat-01/A2-unreachable-core/native-sessions/2026/10/20/rollout-2026-10-20T15-49-31-01a1595c-195d-7cc1-ae6b-ff619d721793.jsonl",
+    "thread": "01a1595c-195d-7cc1-ae6b-ff619d721793",
+    "models": [
+      "gpt-6.1-sol"
+    ],
+    "efforts": [
+      "low"
+    ],
+    "exact_policy_found": true
+  },
+  {
+    "file": "rep-01/repeat-01/A3-fragmented-project/native-sessions/2026/10/20/rollout-2026-10-20T15-50-41-01a1595d-2b00-7530-880c-0d8d03e5c453.jsonl",
+    "thread": "01a1595d-2b00-7530-880c-0d8d03e5c453",
+    "models": [
+      "gpt-6.1-sol"
+    ],
+    "efforts": [
+      "low"
+    ],
+    "exact_policy_found": true
+  },
+  {
+    "file": "rep-01/repeat-01/A4-name-misremembered/native-sessions/2026/10/20/rollout-2026-10-20T15-52-09-01a1595e-74f8-7951-9f5c-33002746389f.jsonl",
+    "thread": "01a1595e-74f8-7951-9f5c-33002746389f",
+    "models": [
+      "gpt-6.1-sol"
+    ],
+    "efforts": [
+      "low"
+    ],
+    "exact_policy_found": true
+  },
+  {
+    "file": "rep-01/repeat-01/A5-current-vs-history/native-sessions/2026/10/20/rollout-2026-10-20T15-52-51-01a1595f-2812-7b93-91f1-389ecd036507.jsonl",
+    "thread": "01a1595f-2812-7b93-91f1-389ecd036507",
+    "models": [
+      "gpt-6.1-sol"
+    ],
+    "efforts": [
+      "low"
+    ],
+    "exact_policy_found": true
+  },
+  {
+    "file": "rep-01/repeat-01/A6-answer-in-own-artifact/native-sessions/2026/10/20/rollout-2026-10-20T15-53-40-01a1595f-e67c-7173-a33f-b361818647eb.jsonl",
+    "thread": "01a1595f-e67c-7173-a33f-b361818647eb",
+    "models": [
+      "gpt-6.1-sol"
+    ],
+    "efforts": [
+      "low"
+    ],
+    "exact_policy_found": true
+  },
+  {
+    "file": "rep-01/repeat-01/A7-duplicate-before-write/native-sessions/2026/10/20/rollout-2026-10-20T15-54-13-01a15960-6622-7ee0-bf4c-83758d679bb7.jsonl",
+    "thread": "01a15960-6622-7ee0-bf4c-83758d679bb7",
+    "models": [
+      "gpt-6.1-sol"
+    ],
+    "efforts": [
+      "low"
+    ],
+    "exact_policy_found": true
+  },
+  {
+    "file": "rep-01/repeat-01/B1-constraint-spoken/native-sessions/2026/10/20/rollout-2026-10-20T15-54-48-01a15960-f152-7f02-a381-886f39a394e3.jsonl",
+    "thread": "01a15960-f152-7f02-a381-886f39a394e3",
+    "models": [
+      "gpt-6.1-sol"
+    ],
+    "efforts": [
+      "low"
+    ],
+    "exact_policy_found": true
+  },
+  {
+    "file": "rep-01/repeat-01/B1-constraint-spoken/native-sessions/2026/10/20/rollout-2026-10-20T15-55-44-01a15961-ccd2-70d1-9701-684c47a3dc24.jsonl",
+    "thread": "01a15961-ccd2-70d1-9701-684c47a3dc24",
+    "models": [
+      "gpt-6.1-sol"
+    ],
+    "efforts": [
+      "low"
+    ],
+    "exact_policy_found": true
+  },
+  {
+    "file": "rep-01/repeat-01/B2-constraint-after-compaction/native-sessions/2026/10/20/rollout-2026-10-20T15-56-14-01a15962-3fef-75f3-a598-28c405774c25.jsonl",
+    "thread": "01a15962-3fef-75f3-a598-28c405774c25",
+    "models": [
+      "gpt-6.1-sol"
+    ],
+    "efforts": [
+      "low"
+    ],
+    "exact_policy_found": true
+  },
+  {
+    "file": "rep-01/repeat-01/B3-scope-limit/native-sessions/2026/10/20/rollout-2026-10-20T15-59-21-01a15965-1e75-78d2-ac2a-ea745518b816.jsonl",
+    "thread": "01a15965-1e75-78d2-ac2a-ea745518b816",
+    "models": [
+      "gpt-6.1-sol"
+    ],
+    "efforts": [
+      "low"
+    ],
+    "exact_policy_found": true
+  },
+  {
+    "file": "rep-01/repeat-01/B3-scope-limit/native-sessions/2026/10/20/rollout-2026-10-20T15-58-23-01a15964-3548-7673-a803-3e32319b02e4.jsonl",
+    "thread": "01a15964-3548-7673-a803-3e32319b02e4",
+    "models": [
+      "gpt-6.1-sol"
+    ],
+    "efforts": [
+      "low"
+    ],
+    "exact_policy_found": true
+  },
+  {
+    "file": "rep-01/repeat-01/B4-precondition/native-sessions/2026/10/20/rollout-2026-10-20T16-00-47-01a15966-6d18-7532-a807-764b63cb419d.jsonl",
+    "thread": "01a15966-6d18-7532-a807-764b63cb419d",
+    "models": [
+      "gpt-6.1-sol"
+    ],
+    "efforts": [
+      "low"
+    ],
+    "exact_policy_found": true
+  },
+  {
+    "file": "rep-01/repeat-01/B4-precondition/native-sessions/2026/10/20/rollout-2026-10-20T15-59-54-01a15965-9cad-7202-af56-a42fb6d39546.jsonl",
+    "thread": "01a15965-9cad-7202-af56-a42fb6d39546",
+    "models": [
+      "gpt-6.1-sol"
+    ],
+    "efforts": [
+      "low"
+    ],
+    "exact_policy_found": true
+  },
+  {
+    "file": "rep-01/repeat-01/B5-write-restriction/native-sessions/2026/10/20/rollout-2026-10-20T16-01-20-01a15966-e94c-7843-b98f-b495387d9a85.jsonl",
+    "thread": "01a15966-e94c-7843-b98f-b495387d9a85",
+    "models": [
+      "gpt-6.1-sol"
+    ],
+    "efforts": [
+      "low"
+    ],
+    "exact_policy_found": true
+  },
+  {
+    "file": "rep-01/repeat-01/B5-write-restriction/native-sessions/2026/10/20/rollout-2026-10-20T16-02-17-01a15967-cf42-7893-b9da-b7697b9caf49.jsonl",
+    "thread": "01a15967-cf42-7893-b9da-b7697b9caf49",
+    "models": [
+      "gpt-6.1-sol"
+    ],
+    "efforts": [
+      "low"
+    ],
+    "exact_policy_found": true
+  },
+  {
+    "file": "rep-01/repeat-01/B6-do-not-reopen/native-sessions/2026/10/20/rollout-2026-10-20T16-03-38-01a15969-0af9-76f3-ad3b-603e23f17013.jsonl",
+    "thread": "01a15969-0af9-76f3-ad3b-603e23f17013",
+    "models": [
+      "gpt-6.1-sol"
+    ],
+    "efforts": [
+      "low"
+    ],
+    "exact_policy_found": true
+  },
+  {
+    "file": "rep-01/repeat-01/B6-do-not-reopen/native-sessions/2026/10/20/rollout-2026-10-20T16-02-48-01a15968-40b2-76d2-8a1d-16f138d52bde.jsonl",
+    "thread": "01a15968-40b2-76d2-8a1d-16f138d52bde",
+    "models": [
+      "gpt-6.1-sol"
+    ],
+    "efforts": [
+      "low"
+    ],
+    "exact_policy_found": true
+  },
+  {
+    "file": "rep-01/repeat-01/C1-reentry-cold/native-sessions/2026/10/20/rollout-2026-10-20T16-04-17-01a15969-9b86-7910-83b1-32e52cb57e7b.jsonl",
+    "thread": "01a15969-9b86-7910-83b1-32e52cb57e7b",
+    "models": [
+      "gpt-6.1-sol"
+    ],
+    "efforts": [
+      "low"
+    ],
+    "exact_policy_found": true
+  },
+  {
+    "file": "rep-01/repeat-01/C2-deployment-target/native-sessions/2026/10/20/rollout-2026-10-20T16-04-55-01a1596a-31e4-7cf3-87ac-e0cd5471b729.jsonl",
+    "thread": "01a1596a-31e4-7cf3-87ac-e0cd5471b729",
+    "models": [
+      "gpt-6.1-sol"
+    ],
+    "efforts": [
+      "low"
+    ],
+    "exact_policy_found": true
+  },
+  {
+    "file": "rep-01/repeat-01/C3-prior-decision/native-sessions/2026/10/20/rollout-2026-10-20T16-05-36-01a1596a-d281-7e92-b941-99a43866c3cc.jsonl",
+    "thread": "01a1596a-d281-7e92-b941-99a43866c3cc",
+    "models": [
+      "gpt-6.1-sol"
+    ],
+    "efforts": [
+      "low"
+    ],
+    "exact_policy_found": true
+  },
+  {
+    "file": "rep-01/repeat-01/C4-roadmap-not-written/native-sessions/2026/10/20/rollout-2026-10-20T16-06-24-01a1596b-8df1-79e1-8440-0635d7342a03.jsonl",
+    "thread": "01a1596b-8df1-79e1-8440-0635d7342a03",
+    "models": [
+      "gpt-6.1-sol"
+    ],
+    "efforts": [
+      "low"
+    ],
+    "exact_policy_found": true
+  },
+  {
+    "file": "rep-01/repeat-01/C4-roadmap-not-written/native-sessions/2026/10/20/rollout-2026-10-20T16-06-56-01a1596c-0f6d-7012-b3c7-bc7bca9b88f8.jsonl",
+    "thread": "01a1596c-0f6d-7012-b3c7-bc7bca9b88f8",
+    "models": [
+      "gpt-6.1-sol"
+    ],
+    "efforts": [
+      "low"
+    ],
+    "exact_policy_found": true
+  },
+  {
+    "file": "rep-01/repeat-01/D1-retrospective-verdict/native-sessions/2026/10/20/rollout-2026-10-20T16-07-30-01a1596c-85d5-70b2-940c-81df8f18196d.jsonl",
+    "thread": "01a1596c-85d5-70b2-940c-81df8f18196d",
+    "models": [
+      "gpt-6.1-sol"
+    ],
+    "efforts": [
+      "low"
+    ],
+    "exact_policy_found": true
+  },
+  {
+    "file": "rep-01/repeat-01/D2-partial-verdict/native-sessions/2026/10/20/rollout-2026-10-20T16-08-19-01a1596d-5005-7ef1-89c5-accbee4bffd1.jsonl",
+    "thread": "01a1596d-5005-7ef1-89c5-accbee4bffd1",
+    "models": [
+      "gpt-6.1-sol"
+    ],
+    "efforts": [
+      "low"
+    ],
+    "exact_policy_found": true
+  },
+  {
+    "file": "rep-01/repeat-01/D3-arc-closed/native-sessions/2026/10/20/rollout-2026-10-20T16-08-56-01a1596d-e0e5-7d21-af8f-d43ea63cca2d.jsonl",
+    "thread": "01a1596d-e0e5-7d21-af8f-d43ea63cca2d",
+    "models": [
+      "gpt-6.1-sol"
+    ],
+    "efforts": [
+      "low"
+    ],
+    "exact_policy_found": true
+  },
+  {
+    "file": "rep-01/repeat-01/D4-settled-doc/native-sessions/2026/10/20/rollout-2026-10-20T16-09-45-01a1596e-9eac-7622-a44d-f35fe2735c11.jsonl",
+    "thread": "01a1596e-9eac-7622-a44d-f35fe2735c11",
+    "models": [
+      "gpt-6.1-sol"
+    ],
+    "efforts": [
+      "low"
+    ],
+    "exact_policy_found": true
+  },
+  {
+    "file": "rep-01/repeat-01/D5-trail-worth-saving/native-sessions/2026/10/20/rollout-2026-10-20T16-11-38-01a15970-5eb3-7481-a3f4-5258857eac23.jsonl",
+    "thread": "01a15970-5eb3-7481-a3f4-5258857eac23",
+    "models": [
+      "gpt-6.1-sol"
+    ],
+    "efforts": [
+      "low"
+    ],
+    "exact_policy_found": true
+  },
+  {
+    "file": "rep-01/repeat-01/D5-trail-worth-saving/native-sessions/2026/10/20/rollout-2026-10-20T16-10-33-01a1596f-58ba-7c41-9f93-d2240863de27.jsonl",
+    "thread": "01a1596f-58ba-7c41-9f93-d2240863de27",
+    "models": [
+      "gpt-6.1-sol"
+    ],
+    "efforts": [
+      "low"
+    ],
+    "exact_policy_found": true
+  },
+  {
+    "file": "rep-01/repeat-01/E1-overdue-task/native-sessions/2026/10/20/rollout-2026-10-20T16-11-57-01a15970-a530-7ae3-ac14-db65b022fa1a.jsonl",
+    "thread": "01a15970-a530-7ae3-ac14-db65b022fa1a",
+    "models": [
+      "gpt-6.1-sol"
+    ],
+    "efforts": [
+      "low"
+    ],
+    "exact_policy_found": true
+  },
+  {
+    "file": "rep-01/repeat-01/E2-task-closed/native-sessions/2026/10/20/rollout-2026-10-20T16-13-00-01a15971-9a9b-7411-bb41-d41692994baa.jsonl",
+    "thread": "01a15971-9a9b-7411-bb41-d41692994baa",
+    "models": [
+      "gpt-6.1-sol"
+    ],
+    "efforts": [
+      "low"
+    ],
+    "exact_policy_found": true
+  },
+  {
+    "file": "rep-01/repeat-01/E3-contradiction/native-sessions/2026/10/20/rollout-2026-10-20T16-13-45-01a15972-47df-7070-a8ad-8cb4e8982b91.jsonl",
+    "thread": "01a15972-47df-7070-a8ad-8cb4e8982b91",
+    "models": [
+      "gpt-6.1-sol"
+    ],
+    "efforts": [
+      "low"
+    ],
+    "exact_policy_found": true
+  },
+  {
+    "file": "rep-01/repeat-01/E4-archived-needed/native-sessions/2026/10/20/rollout-2026-10-20T16-14-25-01a15972-e55f-7a22-9c10-f4e3cac24d87.jsonl",
+    "thread": "01a15972-e55f-7a22-9c10-f4e3cac24d87",
+    "models": [
+      "gpt-6.1-sol"
+    ],
+    "efforts": [
+      "low"
+    ],
+    "exact_policy_found": true
+  },
+  {
+    "file": "rep-01/repeat-01/E5-team-tier/native-sessions/2026/10/20/rollout-2026-10-20T16-15-20-01a15973-ba8b-7243-95e2-c31f10427167.jsonl",
+    "thread": "01a15973-ba8b-7243-95e2-c31f10427167",
+    "models": [
+      "gpt-6.1-sol"
+    ],
+    "efforts": [
+      "low"
+    ],
+    "exact_policy_found": true
+  },
+  {
+    "file": "rep-02/repeat-01/A1-stale-method/native-sessions/2026/10/20/rollout-2026-10-20T15-48-56-01a1595b-91c2-76d2-a328-298bfc68adb6.jsonl",
+    "thread": "01a1595b-91c2-76d2-a328-298bfc68adb6",
+    "models": [
+      "gpt-6.1-sol"
+    ],
+    "efforts": [
+      "low"
+    ],
+    "exact_policy_found": true
+  },
+  {
+    "file": "rep-02/repeat-01/A2-unreachable-core/native-sessions/2026/10/20/rollout-2026-10-20T15-49-29-01a1595c-1081-7150-a795-fa2a7ae0dae7.jsonl",
+    "thread": "01a1595c-1081-7150-a795-fa2a7ae0dae7",
+    "models": [
+      "gpt-6.1-sol"
+    ],
+    "efforts": [
+      "low"
+    ],
+    "exact_policy_found": true
+  },
+  {
+    "file": "rep-02/repeat-01/A2-unreachable-core/native-sessions/2026/10/20/rollout-2026-10-20T15-50-00-01a1595c-8de5-7042-a40c-3e453d15c572.jsonl",
+    "thread": "01a1595c-8de5-7042-a40c-3e453d15c572",
+    "models": [
+      "gpt-6.1-sol"
+    ],
+    "efforts": [
+      "low"
+    ],
+    "exact_policy_found": true
+  },
+  {
+    "file": "rep-02/repeat-01/A3-fragmented-project/native-sessions/2026/10/20/rollout-2026-10-20T15-50-39-01a1595d-2392-7db0-a458-4b2fe878e46e.jsonl",
+    "thread": "01a1595d-2392-7db0-a458-4b2fe878e46e",
+    "models": [
+      "gpt-6.1-sol"
+    ],
+    "efforts": [
+      "low"
+    ],
+    "exact_policy_found": true
+  },
+  {
+    "file": "rep-02/repeat-01/A4-name-misremembered/native-sessions/2026/10/20/rollout-2026-10-20T15-51-25-01a1595d-d6b7-7323-b71a-1f4fb4ac94a8.jsonl",
+    "thread": "01a1595d-d6b7-7323-b71a-1f4fb4ac94a8",
+    "models": [
+      "gpt-6.1-sol"
+    ],
+    "efforts": [
+      "low"
+    ],
+    "exact_policy_found": true
+  },
+  {
+    "file": "rep-02/repeat-01/A5-current-vs-history/native-sessions/2026/10/20/rollout-2026-10-20T15-52-02-01a1595e-6969-7450-b5fb-179b818a2a02.jsonl",
+    "thread": "01a1595e-6969-7450-b5fb-179b818a2a02",
+    "models": [
+      "gpt-6.1-sol"
+    ],
+    "efforts": [
+      "low"
+    ],
+    "exact_policy_found": true
+  },
+  {
+    "file": "rep-02/repeat-01/A6-answer-in-own-artifact/native-sessions/2026/10/20/rollout-2026-10-20T15-52-53-01a1595f-2f76-7773-bc3e-b4f41f063536.jsonl",
+    "thread": "01a1595f-2f76-7773-bc3e-b4f41f063536",
+    "models": [
+      "gpt-6.1-sol"
+    ],
+    "efforts": [
+      "low"
+    ],
+    "exact_policy_found": true
+  },
+  {
+    "file": "rep-02/repeat-01/A7-duplicate-before-write/native-sessions/2026/10/20/rollout-2026-10-20T15-53-21-01a1595f-9cec-7710-aefa-8d2c1749e1d4.jsonl",
+    "thread": "01a1595f-9cec-7710-aefa-8d2c1749e1d4",
+    "models": [
+      "gpt-6.1-sol"
+    ],
+    "efforts": [
+      "low"
+    ],
+    "exact_policy_found": true
+  },
+  {
+    "file": "rep-02/repeat-01/B1-constraint-spoken/native-sessions/2026/10/20/rollout-2026-10-20T15-54-36-01a15960-c5d1-7250-b076-e4a329e6bb82.jsonl",
+    "thread": "01a15960-c5d1-7250-b076-e4a329e6bb82",
+    "models": [
+      "gpt-6.1-sol"
+    ],
+    "efforts": [
+      "low"
+    ],
+    "exact_policy_found": true
+  },
+  {
+    "file": "rep-02/repeat-01/B1-constraint-spoken/native-sessions/2026/10/20/rollout-2026-10-20T15-53-52-01a15960-128d-7630-a0f6-482a46fc946c.jsonl",
+    "thread": "01a15960-128d-7630-a0f6-482a46fc946c",
+    "models": [
+      "gpt-6.1-sol"
+    ],
+    "efforts": [
+      "low"
+    ],
+    "exact_policy_found": true
+  },
+  {
+    "file": "rep-02/repeat-01/B2-constraint-after-compaction/native-sessions/2026/10/20/rollout-2026-10-20T15-55-19-01a15961-6a14-7462-9a6f-ae5a0dd566cb.jsonl",
+    "thread": "01a15961-6a14-7462-9a6f-ae5a0dd566cb",
+    "models": [
+      "gpt-6.1-sol"
+    ],
+    "efforts": [
+      "low"
+    ],
+    "exact_policy_found": true
+  },
+  {
+    "file": "rep-02/repeat-01/B3-scope-limit/native-sessions/2026/10/20/rollout-2026-10-20T15-58-12-01a15964-0f46-7bd3-a693-66ad6ce76bbb.jsonl",
+    "thread": "01a15964-0f46-7bd3-a693-66ad6ce76bbb",
+    "models": [
+      "gpt-6.1-sol"
+    ],
+    "efforts": [
+      "low"
+    ],
+    "exact_policy_found": true
+  },
+  {
+    "file": "rep-02/repeat-01/B3-scope-limit/native-sessions/2026/10/20/rollout-2026-10-20T15-57-06-01a15963-0bd7-7f83-9c01-cbc5d7856119.jsonl",
+    "thread": "01a15963-0bd7-7f83-9c01-cbc5d7856119",
+    "models": [
+      "gpt-6.1-sol"
+    ],
+    "efforts": [
+      "low"
+    ],
+    "exact_policy_found": true
+  },
+  {
+    "file": "rep-02/repeat-01/B4-precondition/native-sessions/2026/10/20/rollout-2026-10-20T15-59-41-01a15965-6b2f-7403-8e81-72301b2f12f2.jsonl",
+    "thread": "01a15965-6b2f-7403-8e81-72301b2f12f2",
+    "models": [
+      "gpt-6.1-sol"
+    ],
+    "efforts": [
+      "low"
+    ],
+    "exact_policy_found": true
+  },
+  {
+    "file": "rep-02/repeat-01/B4-precondition/native-sessions/2026/10/20/rollout-2026-10-20T15-58-45-01a15964-8a7c-7481-aa99-98fe56016a5c.jsonl",
+    "thread": "01a15964-8a7c-7481-aa99-98fe56016a5c",
+    "models": [
+      "gpt-6.1-sol"
+    ],
+    "efforts": [
+      "low"
+    ],
+    "exact_policy_found": true
+  },
+  {
+    "file": "rep-02/repeat-01/B5-write-restriction/native-sessions/2026/10/20/rollout-2026-10-20T16-01-26-01a15967-050a-7002-b86f-f8aa20c88d0a.jsonl",
+    "thread": "01a15967-050a-7002-b86f-f8aa20c88d0a",
+    "models": [
+      "gpt-6.1-sol"
+    ],
+    "efforts": [
+      "low"
+    ],
+    "exact_policy_found": true
+  },
+  {
+    "file": "rep-02/repeat-01/B5-write-restriction/native-sessions/2026/10/20/rollout-2026-10-20T16-00-26-01a15966-1750-7b32-92dd-ebf889674a49.jsonl",
+    "thread": "01a15966-1750-7b32-92dd-ebf889674a49",
+    "models": [
+      "gpt-6.1-sol"
+    ],
+    "efforts": [
+      "low"
+    ],
+    "exact_policy_found": true
+  },
+  {
+    "file": "rep-02/repeat-01/B6-do-not-reopen/native-sessions/2026/10/20/rollout-2026-10-20T16-01-53-01a15967-6d8a-7af3-984c-f2cd41540b26.jsonl",
+    "thread": "01a15967-6d8a-7af3-984c-f2cd41540b26",
+    "models": [
+      "gpt-6.1-sol"
+    ],
+    "efforts": [
+      "low"
+    ],
+    "exact_policy_found": true
+  },
+  {
+    "file": "rep-02/repeat-01/B6-do-not-reopen/native-sessions/2026/10/20/rollout-2026-10-20T16-02-35-01a15968-141f-7862-bec9-9c63b7a7d269.jsonl",
+    "thread": "01a15968-141f-7862-bec9-9c63b7a7d269",
+    "models": [
+      "gpt-6.1-sol"
+    ],
+    "efforts": [
+      "low"
+    ],
+    "exact_policy_found": true
+  },
+  {
+    "file": "rep-02/repeat-01/C1-reentry-cold/native-sessions/2026/10/20/rollout-2026-10-20T16-03-19-01a15968-b933-71c3-a21a-77321581bdee.jsonl",
+    "thread": "01a15968-b933-71c3-a21a-77321581bdee",
+    "models": [
+      "gpt-6.1-sol"
+    ],
+    "efforts": [
+      "low"
+    ],
+    "exact_policy_found": true
+  },
+  {
+    "file": "rep-02/repeat-01/C2-deployment-target/native-sessions/2026/10/20/rollout-2026-10-20T16-03-55-01a15969-438e-72a0-ab18-948ca408ae20.jsonl",
+    "thread": "01a15969-438e-72a0-ab18-948ca408ae20",
+    "models": [
+      "gpt-6.1-sol"
+    ],
+    "efforts": [
+      "low"
+    ],
+    "exact_policy_found": true
+  },
+  {
+    "file": "rep-02/repeat-01/C3-prior-decision/native-sessions/2026/10/20/rollout-2026-10-20T16-04-30-01a15969-ce5e-7172-88fa-6d89ad65d56c.jsonl",
+    "thread": "01a15969-ce5e-7172-88fa-6d89ad65d56c",
+    "models": [
+      "gpt-6.1-sol"
+    ],
+    "efforts": [
+      "low"
+    ],
+    "exact_policy_found": true
+  },
+  {
+    "file": "rep-02/repeat-01/C4-roadmap-not-written/native-sessions/2026/10/20/rollout-2026-10-20T16-05-56-01a1596b-26a9-7573-b623-d99480f0c977.jsonl",
+    "thread": "01a1596b-26a9-7573-b623-d99480f0c977",
+    "models": [
+      "gpt-6.1-sol"
+    ],
+    "efforts": [
+      "low"
+    ],
+    "exact_policy_found": true
+  },
+  {
+    "file": "rep-02/repeat-01/C4-roadmap-not-written/native-sessions/2026/10/20/rollout-2026-10-20T16-05-18-01a1596a-8c03-70c0-b229-d5870fe600eb.jsonl",
+    "thread": "01a1596a-8c03-70c0-b229-d5870fe600eb",
+    "models": [
+      "gpt-6.1-sol"
+    ],
+    "efforts": [
+      "low"
+    ],
+    "exact_policy_found": true
+  },
+  {
+    "file": "rep-02/repeat-01/D1-retrospective-verdict/native-sessions/2026/10/20/rollout-2026-10-20T16-06-31-01a1596b-a3d7-7a92-b51a-1d5e1c11654f.jsonl",
+    "thread": "01a1596b-a3d7-7a92-b51a-1d5e1c11654f",
+    "models": [
+      "gpt-6.1-sol"
+    ],
+    "efforts": [
+      "low"
+    ],
+    "exact_policy_found": true
+  },
+  {
+    "file": "rep-02/repeat-01/D2-partial-verdict/native-sessions/2026/10/20/rollout-2026-10-20T16-07-20-01a1596c-6457-76d3-8345-14fde7f8d1f0.jsonl",
+    "thread": "01a1596c-6457-76d3-8345-14fde7f8d1f0",
+    "models": [
+      "gpt-6.1-sol"
+    ],
+    "efforts": [
+      "low"
+    ],
+    "exact_policy_found": true
+  },
+  {
+    "file": "rep-02/repeat-01/D3-arc-closed/native-sessions/2026/10/20/rollout-2026-10-20T16-08-07-01a1596d-2082-7040-8a98-3b6ad8c5d157.jsonl",
+    "thread": "01a1596d-2082-7040-8a98-3b6ad8c5d157",
+    "models": [
+      "gpt-6.1-sol"
+    ],
+    "efforts": [
+      "low"
+    ],
+    "exact_policy_found": true
+  },
+  {
+    "file": "rep-02/repeat-01/D4-settled-doc/native-sessions/2026/10/20/rollout-2026-10-20T16-08-54-01a1596d-d79a-7151-999e-99e0560bc2ec.jsonl",
+    "thread": "01a1596d-d79a-7151-999e-99e0560bc2ec",
+    "models": [
+      "gpt-6.1-sol"
+    ],
+    "efforts": [
+      "low"
+    ],
+    "exact_policy_found": true
+  },
+  {
+    "file": "rep-02/repeat-01/D5-trail-worth-saving/native-sessions/2026/10/20/rollout-2026-10-20T16-09-37-01a1596e-80bd-7693-a4bb-ca26afc626b5.jsonl",
+    "thread": "01a1596e-80bd-7693-a4bb-ca26afc626b5",
+    "models": [
+      "gpt-6.1-sol"
+    ],
+    "efforts": [
+      "low"
+    ],
+    "exact_policy_found": true
+  },
+  {
+    "file": "rep-02/repeat-01/D5-trail-worth-saving/native-sessions/2026/10/20/rollout-2026-10-20T16-10-50-01a1596f-a326-77c0-bb35-5eba9851f38c.jsonl",
+    "thread": "01a1596f-a326-77c0-bb35-5eba9851f38c",
+    "models": [
+      "gpt-6.1-sol"
+    ],
+    "efforts": [
+      "low"
+    ],
+    "exact_policy_found": true
+  },
+  {
+    "file": "rep-02/repeat-01/E1-overdue-task/native-sessions/2026/10/20/rollout-2026-10-20T16-11-14-01a1596f-fa74-75f1-9661-4b7b3bbb985b.jsonl",
+    "thread": "01a1596f-fa74-75f1-9661-4b7b3bbb985b",
+    "models": [
+      "gpt-6.1-sol"
+    ],
+    "efforts": [
+      "low"
+    ],
+    "exact_policy_found": true
+  },
+  {
+    "file": "rep-02/repeat-01/E2-task-closed/native-sessions/2026/10/20/rollout-2026-10-20T16-12-28-01a15971-1a82-7752-bdc4-356d78210e06.jsonl",
+    "thread": "01a15971-1a82-7752-bdc4-356d78210e06",
+    "models": [
+      "gpt-6.1-sol"
+    ],
+    "efforts": [
+      "low"
+    ],
+    "exact_policy_found": true
+  },
+  {
+    "file": "rep-02/repeat-01/E3-contradiction/native-sessions/2026/10/20/rollout-2026-10-20T16-13-02-01a15971-a16a-79e3-90c5-88f85a55c9cd.jsonl",
+    "thread": "01a15971-a16a-79e3-90c5-88f85a55c9cd",
+    "models": [
+      "gpt-6.1-sol"
+    ],
+    "efforts": [
+      "low"
+    ],
+    "exact_policy_found": true
+  },
+  {
+    "file": "rep-02/repeat-01/E4-archived-needed/native-sessions/2026/10/20/rollout-2026-10-20T16-13-56-01a15972-6fe3-7873-a645-c02a12099d90.jsonl",
+    "thread": "01a15972-6fe3-7873-a645-c02a12099d90",
+    "models": [
+      "gpt-6.1-sol"
+    ],
+    "efforts": [
+      "low"
+    ],
+    "exact_policy_found": true
+  },
+  {
+    "file": "rep-02/repeat-01/E5-team-tier/native-sessions/2026/10/20/rollout-2026-10-20T16-14-59-01a15973-6c8e-7181-b761-a43e8f0347bf.jsonl",
+    "thread": "01a15973-6c8e-7181-b761-a43e8f0347bf",
+    "models": [
+      "gpt-6.1-sol"
+    ],
+    "efforts": [
+      "low"
+    ],
+    "exact_policy_found": true
+  },
+  {
+    "file": "rep-03/repeat-01/A1-stale-method/native-sessions/2026/10/20/rollout-2026-10-20T15-48-57-01a1595b-91ec-7402-a199-6c62c2c70f33.jsonl",
+    "thread": "01a1595b-91ec-7402-a199-6c62c2c70f33",
+    "models": [
+      "gpt-6.1-sol"
+    ],
+    "efforts": [
+      "low"
+    ],
+    "exact_policy_found": true
+  },
+  {
+    "file": "rep-03/repeat-01/A2-unreachable-core/native-sessions/2026/10/20/rollout-2026-10-20T15-49-36-01a1595c-2c39-7651-a257-557b915a95cf.jsonl",
+    "thread": "01a1595c-2c39-7651-a257-557b915a95cf",
+    "models": [
+      "gpt-6.1-sol"
+    ],
+    "efforts": [
+      "low"
+    ],
+    "exact_policy_found": true
+  },
+  {
+    "file": "rep-03/repeat-01/A2-unreachable-core/native-sessions/2026/10/20/rollout-2026-10-20T15-50-15-01a1595c-c976-7d80-86b9-5961f6b6904f.jsonl",
+    "thread": "01a1595c-c976-7d80-86b9-5961f6b6904f",
+    "models": [
+      "gpt-6.1-sol"
+    ],
+    "efforts": [
+      "low"
+    ],
+    "exact_policy_found": true
+  },
+  {
+    "file": "rep-03/repeat-01/A3-fragmented-project/native-sessions/2026/10/20/rollout-2026-10-20T15-51-02-01a1595d-7b53-7452-882f-3b04327d6e14.jsonl",
+    "thread": "01a1595d-7b53-7452-882f-3b04327d6e14",
+    "models": [
+      "gpt-6.1-sol"
+    ],
+    "efforts": [
+      "low"
+    ],
+    "exact_policy_found": true
+  },
+  {
+    "file": "rep-03/repeat-01/A4-name-misremembered/native-sessions/2026/10/20/rollout-2026-10-20T15-52-10-01a1595e-7ab8-7653-9098-9992c1f1b638.jsonl",
+    "thread": "01a1595e-7ab8-7653-9098-9992c1f1b638",
+    "models": [
+      "gpt-6.1-sol"
+    ],
+    "efforts": [
+      "low"
+    ],
+    "exact_policy_found": true
+  },
+  {
+    "file": "rep-03/repeat-01/A5-current-vs-history/native-sessions/2026/10/20/rollout-2026-10-20T15-52-46-01a1595f-1544-7913-92c6-08ba0f41357d.jsonl",
+    "thread": "01a1595f-1544-7913-92c6-08ba0f41357d",
+    "models": [
+      "gpt-6.1-sol"
+    ],
+    "efforts": [
+      "low"
+    ],
+    "exact_policy_found": true
+  },
+  {
+    "file": "rep-03/repeat-01/A6-answer-in-own-artifact/native-sessions/2026/10/20/rollout-2026-10-20T15-53-32-01a1595f-c5f5-7c42-83e0-0ff25a00e4fa.jsonl",
+    "thread": "01a1595f-c5f5-7c42-83e0-0ff25a00e4fa",
+    "models": [
+      "gpt-6.1-sol"
+    ],
+    "efforts": [
+      "low"
+    ],
+    "exact_policy_found": true
+  },
+  {
+    "file": "rep-03/repeat-01/A7-duplicate-before-write/native-sessions/2026/10/20/rollout-2026-10-20T15-53-58-01a15960-2e77-7d53-a842-e7037544795e.jsonl",
+    "thread": "01a15960-2e77-7d53-a842-e7037544795e",
+    "models": [
+      "gpt-6.1-sol"
+    ],
+    "efforts": [
+      "low"
+    ],
+    "exact_policy_found": true
+  },
+  {
+    "file": "rep-03/repeat-01/B1-constraint-spoken/native-sessions/2026/10/20/rollout-2026-10-20T15-54-23-01a15960-9020-7723-897b-0ccd0fa65493.jsonl",
+    "thread": "01a15960-9020-7723-897b-0ccd0fa65493",
+    "models": [
+      "gpt-6.1-sol"
+    ],
+    "efforts": [
+      "low"
+    ],
+    "exact_policy_found": true
+  },
+  {
+    "file": "rep-03/repeat-01/B1-constraint-spoken/native-sessions/2026/10/20/rollout-2026-10-20T15-55-03-01a15961-2e0c-7812-a293-50e25c83cd94.jsonl",
+    "thread": "01a15961-2e0c-7812-a293-50e25c83cd94",
+    "models": [
+      "gpt-6.1-sol"
+    ],
+    "efforts": [
+      "low"
+    ],
+    "exact_policy_found": true
+  },
+  {
+    "file": "rep-03/repeat-01/B2-constraint-after-compaction/native-sessions/2026/10/20/rollout-2026-10-20T15-55-41-01a15961-bd2d-7353-817c-6a654883a356.jsonl",
+    "thread": "01a15961-bd2d-7353-817c-6a654883a356",
+    "models": [
+      "gpt-6.1-sol"
+    ],
+    "efforts": [
+      "low"
+    ],
+    "exact_policy_found": true
+  },
+  {
+    "file": "rep-03/repeat-01/B3-scope-limit/native-sessions/2026/10/20/rollout-2026-10-20T15-57-50-01a15963-b7ac-7ca1-bb1a-08ca4bd731c4.jsonl",
+    "thread": "01a15963-b7ac-7ca1-bb1a-08ca4bd731c4",
+    "models": [
+      "gpt-6.1-sol"
+    ],
+    "efforts": [
+      "low"
+    ],
+    "exact_policy_found": true
+  },
+  {
+    "file": "rep-03/repeat-01/B3-scope-limit/native-sessions/2026/10/20/rollout-2026-10-20T15-58-52-01a15964-adee-7a90-8f43-94d0714b536d.jsonl",
+    "thread": "01a15964-adee-7a90-8f43-94d0714b536d",
+    "models": [
+      "gpt-6.1-sol"
+    ],
+    "efforts": [
+      "low"
+    ],
+    "exact_policy_found": true
+  },
+  {
+    "file": "rep-03/repeat-01/B4-precondition/native-sessions/2026/10/20/rollout-2026-10-20T15-59-22-01a15965-1f6f-7621-a5b8-e3fe2e4842aa.jsonl",
+    "thread": "01a15965-1f6f-7621-a5b8-e3fe2e4842aa",
+    "models": [
+      "gpt-6.1-sol"
+    ],
+    "efforts": [
+      "low"
+    ],
+    "exact_policy_found": true
+  },
+  {
+    "file": "rep-03/repeat-01/B4-precondition/native-sessions/2026/10/20/rollout-2026-10-20T16-00-11-01a15965-dffe-7613-b362-b5b75d7d04f1.jsonl",
+    "thread": "01a15965-dffe-7613-b362-b5b75d7d04f1",
+    "models": [
+      "gpt-6.1-sol"
+    ],
+    "efforts": [
+      "low"
+    ],
+    "exact_policy_found": true
+  },
+  {
+    "file": "rep-03/repeat-01/B5-write-restriction/native-sessions/2026/10/20/rollout-2026-10-20T16-01-44-01a15967-4db8-7262-aaff-2ad5642cba1b.jsonl",
+    "thread": "01a15967-4db8-7262-aaff-2ad5642cba1b",
+    "models": [
+      "gpt-6.1-sol"
+    ],
+    "efforts": [
+      "low"
+    ],
+    "exact_policy_found": true
+  },
+  {
+    "file": "rep-03/repeat-01/B5-write-restriction/native-sessions/2026/10/20/rollout-2026-10-20T16-00-58-01a15966-9541-7532-83ee-9382cf29777a.jsonl",
+    "thread": "01a15966-9541-7532-83ee-9382cf29777a",
+    "models": [
+      "gpt-6.1-sol"
+    ],
+    "efforts": [
+      "low"
+    ],
+    "exact_policy_found": true
+  },
+  {
+    "file": "rep-03/repeat-01/B6-do-not-reopen/native-sessions/2026/10/20/rollout-2026-10-20T16-02-14-01a15967-bcf9-70e0-b830-b67caaf2f5c2.jsonl",
+    "thread": "01a15967-bcf9-70e0-b830-b67caaf2f5c2",
+    "models": [
+      "gpt-6.1-sol"
+    ],
+    "efforts": [
+      "low"
+    ],
+    "exact_policy_found": true
+  },
+  {
+    "file": "rep-03/repeat-01/B6-do-not-reopen/native-sessions/2026/10/20/rollout-2026-10-20T16-03-04-01a15968-861a-7b33-a2ec-093802a4cb9e.jsonl",
+    "thread": "01a15968-861a-7b33-a2ec-093802a4cb9e",
+    "models": [
+      "gpt-6.1-sol"
+    ],
+    "efforts": [
+      "low"
+    ],
+    "exact_policy_found": true
+  },
+  {
+    "file": "rep-03/repeat-01/C1-reentry-cold/native-sessions/2026/10/20/rollout-2026-10-20T16-03-49-01a15969-2f67-75f2-9e08-d20bc33396dc.jsonl",
+    "thread": "01a15969-2f67-75f2-9e08-d20bc33396dc",
+    "models": [
+      "gpt-6.1-sol"
+    ],
+    "efforts": [
+      "low"
+    ],
+    "exact_policy_found": true
+  },
+  {
+    "file": "rep-03/repeat-01/C2-deployment-target/native-sessions/2026/10/20/rollout-2026-10-20T16-04-26-01a15969-c3d0-75a0-8933-1413a96cc822.jsonl",
+    "thread": "01a15969-c3d0-75a0-8933-1413a96cc822",
+    "models": [
+      "gpt-6.1-sol"
+    ],
+    "efforts": [
+      "low"
+    ],
+    "exact_policy_found": true
+  },
+  {
+    "file": "rep-03/repeat-01/C3-prior-decision/native-sessions/2026/10/20/rollout-2026-10-20T16-04-57-01a1596a-3c0f-7222-bd93-73ef41d8f034.jsonl",
+    "thread": "01a1596a-3c0f-7222-bd93-73ef41d8f034",
+    "models": [
+      "gpt-6.1-sol"
+    ],
+    "efforts": [
+      "low"
+    ],
+    "exact_policy_found": true
+  },
+  {
+    "file": "rep-03/repeat-01/C4-roadmap-not-written/native-sessions/2026/10/20/rollout-2026-10-20T16-06-22-01a1596b-8c16-72c3-92d2-12e55a9b511d.jsonl",
+    "thread": "01a1596b-8c16-72c3-92d2-12e55a9b511d",
+    "models": [
+      "gpt-6.1-sol"
+    ],
+    "efforts": [
+      "low"
+    ],
+    "exact_policy_found": true
+  },
+  {
+    "file": "rep-03/repeat-01/C4-roadmap-not-written/native-sessions/2026/10/20/rollout-2026-10-20T16-05-48-01a1596b-00aa-70f0-8b5b-41795d0a4f46.jsonl",
+    "thread": "01a1596b-00aa-70f0-8b5b-41795d0a4f46",
+    "models": [
+      "gpt-6.1-sol"
+    ],
+    "efforts": [
+      "low"
+    ],
+    "exact_policy_found": true
+  },
+  {
+    "file": "rep-03/repeat-01/D1-retrospective-verdict/native-sessions/2026/10/20/rollout-2026-10-20T16-06-56-01a1596c-0b08-7b70-9824-43d7538a54fd.jsonl",
+    "thread": "01a1596c-0b08-7b70-9824-43d7538a54fd",
+    "models": [
+      "gpt-6.1-sol"
+    ],
+    "efforts": [
+      "low"
+    ],
+    "exact_policy_found": true
+  },
+  {
+    "file": "rep-03/repeat-01/D2-partial-verdict/native-sessions/2026/10/20/rollout-2026-10-20T16-07-47-01a1596c-cead-79d3-b890-a4383a65a729.jsonl",
+    "thread": "01a1596c-cead-79d3-b890-a4383a65a729",
+    "models": [
+      "gpt-6.1-sol"
+    ],
+    "efforts": [
+      "low"
+    ],
+    "exact_policy_found": true
+  },
+  {
+    "file": "rep-03/repeat-01/D3-arc-closed/native-sessions/2026/10/20/rollout-2026-10-20T16-08-21-01a1596d-5656-73b3-a388-d366ea967491.jsonl",
+    "thread": "01a1596d-5656-73b3-a388-d366ea967491",
+    "models": [
+      "gpt-6.1-sol"
+    ],
+    "efforts": [
+      "low"
+    ],
+    "exact_policy_found": true
+  },
+  {
+    "file": "rep-03/repeat-01/D4-settled-doc/native-sessions/2026/10/20/rollout-2026-10-20T16-09-17-01a1596e-31b8-7b20-81fb-04ce9c3f5fe4.jsonl",
+    "thread": "01a1596e-31b8-7b20-81fb-04ce9c3f5fe4",
+    "models": [
+      "gpt-6.1-sol"
+    ],
+    "efforts": [
+      "low"
+    ],
+    "exact_policy_found": true
+  },
+  {
+    "file": "rep-03/repeat-01/D5-trail-worth-saving/native-sessions/2026/10/20/rollout-2026-10-20T16-09-59-01a1596e-d53f-7650-bd61-55b8d5d53410.jsonl",
+    "thread": "01a1596e-d53f-7650-bd61-55b8d5d53410",
+    "models": [
+      "gpt-6.1-sol"
+    ],
+    "efforts": [
+      "low"
+    ],
+    "exact_policy_found": true
+  },
+  {
+    "file": "rep-03/repeat-01/D5-trail-worth-saving/native-sessions/2026/10/20/rollout-2026-10-20T16-10-55-01a1596f-b4f6-7380-a03c-ec1102e27896.jsonl",
+    "thread": "01a1596f-b4f6-7380-a03c-ec1102e27896",
+    "models": [
+      "gpt-6.1-sol"
+    ],
+    "efforts": [
+      "low"
+    ],
+    "exact_policy_found": true
+  },
+  {
+    "file": "rep-03/repeat-01/E1-overdue-task/native-sessions/2026/10/20/rollout-2026-10-20T16-11-18-01a15970-0c00-7971-8280-5d80174ca53b.jsonl",
+    "thread": "01a15970-0c00-7971-8280-5d80174ca53b",
+    "models": [
+      "gpt-6.1-sol"
+    ],
+    "efforts": [
+      "low"
+    ],
+    "exact_policy_found": true
+  },
+  {
+    "file": "rep-03/repeat-01/E2-task-closed/native-sessions/2026/10/20/rollout-2026-10-20T16-13-22-01a15971-ebaa-7551-97d0-0864beb91b89.jsonl",
+    "thread": "01a15971-ebaa-7551-97d0-0864beb91b89",
+    "models": [
+      "gpt-6.1-sol"
+    ],
+    "efforts": [
+      "low"
+    ],
+    "exact_policy_found": true
+  },
+  {
+    "file": "rep-03/repeat-01/E3-contradiction/native-sessions/2026/10/20/rollout-2026-10-20T16-13-54-01a15972-6d62-7e23-abfb-78d41c68d7b4.jsonl",
+    "thread": "01a15972-6d62-7e23-abfb-78d41c68d7b4",
+    "models": [
+      "gpt-6.1-sol"
+    ],
+    "efforts": [
+      "low"
+    ],
+    "exact_policy_found": true
+  },
+  {
+    "file": "rep-03/repeat-01/E4-archived-needed/native-sessions/2026/10/20/rollout-2026-10-20T16-14-44-01a15973-308e-7473-ab98-87ce6e50165e.jsonl",
+    "thread": "01a15973-308e-7473-ab98-87ce6e50165e",
+    "models": [
+      "gpt-6.1-sol"
+    ],
+    "efforts": [
+      "low"
+    ],
+    "exact_policy_found": true
+  },
+  {
+    "file": "rep-03/repeat-01/E5-team-tier/native-sessions/2026/10/20/rollout-2026-10-20T16-15-56-01a15974-4782-7dc0-b7f6-1797ee8d5d06.jsonl",
+    "thread": "01a15974-4782-7dc0-b7f6-1797ee8d5d06",
+    "models": [
+      "gpt-6.1-sol"
+    ],
+    "efforts": [
+      "low"
+    ],
+    "exact_policy_found": true
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "path": "README.md",
+    "sha256": "0be6db87186c8e6621eaa3f435551502968cc0ea1aa42fbfbfb1a2da9c36c344",
+    "bytes": 90
+  },
+  {
+    "path": "project-context.md",
+    "sha256": "4df02f660953a0f60a9f6ae3bf6b65127265ea0ca31953a1e3e42e24dd07fadb",
+    "bytes": 27
+  },
+  {
+    "path": "table/index.html",
+    "sha256": "ae38a24e376b60e012fa8a1c7b7329c807d575b8757910bbbe8728343ea8e4cb",
+    "bytes": 711
+  },
+  {
+    "path": "table/style.css",
+    "sha256": "92c3cfea154de549e863acf9724883d5e3cb7453f1921551d9bb668bae01851a",
+    "bytes": 308
+  }
+]

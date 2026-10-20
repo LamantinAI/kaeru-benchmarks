@@ -15,8 +15,9 @@ version in force.
 
 ## Status
 
-**All 27 catalogued situations are built.** The suite is a dataset; no runner
-yet — see DESIGN.md for what a runner must compute.
+**All 27 catalogued situations are built.** The [R2 runner](../README.md#running)
+prepares isolated fixtures and records native agent turns. Correctness is
+assessed separately against the case expectations.
 
 | group | cases | what the group isolates |
 |---|---|---|

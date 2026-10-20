@@ -1,0 +1,7 @@
+Your file exceeds the **5,000-row limit for a first run**, which explains the failure. Follow the [onboarding guide](/workspace/onboarding-guide.md):
+
+1. Connect to **staging** and import the **sample dataset before any real data**.
+2. Split your roughly 12,000 rows into files of at most 5,000 rows—for example, **5,000 + 5,000 + 2,000**—and import them separately.
+3. Re-read the imported rows and compare counts to verify everything arrived.
+
+Production credentials are issued after a successful staging run.

@@ -1,0 +1,5 @@
+[
+  "I’ll check the current upload limit and add a client-side check with a clear error message.\n",
+  "The current confirmed limit is 5 MB. I’ll use 5,000,000 bytes and include that limit in the validation error.\n",
+  "Updated [client/upload.py](/workspace/client/upload.py) to enforce the current **5 MB (5,000,000 bytes)** limit with a clear message requesting a smaller file.\n\nVerified empty, below-limit, exact-limit, and oversized payloads."
+]

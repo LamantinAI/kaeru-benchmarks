@@ -1,0 +1,32 @@
+[
+  {
+    "path": "README.md",
+    "sha256": "822a7380bad0295d7f9dc4dc3e1072f72ca937fc78ce8e595a9f7cb7b981a2d2",
+    "bytes": 1447
+  },
+  {
+    "path": "__pycache__/receiver.cpython-312.pyc",
+    "sha256": "7787d5ddfb040991c43760d474f2a9a0dedab136791884aedcd2d7e0470eca83",
+    "bytes": 4492
+  },
+  {
+    "path": "__pycache__/test_receiver.cpython-312.pyc",
+    "sha256": "a76299fcd8068dc84be95e874ecb080ab78664bba12664a0e2f0b1a7538048d7",
+    "bytes": 5553
+  },
+  {
+    "path": "project-context.md",
+    "sha256": "4165c4c411f723b86ba682b27921998e5bcd71916dcd844df116573b3e9a80a0",
+    "bytes": 33
+  },
+  {
+    "path": "receiver.py",
+    "sha256": "6f58e4ff22dde827895db204f636bad24fb974ef3b34f5b09ed1ba54dbc068f8",
+    "bytes": 2924
+  },
+  {
+    "path": "test_receiver.py",
+    "sha256": "460271a55ccd12b0946ad79889b1322d92a105e6a1fb1b525d2760e52154084f",
+    "bytes": 2539
+  }
+]
