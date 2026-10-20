@@ -32,7 +32,8 @@ class Environment:
         self.env.update(KAERU_VAULT_PATH=str(vault), KAERU_MCP_LISTEN_ADDRESS="127.0.0.1",
                         KAERU_MCP_LISTEN_PORT=str(self.port), KAERU_MCP_CLOUDS_FILE=str(config),
                         KAERU_MCP_HYGIENE_ENABLE="0", KAERU_MCP_UPDATE_CHECK="0",
-                        KAERU_MCP_VIZ_ENABLE="0", KAERU_READ_TRACE_ENABLED="false")
+                        KAERU_MCP_VIZ_ENABLE="0", KAERU_READ_TRACE_ENABLED="false",
+                        KAERU_MCP_UI_ENABLE="0", KAERU_MCP_WEB_CONFIG_FILE=str(output / "browser-account.toml"))
         self.artifact_root = output / "observer-exports"
         self.artifact_root.mkdir()
         self.env["KAERU_MCP_ARTIFACT_ROOT"] = str(self.artifact_root)
